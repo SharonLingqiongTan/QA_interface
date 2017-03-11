@@ -1,0 +1,50 @@
+{%LemurSearchSetTitle("Lemur Search")%}
+
+<html>
+	<head>
+		<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+        <script src="../../../js/jquery-1.11.2.min.js"></script>
+        <script src="../../js/search.js?v=12"></script>
+		<!--<script src="../../js/results.js?v=5"></script>-->
+		<!-- above for log snippet; needed?? do it at the background>-->
+	</head>
+	<body>
+
+		<!-- end header -->
+
+		<!-- status bar (queried for... number of results... etc.) -->
+
+		<table border="0" width="100%" bgcolor="#0000FF" cellpadding="1" cellspacing="0">
+			<tr>
+				<td nowrap align=left><font color="#FFFFFF">Searched</font></td>
+				<td nowrap align=center id="search_mode_display" style="color:white;"></td>
+
+				<td nowrap align=right><font color="#FFFFFF">Results <strong>{%LemurSearchResultsStartNum%}</strong> - <strong>{%LemurSearchResultsEndNum%}</strong> of <strong>{%LemurSearchResultsTotalNum%}</strong> matches; </font>
+				<span id="numoftagged" style="color:white; margin-left:3px"></span> <span style="color:white;"> tagged</span>
+				</td>
+			</tr>
+		</table>
+
+		<!-- end status bar -->
+
+		<!-- begin search results -->
+
+		{%LemurSearchResults%}
+
+		<!-- end search results -->
+
+		<!-- next / previous pages -->
+
+		<center id="result_page">
+			&nbsp;</br>
+			{%LemurSearchResultsPreviousPage()%} {%LemurSearchResultPageNumbers()%} {%LemurSearchResultsNextPage()%}</br>
+			&nbsp;</br>
+		</center>
+
+		<!-- end next / previous pages -->
+
+		<!-- footer -->
+
+		<!-- end footer -->
+	</body>
+</html>

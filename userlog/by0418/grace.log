@@ -1,0 +1,84 @@
+login  |  time: 2016-04-13 09:11:35 407989
+
+topic/create  |  time: 2016-04-13 09:14:44 752735  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 335  |  topic_name:  this is for grace
+
+topic/select  |  time: 2016-04-13 09:14:44 840489  |  # of fields: 2  |  topic_id: 335  |  topic_name: this is for grace
+
+subtopic/create  |  time: 2016-04-13 09:15:22 143701  |  # of fields: 4  |  topic_id: 335  |  topic_name: this is for grace  |  subtopic_id: 15  |  subtopic_name: subtopics
+
+subtopic/create  |  time: 2016-04-13 09:15:28 022694  |  # of fields: 4  |  topic_id: 335  |  topic_name: this is for grace  |  subtopic_id: 16  |  subtopic_name: ebola
+
+duplicate doc  |  time: 2016-04-13 09:15:35 406165  |  # of fields: 2  |  topic_id: 335  |  topic_name: this is for grace  |  docno: ebola-850b1747dfbc258e7a5b994c96e50b025c8952dd5f9ee6fdce4d0010532ea1cf::2e1f9c4c4abfea3419e030128a006fcc::ACKNOWLEDGED 2e1f9c4c4abfea3419e030128a006fcc
+
+
+
+irrelevant doc  |  time: 2016-04-13 09:15:46 950294  |  # of fields: 2  |  topic_id: 335  |  topic_name: this is for grace  |  docno: ebola-ed426d6644f385dc4420fc37864bcc1440bfe7c89cb18abb59b009c41c3090d5::27966877e3eecc08302ef0008c8f9b1e::ACKNOWLEDGED 27966877e3eecc08302ef0008c8f9b1e
+
+
+
+irrelevant/select  |  time: 2016-04-13 09:15:49 388113  |  # of  fields: 1  |  topic_id: 335
+
+duplicate/select  |  time: 2016-04-13 09:16:04 802177  |  # of  fields: 1  |  topic_id: 335
+
+subtopic/nist_findmore  |  time: 2016-04-13 09:18:09 916133  |  # of fields: 4  |  topic_id: 335  |  topic_name: this is for grace  |  subtopic_id: 16  |  subtopic_name: ebola::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=22%20TID=335%20STID=335.16%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+passage/create  |  time: 2016-04-13 09:18:26 409072  |  # of fields: 6  |  topic_id: 335  |  topic_name: this is for grace  |  subtopic_id: 16  |  subtopic_name: ebola  |  passage_id: 45  |  passage_name:  possibility,” said Dr David Lakey, commissioner of the Texas Department of State Health Services. Duncan, who caught the virus in his native Liberia, died at a Dallas hospital on Wednesday. The health worker has not been named. Duncan tested positive in Dallas on September 30, 10 days after arriving on a flight from Monrovia via Brussels. He became ill a few days after arriving in the US, but after going to hospital and telling medical staff he had been in Liberia, he was sent home with antibiotics. ::21c6af4bbd6ad0584b405186af114b00::ACKNOWLEDGED 21c6af4bbd6ad0584b405186af114b00  
+
+subtopic/nist_findmore  |  time: 2016-04-13 09:18:28 855370  |  # of fields: 4  |  topic_id: 335  |  topic_name: this is for grace  |  subtopic_id: 16  |  subtopic_name: ebola::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=22%20TID=335%20STID=335.16%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+domain/select  |  time: 2016-04-13 09:19:43 882425  |  # of fields: 2  |  domain_id: 2  |  domain_name: Polar
+
+domain/select  |  time: 2016-04-13 09:20:02 851717  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+login  |  time: 2016-04-13 09:47:11 928051
+
+duplicate/select  |  time: 2016-04-13 09:47:49 977522  |  # of  fields: 1  |  topic_id: 335
+
+login  |  time: 2016-04-13 11:42:45 489707
+
+domain/select  |  time: 2016-04-13 12:49:43 823543  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+domain/select  |  time: 2016-04-13 16:42:35 004131  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+domain/select  |  time: 2016-04-13 16:57:59 524604  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+login  |  time: 2016-04-16 17:40:23 224627
+
+login  |  time: 2016-04-17 20:33:32 972527
+
+login  |  time: 2016-04-18 15:07:30 309190
+
+passage/create  |  time: 2016-04-18 15:14:28 471915  |  # of fields: 6  |  topic_id: 335  |  topic_name: this is for grace  |  subtopic_id: 15  |  subtopic_name: subtopics  |  passage_id: 2342  |  passage_name:  Contact us About Privacy Policy 
+
+passage/create  |  time: 2016-04-18 15:14:38 277673  |  # of fields: 6  |  topic_id: 335  |  topic_name: this is for grace  |  subtopic_id: 15  |  subtopic_name: subtopics  |  passage_id: 2343  |  passage_name:  Contact us About Privacy Policy 
+
+logout  |  time: 2016-04-18 15:19:35 713721
+
+login  |  time: 2016-04-18 15:19:40 508103
+
+list/go back  |  time: 2016-04-18 15:27:27 648132  |  # of fields: 3  |  topic_id: 335  |  docno: ebola-cd03e0fa598195b678914c4a32e3d2395ecbd0dd8f2926354b7cd4922848990f  |  listsource: lemur
+
+list/click  |  time: 2016-04-18 15:29:10 543703  |  # of fields: 4  |  topic_id: 335  |  docno: ebola-a5afe32f7f795430704cf02cf03b4037ee7bf2dcecb2a6247a6495f08c01b032  |  listsource: lemur  |  rank: -1
+
+tagged/view  |  time: 2016-04-18 15:29:17 563837  |  # of  fields: 1  |  topic_id: 335
+
+irrelevant/view  |  time: 2016-04-18 15:29:34 849177  |  # of  fields: 1  |  topic_id: 335
+
+duplicate/view  |  time: 2016-04-18 15:29:42 141017  |  # of  fields: 1  |  topic_id: 335
+
+doc/next  |  time: 2016-04-18 15:29:45 411668  |  # of fields: 2  |  topic_id: 335  |  docno: ebola-a5afe32f7f795430704cf02cf03b4037ee7bf2dcecb2a6247a6495f08c01b032
+
+doc/next  |  time: 2016-04-18 15:29:46 845982  |  # of fields: 2  |  topic_id: 335  |  docno: ebola-3b0beff698bdee3a44dc3fdab33764c5daadad4866611fc7faace66cd8b34213
+
+doc/next  |  time: 2016-04-18 15:29:48 300865  |  # of fields: 2  |  topic_id: 335  |  docno: ebola-d72d3f5c23d3e9f68b2342bf5b56a6a8f29e27c952aa5254f0ac6bff612f43c6
+
+list/go back  |  time: 2016-04-18 15:33:22 650092  |  # of fields: 3  |  topic_id: 335  |  docno: ebola-c0c56255d909c61f1a325711102d03f278cf503e46a393f2c38e6b88f2d01859  |  listsource: lemur
+
+irrelevant/view  |  time: 2016-04-18 15:34:42 703125  |  # of  fields: 1  |  topic_id: 335
+
+irrelevant/view  |  time: 2016-04-18 15:35:19 125050  |  # of  fields: 1  |  topic_id: 335
+
+list/click  |  time: 2016-04-18 15:40:10 252704  |  # of fields: 4  |  topic_id: 335  |  docno: ebola-69b4a7ec1995388c64da7300c625b6e6eb4af91f4c6e2f33359c57c57385a147  |  listsource: lemur  |  rank: 0
+
+logout  |  time: 2016-04-18 15:46:05 625275
+

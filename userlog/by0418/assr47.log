@@ -1,0 +1,382 @@
+login  |  time: 2016-04-12 15:26:04 624624
+
+topic/edit  |  time: 2016-04-12 15:26:20 656821  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 327  |  newtopic_name:  admin_test_topic
+
+topic/select  |  time: 2016-04-12 15:26:20 817983  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic
+
+topic/edit  |  time: 2016-04-12 15:26:39 518435  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 327  |  newtopic_name:  admin_test_topic1
+
+subtopic/create  |  time: 2016-04-12 15:26:53 241487  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 3  |  subtopic_name: admin_test_subtopic
+
+subtopic/edit  |  time: 2016-04-12 15:27:01 120272  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 3  |  newsubtopic_name: admin_test_subtopic1
+
+passage/create  |  time: 2016-04-12 15:28:37 753091  |  # of fields: 6  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 3  |  subtopic_name: admin_test_subtopic1  |  passage_id: 12  |  passage_name:  Knowledge is a familiarity with someone or something::c5bab6db9ebc7ea8f0ef197f813d59e8::ACKNOWLEDGED c5bab6db9ebc7ea8f0ef197f813d59e8  
+
+passage/grade  |  time: 2016-04-12 15:28:43 705366  |  # of fields: 2  |  passage_id: 12  |  score: 2::023f9ac6e024995a67aaf6d4a056ffa6::ACKNOWLEDGED 023f9ac6e024995a67aaf6d4a056ffa6
+
+
+
+topic/edit  |  time: 2016-04-12 15:29:03 048512  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 328  |  newtopic_name:  admin_test_topic2
+
+topic/select  |  time: 2016-04-12 15:29:04 171884  |  # of fields: 2  |  topic_id: 328  |  topic_name: admin_test_topic2
+
+topic/select  |  time: 2016-04-12 15:29:08 794327  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 15:29:12 957978  |  # of fields: 2  |  topic_id: 328  |  topic_name: admin_test_topic2
+
+subtopic/create  |  time: 2016-04-12 15:29:21 057385  |  # of fields: 4  |  topic_id: 328  |  topic_name: admin_test_topic2  |  subtopic_id: 4  |  subtopic_name: admin_test_subtopic10
+
+topic/select  |  time: 2016-04-12 15:29:24 799256  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+passage/irrelevant  |  time: 2016-04-12 15:29:30 135638  |  # of fields: 2  |  passage_id: 12::d19a7e0fc723321446d91d939153220e::ACKNOWLEDGED d19a7e0fc723321446d91d939153220e
+
+
+
+topic/select  |  time: 2016-04-12 15:29:32 104176  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+subtopic/create  |  time: 2016-04-12 15:31:22 386172  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 5  |  subtopic_name: admin_test_subtopic3
+
+passage/create  |  time: 2016-04-12 15:31:27 257374  |  # of fields: 6  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 5  |  subtopic_name: admin_test_subtopic3  |  passage_id: 13  |  passage_name:  The trouble is that no one knows what a belief is, no one knows what a fact is, and no one knows what sort of agreement between them would make::0813199bdccefcf4dc470c5b78464aa2::ACKNOWLEDGED 0813199bdccefcf4dc470c5b78464aa2  
+
+passage/grade  |  time: 2016-04-12 15:31:29 386149  |  # of fields: 2  |  passage_id: 13  |  score: 2::1c26aa88d858f6f21f5d7ad866cc95a0::ACKNOWLEDGED 1c26aa88d858f6f21f5d7ad866cc95a0
+
+
+
+passage/move  |  time: 2016-04-12 15:33  |  # of fields: 2  |  passage_id: 13  |  to subtopic_id: 5
+
+passage/grade  |  time: 2016-04-12 15:33:29 140835  |  # of fields: 2  |  passage_id: 13  |  score: 1::a86004526c1c4ee3ca3dd5a5caa83bb6::ACKNOWLEDGED a86004526c1c4ee3ca3dd5a5caa83bb6
+
+
+
+irrelevant doc  |  time: 2016-04-12 15:37:47 558853  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1  |  docno: ebola-92faf28a12d07935d26e36cef818d6693e0b2e3e3c24726d6880290dc70caaf4::a40c4c5a6a15161a42dbedb2cc13e160::ACKNOWLEDGED a40c4c5a6a15161a42dbedb2cc13e160
+
+
+
+discarded/select  |  time: 2016-04-12 15:49:52 590222  |  # of  fields: 1  |  topic_id: 327
+
+duplicate/select  |  time: 2016-04-12 15:49:55 737509  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant doc  |  time: 2016-04-12 15:49:58 856313  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1  |  docno: ebola-c94ec52dc1b9dee0809198746601b3123f1a34af1b5c90d13378d9f7cbdba305::33cc1435bf5c285357d152160380724e::ACKNOWLEDGED 33cc1435bf5c285357d152160380724e
+
+
+
+irrelevant doc  |  time: 2016-04-12 15:50:12 970460  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1  |  docno: ebola-47ae5bf39679d48aa1d170a763f7f93557833ffbde57edfa6a313cff75496e26::bd6c463f3676e122a9d4c62c14124e76::ACKNOWLEDGED bd6c463f3676e122a9d4c62c14124e76
+
+
+
+discarded/select  |  time: 2016-04-12 15:50:35 354701  |  # of  fields: 1  |  topic_id: 327
+
+topic/select  |  time: 2016-04-12 16:05:35 784828  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 16:16:15 058751  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 16:16:20 173459  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 16:16:53 857704  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 16:17:38 875285  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 16:18:18 007636  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 16:18:29 032855  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+passage/create  |  time: 2016-04-12 16:18:36 662897  |  # of fields: 6  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 3  |  subtopic_name: admin_test_subtopic1  |  passage_id: 15  |  passage_name:  -liberia-tests-positive-for-ebola/#commentsFri, 05 Dec 2014 16:21:41 +0000http://aboutebolavirus.com/ebola-news/un-peacekeeper-in-liberia-tests-positive::f46c5a1c52200fc946283eed628512c7::
+
+tagged/select  |  time: 2016-04-12 16:18:39 379411  |  # of  fields: 1  |  topic_id: 327
+
+passage/irrelevant  |  time: 2016-04-12 16:19:27 909558  |  # of fields: 2  |  passage_id: 15::4ba927b6025cfaf1ba6b6cf4a2605174::
+
+duplicate doc  |  time: 2016-04-12 16:19:29 372124  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1  |  docno: ebola-2019972b4ae6dbc63b89b6809d197022f2f59010fca9a6b252d5b55d840e5d20::a73252dcdc7b5e2446677b3039f0546a::
+
+topic/select  |  time: 2016-04-12 16:55:50 795685  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+passage/create  |  time: 2016-04-12 16:56:05 230739  |  # of fields: 6  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 3  |  subtopic_name: admin_test_subtopic1  |  passage_id: 26  |  passage_name:  to themselves. And how would families react if they saw through the window a patient falling out of bed and the nurse or doctor "just standing there"? Yes, if this is something that's so easily transmitted that one simple mistake could be a fatal one, then we're all in trouble if this thing spreads, as there is likely no way for everyone::fda63ef3d7a5a0f9d92ee3e6019d6afd::ACKNOWLEDGED fda63ef3d7a5a0f9d92ee3e6019d6afd  
+
+passage/grade  |  time: 2016-04-12 16:56:07 638508  |  # of fields: 2  |  passage_id: 26  |  score: 2::3c17fb5d94f0ed01810171d65a9a6a50::ACKNOWLEDGED 3c17fb5d94f0ed01810171d65a9a6a50
+
+
+
+login  |  time: 2016-04-12 17:07:15 020018
+
+topic/select  |  time: 2016-04-12 17:07:18 118567  |  # of fields: 2  |  topic_id: 328  |  topic_name: admin_test_topic2
+
+topic/select  |  time: 2016-04-12 17:07:24 650626  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 17:07:27 373292  |  # of fields: 2  |  topic_id: 328  |  topic_name: admin_test_topic2
+
+topic/select  |  time: 2016-04-12 17:07:48 599773  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 17:07:50 973685  |  # of fields: 2  |  topic_id: 328  |  topic_name: admin_test_topic2
+
+irrelevant doc  |  time: 2016-04-12 17:10:10 269729  |  # of fields: 2  |  topic_id: 328  |  topic_name: admin_test_topic2  |  docno: ebola-4a5b59040952c370ae5b5a1aaf266689734a322eb474fc8d32931cc03c89d3ff::86f42e59fa0d9fec8f54b2903b6a7cd1::ACKNOWLEDGED 86f42e59fa0d9fec8f54b2903b6a7cd1
+
+
+
+login  |  time: 2016-04-12 18:46:26 146553
+
+topic/select  |  time: 2016-04-12 18:46:28 719287  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 18:51:01 927815  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+subtopic/nist_findmore  |  time: 2016-04-12 18:54:22 127814  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 5  |  subtopic_name: admin_test_subtopic3::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=55%20TID=327%20STID=327.5%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+subtopic/nist_findmore  |  time: 2016-04-12 19:11:24 970444  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 5  |  subtopic_name: admin_test_subtopic3::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=55%20TID=327%20STID=327.5%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+subtopic/nist_findmore  |  time: 2016-04-12 19:22:46 003930  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 3  |  subtopic_name: admin_test_subtopic1::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=55%20TID=327%20STID=327.3%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+subtopic/nist_findmore  |  time: 2016-04-12 19:22:53 684600  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 5  |  subtopic_name: admin_test_subtopic3::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=55%20TID=327%20STID=327.5%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+subtopic/nist_findmore  |  time: 2016-04-12 19:22:57 045259  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 3  |  subtopic_name: admin_test_subtopic1::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=55%20TID=327%20STID=327.3%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+subtopic/nist_findmore  |  time: 2016-04-12 19:35:39 510322  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 5  |  subtopic_name: admin_test_subtopic3::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=55%20TID=327%20STID=327.5%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+subtopic/nist_findmore  |  time: 2016-04-12 19:35:41 513561  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 5  |  subtopic_name: admin_test_subtopic3::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=55%20TID=327%20STID=327.5%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+subtopic/nist_findmore  |  time: 2016-04-12 19:36:35 509298  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 5  |  subtopic_name: admin_test_subtopic3::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=55%20TID=327%20STID=327.5%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+passage/create  |  time: 2016-04-12 19:37:49 282431  |  # of fields: 6  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 5  |  subtopic_name: admin_test_subtopic3  |  passage_id: 37  |  passage_name:  Dallas Ebola patient dies, hospital confirms | Fox News::ceececca2ffb87365a24bd0a68d04b6e::ACKNOWLEDGED ceececca2ffb87365a24bd0a68d04b6e  
+
+passage/grade  |  time: 2016-04-12 19:37:53 662997  |  # of fields: 2  |  passage_id: 37  |  score: 2::95aa0f03adc8358908ebd72ce1af70dd::ACKNOWLEDGED 95aa0f03adc8358908ebd72ce1af70dd
+
+
+
+subtopic/nist_findmore  |  time: 2016-04-12 19:38:08 240997  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 5  |  subtopic_name: admin_test_subtopic3::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=55%20TID=327%20STID=327.5%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+subtopic/nist_findmore  |  time: 2016-04-12 19:52:59 805988  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 3  |  subtopic_name: admin_test_subtopic1::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=55%20TID=327%20STID=327.3%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+topic/select  |  time: 2016-04-12 20:00:59 755662  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+domain/select  |  time: 2016-04-12 20:01:38 958120  |  # of fields: 2  |  domain_id: 2  |  domain_name: Polar
+
+domain/select  |  time: 2016-04-12 20:02:24 532429  |  # of fields: 2  |  domain_id: 3  |  domain_name: Weapon
+
+domain/select  |  time: 2016-04-12 21:01:38 563384  |  # of fields: 2  |  domain_id: 3  |  domain_name: Weapon
+
+domain/select  |  time: 2016-04-12 21:01:43 628072  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+duplicate/select  |  time: 2016-04-12 21:01:52 041994  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:01:56 255675  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:02:09 021075  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:02:55 491079  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:05:10 313495  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:07:08 638042  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:07:58 794165  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:08:41 400135  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:08:46 769620  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:10:25 044783  |  # of  fields: 1  |  topic_id: 327
+
+domain/select  |  time: 2016-04-12 21:13:00 332297  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+domain/select  |  time: 2016-04-12 21:13:24 221700  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+irrelevant/select  |  time: 2016-04-12 21:37:20 701311  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:38:05 977690  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:38:29 677938  |  # of  fields: 1  |  topic_id: 327
+
+domain/select  |  time: 2016-04-12 21:40:04 617699  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+irrelevant/select  |  time: 2016-04-12 21:40:06 455619  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:40:10 441029  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:41:05 360489  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:41:10 921744  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:43:06 292268  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:43:38 809143  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:44:24 762898  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant/select  |  time: 2016-04-12 21:44:30 297888  |  # of  fields: 1  |  topic_id: 327
+
+duplicate/select  |  time: 2016-04-12 21:45:14 487573  |  # of  fields: 1  |  topic_id: 327
+
+domain/select  |  time: 2016-04-12 21:45:19 848931  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+duplicate/select  |  time: 2016-04-12 21:45:36 492299  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant doc  |  time: 2016-04-12 21:45:39 787613  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1  |  docno: ebola-2019972b4ae6dbc63b89b6809d197022f2f59010fca9a6b252d5b55d840e5d20::df82e80d314eaf09f2f2bb743821ef80::ACKNOWLEDGED df82e80d314eaf09f2f2bb743821ef80
+
+
+
+irrelevant doc  |  time: 2016-04-12 21:45:42 704722  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1  |  docno: ebola-293035dcb41ac927be104c742361b827918157cef8ce0bbb22b362a7f09302a9::da609e2f9d537c7b9f4819d65cf11c21::ACKNOWLEDGED da609e2f9d537c7b9f4819d65cf11c21
+
+
+
+irrelevant/select  |  time: 2016-04-12 21:45:56 562651  |  # of  fields: 1  |  topic_id: 327
+
+domain/select  |  time: 2016-04-12 21:46:01 313033  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+duplicate doc  |  time: 2016-04-12 21:46:09 220923  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1  |  docno: ebola-b2f9e4d512de97239173c1cc9b0a9777965a0adc315b88404ddf941040239da7::97804246ed5cba360ecf371e0d9574d5::ACKNOWLEDGED 97804246ed5cba360ecf371e0d9574d5
+
+
+
+duplicate/select  |  time: 2016-04-12 21:46:16 688993  |  # of  fields: 1  |  topic_id: 327
+
+duplicate/select  |  time: 2016-04-12 21:46:19 972146  |  # of  fields: 1  |  topic_id: 327
+
+duplicate doc  |  time: 2016-04-12 21:48:21 105657  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1  |  docno: ebola-2019972b4ae6dbc63b89b6809d197022f2f59010fca9a6b252d5b55d840e5d20::a73252dcdc7b5e2446677b3039f0546a::ACKNOWLEDGED a73252dcdc7b5e2446677b3039f0546a
+
+
+
+irrelevant/select  |  time: 2016-04-12 21:48:28 231377  |  # of  fields: 1  |  topic_id: 327
+
+duplicate/select  |  time: 2016-04-12 21:48:30 923412  |  # of  fields: 1  |  topic_id: 327
+
+topic/select  |  time: 2016-04-12 21:54:56 211281  |  # of fields: 2  |  topic_id: 328  |  topic_name: admin_test_topic2
+
+login  |  time: 2016-04-12 22:49:23 182484
+
+subtopic/nist_findmore  |  time: 2016-04-12 22:55:24 538117  |  # of fields: 4  |  topic_id: 328  |  topic_name: admin_test_topic2  |  subtopic_id: 4  |  subtopic_name: admin_test_subtopic10::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=55%20TID=328%20STID=328.4%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+topic/select  |  time: 2016-04-12 22:55:45 958153  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+irrelevant/select  |  time: 2016-04-12 22:56:34 493479  |  # of  fields: 1  |  topic_id: 327
+
+topic/select  |  time: 2016-04-12 23:02:57 030793  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+subtopic/nist_findmore  |  time: 2016-04-12 23:03:08 786668  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 5  |  subtopic_name: admin_test_subtopic3::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=55%20TID=327%20STID=327.5%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+subtopic/nist_findmore  |  time: 2016-04-12 23:03:12 085606  |  # of fields: 4  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 3  |  subtopic_name: admin_test_subtopic1::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=55%20TID=327%20STID=327.3%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+duplicate doc  |  time: 2016-04-12 23:07:03 568278  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1  |  docno: ebola-4c9a1498f7b101d3634c8dd46208aa2fae81c92c083504baa714e715e12a2df4::9795107a5a02282c5f89b82173393d24::ACKNOWLEDGED 9795107a5a02282c5f89b82173393d24
+
+
+
+irrelevant/select  |  time: 2016-04-12 23:07:10 809882  |  # of  fields: 1  |  topic_id: 327
+
+duplicate/select  |  time: 2016-04-12 23:07:12 392829  |  # of  fields: 1  |  topic_id: 327
+
+topic/select  |  time: 2016-04-12 23:07:16 287099  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 23:09:00 487222  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 23:09:10 770604  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 23:09:32 273990  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+topic/select  |  time: 2016-04-12 23:11:50 995483  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1
+
+login  |  time: 2016-04-12 23:12:48 903045
+
+domain/select  |  time: 2016-04-12 23:12:52 113359  |  # of fields: 2  |  domain_id: 2  |  domain_name: Polar
+
+topic/create  |  time: 2016-04-12 23:12:56 799406  |  # of fields: 4  |  domain_id: 2  |  domain_name: Polar  |  topic_id: 333  |  topic_name:  polar test topic
+
+topic/select  |  time: 2016-04-12 23:12:56 906227  |  # of fields: 2  |  topic_id: 333  |  topic_name: polar test topic
+
+subtopic/create  |  time: 2016-04-12 23:13:01 771197  |  # of fields: 4  |  topic_id: 333  |  topic_name: polar test topic  |  subtopic_id: 12  |  subtopic_name: polar test subtopic
+
+subtopic/create  |  time: 2016-04-12 23:13:04 530734  |  # of fields: 4  |  topic_id: 333  |  topic_name: polar test topic  |  subtopic_id: 13  |  subtopic_name: subtopic2
+
+domain/select  |  time: 2016-04-12 23:13:07 427584  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+domain/select  |  time: 2016-04-12 23:13:10 731980  |  # of fields: 2  |  domain_id: 2  |  domain_name: Polar
+
+passage/create  |  time: 2016-04-12 23:13:25 379304  |  # of fields: 6  |  topic_id: 333  |  topic_name: polar test topic  |  subtopic_id: 13  |  subtopic_name: subtopic2  |  passage_id: 42  |  passage_name:  The Governing Board is charged with the general oversight of the structure and activities of DCMI::44a88f661f9e39e34d205be2c9f9a500::ACKNOWLEDGED 44a88f661f9e39e34d205be2c9f9a500  
+
+passage/grade  |  time: 2016-04-12 23:13:26 941537  |  # of fields: 2  |  passage_id: 42  |  score: 2::d1dfd533f5805851e54d30d52fca61b1::ACKNOWLEDGED d1dfd533f5805851e54d30d52fca61b1
+
+
+
+domain/select  |  time: 2016-04-12 23:17:34 005581  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+passage/irrelevant  |  time: 2016-04-12 23:17:37 650037  |  # of fields: 2  |  passage_id: 37::91eb56eb031c689d0934136169b1c79f::ACKNOWLEDGED 91eb56eb031c689d0934136169b1c79f
+
+
+
+passage/irrelevant  |  time: 2016-04-12 23:17:44 218721  |  # of fields: 2  |  passage_id: 13::b0e6eaa9088849a41b34fea9391e8f87::ACKNOWLEDGED b0e6eaa9088849a41b34fea9391e8f87
+
+
+
+passage/create  |  time: 2016-04-12 23:17:55 161706  |  # of fields: 6  |  topic_id: 327  |  topic_name: admin_test_topic1  |  subtopic_id: 5  |  subtopic_name: admin_test_subtopic3  |  passage_id: 43  |  passage_name:  thorough debunking of conservative falsehoods that find their way into coverage and other special projects from Media Matters' research department.  ::e55ca7f6aff4e3527daa5422670c3d34::ACKNOWLEDGED e55ca7f6aff4e3527daa5422670c3d34  
+
+passage/grade  |  time: 2016-04-12 23:17:56 699802  |  # of fields: 2  |  passage_id: 43  |  score: 3::11c44a3b615621d5310500bff2bc83cb::ACKNOWLEDGED 11c44a3b615621d5310500bff2bc83cb
+
+
+
+irrelevant/select  |  time: 2016-04-12 23:19:36 973992  |  # of  fields: 1  |  topic_id: 327
+
+tagged/select  |  time: 2016-04-12 23:19:39 548356  |  # of  fields: 1  |  topic_id: 327
+
+irrelevant doc  |  time: 2016-04-12 23:20:41 992996  |  # of fields: 2  |  topic_id: 327  |  topic_name: admin_test_topic1  |  docno: ebola-59b43ae48ab3a58ae892752567fef054731a76e8b35b96cf43dd8bb908c8948e::12963c824cbe30b909f2195aa11fd3a5::ACKNOWLEDGED 12963c824cbe30b909f2195aa11fd3a5
+
+
+
+login  |  time: 2016-04-12 23:21:57 079070
+
+domain/select  |  time: 2016-04-13 09:20:49 143118  |  # of fields: 2  |  domain_id: 2  |  domain_name: Polar
+
+irrelevant/select  |  time: 2016-04-13 09:23:31 741695  |  # of  fields: 1  |  topic_id: 333
+
+duplicate/select  |  time: 2016-04-13 09:23:36 754165  |  # of  fields: 1  |  topic_id: 333
+
+irrelevant doc  |  time: 2016-04-13 09:23:53 095299  |  # of fields: 2  |  topic_id: 333  |  topic_name: polar test topic  |  docno: gov_nasa_gsfc_gcmd_f376cff924ab262f0b65d08d197689f5d76e9f25_1424256467000::9f0ae799fe41d2319b03647699d116b6::ACKNOWLEDGED 9f0ae799fe41d2319b03647699d116b6
+
+
+
+irrelevant/select  |  time: 2016-04-13 09:23:57 603477  |  # of  fields: 1  |  topic_id: 333
+
+domain/select  |  time: 2016-04-13 09:24:07 766134  |  # of fields: 2  |  domain_id: 2  |  domain_name: Polar
+
+irrelevant doc  |  time: 2016-04-13 09:25:14 582143  |  # of fields: 2  |  topic_id: 333  |  topic_name: polar test topic  |  docno: gov_nasa_gsfc_gcmd_f376cff924ab262f0b65d08d197689f5d76e9f25_1424256467000::9f0ae799fe41d2319b03647699d116b6::ACKNOWLEDGED 9f0ae799fe41d2319b03647699d116b6
+
+
+
+irrelevant/select  |  time: 2016-04-13 09:25:18 629490  |  # of  fields: 1  |  topic_id: 333
+
+login  |  time: 2016-04-13 09:39:37 385528
+
+login  |  time: 2016-04-13 09:41:40 666879
+
+login  |  time: 2016-04-13 12:23:42 961821
+
+login  |  time: 2016-04-13 12:33:42 670588
+
+topic/create  |  time: 2016-04-13 12:33:55 678881  |  # of fields: 4  |  domain_id: 2  |  domain_name: Polar  |  topic_id: 352  |  topic_name:  test click 2 create topic
+
+topic/select  |  time: 2016-04-13 12:33:55 911714  |  # of fields: 2  |  topic_id: 352  |  topic_name: test click 2 create topic
+
+topic/select  |  time: 2016-04-13 12:34:22 504327  |  # of fields: 2  |  topic_id: 333  |  topic_name: polar test topic
+
+topic/select  |  time: 2016-04-13 12:34:25 062718  |  # of fields: 2  |  topic_id: 164  |  topic_name: 
+
+topic/create  |  time: 2016-04-13 12:34:36 239641  |  # of fields: 4  |  domain_id: 2  |  domain_name: Polar  |  topic_id: 354  |  topic_name:  test click twice when create 2 topic
+
+topic/select  |  time: 2016-04-13 12:34:36 453974  |  # of fields: 2  |  topic_id: 354  |  topic_name: test click twice when create 2 topic
+
+login  |  time: 2016-04-13 17:51:23 903123
+
+login  |  time: 2016-04-13 22:04:43 097064
+
+login  |  time: 2016-04-14 00:40:40 045867
+
+login  |  time: 2016-04-14 13:20:27 947390
+
+domain/select  |  time: 2016-04-14 13:22:34 853080  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+login  |  time: 2016-04-14 13:33:31 431334
+
+login  |  time: 2016-04-14 13:58:03 388277
+
+login  |  time: 2016-04-14 14:26:47 893183
+
+login  |  time: 2016-04-14 14:33:39 122964
+
+login  |  time: 2016-04-14 14:40:10 048785
+
+login  |  time: 2016-04-14 15:48:31 561930
+

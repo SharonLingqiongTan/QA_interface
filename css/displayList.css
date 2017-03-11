@@ -1,0 +1,51 @@
+#title{
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#search, #browse{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #3394C4;
+    font-size: 20px;
+    float: left;
+    margin-right:20px;
+}
+#back{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #3394C4;
+    font-size: 20px;
+    float: left;
+}
+#displayList{
+    list-style: none;
+    position: relative;
+    right: 40px;
+    font-family: arial;
+    letter-spacing: -1px;
+}
+#displayList li{
+    display: inline-block;
+    margin-top:10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: blue;
+}
+#displayList .trash{
+    font-size: 16px;
+    color: #444;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    bottom:1px;
+    text-decoration: underline;
+}
+#number{
+    float: left;
+    /*margin-left: 50px;*/
+    font-size: 20px;
+}
+

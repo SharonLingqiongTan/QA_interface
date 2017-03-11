@@ -1,0 +1,114 @@
+login  |  time: 2016-04-12 15:46:36 145573
+
+topic/create  |  time: 2016-04-12 16:01:54 428749  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 329  |  topic_name:  North Korea
+
+topic/select  |  time: 2016-04-12 16:01:54 754563  |  # of fields: 2  |  topic_id: 329  |  topic_name: North Korea
+
+subtopic/create  |  time: 2016-04-12 16:37:07 812159  |  # of fields: 4  |  topic_id: 329  |  topic_name: North Korea  |  subtopic_id: 6  |  subtopic_name: Vaccine in North Korea
+
+passage/create  |  time: 2016-04-12 16:37:59 438572  |  # of fields: 6  |  topic_id: 329  |  topic_name: North Korea  |  subtopic_id: 6  |  subtopic_name: Vaccine in North Korea  |  passage_id: 22  |  passage_name:  The most advanced candidate Ebola vaccine is scheduled to enter Phase III efficacy clinical trials in West Africa in January/February 2015, and if shown effective " will be available for deployment a few months later.::a092240593e6342505abf5f9f0b14539::ACKNOWLEDGED a092240593e6342505abf5f9f0b14539  
+
+passage/create  |  time: 2016-04-12 16:38:06 802396  |  # of fields: 6  |  topic_id: 329  |  topic_name: North Korea  |  subtopic_id: 6  |  subtopic_name: Vaccine in North Korea  |  passage_id: 23  |  passage_name:  Participating in today"s discussions were representatives from manufacturers and research institutions, currently developing or testing Ebola candidate vaccines, Government officials from the Ebola-affected and neighbouring countries, and non-governmental organizations and partners.  ::80062fd9d63356e85ca0a9389f8da72b::ACKNOWLEDGED 80062fd9d63356e85ca0a9389f8da72b  
+
+passage/grade  |  time: 2016-04-12 16:38:10 672279  |  # of fields: 2  |  passage_id: 22  |  score: 2::67d4b173a3fb13bf6426cd4d528f8a77::ACKNOWLEDGED 67d4b173a3fb13bf6426cd4d528f8a77
+
+
+
+passage/grade  |  time: 2016-04-12 17:30:55 092176  |  # of fields: 2  |  passage_id: 23  |  score: 1::df64b2d70a73b53bd8069479c1327c80::ACKNOWLEDGED df64b2d70a73b53bd8069479c1327c80
+
+
+
+tagged/select  |  time: 2016-04-12 18:05:43 447496  |  # of  fields: 1  |  topic_id: 329
+
+subtopic/create  |  time: 2016-04-12 18:06:16 277386  |  # of fields: 4  |  topic_id: 329  |  topic_name: North Korea  |  subtopic_id: 8  |  subtopic_name: nnn
+
+subtopic/delete  |  time: 2016-04-12 18:07:10 807819  |  # of fields: 2  |  subtopic_id: 8  |  subtopic_name: nnn
+
+subtopic/delete  |  time: 2016-04-12 18:07:14 437438  |  # of fields: 2  |  subtopic_id: 6  |  subtopic_name: Vaccine in North Korea
+
+subtopic/create  |  time: 2016-04-12 18:07:37 127912  |  # of fields: 4  |  topic_id: 329  |  topic_name: North Korea  |  subtopic_id: 9  |  subtopic_name: random
+
+passage/create  |  time: 2016-04-12 18:07:41 888807  |  # of fields: 6  |  topic_id: 329  |  topic_name: North Korea  |  subtopic_id: 9  |  subtopic_name: random  |  passage_id: 29  |  passage_name:  tourism over Ebola fears - North Korea Times  ::51249446d6fc3db107155af8c8fbab40::ACKNOWLEDGED 51249446d6fc3db107155af8c8fbab40  
+
+passage/create  |  time: 2016-04-12 18:08:38 770539  |  # of fields: 6  |  topic_id: 329  |  topic_name: North Korea  |  subtopic_id: 9  |  subtopic_name: random  |  passage_id: 30  |  passage_name:  Featured Story  China win women's TT team World Cup  The Chinese women's table tennis team won the gold medal in the Team World Cup, def::9ddc39618309529db7d629ddd70842f9::ACKNOWLEDGED 9ddc39618309529db7d629ddd70842f9  
+
+passage/grade  |  time: 2016-04-12 18:08:51 275252  |  # of fields: 2  |  passage_id: 29  |  score: 2::43987d89552deb3c2671238f2d9e5b7b::ACKNOWLEDGED 43987d89552deb3c2671238f2d9e5b7b
+
+
+
+passage/grade  |  time: 2016-04-12 18:08:57 481530  |  # of fields: 2  |  passage_id: 30  |  score: 3::81cb473f34d2cfe8a766c4b253839a0b::ACKNOWLEDGED 81cb473f34d2cfe8a766c4b253839a0b
+
+
+
+login  |  time: 2016-04-12 21:33:16 615058
+
+topic/create  |  time: 2016-04-12 21:35:23 658549  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 331  |  topic_name:  Unicef
+
+topic/select  |  time: 2016-04-12 21:35:23 756703  |  # of fields: 2  |  topic_id: 331  |  topic_name: Unicef
+
+irrelevant doc  |  time: 2016-04-12 21:36:25 776772  |  # of fields: 2  |  topic_id: 331  |  topic_name: Unicef  |  docno: ebola-09052bd6d027fc1ac96de0022f0baf207a5be92bb5ad1200a30a7f5b56ebcbe8::0418d85ea598e5a0fb6159b229b76b29::ACKNOWLEDGED 0418d85ea598e5a0fb6159b229b76b29
+
+
+
+irrelevant doc  |  time: 2016-04-12 21:36:29 059736  |  # of fields: 2  |  topic_id: 331  |  topic_name: Unicef  |  docno: ebola-6dd4f634e9670df99ac12a19a5ab75da749018fda7db58252bf95d7d188e484a::af526104516d7f7bb5da6949a62dbc10::ACKNOWLEDGED af526104516d7f7bb5da6949a62dbc10
+
+
+
+subtopic/create  |  time: 2016-04-12 21:36:45 557210  |  # of fields: 4  |  topic_id: 331  |  topic_name: Unicef  |  subtopic_id: 10  |  subtopic_name: Fighting Ebola with mobile technology in Liberia
+
+subtopic/edit  |  time: 2016-04-12 21:37:06 379463  |  # of fields: 4  |  topic_id: 331  |  topic_name: Unicef  |  subtopic_id: 10  |  newsubtopic_name: unicef Liberia
+
+passage/create  |  time: 2016-04-12 21:37:45 227843  |  # of fields: 6  |  topic_id: 331  |  topic_name: Unicef  |  subtopic_id: 10  |  subtopic_name: unicef Liberia  |  passage_id: 39  |  passage_name:  Vorkpor and his team are UNICEF's frontline workers in the fight against Ebola, a disease that has been linked to more than 700 deaths in Liberia since March. The workers are called âanimators,â and they play a crucial role in stopping the spread of this virus through education in communities such as New Kru Town, a densely populated borough in Liberiaâs capital city of Monrovia.  ::b52261fbf899f7094ea331ebaa2e5583::ACKNOWLEDGED b52261fbf899f7094ea331ebaa2e5583  
+
+passage/grade  |  time: 2016-04-12 21:37:49 459141  |  # of fields: 2  |  passage_id: 39  |  score: 2::1fadeb3d8a3090f9008306c83214fe46::ACKNOWLEDGED 1fadeb3d8a3090f9008306c83214fe46
+
+
+
+tagged/select  |  time: 2016-04-12 22:02:46 914211  |  # of  fields: 1  |  topic_id: 331
+
+irrelevant doc  |  time: 2016-04-12 22:03:18 813673  |  # of fields: 2  |  topic_id: 331  |  topic_name: Unicef  |  docno: ebola-af5a7047b265183bae7406023cfc525754a715483f8dfd2be2edf8f2ae534bd8::c349441d5d6fa0fe42b1d397280703ed::ACKNOWLEDGED c349441d5d6fa0fe42b1d397280703ed
+
+
+
+irrelevant doc  |  time: 2016-04-12 22:03:23 371910  |  # of fields: 2  |  topic_id: 331  |  topic_name: Unicef  |  docno: ebola-2d5f23cdeb6942550ee2771fbb841378f25897bd1f11ac8502681a921280bd72::0dca1b5ab3f26892411ca31bc750403e::ACKNOWLEDGED 0dca1b5ab3f26892411ca31bc750403e
+
+
+
+passage/create  |  time: 2016-04-12 22:04:05 220873  |  # of fields: 6  |  topic_id: 331  |  topic_name: Unicef  |  subtopic_id: 10  |  subtopic_name: unicef Liberia  |  passage_id: 40  |  passage_name:  UNICEF currently has over 100 animators and communicators moving from house to house in both Lofa and Montserrado Counties in Liberia – the epicentres of the Ebola epidemic. These teams are working with communities to increase awareness, promote discussion, quell fears and clarify misconceptions about the virus, and how to protect oneself against it.  ::8bfa386f06da1362bcbf99deb387697e::ACKNOWLEDGED 8bfa386f06da1362bcbf99deb387697e  
+
+passage/grade  |  time: 2016-04-12 22:04:07 784853  |  # of fields: 2  |  passage_id: 40  |  score: 3::b0eeec17c6f3de75d7ce25d34f7f47fa::ACKNOWLEDGED b0eeec17c6f3de75d7ce25d34f7f47fa
+
+
+
+tagged/select  |  time: 2016-04-12 22:04:23 258481  |  # of  fields: 1  |  topic_id: 331
+
+irrelevant/select  |  time: 2016-04-12 22:14:47 952907  |  # of  fields: 1  |  topic_id: 331
+
+subtopic/nist_findmore  |  time: 2016-04-12 22:24:32 859175  |  # of fields: 4  |  topic_id: 331  |  topic_name: Unicef  |  subtopic_id: 10  |  subtopic_name: unicef Liberia::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=11%20TID=331%20STID=331.10%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+irrelevant/select  |  time: 2016-04-12 22:42:39 736240  |  # of  fields: 1  |  topic_id: 331
+
+duplicate/select  |  time: 2016-04-12 22:51:17 695383  |  # of  fields: 1  |  topic_id: 331
+
+duplicate/select  |  time: 2016-04-12 22:51:28 702798  |  # of  fields: 1  |  topic_id: 331
+
+duplicate doc  |  time: 2016-04-12 22:51:37 179290  |  # of fields: 2  |  topic_id: 331  |  topic_name: Unicef  |  docno: ebola-ee462e7563e594941c4c8019ec4af2c41f92db13e0ec021ff86d9409deb0f124::9b6d334d706625958280153f2d2c4ab0::ACKNOWLEDGED 9b6d334d706625958280153f2d2c4ab0
+
+
+
+duplicate doc  |  time: 2016-04-12 22:51:44 084164  |  # of fields: 2  |  topic_id: 331  |  topic_name: Unicef  |  docno: ebola-4ee6de5950b44e98c10f3f9bb3dda8ebbfa3db34125a046d33e81cc01585c633::64ddf3c0242f147e2f0a5e75ee84340a::ACKNOWLEDGED 64ddf3c0242f147e2f0a5e75ee84340a
+
+
+
+duplicate doc  |  time: 2016-04-12 22:51:48 191764  |  # of fields: 2  |  topic_id: 331  |  topic_name: Unicef  |  docno: ebola-46828669a3e1df8fd0cd51b5ca669249c152b5b0f24faa54e081b939990cb3c0::4a3c82b9a55878e4af600f75c4fd65ba::ACKNOWLEDGED 4a3c82b9a55878e4af600f75c4fd65ba
+
+
+
+duplicate doc  |  time: 2016-04-12 22:51:51 699560  |  # of fields: 2  |  topic_id: 331  |  topic_name: Unicef  |  docno: ebola-98d1b4a2c2f21fbcb0c634cba67e4b7d063eb7881e1b7737a88cabd788143b45::d03942060711dcc8ac39cd4bf68ba9b5::ACKNOWLEDGED d03942060711dcc8ac39cd4bf68ba9b5
+
+
+
+duplicate/select  |  time: 2016-04-12 22:51:57 032536  |  # of  fields: 1  |  topic_id: 331
+
+topic/select  |  time: 2016-04-12 22:52:27 008286  |  # of fields: 2  |  topic_id: 331  |  topic_name: Unicef
+

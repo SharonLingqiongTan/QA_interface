@@ -1,0 +1,4 @@
+time: 2016-04-13 21:44:31 613342  |  mode: happy  |  feedback: hello
+time: 2016-04-13 21:44:36 793549  |  mode: frustrated  |  feedback: :(
+time: 2016-04-13 21:47:18 570199  |  mode: frustrated  |  feedback: test f mood
+time: 2016-04-13 21:47:25 087899  |  mode: happy  |  feedback: test happy mood

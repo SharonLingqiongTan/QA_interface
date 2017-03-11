@@ -1,0 +1,10 @@
+beta.cgi:
+    a) to log in
+    b) switch domain
+    c) switch topic
+
+setup.cgi:
+    a) create database
+    b) add user
+
+

@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Login_Annotation for TREC Dynamic Domain Track</title>
+		<style>
+			#login{margin:auto; width:250px; margin-top:20px;}
+			header{font-size:30px; margin-bottom:15px; white-space:nowrap;}
+			form div{margin-bottom:10px;}
+			form div span{display: inline-block; width:70px; margin-right:5px;}
+			#submit input{float:right;}
+			#invalid {white-space:nowrap;}
+		</style>
+	</head>
+	<body>
+		<div id="login">
+			<header>Memex Search Interface</header>
+			<form action="./beta.cgi" method="POST">
+				<div><span>username: </span><input type="text" name="username" /><br/></div>
+				<div><span>password: </span><input type="password" name="password" /><br/></div>
+				<div id="submit"><input type="submit" value="login"/></div>
+				<br/>
+				<div style="clear:both"></div>
+				<span id="invalid">%s</span>
+		    </form>
+		</div>
+	</body>
+</html> 

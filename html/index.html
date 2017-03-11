@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Memex Human Trafficking by Georgetown</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/topbar.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/jquery-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/jquery-ui.css">
+    <script>
+	var lemurquery='';
+    </script>
+    <script src="./js/jqueryhighlight-5.js"></script>
+    <script src="./js/jquery-1.11.2.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <!--<script src="./js/jquery.mobile-1.4.5.min.js"></script>-->
+    <script>data = %s</script>
+    <script src="./js/topbar.js?v=1"></script>
+    <script src="./js/main.js?v=30"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!--<script src="./js/jqueryhighlight-5.js"></script>-->
+</head>
+<body>
+    <div id="featurewrap">
+        <div id="feature">
+            <article id="modify-search" class="side-bar__block is--search" style=''>
+                <h1 class="side-bar__title is--expandable" data-toggle="collapse" data-target="#emberWidget">
+                    <span>Start new search</span>
+                </h1>
+    	        <!--<div id="emberWidget" class="side-bar__content collapse">Test</div>*/-->
+                <div id="Filter-box" class="side-bar__content in">
+                    <div id="Phone">
+                        <!--<header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">Phone</h2>
+                        </header>-->
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div  class="filter__wrapper" title="Phone:">
+                                <label class="filter__label">Phone:</label>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+                                    <input type="text" name="phone" id="phoneInput" style="width:120px">
+                                </div>
+				<div style="text-align:right;">
+				    <button onclick="phoneSearch();" id="ClearClick">Search</button>
+				</div>
+                            </div>
+                        </section>
+                    </div>
+                    <div id="Email">
+                        <!--<header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">Email</h2>
+                        </header>-->
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div id="emailDiv" class="filter__wrapper" title="Email:">
+                                <label class="filter__label">Email:</label>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+                                    <input type="text" name="email" id="emailInput" style="width:120px">
+                                </div>
+				<div style="text-align:right">
+				    <button onclick="emailSearch();" id="ClearClick">Search</button></div>
+                                </div>
+                        </section
+                    </div>
+                    <!--<div style="text-align: right"><button onclick="startnewSearch();" id="ClearClick">Search</button></div>-->
+                </div>            
+            </article>
+    	    <article id="filter" class="side-bar__block is--filter">
+                <h1 class="side-bar__title is--expandable" data-toggle="collapse" data-target="#Filter-box">
+    		        <span>Refine Your Search</span>
+                </h1>
+                <div id="Filter-box" class="side-bar__content in">
+                    <div id="Name">
+                        <!--<header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">Name</h2>
+                        </header>-->
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div id="nameDiv" class="filter__wrapper" title="Escort Name:">
+                                <label class="filter__label">Escort Name:</label>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+                                    <input type="text" name="name" id="nameInput" style="width:100px">
+                                </div>
+				<div style="text-align:right">
+                                    <button onclick="nameSearch();" id="ClearClick">Search</button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div id="Age">
+    		            <!--<header class = "clearfix side-bar__sub-header">
+    		                <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">Age</h2>
+    		            </header>-->
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+        		            <div id="ageDiv" class="filter__wrapper" title="Show Ages up to:">
+        			            <label class="filter__label" for="age_range">Age Range:</label>
+                                <input type="text" id="age_range" readonly style="border:0; color:#f6931f; font-weight:bold;width:50px;">
+                                <div id="ageSlider" style="height:10px;width:170px;"></div>
+                            </div>
+                        </section>
+    		        </div>
+                    <!--<div id="Gender">
+                        <header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">Gender</h2>
+                        </header>
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div id="genderDiv" class="filter__wrapper" title="Show Ages up to:">
+                                <label class="filter__label">Gender</label>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+                                    <select class="input-sm" id="layoverTimeValue" name="layoverTimeValue" onchange="ApplyLayoverFilter(this.value)">
+                                        <option disabled selected value> -- select an age -- </option>
+                                        <option value="10">10-15</option>
+                                        <option value="15">15-20</option>
+                                        <option value="20">20-25</option>
+                                        <option value="25">25-30</option>
+                                        <option value="30">30-35</option>
+                                        <option value="35">35-40</option>
+                                        <option value="40">40-45</option>
+                                        <option value="45">45-50</option>
+                                    </select>
+                                    <input type="radio" name="gender" onclick="refineSearch()" value="male" checked> Female
+                                    <input type="radio" name="gender" onclick="refineSearch()" value="female"> Male
+                                </div>
+                            </div>
+                        </section>
+                    </div>-->
+                    <div id="Ethnicity">
+                        <!--<header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">Eye Color</h2>
+                        </header>-->
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div id="eyecolor" class="filter__wrapper" title="Ethnicity:">
+                                <label class="filter__label">Ethnicity:</label>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+                                    <select class="input-sm" id="ethnicityInput" name="ethnicityValue" onchange="refineSearch()">
+                                        <option disabled selected value> -- select an ethnicity -- </option>
+                                        <option value="african">African</option>
+                                        <option value="asian">Asian</option>
+                                        <option value="european">European</option>
+                                        <option value="north american">North American</option>
+                                        <option value="south american">South American</option>
+					<option value="oceanian">Oceanian</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div id="Nationality">
+                        <!--<header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">Nationality/Ethnicity</h2>
+                        </header>-->
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div id="Nationality" class="filter__wrapper" title="Nationality:">
+                                <label class="filter__label">Nationality:</label>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+                                    <select class="input-sm" id="nationalityInput" name="nationalityValue" onchange="refineSearch()">
+                                        <option disabled selected value> -- select a country -- </option>
+                                        <option value="AF">Afghanistan</option>
+                                        <option value="AX">Åland Islands</option>
+                                        <option value="AL">Albania</option>
+                                        <option value="DZ">Algeria</option>
+                                        <option value="AS">American Samoa</option>
+                                        <option value="AD">Andorra</option>
+                                        <option value="AO">Angola</option>
+                                        <option value="AI">Anguilla</option>
+                                        <option value="AQ">Antarctica</option>
+                                        <option value="AG">Antigua and Barbuda</option>
+                                        <option value="AR">Argentina</option>
+                                        <option value="AM">Armenia</option>
+                                        <option value="AW">Aruba</option>
+                                        <option value="AU">Australia</option>
+                                        <option value="AT">Austria</option>
+                                        <option value="AZ">Azerbaijan</option>
+                                        <option value="BS">Bahamas</option>
+                                        <option value="BH">Bahrain</option>
+                                        <option value="BD">Bangladesh</option>
+                                        <option value="BB">Barbados</option>
+                                        <option value="BY">Belarus</option>
+                                        <option value="BE">Belgium</option>
+                                        <option value="BZ">Belize</option>
+                                        <option value="BJ">Benin</option>
+                                        <option value="BM">Bermuda</option>
+                                        <option value="BT">Bhutan</option>
+                                        <option value="BO">Bolivia</option>
+                                        <option value="BQ">Bonaire</option>
+                                        <option value="BW">Botswana</option>
+                                        <option value="BV">Bouvet Island</option>
+                                        <option value="BR">Brazil</option>
+                                        <option value="BN">Brunei Darussalam</option>
+                                        <option value="BG">Bulgaria</option>
+                                        <option value="BF">Burkina Faso</option>
+                                        <option value="BI">Burundi</option>
+                                        <option value="KH">Cambodia</option>
+                                        <option value="CM">Cameroon</option>
+                                        <option value="CA">Canada</option>
+                                        <option value="CV">Cape Verde</option>
+                                        <option value="KY">Cayman Islands</option>
+                                        <option value="TD">Chad</option>
+                                        <option value="CL">Chile</option>
+                                        <option value="CN">China</option>
+                                        <option value="CX">Christmas Island</option>
+                                        <option value="CC">Cocos Islands</option>
+                                        <option value="CO">Colombia</option>
+                                        <option value="KM">Comoros</option>
+                                        <option value="CG">Congo</option>
+                                        <option value="CD">Congo</option>
+                                        <option value="CK">Cook Islands</option>
+                                        <option value="CR">Costa Rica</option>
+                                        <option value="CI">Côte d'Ivoire</option>
+                                        <option value="HR">Croatia</option>
+                                        <option value="CU">Cuba</option>
+                                        <option value="CW">Curaçao</option>
+                                        <option value="CY">Cyprus</option>
+                                        <option value="CZ">Czech Republic</option>
+                                        <option value="DK">Denmark</option>
+                                        <option value="DJ">Djibouti</option>
+                                        <option value="DM">Dominica</option>
+                                        <option value="DO">Dominican Republic</option>
+                                        <option value="EC">Ecuador</option>
+                                        <option value="EG">Egypt</option>
+                                        <option value="SV">El Salvador</option>
+                                        <option value="GQ">Equatorial Guinea</option>
+                                        <option value="ER">Eritrea</option>
+                                        <option value="EE">Estonia</option>
+                                        <option value="ET">Ethiopia</option>
+                                        <option value="FK">Falkland Islands</option>
+                                        <option value="FO">Faroe Islands</option>
+                                        <option value="FJ">Fiji</option>
+                                        <option value="FI">Finland</option>
+                                        <option value="FR">France</option>
+                                        <option value="GA">Gabon</option>
+                                        <option value="GM">Gambia</option>
+                                        <option value="GE">Georgia</option>
+                                        <option value="DE">Germany</option>
+                                        <option value="GH">Ghana</option>
+                                        <option value="GI">Gibraltar</option>
+                                        <option value="GR">Greece</option>
+                                        <option value="GL">Greenland</option>
+                                        <option value="GD">Grenada</option>
+                                        <option value="GP">Guadeloupe</option>
+                                        <option value="GU">Guam</option>
+                                        <option value="GT">Guatemala</option>
+                                        <option value="GG">Guernsey</option>
+                                        <option value="GN">Guinea</option>
+                                        <option value="GW">Guinea-Bissau</option>
+                                        <option value="GY">Guyana</option>
+                                        <option value="HT">Haiti</option>
+                                        <option value="HN">Honduras</option>
+                                        <option value="HK">Hong Kong</option>
+                                        <option value="HU">Hungary</option>
+                                        <option value="IS">Iceland</option>
+                                        <option value="IN">India</option>
+                                        <option value="ID">Indonesia</option>
+                                        <option value="IR">Iran,</option>
+                                        <option value="IQ">Iraq</option>
+                                        <option value="IE">Ireland</option>
+                                        <option value="IM">Isle of Man</option>
+                                        <option value="IL">Israel</option>
+                                        <option value="IT">Italy</option>
+                                        <option value="JM">Jamaica</option>
+                                        <option value="JP">Japan</option>
+                                        <option value="JE">Jersey</option>
+                                        <option value="JO">Jordan</option>
+                                        <option value="KZ">Kazakhstan</option>
+                                        <option value="KE">Kenya</option>
+                                        <option value="KI">Kiribati</option>
+                                        <option value="KP">Korea</option>
+                                        <option value="KW">Kuwait</option>
+                                        <option value="KG">Kyrgyzstan</option>
+                                        <option value="LA">Laos</option>
+                                        <option value="LV">Latvia</option>
+                                        <option value="LB">Lebanon</option>
+                                        <option value="LS">Lesotho</option>
+                                        <option value="LR">Liberia</option>
+                                        <option value="LY">Libya</option>
+                                        <option value="LI">Liechtenstein</option>
+                                        <option value="LT">Lithuania</option>
+                                        <option value="LU">Luxembourg</option>
+                                        <option value="MO">Macao</option>
+                                        <option value="MK">Macedonia</option>
+                                        <option value="MG">Madagascar</option>
+                                        <option value="MW">Malawi</option>
+                                        <option value="MY">Malaysia</option>
+                                        <option value="MV">Maldives</option>
+                                        <option value="ML">Mali</option>
+                                        <option value="MT">Malta</option>
+                                        <option value="MH">Marshall Islands</option>
+                                        <option value="MQ">Martinique</option>
+                                        <option value="MR">Mauritania</option>
+                                        <option value="MU">Mauritius</option>
+                                        <option value="YT">Mayotte</option>
+                                        <option value="MX">Mexico</option>
+                                        <option value="FM">Micronesia</option>
+                                        <option value="MD">Moldova</option>
+                                        <option value="MC">Monaco</option>
+                                        <option value="MN">Mongolia</option>
+                                        <option value="ME">Montenegro</option>
+                                        <option value="MS">Montserrat</option>
+                                        <option value="MA">Morocco</option>
+                                        <option value="MZ">Mozambique</option>
+                                        <option value="MM">Myanmar</option>
+                                        <option value="NA">Namibia</option>
+                                        <option value="NR">Nauru</option>
+                                        <option value="NP">Nepal</option>
+                                        <option value="NL">Netherlands</option>
+                                        <option value="NC">New Caledonia</option>
+                                        <option value="NZ">New Zealand</option>
+                                        <option value="NI">Nicaragua</option>
+                                        <option value="NE">Niger</option>
+                                        <option value="NG">Nigeria</option>
+                                        <option value="NU">Niue</option>
+                                        <option value="NF">Norfolk Island</option>
+                                        <option value="NO">Norway</option>
+                                        <option value="OM">Oman</option>
+                                        <option value="PK">Pakistan</option>
+                                        <option value="PW">Palau</option>
+                                        <option value="PA">Panama</option>
+                                        <option value="PG">Papua New Guinea</option>
+                                        <option value="PY">Paraguay</option>
+                                        <option value="PE">Peru</option>
+                                        <option value="PH">Philippines</option>
+                                        <option value="PN">Pitcairn</option>
+                                        <option value="PL">Poland</option>
+                                        <option value="PT">Portugal</option>
+                                        <option value="PR">Puerto Rico</option>
+                                        <option value="QA">Qatar</option>
+                                        <option value="RE">Réunion</option>
+                                        <option value="RO">Romania</option>
+                                        <option value="RU">Russian Federation</option>
+                                        <option value="RW">Rwanda</option>
+                                        <option value="WS">Samoa</option>
+                                        <option value="SM">San Marino</option>
+                                        <option value="SA">Saudi Arabia</option>
+                                        <option value="SN">Senegal</option>
+                                        <option value="RS">Serbia</option>
+                                        <option value="SC">Seychelles</option>
+                                        <option value="SL">Sierra Leone</option>
+                                        <option value="SG">Singapore</option>
+                                        <option value="SX">Sint Maarten</option>
+                                        <option value="SK">Slovakia</option>
+                                        <option value="SI">Slovenia</option>
+                                        <option value="SB">Solomon Islands</option>
+                                        <option value="SO">Somalia</option>
+                                        <option value="ZA">South Africa</option>
+                                        <option value="SS">South Sudan</option>
+                                        <option value="ES">Spain</option>
+                                        <option value="LK">Sri Lanka</option>
+                                        <option value="SD">Sudan</option>
+                                        <option value="SR">Suriname</option>
+                                        <option value="SZ">Swaziland</option>
+                                        <option value="SE">Sweden</option>
+                                        <option value="CH">Switzerland</option>
+                                        <option value="TJ">Tajikistan</option>
+                                        <option value="TZ">Tanzania</option>
+                                        <option value="TH">Thailand</option>
+                                        <option value="TL">Timor-Leste</option>
+                                        <option value="TG">Togo</option>
+                                        <option value="TK">Tokelau</option>
+                                        <option value="TO">Tonga</option>
+                                        <option value="TN">Tunisia</option>
+                                        <option value="TR">Turkey</option>
+                                        <option value="TM">Turkmenistan</option>
+                                        <option value="TV">Tuvalu</option>
+                                        <option value="UG">Uganda</option>
+                                        <option value="UA">Ukraine</option>
+                                        <option value="GB">United Kingdom</option>
+                                        <option value="US">United States</option>
+                                        <option value="UY">Uruguay</option>
+                                        <option value="UZ">Uzbekistan</option>
+                                        <option value="VU">Vanuatu</option>
+                                        <option value="VE">Venezuela</option>
+                                        <option value="VN">Viet Nam</option>
+                                        <option value="WF">Wallis and Futuna</option>
+                                        <option value="EH">Western Sahara</option>
+                                        <option value="YE">Yemen</option>
+                                        <option value="ZM">Zambia</option>
+                                        <option value="ZW">Zimbabwe</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+            		<div id="State">
+                        <!--<header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">U.S.A. State</h2>
+                        </header>-->
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div id="State" class="filter__wrapper" title="State:">
+                                <label class="filter__label">U.S State:</label>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+                                    <select class="input-sm" id="stateInput" name="US-states" onchange="refineSearch()">
+                                        <option disabled selected value> -- select a state -- </option>
+                    				    <option value="AK">Alaska</option>
+                    				    <option value="AZ">Arizona</option>
+                    				    <option value="AR">Arkansas</option>
+                    				    <option value="CA">California</option>
+                    				    <option value="CO">Colorado</option>
+                    				    <option value="CT">Connecticut</option>
+                    				    <option value="DE">Delaware</option>
+                    				    <option value="DC">District Of Columbia</option>
+                    				    <option value="FL">Florida</option>
+                    				    <option value="GA">Georgia</option>
+                    			    	<option value="HI">Hawaii</option>
+                    				    <option value="ID">Idaho</option>
+                    				    <option value="IL">Illinois</option>
+                    		 		    <option value="IN">Indiana</option>
+                                    	<option value="IA">Iowa</option>
+                                    	<option value="KS">Kansas</option>
+                                    	<option value="KY">Kentucky</option>
+                                    	<option value="LA">Louisiana</option>
+                                    	<option value="ME">Maine</option>
+                                    	<option value="MD">Maryland</option>
+                                    	<option value="MA">Massachusetts</option>
+                                    	<option value="MI">Michigan</option>
+                                    	<option value="MN">Minnesota</option>
+                                    	<option value="MS">Mississippi</option>
+                                    	<option value="MO">Missouri</option>
+                                    	<option value="MT">Montana</option>
+                                    	<option value="NE">Nebraska</option>
+                                    	<option value="NV">Nevada</option>
+                                    	<option value="NH">New Hampshire</option>
+                                    	<option value="NJ">New Jersey</option>
+                                    	<option value="NM">New Mexico</option>
+                                    	<option value="NY">New York</option>
+                                    	<option value="NC">North Carolina</option>
+                                    	<option value="ND">North Dakota</option>
+                                    	<option value="OH">Ohio</option>
+                                    	<option value="OK">Oklahoma</option>
+                                    	<option value="OR">Oregon</option>
+                                    	<option value="PA">Pennsylvania</option>
+                                    	<option value="RI">Rhode Island</option>
+                                    	<option value="SC">South Carolina</option>
+                                    	<option value="SD">South Dakota</option>
+                                    	<option value="TN">Tennessee</option>
+                                    	<option value="TX">Texas</option>
+                                    	<option value="UT">Utah</option>
+                                    	<option value="VT">Vermont</option>
+                                    	<option value="VA">Virginia</option>
+                                    	<option value="WA">Washington</option>
+                                    	<option value="WV">West Virginia</option>
+                                    	<option value="WI">Wisconsin</option>
+                                    	<option value="WY">Wyoming</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div id="City">
+                        <!--<header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">City</h2>
+                        </header>-->
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div id="cityDiv" class="filter__wrapper" title="City:">
+                                <label class="filter__label">City:</label>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+                                    <input type="text" name="city" id="cityInput" style="width:100px">
+                                </div>
+				<div style="text-align:right;display:inline-block;width:61px">
+                                    <button onclick="refineSearch();" id="ClearClick">Search</button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div id="HairColor">
+                        <!--<header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">Hair Color</h2>
+                        </header>-->
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div id="haircolor" class="filter__wrapper" title="Hair Color:">
+                                <label class="filter__label">Hair Color:</label><br>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+<!--                                     <select class="input-sm" id="hairColorInput" name="hairColorValue" onchange="refineSearch()">
+                                        <option disabled selected value> -- select a hair color -- </option>
+                                        <option value="White">White</option>
+                                        <option value="Black">Black</option>
+                                        <option value="Brown">Brown</option>
+                                        <option value="Blonde">Blonde</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Blue">Blue</option>
+                                    </select> -->
+                                    <input type="checkbox" id = "whiteHairBox" name="hairColor" onchange="refineSearch()" value="White"><label style="padding-left:50px;display:inline;">White</label><br>
+                                    <input type="checkbox" id = "blackHairBox" name="hairColor" onchange="refineSearch()" value="Black"><label style="padding-left:50px;display:inline;">Black</label><br>
+                                    <input type="checkbox" id = "brownHairBox" name="hairColor" onchange="refineSearch()" value="Brown"><label style="padding-left:50px;display:inline;">Brown</label><br>
+                                    <input type="checkbox" id = "blondeHairBox" name="hairColor" onchange="refineSearch()" value="Blonde"><label style="padding-left:50px;display:inline;">Blonde</label><br>
+                                    <input type="checkbox" id = "redHairBox" name="hairColor" onchange="refineSearch()" value="Red"><label style="padding-left:50px;display:inline;">Red</label><br>
+                                    <input type="checkbox" id = "blueHairBox" name="hairColor" onchange="refineSearch()" value="Blue"><label style="padding-left:50px;display:inline;">Blue</label><br>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div id="EyeColor">
+                        <!--<header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">Eye Color</h2>
+                        </header>-->
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div id="eyecolor" class="filter__wrapper" title="Eye Color:">
+                                <label class="filter__label">Eye Color:</label><br>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+<!--                                     <select class="input-sm" id="eyeColorInput" name="eyeColorValue" onchange="refineSearch()">
+                                        <option disabled selected value> -- select an eye color -- </option>
+                                        <option value="Brown">Brown</option>
+                                        <option value="Black">Black</option>
+                                        <option value="Blue">Blue</option>
+                                        <option value="Amber">Amber</option>
+                                        <option value="Green">Green</option>
+                                        <option value="Grey">Grey</option>
+                                    </select> -->
+                                    <input type="checkbox" id = "brownEyeBox" name="eyecolor" onchange="refineSearch()" value="Brown"> <label style="padding-left:50px;display:inline;">Brown</label><br>
+                                    <input type="checkbox" id = "blackEyeBox" name="eyecolor" onchange="refineSearch()" value="Black"> <label style="padding-left:50px;display:inline;">Black</label><br>
+                                    <input type="checkbox" id = "blueEyeBox"  name="eyecolor" onchange="refineSearch()" value="Blue"> <label style="padding-left:50px;display:inline;">Blue</label><br>
+                                    <input type="checkbox" id = "amberEyeBox" name="eyecolor" onchange="refineSearch()" value="Amber"> <label style="padding-left:50px;display:inline;">Amber</label><br>
+                                    <input type="checkbox" id = "greyEyeBox"  name="eyecolor" onchange="refineSearch()" value="Grey"> <label style="padding-left:50px;display:inline;">Grey</label><br>
+                                    <input type="checkbox" id = "greenEyeBox" name="eyecolor" onchange="refineSearch()" value="Green"> <label style="padding-left:50px;display:inline;">Green</label><br>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <!--<div id="Weight">
+                        <header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">Weight</h2>
+                        </header>
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div id="weight" class="filter__wrapper" title="Weight:">
+                                <label class="filter__label">Weight:</label>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+                                    <select class="input-sm" id="weightValue" name="weightValue" onchange="ApplyLayoverFilter(this.value)">
+                                        <option value="White">120-130lb</option>
+                                        <option value="Black">Black</option>
+                                        <option value="Brown">Brown</option>
+                                        <option value="Blonde">Blonde</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Blue">Blue</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+                    </div>-->
+                    <div id="Height">
+                        <!--<header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">Height</h2>
+                        </header>-->
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div id="heightDiv" class="filter__wrapper" title="Height:">
+                                <label class="filter__label" for="height_range">Height Range:</label>
+                                <input type="text" id="height_range" readonly style="border:0; color:#f6931f; font-weight:bold;width:80px;">
+                                <div id="heightSlider" style="height:10px;width:170px;"></div>
+                            </div>
+                        </section>
+                    </div>
+                    <div id="socialMediaID">
+                        <!--<header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">Social Media ID</h2>
+                        </header>-->
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div id="eyecolor" class="filter__wrapper" title="Eye Color:">
+                                <label class="filter__label">Social Media:</label>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+                                    <select class="input-sm" id="socialMediaInput" name="socialMediaValue" onchange="refineSearch()">
+                                        <option disabled selected value> -- select an social media -- </option>
+                                        <option value="Facebook">facebook</option>
+                                        <option value="Twitter">twitter</option>
+                                    </select>
+                                </div><br>
+                                <label class="filter__label">ID:</label>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+                                    <input type="text" name="ID" id="socialMediaIDInput">
+                                </div>
+				<div style="text-align:right;display:inline-block;padding:6px">
+                                    <button onclick="socialMediaSearch();" id="ClearClick">Search</button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div id="reviewSiteID">
+                        <!--<header class = "clearfix side-bar__sub-header">
+                            <h2 class="side-bar__sub-title pull-left is--expandable" data-toggle="collapse" data-target="#connection-filter-control">Review Site ID</h2>
+                        </header>-->
+                        <section id="connection-filter-control" class="filter__section is--connection-filter in" style="height:auto;">
+                            <div id="reviewSiteID" class="filter__wrapper" title="reviewSiteID:">
+                                <label class="filter__label">Review Site ID:</label>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+                                    <select class="input-sm" id="reviewSiteInput" name="reviewSiteIDValue" onchange="refineSearch()">
+                                        <option disabled selected value> -- select a review site -- </option>
+                                        <option value="ter">ter</option>
+                                        <option value="eccie">eccie</option>
+                                        <option value="preferred411">preferred411</option>
+                                    </select>
+                                </div><br>
+                                <label class="filter__label">ID:</label>
+                                <div class="select-wrapper select-wrapper-sm form-control pull-right">
+                                    <input type="text" name="ID" id="reviewSiteIDInput">
+                                </div>
+				<div style="text-align:right;display:inline-block;padding:6px">
+                                    <button onclick="reviewSiteSearch();" id="ClearClick">Search</button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div id="MultiStopsFilter" style='display:block;'></div>                        
+                    <div id="Filters"> </div>
+                    <div id="LayoverTime"></div>
+                    <div id="FlexiDateFilter"></div>
+                    <div id="airportdiv"></div>
+                    <div id="airlinediv" style='display:block;'></div>
+                    <!--<div style="text-align:right">
+                        <button class="cta-3rd clear-all-filter" onclick="refineSearch()" id="ClearClick">Search</button>
+                    </div>-->
+                </div>
+    	    </article>
+        </div>
+
+    </div>
+    <div id="contentwrap">
+        <div id="content">
+            <div id="banner">
+                <span id="title">
+                    Memex Human Trafficking <span>by Georgetown</span>
+                </span>
+
+                <span id="assess_emoji">
+                    <img id="assesshappy" title="I'm happy!" src="./img/laugh.png">
+                    <img id="assesssad" title="I'm frustrated NOW. Work Harder!!" src="./img/sad.png">
+                </span>
+
+                <span id="user">
+		    <a id="admin_cgi" href="http://infosense.cs.georgetown.edu/annotation/admin/admin.cgi">admin.cgi</a>
+		    <span id="summary">summary</span>
+                    <span id="username"></span>
+                    <a id="logout" href="./beta.cgi" >
+                        logout
+                    </a>
+                </span>
+		<script>
+		    $("#summary").hide();
+		    $("#admin_cgi").hide();
+		</script>
+                <div class="clear"></div>
+            </div>
+            <!--<div id="domain">
+                <form action="./beta.cgi" method="post">
+                    <span id="domain_panel_description">Domain:</span>
+                    <select id="Sdomain" name="domain">
+                    </select>
+                    <div class="clear"></div>
+                </form>
+            </div>-->
+            <div id="topic">
+                <form action="./beta.cgi" method="post">
+                    <span id="topic_panel_description">Topic:</span>
+                    <span id="Ctopic">
+                        <img id="add_topic" src="./img/add_topic.png"/>
+                        <select id="Stopic" name="topic">
+                            %s
+                        </select>
+
+                        <span id="edit_topic">edit</span>
+                        <img id="delete_topic" src="./img/trash.png"/>
+                        <div class="clear"></div>
+                    </span>
+                    <span id="Atopic">
+                        <img class="confirm_topic" src="./img/confirm.png"/>
+                        <input type="text"/>
+                        <span class="cancel_topic">cancel</span>
+                        <div class="clear"></div>
+                    </span>
+                    <span id="Etopic">
+                        <img class="confirm_topic" src="./img/confirm.png"/>
+                        <input type="text"/>
+                        <span class="cancel_topic">cancel</span>
+                        <div class="clear"></div>
+                    </span>
+                    <div class="clear"></div>
+                </form>
+
+
+            </div>
+            <div class="clear"></div>
+            
+            <div id="control_panel">
+                <input type="text" name="q" id="querybox"/>
+                <!--<button class="search_button" id="lemursubmit" value='L'>lemur</button>
+                <button class="search_button" id="solrsubmit" value='S'>solr</button>-->
+                <button class="search_button" id="terriersubmit" value='T'>elasticsearch</button>
+                <span id="loption"><button></button></span>
+                <span title="number of judged documents" id="total_count"></span>
+                <div style="clear:both"></div>
+            </div>
+            <div id="control_panel_2_wrap">
+                <div id="control_panel_2">
+                    <div id="docback">&lt;&lt;back</div>
+                    <div id="highlight">
+                        <input type="text" id="highlightText"/>
+                        <button>
+                            highlight
+                        </button>
+                    </div>
+                    <div id="tagflag"></div>
+                    <div id="docdiscard"> irrelevant </div>
+                    <div id="docdup"> duplicate</div>
+                    <div id="docnext">next</div>
+                    <div id="docprev">prev</div>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+            
+            <iframe id="lemurbox" style="height:1100px">
+
+            </iframe>
+	    <!--<div id="viewdoc">
+		<a id="ddoclist">discarded doc</a>
+		<a id="cdoclist">completed doc</a>
+		<a id="adoclist">viewed doc</a>
+	    </div>-->
+	    <div class="clear"></div>
+	    <div id="viewdoc">
+            <a class="list_button" id="rdoclist">duplicates</a>
+    		<a class="list_button" id="ddoclist">irrelevant docs</a>
+    		<a class="list_button" id="cdoclist">tagged docs</a>
+            <!--<a id="qlanguage" target="_blank" href="query_language/qs.html">query language help</a>
+            <a id="tmanual" target="_blank" href="http://infosense.cs.georgetown.edu/tool_manual.pdf">tool manual</a>-->
+            <div class="clear"></div>
+        </div>
+	</div>
+    </div>
+    <div id="dialog1" class="dialogs" title="Notice">Please create a topic!</div>
+    <div id="dialog2" class="dialogs" title="Alert">Topic name already exists!</div>
+    <div id="dialog3" class="dialogs" title="Alert">Subtopic name already exists for current topic!</div>
+    <div id="dialog4" class="dialogs" title="Alert">Drag & Drop disabled for current source!</div>
+    <div id="dialog5" class="dialogs" title="Notice">Thanks! Your annotaions have been saved!</div>
+    <div id="dialog6" class="dialogs" title="Alert">Invalid topic name!</div>
+    <div id="dialog7" class="dialogs" title="Alert">Invalid subtopic name!</div>
+    <div id="dialog8" class="dialogs" title="Alert">can't mark this doc completed without any annotation</div>
+    <div id="dialog9" class="dialogs" title="Alert">fetch doclist failure, please try again or report</div> 
+    <div id="dialog0" class="dialogs" title="Alert">Internal error, please try again</div>
+    <div id="dialog11" class="dialogs" title="Alert">Can't mark as irrelevant after annotating, please click next</div>
+    <div id="dialog12" class="dialogs" title="Alert">Internal error, please try again or report</div>
+    <div id="dialog13" class="dialogs" title="Alert">Can't mark as duplicate after annotating, please click next</div>
+    <div id="dialog14" class="dialogs" title="Alert">Can't add text to image</div>
+    <div id="sidebarwrap">
+        <div id="sidebar">
+            <div id="topicname2">Current topic: <span></span></div>
+	    <div id="subtopic">
+                <img id="add_subtopic" src="./img/add_subtopic.png"/>
+                <div id="add_subtopic_hint">Click here to add subtopic</div>
+                <form id="Asubtopic">
+                    <input type="text" id="input_subtopic">
+                    <img id="confirm_sub" src="./img/confirm.png"/>
+                    <span id="cancel_add_sub">cancel</span>
+                    <div class="clear"></div>
+                </form>
+                <div class="clear"></div>
+            </div>
+	    <div id="scountpanel">
+		number of subtopics: <span id="scount">0</span> 
+	    </div>
+            <div id="dropbox_list">
+            </div>
+        </div>
+	<div id="SVannotations">
+	    <button id="saveanno">Save annotations</button>
+	    <button id="finishTopic">Write Statement</button>
+            <button id="viewanno">View annotations</button>
+	    <div class="clear"></div>
+	</div>
+    </div>
+    <div class="clear"></div>
+</body>
+</html>

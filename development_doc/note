@@ -1,0 +1,16 @@
+--
+--
+1. remove
+2. auto complete
+3. go back problem
+4. 整个database交互呈现的redesign 阈值 计数
+   多次点击
+   complete without annotation
+5. 为何有多次发送??
+10. pull
+
+
+go back to another domain
+
+1. 有个list: 点进去 annotate, 每个annotate可以影响这个list的排序
+2. each passage level's meaning -- waterloo sys doc level.

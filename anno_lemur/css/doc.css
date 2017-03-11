@@ -1,0 +1,32 @@
+/*#topbox{
+    position: fixed;
+    width: 99%;
+    height: 150px;
+}*/
+table{border-collapse: collapse; border-spacing: 0;}
+input{font-size: 14px;} /* influence doc display??*/
+
+#tagflag{
+    float: left;
+    margin-left: 300px;
+    position: relative;
+    top: 3px;
+    color: red;
+}
+
+pre{
+    position: relative;
+    top: 100px;
+}
+
+pre{
+    word-break:break-word;
+    white-space: pre-wrap;
+    line-height:22px;
+    font-family: arial;
+    font-size:16px;
+    overflow: scroll;
+}
+.lemurhighlight{
+    background-color: yellow;
+};

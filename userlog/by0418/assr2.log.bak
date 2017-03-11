@@ -1,0 +1,996 @@
+login  |  time: 2016-04-12 23:12:20 784498
+
+login  |  time: 2016-04-13 11:39:36 389030
+
+login  |  time: 2016-04-13 12:14:45 500667
+
+login  |  time: 2016-04-13 12:17:19 519500
+
+login  |  time: 2016-04-13 12:21:57 784508
+
+login  |  time: 2016-04-13 12:29:26 189521
+
+login  |  time: 2016-04-13 12:37:40 992662
+
+topic/create  |  time: 2016-04-13 12:38:12 318053  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 355  |  topic_name:  gates foundation
+
+login  |  time: 2016-04-13 12:38:35 333672
+
+login  |  time: 2016-04-13 12:39:04 973142
+
+login  |  time: 2016-04-13 12:42:55 743193
+
+login  |  time: 2016-04-13 12:46:03 290324
+
+login  |  time: 2016-04-13 12:47:51 236199
+
+topic/select  |  time: 2016-04-13 12:49:06 894340  |  # of fields: 2  |  topic_id: 355  |  topic_name: gates foundation
+
+topic/select  |  time: 2016-04-13 12:49:56 496164  |  # of fields: 2  |  topic_id: 355  |  topic_name: gates foundation
+
+login  |  time: 2016-04-13 12:50:31 244458
+
+topic/edit  |  time: 2016-04-13 12:51:36 075289  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 355  |  newtopic_name:  gates foundation
+
+topic/edit  |  time: 2016-04-13 12:51:56 880480  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 355  |  newtopic_name:  gates foundation
+
+subtopic/create  |  time: 2016-04-13 12:52:21 604319  |  # of fields: 4  |  topic_id: 355  |  topic_name: gates foundation  |  subtopic_id: 28  |  subtopic_name: money donated
+
+passage/create  |  time: 2016-04-13 12:57:11 397340  |  # of fields: 6  |  topic_id: 355  |  topic_name: gates foundation  |  subtopic_id: 28  |  subtopic_name: money donated  |  passage_id: 77  |  passage_name:  The impact of AIDS in Africa provides a more recent example: Sebnem Kalemli-Ozcan of the University of Houston looked at African data over the past 15 years of the 20th century and found that AIDS had encouraged parents to have more kids (to ensure some survived), which had forced lower investment in each individual childâs education.Â High levels of HIV/AIDS prevalence in countries such as Congo saw the average woman having two more children and the average child getting 38 percent less schooling, than in countries in the region with low HIV prevalence, such as Madagascar.  ::e1d2636d7a366801696d5674ed787507::ACKNOWLEDGED e1d2636d7a366801696d5674ed787507  
+
+passage/irrelevant  |  time: 2016-04-13 12:57:32 696658  |  # of fields: 2  |  passage_id: 77::fcc20010bbde48863f034103d765c88e::ACKNOWLEDGED fcc20010bbde48863f034103d765c88e
+
+
+
+passage/create  |  time: 2016-04-13 12:58:29 333511  |  # of fields: 6  |  topic_id: 355  |  topic_name: gates foundation  |  subtopic_id: 28  |  subtopic_name: money donated  |  passage_id: 81  |  passage_name:  The considerable costs of AIDS make even comparatively expensive treatments justifiable in economic terms alone. Harvardâs Stephen Resch and colleagues studied the economic returns ::01684c7a26e0c491dbb0afe820365e5f::ACKNOWLEDGED 01684c7a26e0c491dbb0afe820365e5f  
+
+passage/irrelevant  |  time: 2016-04-13 12:58:51 049343  |  # of fields: 2  |  passage_id: 81::32f9d0d7e282785fe48759583fb895a8::ACKNOWLEDGED 32f9d0d7e282785fe48759583fb895a8
+
+
+
+subtopic/nist_findmore  |  time: 2016-04-13 13:01:02 855804  |  # of fields: 4  |  topic_id: 355  |  topic_name: gates foundation  |  subtopic_id: 28  |  subtopic_name: money donated::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=2%20TID=355%20STID=355.28%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+passage/create  |  time: 2016-04-13 13:03:49 254593  |  # of fields: 6  |  topic_id: 355  |  topic_name: gates foundation  |  subtopic_id: 28  |  subtopic_name: money donated  |  passage_id: 91  |  passage_name:  Numerous studies have explored the social and economic impacts of infectious diseases.Â The University of Chicagoâs Hoyt Bleakley examined the affect of the 1920s ::037ea1fea52d148c9aacca825fe68da3::ACKNOWLEDGED 037ea1fea52d148c9aacca825fe68da3  
+
+passage/grade  |  time: 2016-04-13 13:03:56 487774  |  # of fields: 2  |  passage_id: 91  |  score: 1::c6543121f7719fc9b522d7c0afa7fd65::ACKNOWLEDGED c6543121f7719fc9b522d7c0afa7fd65
+
+
+
+passage/irrelevant  |  time: 2016-04-13 13:04:32 571821  |  # of fields: 2  |  passage_id: 91::c889dadfc1625616c6225b8400ae4be4::ACKNOWLEDGED c889dadfc1625616c6225b8400ae4be4
+
+
+
+subtopic/delete  |  time: 2016-04-13 13:08:28 689693  |  # of fields: 2  |  subtopic_id: 28  |  subtopic_name: money donated
+
+topic/edit  |  time: 2016-04-13 13:15:25 178050  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 355  |  newtopic_name:  guinea
+
+tagged/select  |  time: 2016-04-13 13:30:25 445864  |  # of  fields: 1  |  topic_id: 355
+
+irrelevant/select  |  time: 2016-04-13 13:30:31 241525  |  # of  fields: 1  |  topic_id: 355
+
+duplicate/select  |  time: 2016-04-13 13:30:35 731838  |  # of  fields: 1  |  topic_id: 355
+
+duplicate/select  |  time: 2016-04-13 13:37:18 316904  |  # of  fields: 1  |  topic_id: 355
+
+duplicate doc  |  time: 2016-04-13 13:37:30 368350  |  # of fields: 2  |  topic_id: 355  |  topic_name: guinea  |  docno: ebola-2735ec75a9ae2339cd644c00be7bf75f267812cc3247f2ef0a52e8d1a0587639::8760e9d5079236c0a1ac2fe17e786e79::ACKNOWLEDGED 8760e9d5079236c0a1ac2fe17e786e79
+
+
+
+irrelevant/select  |  time: 2016-04-13 13:37:56 023106  |  # of  fields: 1  |  topic_id: 355
+
+login  |  time: 2016-04-14 00:12:24 424032
+
+topic/create  |  time: 2016-04-14 11:08:00 003785  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 362  |  topic_name:  r naught
+
+topic/select  |  time: 2016-04-14 11:08:00 109136  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught
+
+subtopic/create  |  time: 2016-04-14 11:09:58 264599  |  # of fields: 4  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught
+
+passage/create  |  time: 2016-04-14 11:10:10 532337  |  # of fields: 6  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught  |  passage_id: 703  |  passage_name:  Ebola, in its present form, has an R naught of only 1-2. That number is very low, because Ebola is not transmitted either through the air or even through droplets, like measles or the flu. To contract Ebola, you need to be in direct physical contact, with a visibly symptomatic carrier, and even then the virus cannot pass through healthy skin but has to enter through the mouth, eyes, cuts, etc.  But that’s still a positive number, if a low one, and that means the disease spreads. But the one thing that we need to keep in mind is that the existing reproductive rate of 1-2 for Ebola is artificially much, much higher than it would be here in America, because it is derived from conditions in Central and now West Africa, where sanitary conditions are appalling and effective isolation virtually impossible. Ebola’s relatively low infection index is as high as it is almost exclusively because of burial customs in African culture, where tradition dictates that relatives wash the blood off the infected bodies by hand – blood that in the case of Ebola is extremely contagious, and there are not a lot a lot of rubber gloves or surgical masts in West Africa.  ::8acac54f9cbac04a27a4e62e203c92f0::ACKNOWLEDGED 8acac54f9cbac04a27a4e62e203c92f0  
+
+passage/grade  |  time: 2016-04-14 11:10:28 264145  |  # of fields: 2  |  passage_id: 703  |  score: 3::cfac946152b1946703bd6c63011a9f9e::ACKNOWLEDGED cfac946152b1946703bd6c63011a9f9e
+
+
+
+duplicate doc  |  time: 2016-04-14 11:11:01 382164  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-9df09c4f686182d61ad70820ae1cc368050e1d67cfc23822ee5e944c6c83c3be::bb273b8edcf35e058588d4383fb92f85::ACKNOWLEDGED bb273b8edcf35e058588d4383fb92f85
+
+
+
+duplicate doc  |  time: 2016-04-14 11:11:07 534541  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-4e0e0d63c96cfe72d88b1a6b55b04c347be9ca3ef540fe16358ceac35d3f09ab::0288bcb1a3be4e80f378a7971337d7de::ACKNOWLEDGED 0288bcb1a3be4e80f378a7971337d7de
+
+
+
+passage/create  |  time: 2016-04-14 11:13:00 475555  |  # of fields: 6  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught  |  passage_id: 709  |  passage_name:  An illnesses' rate of infection is expressed as the "R-naught", or R-0. This is the measure of how many people a single infected person will themselves infect. An R-0 of 1 means each person with the illness will infect one more person. An R-0 less than one means an illness will die out as it is unable to infect new patients as fast as existing patients are cured or die. An R-0 larger than one means an illness means the illness will naturally spread. The current Ebola has an initial estimated R-0 of 2. To put that into perspective, Measles has an R-naught of 12-18. Smallpox and Polio are 6. Flu is between 2 and 3. So the current Ebola is slightly less infective than the season flu, although obviously the consequences of infection are more severe.  ::eb0a9546d887e4f4a3de5cb6ebbd645a::ACKNOWLEDGED eb0a9546d887e4f4a3de5cb6ebbd645a  
+
+passage/grade  |  time: 2016-04-14 11:13:13 353196  |  # of fields: 2  |  passage_id: 709  |  score: 3::db8d9805c8295c2e2774ac9fbb54b727::ACKNOWLEDGED db8d9805c8295c2e2774ac9fbb54b727
+
+
+
+passage/create  |  time: 2016-04-14 11:18:05 633741  |  # of fields: 6  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught  |  passage_id: 726  |  passage_name:  Scientists have measurement that they use to describe how contagious a pathogen is. It's called the R0 or R-Naught number. The R-Naught for the flu is 1.3 on average. The R-Naught for this current Ebola outbreak has been estimated to stand at around 1.7 (though some estimates put the number high as 2).  ::3a53016f12ac2571f830f0c9e0769f27::ACKNOWLEDGED 3a53016f12ac2571f830f0c9e0769f27  
+
+passage/grade  |  time: 2016-04-14 11:18:12 591007  |  # of fields: 2  |  passage_id: 726  |  score: 3::8085926d277fc05785777b6a531db517::ACKNOWLEDGED 8085926d277fc05785777b6a531db517
+
+
+
+passage/create  |  time: 2016-04-14 11:18:40 781318  |  # of fields: 6  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught  |  passage_id: 730  |  passage_name:  The reality of the matter is that even with Ebola the strength of your immune system is a variable, your personal hygiene and sanitation are variables, your age is a variable, even your genetic makeup plays a role.  ::969c4ec017f6bf3d69b9aa1913e73bbb::ACKNOWLEDGED 969c4ec017f6bf3d69b9aa1913e73bbb  
+
+passage/grade  |  time: 2016-04-14 11:18:46 438254  |  # of fields: 2  |  passage_id: 730  |  score: 2::eddbeac728b3fd5d19185db584f394a8::ACKNOWLEDGED eddbeac728b3fd5d19185db584f394a8
+
+
+
+passage/create  |  time: 2016-04-14 11:19:29 095869  |  # of fields: 6  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught  |  passage_id: 733  |  passage_name:  Ebola's mortality rate as a percentage of total infections is many hundreds of times higher than the flu (we'll show you how much higher later in this presentation). The only reason the flu has killed more people than Ebola (so far) is because the flu is already endemic. The flu is firmly established all over the globe, while Ebola has historically been limited to tiny regional outbreaks that burn themselves out in a matter of weeks or months.  This outbreak in west Africa has broken that precedent. It's not burning itself out like a grass fire and containment methods that worked before are no longer working. Why?::10954ef8ba7ed9ff9144cf3fc58dd7ce::ACKNOWLEDGED 10954ef8ba7ed9ff9144cf3fc58dd7ce  
+
+passage/grade  |  time: 2016-04-14 11:19:43 014024  |  # of fields: 2  |  passage_id: 733  |  score: 3::6e98953f2f76a984200050841b8b23e2::ACKNOWLEDGED 6e98953f2f76a984200050841b8b23e2
+
+
+
+passage/create  |  time: 2016-04-14 11:21:10 675702  |  # of fields: 6  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught  |  passage_id: 739  |  passage_name:  This is the so-called Reproductive Ratio, the rate at which the virus passes from infected person to the next. Known as R0, or "R-naught", this is a basic measure of its infectivity. Ebola's current R0 value is between 1.7 and 2.0, which means that every ten people who become infected will probably pass the virus onto another 17-20 people before they either die or fight the virus off. The R0 value varies in different areas of west Africa, and is typically highest in places where health education messages have either not reached the community or are being ignored.  Luckily, Ebola's RO measure is actually relatively low compared to some other illnesses. Measles - a far more infectious disease - has an R0 value about 18, while a common cold has an R0 value of between two and three. This reflects the fact that while Ebola is highly lethal when it infects someone - at least 40 per cent of people usually die - the virus is actually quite poor at "host to host" transmission. Rather than being airborne, like the common cold, it is passed on only by bodily fluids, and even then, detergents such as chlorine or hand sanitiser will kill it off.  ::3820b4c7432884719c8932e59190eaf1::ACKNOWLEDGED 3820b4c7432884719c8932e59190eaf1  
+
+passage/grade  |  time: 2016-04-14 11:21:15 260574  |  # of fields: 2  |  passage_id: 739  |  score: 4::9ffb1db7d24b0ec083461bbfc74d0bf2::ACKNOWLEDGED 9ffb1db7d24b0ec083461bbfc74d0bf2
+
+
+
+passage/create  |  time: 2016-04-14 11:25:07 045187  |  # of fields: 6  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught  |  passage_id: 746  |  passage_name:  This virus is likely to keep spreading within Africa before this is over and those countries already affected are in it for the long haul. They face the very real possibility of rapid depletion of resources and the death toll will keep rising. But it also means that, as I said in my first post, this virus won't cause real problems outside of Africa, and it certainly won't cause a pandemic. Those suffering with Ebola infection generally don't have the resources for international travel. Those that do are unlikely to get on a plane while symptomatic; the symptoms of Ebola are debilitating. Even if a few people travel internationally and then come down with symptoms, most other countries will be able to contain it. Especially since it's now on our radar::d8d0c0d920365da101497f13a0d1e7bd::ACKNOWLEDGED d8d0c0d920365da101497f13a0d1e7bd  
+
+passage/grade  |  time: 2016-04-14 11:25:21 982422  |  # of fields: 2  |  passage_id: 746  |  score: 2::8b290e030f548ed0e9fb95edec497963::ACKNOWLEDGED 8b290e030f548ed0e9fb95edec497963
+
+
+
+duplicate doc  |  time: 2016-04-14 11:25:32 900974  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-226c14e4369fc8fe446c3a9625621acf8347b7b42c428ec977a15c9bf481931c::68cedcb1184226d40a0dcce27818f262::ACKNOWLEDGED 68cedcb1184226d40a0dcce27818f262
+
+
+
+duplicate doc  |  time: 2016-04-14 11:26:17 296336  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-60eff3a9ef6d57e43059f5b05e2e538187bb656f164653cb80f88327dbdf1adb::71ce3d9a68a5aad51f3747a356502c33::ACKNOWLEDGED 71ce3d9a68a5aad51f3747a356502c33
+
+
+
+passage/create  |  time: 2016-04-14 11:27:45 108424  |  # of fields: 6  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught  |  passage_id: 754  |  passage_name:  The approximate rate of spread of EVD right now has the total number of cases doubling roughly every 21 days. Each infected individual is estimated to infect 1.44 to 2.26 further individuals (the number varies depending on country). This figure is known as the basic reproductive rate, or R0 (pronounced R-naught). In order for the rate of spread to be reversed and the outbreak to be brought under control, the R0 needs to drop below one. In the absence of a vaccine, the most effective way to achieve this is to remove infected people from the community, and treat them in a setting that utilises PPE and infection control to limit potential spread.  ::fb428cb60a58888fb585675b6cbc412d::ACKNOWLEDGED fb428cb60a58888fb585675b6cbc412d  
+
+passage/grade  |  time: 2016-04-14 11:27:55 249487  |  # of fields: 2  |  passage_id: 754  |  score: 3::6906e993019fe7faa37549f82bcb6626::ACKNOWLEDGED 6906e993019fe7faa37549f82bcb6626
+
+
+
+passage/create  |  time: 2016-04-14 11:29:47 539804  |  # of fields: 6  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught  |  passage_id: 759  |  passage_name:  In order to reverse the trend of upward infection growth, you need to have facilities capable of containing at least 70% of infected individuals.  Why 70%?  In a hypothetical scenario, the epidemic begins to decrease and eventually end if approximately 70% of persons with Ebola are in medical care facilities or Ebolatreatment units (ETUs) or, when these settings are at capacity, in a non-ETU setting such that there is a reduced risk for disease transmission (including safe burial when needed)  To simplify, take a situation where the R0 is 2.0, you have 1000 infected individuals, and you have 700 beds available. That will take 70% of patients out of the community, and (on the assumption that infection controls are effectively maintained) prevent them passing on the infection.  The remaining 300 individuals you are unable to quarantine will then go on, statistically, to infect 600 people (300 patients, R0 of 2, 600 new infections).  In this scenario, the next generation of infected patients numbers less than the previous one - the rate of infection is in decline. If you have 700 beds, there are now also more beds than infected people, allowing all infected people to enter a healthcare environment and prevent wild transmission in the community.  ::44e9269cb4b27461475ea452371b4a37::ACKNOWLEDGED 44e9269cb4b27461475ea452371b4a37  
+
+passage/grade  |  time: 2016-04-14 11:30:20 837188  |  # of fields: 2  |  passage_id: 733  |  score: 2::91ffa4cbeffd312234563ba1430ff51e::ACKNOWLEDGED 91ffa4cbeffd312234563ba1430ff51e
+
+
+
+passage/grade  |  time: 2016-04-14 11:30:45 443918  |  # of fields: 2  |  passage_id: 759  |  score: 4::53c9d6853ff047116f9202a1af370e48::ACKNOWLEDGED 53c9d6853ff047116f9202a1af370e48
+
+
+
+irrelevant doc  |  time: 2016-04-14 11:31:56 512329  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-6042884c7afb350492f4d544ebc970878bcea0403a23e42603a8d9fd456e3bcf::36af2d7e8b01ade47f0d6b1d631de8de::ACKNOWLEDGED 36af2d7e8b01ade47f0d6b1d631de8de
+
+
+
+passage/create  |  time: 2016-04-14 11:35:32 509110  |  # of fields: 6  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught  |  passage_id: 766  |  passage_name:  In the current epidemic in West Africa, the number of people towhom each infected person passes the contagion on to is estimatedto bearound 2. In other words, each person ill with Ebola is nowinfecting 2 people. To control an epidemic, the reproduction numbermust fall below 1, at which point ever fewer people becomeinfected. In order to drive the reproduction number below 1 in WestAfrica, it is estimated that 70 percent of infected people must bequarantined.  ::cad0018a5308355842813030fcb158e4::ACKNOWLEDGED cad0018a5308355842813030fcb158e4  
+
+passage/grade  |  time: 2016-04-14 11:35:57 856521  |  # of fields: 2  |  passage_id: 766  |  score: 2::b139626dc107ab1478b6dcd5350c0526::ACKNOWLEDGED b139626dc107ab1478b6dcd5350c0526
+
+
+
+passage/grade  |  time: 2016-04-14 11:37:18 858110  |  # of fields: 2  |  passage_id: 766  |  score: 3::391635352abdb48a1c03fc7f12df37b9::ACKNOWLEDGED 391635352abdb48a1c03fc7f12df37b9
+
+
+
+passage/create  |  time: 2016-04-14 11:37:32 869002  |  # of fields: 6  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught  |  passage_id: 767  |  passage_name:  Bear in mind that in unvaccinated and uninfected populations,the effective reproductionnumber for measles, whooping cough, smallpox, and polio isestimated to be between 12-18, 12-17, 5-7, and 5-7 peoplerespectively::18fde1e6c00e4762fcf47926d90109da::ACKNOWLEDGED 18fde1e6c00e4762fcf47926d90109da  
+
+passage/grade  |  time: 2016-04-14 11:37:35 178865  |  # of fields: 2  |  passage_id: 767  |  score: 2::bd9428e002f306907c625a35f57da26c::ACKNOWLEDGED bd9428e002f306907c625a35f57da26c
+
+
+
+duplicate doc  |  time: 2016-04-14 11:38:04 931418  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-481cf5ed21461587add801257906cdf6eb6270b969e7432f99cb73a436f01146::de2c4ba8453cd36d0235a948e27f9780::ACKNOWLEDGED de2c4ba8453cd36d0235a948e27f9780
+
+
+
+passage/create  |  time: 2016-04-14 11:39:21 946685  |  # of fields: 6  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught  |  passage_id: 774  |  passage_name:  It is very interesting to note that Ebola has a higher R-naught value than the common flu virus indicating that it has a far greater potential to spread. In theory Ebola is only restrained by its generation/incubation time and possibly its methods of transmission. Ebola poses a very real threat considering the high mortality rate and lack of effective treatments available in the event of rapid transmission. Isolation is a significant part of combating the virus since its R0 drops to around 0.13 once a patient has been quarantined.           ::02b7785fdcc1c5d682352597cf47f7e0::ACKNOWLEDGED 02b7785fdcc1c5d682352597cf47f7e0  
+
+passage/grade  |  time: 2016-04-14 11:40:06 446151  |  # of fields: 2  |  passage_id: 774  |  score: 3::2e078e64123dd7da62392a68756e6776::ACKNOWLEDGED 2e078e64123dd7da62392a68756e6776
+
+
+
+passage/create  |  time: 2016-04-14 11:42:32 025743  |  # of fields: 6  |  topic_id: 362  |  topic_name: r naught  |  subtopic_id: 72  |  subtopic_name: r naught  |  passage_id: 777  |  passage_name:  Despite its horrifying symptoms, Ebola actually has fairly low contagiousness in the scheme of things. Its R0 value (said “R-naught”) is just two, meaning that during an average outbreak an average diseased person will infect two other people before either dying or beating the disease. That might sound alarming, but notice that many other diseases have much higher R0 values — SARS has an R0 value of 4, Measles of 18. Ebola is actually quite inept at host-to-host transmission, as unlike most virulent diseases it is not contagious until the infected start showing visible symptoms.  This makes disease carriers immobile and simple to spot; in theory, it ought to be easy to avoid new infections. While there is no cure for Ebola, quarantine does work at ending new infections — and thanks to the digital age, it’s never been easier to track interactions.  ::43f102b647923a56fec85ef24e58fa4c::ACKNOWLEDGED 43f102b647923a56fec85ef24e58fa4c  
+
+passage/grade  |  time: 2016-04-14 11:42:36 470267  |  # of fields: 2  |  passage_id: 777  |  score: 3::cdc57c299461f8dd4af0ba9103619843::ACKNOWLEDGED cdc57c299461f8dd4af0ba9103619843
+
+
+
+duplicate doc  |  time: 2016-04-14 11:44:22 965556  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-65e955622a0a909c64dc2769b7207b47d852a2a2bd4e56e411a6d3650e46a5d0::d0086fbd20f1e5c0a04faa931d916b89::ACKNOWLEDGED d0086fbd20f1e5c0a04faa931d916b89
+
+
+
+irrelevant doc  |  time: 2016-04-14 11:44:46 483650  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-79a56b2f3da79554273cc0f8f6c6c3d8be773f8b7a1fa5131038d458e258231e::affc62946cb0bb9d9db6e41fd66ec7b9::ACKNOWLEDGED affc62946cb0bb9d9db6e41fd66ec7b9
+
+
+
+irrelevant doc  |  time: 2016-04-14 11:45:43 636949  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-eda4d6111918b1d954c7d2704579cd0819d67f73726293336e7f2f52f290dee9::95d454bdb520298614230fea3c857bce::ACKNOWLEDGED 95d454bdb520298614230fea3c857bce
+
+
+
+irrelevant doc  |  time: 2016-04-14 11:45:48 317016  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-3f29a58a0243c6a2b1cb24eb9dfe57c162bf37887b58e95a5042863fbfba79de::de20b4f1087721c206c2e7b31e115d8f::ACKNOWLEDGED de20b4f1087721c206c2e7b31e115d8f
+
+
+
+irrelevant doc  |  time: 2016-04-14 11:50:54 763138  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-31dd14e31c855e8410ba0fd4910bbb0b21f673866568cb7bf6e2aff091125566::f163aa5de55e7d3573766e1b7aa70cf2::ACKNOWLEDGED f163aa5de55e7d3573766e1b7aa70cf2
+
+
+
+irrelevant doc  |  time: 2016-04-14 11:51:14 833055  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-ecccfbfc6f3f337fc36db3bb3a8f15be191c5c63349e8bd278acb1e8c244b836::5fd8ce5ece6b603c771500f3c76a2da4::ACKNOWLEDGED 5fd8ce5ece6b603c771500f3c76a2da4
+
+
+
+irrelevant doc  |  time: 2016-04-14 11:51:17 655161  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-3c60617f78341de9647408e2e28bebf6aa3f39df07b5f53ddcf9b183844275db::d67a4c7afd40eb71ead7507c2d6fb6b6::ACKNOWLEDGED d67a4c7afd40eb71ead7507c2d6fb6b6
+
+
+
+irrelevant doc  |  time: 2016-04-14 11:51:35 154764  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-81108fa47f59f8f9894685e2a3f7cca0e26eacac1a29fe30dd3d547757e6d62a::1877a70985f09b2c469cc4772e03d765::ACKNOWLEDGED 1877a70985f09b2c469cc4772e03d765
+
+
+
+irrelevant doc  |  time: 2016-04-14 11:53:07 136336  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-26a5e117eba522e791272a5e9891eeb0df5ee3806fd60b89d0ba06ae3a087cdb::6df242824015e4bd631b60cd9cb5323e::ACKNOWLEDGED 6df242824015e4bd631b60cd9cb5323e
+
+
+
+irrelevant doc  |  time: 2016-04-14 11:55:17 286592  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-06c7acd8aa75581868cc1129490e9eceac033df4d68dbd958ec55c73876e04e3::cebfb58ac20d7f1ab5e464317335ef39::ACKNOWLEDGED cebfb58ac20d7f1ab5e464317335ef39
+
+
+
+irrelevant doc  |  time: 2016-04-14 11:55:54 154765  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-3bccd2259470b8fbf996812a8c3e54721bd41dbefb5671a061f31a5934df8f90::246a385b6f8003c193bc4fedf97de682::ACKNOWLEDGED 246a385b6f8003c193bc4fedf97de682
+
+
+
+duplicate doc  |  time: 2016-04-14 11:56:28 205301  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-0b503c4053b5810acca56646a46ee12e0cf7cf3746d160cb198918caa9087917::44343cf77e2755c032d3ec9943234b04::ACKNOWLEDGED 44343cf77e2755c032d3ec9943234b04
+
+
+
+duplicate doc  |  time: 2016-04-14 11:56:48 848542  |  # of fields: 2  |  topic_id: 362  |  topic_name: r naught  |  docno: ebola-b2f8961e94e5077474973e8e70eeb401331ab55976b3c31643f29d5980597367::42a2080ac5b058e6a80f6f73543709f9::ACKNOWLEDGED 42a2080ac5b058e6a80f6f73543709f9
+
+
+
+subtopic/delete  |  time: 2016-04-14 12:28:40 029701  |  # of fields: 2  |  subtopic_id: 72  |  subtopic_name: r naught
+
+topic/select  |  time: 2016-04-14 12:28:47 366461  |  # of fields: 2  |  topic_id: 355  |  topic_name: guinea
+
+topic/edit  |  time: 2016-04-14 13:04:20 876100  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 355  |  newtopic_name:  cruise lines
+
+irrelevant doc  |  time: 2016-04-14 13:06:18 423859  |  # of fields: 2  |  topic_id: 355  |  topic_name: cruise lines  |  docno: ebola-c97f05f3efec3f90446c3720f6a5599bbef3b1aaa217f801d19c556deb0ef367::25535842f1c6b823f7dcaa1d603266d0::ACKNOWLEDGED 25535842f1c6b823f7dcaa1d603266d0
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:06:18 624418  |  # of fields: 2  |  topic_id: 355  |  topic_name: cruise lines  |  docno: ebola-c97f05f3efec3f90446c3720f6a5599bbef3b1aaa217f801d19c556deb0ef367::25535842f1c6b823f7dcaa1d603266d0::ACKNOWLEDGED 25535842f1c6b823f7dcaa1d603266d0
+
+
+
+topic/select  |  time: 2016-04-14 13:18:04 355958  |  # of fields: 2  |  topic_id: 4  |  topic_name: 
+
+irrelevant doc  |  time: 2016-04-14 13:26:56 941037  |  # of fields: 2  |  topic_id: 355  |  topic_name: cruise lines  |  docno: ebola-ebd168b9f462a2cedc92910e271f0fe80e5586cf803732842bf521e9588474d1::60d0b57a6ad4fc40f55d512b9c6179dc::ACKNOWLEDGED 60d0b57a6ad4fc40f55d512b9c6179dc
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:26:58 497268  |  # of fields: 2  |  topic_id: 355  |  topic_name: cruise lines  |  docno: ebola-be5965dd5450cfbd7bb0d4e934fbcf55baf510d2046bd3e6db0c00b7bade6811::388b020025381d2334e5723b6b886c2d::ACKNOWLEDGED 388b020025381d2334e5723b6b886c2d
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:28:04 340814  |  # of fields: 2  |  topic_id: 355  |  topic_name: cruise lines  |  docno: ebola-1aba8b7741cd3dad913aa315da070bfc2628752754c9cc1816ec2702c2be312d::c999185534ce78d4dd34286183c9a860::ACKNOWLEDGED c999185534ce78d4dd34286183c9a860
+
+
+
+duplicate doc  |  time: 2016-04-14 13:28:24 939476  |  # of fields: 2  |  topic_id: 355  |  topic_name: cruise lines  |  docno: ebola-c1b823113ccfda9d1b2931cd56b36b0e7f8fcd0e95c0397e52af6272a0358d44::4a5fac09cb95325606eb111aaca6bfb1::ACKNOWLEDGED 4a5fac09cb95325606eb111aaca6bfb1
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:29:49 300734  |  # of fields: 2  |  topic_id: 355  |  topic_name: cruise lines  |  docno: ebola-343d30280fb0e38703121f27e5f782f2c848b1e28d917c87902b1615520f242a::2c256aeff2d6e1143aae10a1d51ac5b1::ACKNOWLEDGED 2c256aeff2d6e1143aae10a1d51ac5b1
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:30:12 549897  |  # of fields: 2  |  topic_id: 355  |  topic_name: cruise lines  |  docno: ebola-f54baa027af09327ccca3f19578ae40a33e88d25626f83a700397d632d27a776::6b86f4f45491a0c00c698cf23e382b3e::ACKNOWLEDGED 6b86f4f45491a0c00c698cf23e382b3e
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:31:18 963167  |  # of fields: 2  |  topic_id: 355  |  topic_name: cruise lines  |  docno: ebola-c5ae45941f1b0d822fa34e05854ab36763a417606f0bd43c6727a67c02b5ccb3::e65758db4f1652417fc942fc2ea08697::ACKNOWLEDGED e65758db4f1652417fc942fc2ea08697
+
+
+
+topic/create  |  time: 2016-04-14 13:32:32 121117  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 365  |  topic_name:  red cross
+
+topic/select  |  time: 2016-04-14 13:32:32 410676  |  # of fields: 2  |  topic_id: 365  |  topic_name: red cross
+
+topic/edit  |  time: 2016-04-14 13:59:24 735234  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 365  |  newtopic_name:  bats
+
+login  |  time: 2016-04-15 07:36:22 918174
+
+topic/create  |  time: 2016-04-15 07:38:01 477703  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 369  |  topic_name:  robots
+
+topic/select  |  time: 2016-04-15 07:38:01 585407  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots
+
+subtopic/create  |  time: 2016-04-15 07:42:18 298429  |  # of fields: 4  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots
+
+passage/create  |  time: 2016-04-15 07:42:27 062707  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1025  |  passage_name:  Mortuary robots to respectfully transport the deceased, as ebola is most virulent at the time of death and immediately following death Reducing the number of health professionals within the biosafety labs and field hospitals (e.g., automated materials handling, tele robotics patient care) Detection of contamination (e.g., does this hospital room, ambulance or house have ebola) Disinfection (e.g., robots that can open the drawers and doors for the commercially available “little Moe” disinfectant robot) Telepresence robots for experts to consult/advise on medical issues, train and supervise worker decontamination to catch accidental self-contamination, and serve as “rolling interpreters” for the different languages and dialects Physical security for the workers (e.g., the food riots in Sierre Leone) Waste handling (e.g., where are all the biowaste from patients and worker suits going and how is it getting there?) Humanitarian relief (e.g., autonomous food trucks, UAVs that can drop off food, water, medicine, but also “regular” medicine for diabetes, etc., for people who are healthy but cut off) Reconnaissance (e.g., what’s happening in this village? Any signs of illness? Are people fleeing?) ::e02b54ebb744a1451a51ab0c7f4ed8c7::ACKNOWLEDGED e02b54ebb744a1451a51ab0c7f4ed8c7  
+
+passage/grade  |  time: 2016-04-15 07:42:31 613614  |  # of fields: 2  |  passage_id: 1025  |  score: 4::d4b74399ebf538b356396a6ea39c3b9a::ACKNOWLEDGED d4b74399ebf538b356396a6ea39c3b9a
+
+
+
+passage/create  |  time: 2016-04-15 07:44:50 710645  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1026  |  passage_name:  On the surface, of course, handing over the dirty work of cleaning up after an Ebola outbreak to the robots sounds like a no-brainer. Instead of putting humans into harm’s way, why not just send in a robot? Robots can’t develop symptoms from Ebola, they are relatively easy to disinfect (except for their wheels), they dutifully carry out tasks without talking back and they can dispose of hazardous waste efficiently.  ::93e4b46d01448517d380676b78af554f::ACKNOWLEDGED 93e4b46d01448517d380676b78af554f  
+
+passage/grade  |  time: 2016-04-15 07:44:56 213882  |  # of fields: 2  |  passage_id: 1026  |  score: 3::c1cafa7914476476f4282a0e7c6b45dd::ACKNOWLEDGED c1cafa7914476476f4282a0e7c6b45dd
+
+
+
+passage/create  |  time: 2016-04-15 07:47:12 089425  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1027  |  passage_name:  Clinical:  Clinical applications are where robots are used in the ETU as a “force multiplier” (another way of saying “reducing manpower”) by taking over some of the activities that health workers do or as adding reliability by coaching or supervising activities. Ignoring for a moment the cultural appropriateness and other adoption issues, robots could enable::9d37efed345a2dd95aea6c80bd5a038d::ACKNOWLEDGED 9d37efed345a2dd95aea6c80bd5a038d  
+
+passage/grade  |  time: 2016-04-15 07:47:19 708292  |  # of fields: 2  |  passage_id: 1027  |  score: 3::6073992285101aa7181630a5a03f4253::ACKNOWLEDGED 6073992285101aa7181630a5a03f4253
+
+
+
+duplicate doc  |  time: 2016-04-15 07:48:19 345622  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-f8d2bf481396b361bd34e0f21a7520736d12a5d3ed1054461eb4327c49ecb39c::c8b836f1ebb4992bcf4d2416c4276e19::ACKNOWLEDGED c8b836f1ebb4992bcf4d2416c4276e19
+
+
+
+irrelevant doc  |  time: 2016-04-15 07:49:14 876569  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-08c761704a2f61abb529447905e79a2370b6cc5c9e880363644002d8cdd18651::de6a02700d54fd0d5ce44d0775633b00::ACKNOWLEDGED de6a02700d54fd0d5ce44d0775633b00
+
+
+
+irrelevant doc  |  time: 2016-04-15 07:49:54 677875  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-45815f30f5903d217d72b3d30b4ec2fec6bb4f306187101a0cf0f6d7e8f83f8f::8bbdcf9f98f67486fab0050363d58785::ACKNOWLEDGED 8bbdcf9f98f67486fab0050363d58785
+
+
+
+duplicate doc  |  time: 2016-04-15 07:50:18 535026  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-513825373b7eaa6aa279373df8e7883da51ca4884b506fbe03fc4958e042bc13::aee1069153f012cb666f5d987b3b59f0::ACKNOWLEDGED aee1069153f012cb666f5d987b3b59f0
+
+
+
+duplicate doc  |  time: 2016-04-15 07:51:17 873798  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-6cebb66f16bef7613861d6ce5b5b4fa6cc3b41dbc9f9c404cc1a3aac02bc4670::02d41f578020298196da5d56805ca5fb::ACKNOWLEDGED 02d41f578020298196da5d56805ca5fb
+
+
+
+duplicate doc  |  time: 2016-04-15 07:51:28 673336  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-c83662695110ffcc0bafc0d7b7cf840a17806fd7d90d4b9bc75e96053606384b::118ed7429821be303abd931ad652d60a::ACKNOWLEDGED 118ed7429821be303abd931ad652d60a
+
+
+
+passage/create  |  time: 2016-04-15 07:52:28 817857  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1029  |  passage_name:  .  "We are trying to identify the technologies that can help human workers minimize their contact with Ebola," Padir said. "Whatever technology we deploy, there will be a human in the loop. We are not trying to replace human caregivers. We are trying to minimize contact."  ::293fcf2a7020c08ad7f42992d8b01c20::ACKNOWLEDGED 293fcf2a7020c08ad7f42992d8b01c20  
+
+passage/grade  |  time: 2016-04-15 07:52:32 326199  |  # of fields: 2  |  passage_id: 1029  |  score: 2::d0207dabef2839bd3c3b869e92dfc2e5::ACKNOWLEDGED d0207dabef2839bd3c3b869e92dfc2e5
+
+
+
+passage/create  |  time: 2016-04-15 07:57:07 788181  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1031  |  passage_name:  One of the reasons that aid workers are at such high risk in outbreak areas is that people infected with Ebola are the most contagious at the time of death and for a few days after. Using a robot to help move and bury the bodies would help protect workers and prevent further spread of the disease.  However, building a robot that could safely and reliably do the job, while being respectful of the remains and the victims' families, is a challenger.  "::ff76b1ed2145e0fa47de02d8131ae502::ACKNOWLEDGED ff76b1ed2145e0fa47de02d8131ae502  
+
+passage/grade  |  time: 2016-04-15 07:57:16 821805  |  # of fields: 2  |  passage_id: 1031  |  score: 3::f02ff8aeaa7a0c81307108920e7ea26e::ACKNOWLEDGED f02ff8aeaa7a0c81307108920e7ea26e
+
+
+
+passage/create  |  time: 2016-04-15 07:57:48 337867  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1032  |  passage_name:  .  "Robots scooping up people is pretty difficult to do in a dignified way and to do it reliably," Murphy said. "But handling infected bodies is really bad… It's an interesting concept but it's not just about getting the technology right. We have to get a lot of things right."  ::92b901df75be0a97a4684e23bc11496f::ACKNOWLEDGED 92b901df75be0a97a4684e23bc11496f  
+
+passage/grade  |  time: 2016-04-15 07:57:55 791433  |  # of fields: 2  |  passage_id: 1032  |  score: 2::72b694ea4e75cc1b762ba0d6b1cb2d16::ACKNOWLEDGED 72b694ea4e75cc1b762ba0d6b1cb2d16
+
+
+
+duplicate doc  |  time: 2016-04-15 07:58:18 975958  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-44c0c294272880152385163db8404fa606fe67e92302f7a64d67da91fd3e665d::dd262a274707a2f7de89c6975dc5f0a6::ACKNOWLEDGED dd262a274707a2f7de89c6975dc5f0a6
+
+
+
+duplicate doc  |  time: 2016-04-15 07:58:55 608949  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-ddc1ee5f98ad288546fd31b2d1564425a46da92970b031fa11c794e9b4a13100::2aab779f56e90f8e001cacb3434fd056::ACKNOWLEDGED 2aab779f56e90f8e001cacb3434fd056
+
+
+
+passage/create  |  time: 2016-04-15 08:00:26 362620  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1037  |  passage_name:  DARPA, the Pentagons mad science department, is developing those humanoid bots through the DARPA Robotics Challenge, or DRC. Program manager Gill Pratt launched the DRC in response to another disaster, the triple meltdown of the Fukushima nuclear power plant in Japan in 2011.  According to Pratt, both the ongoing Fukushima crisis and the Ebola outbreak point to a big gap between what we wish robots could do and what they actually can do. The machines competing in the DRC may look like a capable, even deadly, bunch, but theyre just babies when it comes to doing things for themselves, which is the whole point of disaster robots. Ultimately, you want machines that can do what a human could do, and also could enter highly radioactive or contaminated areas.  ::73175eff87cdacd19558258f3b266720::ACKNOWLEDGED 73175eff87cdacd19558258f3b266720  
+
+passage/grade  |  time: 2016-04-15 08:00:35 179171  |  # of fields: 2  |  passage_id: 1037  |  score: 2::1edf71c3a46f998418d12b4ed074b590::ACKNOWLEDGED 1edf71c3a46f998418d12b4ed074b590
+
+
+
+duplicate doc  |  time: 2016-04-15 08:01:17 321777  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-fd8b0509ac164d298e62e5c8e662095632c0ff53923604ef6465549346475d84::ecffa13adc4da27c0a15216387c77557::ACKNOWLEDGED ecffa13adc4da27c0a15216387c77557
+
+
+
+passage/create  |  time: 2016-04-15 08:02:17 895077  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1040  |  passage_name:  Robots have been working in disaster zones since 9/11. They can reach remote and dangerous locations and operate in places people can't go, including the rubble of the Fukushima nuclear power plant.  ::1e4f89e106ce0ec92263c711ab59c7e3::ACKNOWLEDGED 1e4f89e106ce0ec92263c711ab59c7e3  
+
+passage/grade  |  time: 2016-04-15 08:02:20 538574  |  # of fields: 2  |  passage_id: 1040  |  score: 2::a88513e716b860a1fa73d1da1590212d::ACKNOWLEDGED a88513e716b860a1fa73d1da1590212d
+
+
+
+passage/create  |  time: 2016-04-15 08:02:55 639247  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1043  |  passage_name:   "Ebola doesn't spread through air, so if you can tele-operate a robot from just outside it reduces the risk to the workers."  ::bc04172c7ab6876986857b53c9db4af8::ACKNOWLEDGED bc04172c7ab6876986857b53c9db4af8  
+
+passage/grade  |  time: 2016-04-15 08:02:59 292331  |  # of fields: 2  |  passage_id: 1043  |  score: 2::9c834b358c3ce930c3453a5f7b9d777b::ACKNOWLEDGED 9c834b358c3ce930c3453a5f7b9d777b
+
+
+
+subtopic/create  |  time: 2016-04-15 08:03:48 845447  |  # of fields: 4  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 101  |  subtopic_name: telepresence
+
+passage/create  |  time: 2016-04-15 08:04:05 206227  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 101  |  subtopic_name: telepresence  |  passage_id: 1044  |  passage_name:  The use of robots for telepresence - which uses a technique to let someone based elsewhere seem as if they are present by showing their face on a screen, using speakers and microphones for conversations, and/or mirroring their body movements - offers a solution::90712eacc640f0526cece31e7c71733f::ACKNOWLEDGED 90712eacc640f0526cece31e7c71733f  
+
+passage/grade  |  time: 2016-04-15 08:04:08 956700  |  # of fields: 2  |  passage_id: 1044  |  score: 3::8642121d65f07ff90d6d9ae78815d98a::ACKNOWLEDGED 8642121d65f07ff90d6d9ae78815d98a
+
+
+
+passage/create  |  time: 2016-04-15 08:05:24 045262  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1045  |  passage_name:  The White House workshop will also discuss if people would accept help from robots during an outbreak.  Ebola can spread during the burial process, so the teams want to know if burial robots would be accepted by local communities to transport the deceased.  ::d55189c19c33c24aaa9ddc7983db2741::ACKNOWLEDGED d55189c19c33c24aaa9ddc7983db2741  
+
+passage/grade  |  time: 2016-04-15 08:05:29 599597  |  # of fields: 2  |  passage_id: 1045  |  score: 2::5fb5f6f4a8348b3595bc7c4ce4d99b28::ACKNOWLEDGED 5fb5f6f4a8348b3595bc7c4ce4d99b28
+
+
+
+passage/create  |  time: 2016-04-15 08:06:59 927853  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 101  |  subtopic_name: telepresence  |  passage_id: 1046  |  passage_name:  First, telepresence robots, with cameras and screens that allow doctors to remotely communicate and get a visual read of patients, could be useful in the diagnosis phase.::b69fe218d8d136031976d38da1ca0597::ACKNOWLEDGED b69fe218d8d136031976d38da1ca0597  
+
+passage/grade  |  time: 2016-04-15 08:07:23 987509  |  # of fields: 2  |  passage_id: 1046  |  score: 3::4b944c188034722a398374c0ef1cb52d::ACKNOWLEDGED 4b944c188034722a398374c0ef1cb52d
+
+
+
+passage/create  |  time: 2016-04-15 08:08:36 342237  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1047  |  passage_name:  Goldberg also sees robots being helpful in the near term with clean up and decontamination. But there's one major obstacle to overcome: most robots have wheels that would immediately get contaminated.  Goldberg explained, "We don't know, actually, how to sterilize them. There's too many intricate, moving parts. So essentially, you'd have to throw the robot out afterward."  ::083735569d58da648452f94b685f3ecf::ACKNOWLEDGED 083735569d58da648452f94b685f3ecf  
+
+passage/grade  |  time: 2016-04-15 08:08:45 996073  |  # of fields: 2  |  passage_id: 1047  |  score: 2::9cb6f210d441e55ca3c19d067a16dac1::ACKNOWLEDGED 9cb6f210d441e55ca3c19d067a16dac1
+
+
+
+passage/create  |  time: 2016-04-15 08:10:05 826875  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1048  |  passage_name:  Several years down the road, Goldberg expects, robots will be performing routine experiments in bio labs as researchers try to learn more about the Ebola virus. But first, engineers need to improve robots' abilities to perceive clear objects. All the glassware used in labs, like test tubes, beakers and slides, can currently confuse robots.  The second way Goldberg says robots can play a part in the Ebola fight in the long term is by inserting IVs either for drawing blood or providing intravenous hydration. Technology could help cut down on the occurrences of patients being poked multiple times to tap a good vein.  "::75fc7c8f1d047669cc2e763d52113639::ACKNOWLEDGED 75fc7c8f1d047669cc2e763d52113639  
+
+passage/grade  |  time: 2016-04-15 08:10:33 858452  |  # of fields: 2  |  passage_id: 1048  |  score: 3::e07be26bc4b0981cf476e8615c85ee3c::ACKNOWLEDGED e07be26bc4b0981cf476e8615c85ee3c
+
+
+
+duplicate doc  |  time: 2016-04-15 08:11:31 273485  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-933525af3b13de79be450af3b76ac935d59baa23f622198d7deea49970acf7ab::39784784246d69d8900b927c6a71c015::ACKNOWLEDGED 39784784246d69d8900b927c6a71c015
+
+
+
+passage/create  |  time: 2016-04-15 08:12:18 491982  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1053  |  passage_name:  The US military has enlisted a new germ-killing weapon in the fight against Ebolaâa four-wheeled robot that can disinfect a room in minutes with pulses of ultraviolet light.::8290562f551ed322315c322f78819d75::ACKNOWLEDGED 8290562f551ed322315c322f78819d75  
+
+passage/grade  |  time: 2016-04-15 08:12:25 062284  |  # of fields: 2  |  passage_id: 1053  |  score: 3::85a519e46bf2cffbe31b4b7749adab09::ACKNOWLEDGED 85a519e46bf2cffbe31b4b7749adab09
+
+
+
+passage/create  |  time: 2016-04-15 08:13:37 325775  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1054  |  passage_name:  But a clinic in Liberia or Sierra Leone presents challenges to robots designed in more pristine, Western settings, and Wi-Fi access, ample electrical power, batteries and flat floor surfaces may not be readily available in areas where the robots are most needed.  ::91bf933bfc458bb98f2e2e821993bcc0::ACKNOWLEDGED 91bf933bfc458bb98f2e2e821993bcc0  
+
+passage/grade  |  time: 2016-04-15 08:13:47 859043  |  # of fields: 2  |  passage_id: 1054  |  score: 4::e51f65339aaa9ea5705b639c2eaf43b4::ACKNOWLEDGED e51f65339aaa9ea5705b639c2eaf43b4
+
+
+
+duplicate doc  |  time: 2016-04-15 08:14:07 688893  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-f73c55bc86f22ba436a8e267b9700d85a395e6df1f23de2ba9ec8fbec185ba82::80034527692a2187ca2a3ce4b7b5ef5b::ACKNOWLEDGED 80034527692a2187ca2a3ce4b7b5ef5b
+
+
+
+duplicate doc  |  time: 2016-04-15 08:14:31 067186  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-c07882cf0c3ff27a9d250bac96be9d05dc65f38d241ff740fc1a98bbf51dd485::c718417f0fa02b91b8a63440fcc484a7::ACKNOWLEDGED c718417f0fa02b91b8a63440fcc484a7
+
+
+
+passage/create  |  time: 2016-04-15 08:16:29 197553  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1057  |  passage_name:  Scientists also cited cultural obstacles to the adoption of robots for medical uses.  âOne of the first things I heard from medical responders is that one of the bottlenecks is in handling bodies,â said Robin Murphy, a specialist in rescue robotics and a professor of computer science and engineering at Texas A&M.  Families often cannot accept the idea that a loved oneâs body might be handled by a machine. âItâs something we can do, but it has to be culturally sensitive,â she said.  ::6b83b87f96f711a7b8e0e2985265c9a1::ACKNOWLEDGED d531d380b1f9edbdae78a4891fd513af  
+
+passage/grade  |  time: 2016-04-15 08:16:40 062334  |  # of fields: 2  |  passage_id: 1057  |  score: 3::21a71e69065ca0fc5c7d537afe349bf1::ACKNOWLEDGED 21a71e69065ca0fc5c7d537afe349bf1
+
+
+
+duplicate doc  |  time: 2016-04-15 08:17:05 049893  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-c886407b4154a70891f1a1c98edff6346640ecd2da4e7c27f7d12c4b56a907df::079037c6da953c585e60b93d7638e5eb::ACKNOWLEDGED 079037c6da953c585e60b93d7638e5eb
+
+
+
+passage/create  |  time: 2016-04-15 08:26:46 743830  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1062  |  passage_name:  While the gathering seriously discussed what robots can contribute to the fight against Ebola, this does not mean that robots have not joined in the effort yet. Tennessee-based  Lumalier Corp., for example, already has two sanitation robots deployed in Liberia that are tasked with automatically decontaminating hospital rooms with ultraviolet light to destroy viruses. Disinfecting technology is already in use in U.S. hospitals so there's no denying it works.  While robots can indeed take the place of humans in many ways to ultimately prevent infection, using them in the field also has challenges. For one, only robots that can be sterilized with gases and heat can be used. Most robots are typically built using delicate components and this can hamper their use in affected countries in West Africa.  ::3a624beed1b143128015377a190b399f::ACKNOWLEDGED 3a624beed1b143128015377a190b399f  
+
+passage/grade  |  time: 2016-04-15 08:26:49 321970  |  # of fields: 2  |  passage_id: 1062  |  score: 3::35570ecce0c4ddc189f7a59be751da79::ACKNOWLEDGED 35570ecce0c4ddc189f7a59be751da79
+
+
+
+passage/create  |  time: 2016-04-15 08:35:03 687428  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1065  |  passage_name:  The Ebola cases in the United States and the virus’ unprecedented outbreak in West Africa have brought new attention to disinfection and its technologies, including the robots, Xenex says. Such interest was evident in Thursday’s congressional hearings into the U.S. government’s domestic response to Ebola.  “::1d24d4e9eb2a36bbeec85cda3fa9f0e3::ACKNOWLEDGED 1d24d4e9eb2a36bbeec85cda3fa9f0e3  
+
+passage/grade  |  time: 2016-04-15 08:35:09 508242  |  # of fields: 2  |  passage_id: 1065  |  score: 2::83ee0827335b657f180faeeb25f0049e::ACKNOWLEDGED 83ee0827335b657f180faeeb25f0049e
+
+
+
+duplicate doc  |  time: 2016-04-15 08:35:59 635306  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-1a3916999a424f2508385db04a41c0ff58b0925d2c2c59bfa3b0fea8b62e86ac::222b15c2248ff3c9f26312176507e464::ACKNOWLEDGED 222b15c2248ff3c9f26312176507e464
+
+
+
+duplicate doc  |  time: 2016-04-15 08:36:45 572809  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-9c7ae45d45e5679a576cb5c14581b8b80079116d13568003e07c41138addcb1e::d0f9c113055162a9ca7ff52cec5d0a33::ACKNOWLEDGED d0f9c113055162a9ca7ff52cec5d0a33
+
+
+
+duplicate doc  |  time: 2016-04-15 08:37:42 690666  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-cee1175f5be2660428883a1092de0ca3f00e8357bbb664ba2b0ddd4e9a0b60bc::58cdc2392601ca595d9922388d6398ff::ACKNOWLEDGED 58cdc2392601ca595d9922388d6398ff
+
+
+
+passage/create  |  time: 2016-04-15 08:39:59 221986  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1066  |  passage_name:  .  ‘The best form of personal protective equipment is not to send a human at all.’  Jennifer Pagani, QinetiQ North America  Quote Icon ::ff5ee6befd6d1b419350be16aac9a3fc::ACKNOWLEDGED ff5ee6befd6d1b419350be16aac9a3fc  
+
+passage/grade  |  time: 2016-04-15 08:40:02 932086  |  # of fields: 2  |  passage_id: 1066  |  score: 2::a13ab064843e7c04051751e69f2322fd::ACKNOWLEDGED a13ab064843e7c04051751e69f2322fd
+
+
+
+duplicate doc  |  time: 2016-04-15 08:41:37 799986  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-2eb1d3024bfb1b194812bd344db528e4631cfaf7b67246a5fd131b6b31f1ea36::b6872d28013e1f9d8307a4d8a7ec44c7::ACKNOWLEDGED b6872d28013e1f9d8307a4d8a7ec44c7
+
+
+
+duplicate doc  |  time: 2016-04-15 08:41:51 569870  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-261f61c5b424d616c0cf2caa870bdd33e2c47342dcdd8ec7e27d78632437726e::73085eae9cd3f0419d556e23e7b4e2e7::ACKNOWLEDGED 73085eae9cd3f0419d556e23e7b4e2e7
+
+
+
+duplicate doc  |  time: 2016-04-15 08:42:36 741097  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-f4f07a1c256130c75c100c99b46fcbc647e3a41fed4b182db8a6651d0e7e2430::71a933f4292b911ce9f36059d2002648::ACKNOWLEDGED 71a933f4292b911ce9f36059d2002648
+
+
+
+duplicate doc  |  time: 2016-04-15 08:43:11 573779  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-6cc0ffe619ea65f0a98bd71c3577713cf457cd6a2e2bc1821a01ef5e56c8cee2::7441462208dddf62d62c2e13641e0553::ACKNOWLEDGED 7441462208dddf62d62c2e13641e0553
+
+
+
+passage/create  |  time: 2016-04-15 08:45:26 668363  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 101  |  subtopic_name: telepresence  |  passage_id: 1068  |  passage_name:  Theobald, who will be staying in Liberia to initially run the robot and train others to operate it, said the robot, for now, is being used as a training assistant. The telepresence robot, which has audio, a camera and a screen showing a remote user's face, will enable the trainer, who can safely stay out of the infectious area, to help a doctor or nurse who might have questions about using the tablets or the Wi-Fi network while treating patients.  "::3b80d3424552cb178d65b90a2f6a1f22::ACKNOWLEDGED 3b80d3424552cb178d65b90a2f6a1f22  
+
+passage/grade  |  time: 2016-04-15 08:45:47 992812  |  # of fields: 2  |  passage_id: 1068  |  score: 3::0741cca77e702cf8c5ea9b861157d8da::ACKNOWLEDGED 0741cca77e702cf8c5ea9b861157d8da
+
+
+
+duplicate doc  |  time: 2016-04-15 08:46:55 735409  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-9bb4b4c7ba81b6f09a84b9a7328bca29cbb3ed16aca4953a86ea46908879e1db::c8f506c05db614f6ef66ea8fa9940278::ACKNOWLEDGED c8f506c05db614f6ef66ea8fa9940278
+
+
+
+passage/create  |  time: 2016-04-15 08:49:36 557835  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1070  |  passage_name:  Dr. Stibich said while the Ebola virus is causing a lot of concern right now, he said, it’s not as big as a threat here as it is in Africa because of our superior health care and advanced medical technology.     ::b79ddf207b470c56d265358357ad65cf::ACKNOWLEDGED b79ddf207b470c56d265358357ad65cf  
+
+passage/grade  |  time: 2016-04-15 08:49:39 387591  |  # of fields: 2  |  passage_id: 1070  |  score: 1::9328b9a01f63641dfafa4d7d66cfb0c8::ACKNOWLEDGED 9328b9a01f63641dfafa4d7d66cfb0c8
+
+
+
+passage/create  |  time: 2016-04-15 08:51:58 548872  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1071  |  passage_name:  The robot's latest pit stop, Langley Air Force Base, is home to the U.S. military's 633rd Medical Group, a group of service members who recently returned from an assignment in West Africa. There, they were charged with setting up a medical support facility in one of the West African countries hardest hit by the Ebola outbreak, according to the Air Force. The team also trained international health care workers on how to use the facility's equipment.  Although the 633rd Medical Group allegedly had no exposure to the Ebola virus or to Ebola victims during its time in Africa, the U.S. military is still taking every precaution to prevent Ebola from spreading in the U.S., should one or more of the military's recently returned service members fall ill with the virus. Everyone involved with the mission is being monitored twice daily for three weeks after their return to the U.S., and so far, no symptoms of the virus have been reported.  ::2c0148201696027858d1ed53ffc0ce46::ACKNOWLEDGED 2c0148201696027858d1ed53ffc0ce46  
+
+passage/grade  |  time: 2016-04-15 08:52:17 626894  |  # of fields: 2  |  passage_id: 1071  |  score: 3::69e2ee372686e4a53deec583ad141184::ACKNOWLEDGED 69e2ee372686e4a53deec583ad141184
+
+
+
+duplicate doc  |  time: 2016-04-15 08:55:29 024243  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-8bbcffa60dec2d1ab4676a2269c4571259faab5877e855643a7b62352240926d::cfa8601473550a2667b0459836e45904::ACKNOWLEDGED cfa8601473550a2667b0459836e45904
+
+
+
+subtopic/create  |  time: 2016-04-15 08:58:21 652027  |  # of fields: 4  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 102  |  subtopic_name: jedi app
+
+passage/create  |  time: 2016-04-15 08:58:59 535837  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 102  |  subtopic_name: jedi app  |  passage_id: 1078  |  passage_name:  Fighting Ebola With Robots And An App Called Jedi::2bf6b42c117e1fe813a512a0f839e885::ACKNOWLEDGED 2bf6b42c117e1fe813a512a0f839e885  
+
+passage/grade  |  time: 2016-04-15 08:59:03 703505  |  # of fields: 2  |  passage_id: 1078  |  score: 2::355285d68aa1547447434da050a995ad::ACKNOWLEDGED 355285d68aa1547447434da050a995ad
+
+
+
+passage/create  |  time: 2016-04-15 09:00:54 222838  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1081  |  passage_name:  After Monrovia, Debbie Theobald will take her VGo bot into the red zone of an Ebola treatment unit in Sierra Leone, where it will help her train health workers to use the EMR she is installing there next. (The local Wi-Fi network extends just a few hundred feet. The connection to the rest of the world is not available yet, but when it is, a doctor in New York or Atlanta could connect directly to a patient in Africa, VGo says.)  ::bf7d07e88487831df6a851933aeedcfc::ACKNOWLEDGED bf7d07e88487831df6a851933aeedcfc  
+
+passage/grade  |  time: 2016-04-15 09:00:57 102900  |  # of fields: 2  |  passage_id: 1081  |  score: 3::688888e4c762e6ab2330cf96712b5612::ACKNOWLEDGED 688888e4c762e6ab2330cf96712b5612
+
+
+
+passage/create  |  time: 2016-04-15 09:02:56 523440  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1089  |  passage_name:  The role of robots for use in disaster situations such as an Ebola outbreak was the subject of a national tech summit hosted by the White House Office of Science and Technology Policy in November and held at several locations, including Worcester Polytechnic Institute. Though robots have participated in disaster responses since the World Trade Center bombings, they have yet to work side-by-side with people in health emergencies.  ::c75c6c968c4f113f80b2742ed80fc0a2::ACKNOWLEDGED c75c6c968c4f113f80b2742ed80fc0a2  
+
+passage/grade  |  time: 2016-04-15 09:03:06 768418  |  # of fields: 2  |  passage_id: 1089  |  score: 2::f7d7342a45c25e75d9d00ada58815a54::ACKNOWLEDGED f7d7342a45c25e75d9d00ada58815a54
+
+
+
+duplicate doc  |  time: 2016-04-15 09:03:23 982290  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-3f6493f0eb37d83f44a19357ea79940f616a91a6989268fa32e7c13563ce7b45::3483d83e1a6a73f5b64d831e5437769e::ACKNOWLEDGED 3483d83e1a6a73f5b64d831e5437769e
+
+
+
+duplicate doc  |  time: 2016-04-15 09:03:33 976967  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-9cc523b689ae3d32aed1adbcc41618f01ca8a2f07cccb570b37b68a04af7303e::177a1c0f3552b5ba5d9fea1515f5ba7f::ACKNOWLEDGED 177a1c0f3552b5ba5d9fea1515f5ba7f
+
+
+
+passage/create  |  time: 2016-04-15 09:04:25 697208  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1090  |  passage_name:  Some years ago, when Ebola was not in any global news headlines, researchers presented their paper, "Use of Medical Robotics in Biothreat Situations" to an American Medical Informatics Association symposium where they said that "In biothreat situations, mobile robots have several advantages over humans including: imperviousness to infection; ability to be coated in self-decontaminating surfaces; 24-hour availability; and the ability to serve as a virtual telepresence and communication conduit for one or more participants. In the case of new biothreats, mobile robots could carry some of the burden that falls upon clinicians including: collecting lab specimens, delivering medications and meals, transporting bio-hazardous materials and biological waste."::620aa3275ea6ad9e220d0a4f624a9072::ACKNOWLEDGED 620aa3275ea6ad9e220d0a4f624a9072  
+
+passage/grade  |  time: 2016-04-15 09:04:30 914673  |  # of fields: 2  |  passage_id: 1090  |  score: 4::cfce07287a00ea6335c6145e698f38f3::ACKNOWLEDGED cfce07287a00ea6335c6145e698f38f3
+
+
+
+passage/create  |  time: 2016-04-15 09:07:44 564019  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 101  |  subtopic_name: telepresence  |  passage_id: 1092  |  passage_name:  In fact, the current Ebola outbreak has infected more than 10,000 people in West Africa; and more than 4,400 have died from the disease. Liberia itself has had more than 4,200 cases, with 2,400 confirmed deaths.  Thatâs why both wheeled robots and telepresence robots are being considered to help fight the disease. And though the solution may sound a little futuristic, itâs also feasible and could be very effective.  You see, thereâs almost nothing that a human can do (task-wise) that robo-replacements canât: food and medicine delivery, body burials, even disinfecting contaminated areas.  The wheeled robots would come along with attached sprayers to decontaminate equipment. And telepresence robots would allow the sick to have contact with their loved ones (as well as healthcare workers) while under quarantine::ca2b04b8690e3cc6497a57e1a0febd15::ACKNOWLEDGED ca2b04b8690e3cc6497a57e1a0febd15  
+
+passage/grade  |  time: 2016-04-15 09:07:46 997161  |  # of fields: 2  |  passage_id: 1092  |  score: 3::3aab5faf8ce0a05f2ee47200d0289edd::ACKNOWLEDGED 3aab5faf8ce0a05f2ee47200d0289edd
+
+
+
+irrelevant doc  |  time: 2016-04-15 09:11:10 745972  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-52f2fd179dd6894a9d7fbbee4ef41475272a1dfafa92713ade264f8a14d5db89::45a6692a5899d124059515061ff07ecf::ACKNOWLEDGED 45a6692a5899d124059515061ff07ecf
+
+
+
+passage/create  |  time: 2016-04-15 09:12:15 315517  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1098  |  passage_name:  Two germ-fighting robots have been sent to Liberia to help combat the spread of Ebola in hospitals and clinics.  The robot, called TRU-D, uses UVC light to break down any organisms’ DNA, including staph, viruses and even Ebola.  “Ebola does a very horrible thing, one of the first things it does is it kills all the health care workers because it spreads so rapidly from person to person,” says Dr. Jeffery Deal, director of health studies for Water Missions International in North Charleston, South Carolina. “Ten to 15 percent of the victims right now are health care workers. It is the ultimate hospital acquired infection. That’s exactly what we designed this thing to combat.”  ::f61d2050aafea82cb06262ad55c17ea6::ACKNOWLEDGED f61d2050aafea82cb06262ad55c17ea6  
+
+passage/grade  |  time: 2016-04-15 09:12:32 293893  |  # of fields: 2  |  passage_id: 1098  |  score: 3::1f63f77b3b73d793054518be26e7b595::ACKNOWLEDGED 1f63f77b3b73d793054518be26e7b595
+
+
+
+irrelevant doc  |  time: 2016-04-15 09:17:33 459721  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-5f8a66f9ffe9de48a8f6501de59309822f7c9fcc58c6d3a57137d78c5777f4d7::c0908d17cae8f9afada321c1cd625566::ACKNOWLEDGED c0908d17cae8f9afada321c1cd625566
+
+
+
+passage/create  |  time: 2016-04-15 09:18:37 474153  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1111  |  passage_name:  Given the widespread use of robots at other hazardous cleanup sites (notably Fukushima), and the advent of robots that can perform millametric-precise surgery, I'm actually surprised that robots aren't being exclusively used to treat Ebola patients. Presumably the bedside manner is still a little wanting::2e6ce981425b44f3f868558f46c803e0::ACKNOWLEDGED 2e6ce981425b44f3f868558f46c803e0  
+
+passage/grade  |  time: 2016-04-15 09:18:40 599762  |  # of fields: 2  |  passage_id: 1111  |  score: 1::f640be6cf0ad3422999dc7c9bde9228a::ACKNOWLEDGED f640be6cf0ad3422999dc7c9bde9228a
+
+
+
+duplicate doc  |  time: 2016-04-15 09:19:35 741342  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-f647f7d901c09509a66469e7f91a736730ad9f582c8b47248e0f0d82f407152c::c67bfd68e3a900e5bc4d4652e9d2a381::ACKNOWLEDGED c67bfd68e3a900e5bc4d4652e9d2a381
+
+
+
+duplicate doc  |  time: 2016-04-15 09:21:10 269166  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-01266f3bb9f6b8b2e2b6831336cac1fc223d1358497b7f8d04424d7814e93b01::c0ee076abf3baab7afc7a806027da6bd::ACKNOWLEDGED c0ee076abf3baab7afc7a806027da6bd
+
+
+
+duplicate doc  |  time: 2016-04-15 09:22:07 239382  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-df7cccffe7ffa76f89b3f71f3113a4283520259bbddc331fb2fdab62320ba4bb::053842c18b8051a56035c8f9ba19788b::ACKNOWLEDGED 053842c18b8051a56035c8f9ba19788b
+
+
+
+irrelevant doc  |  time: 2016-04-15 09:22:12 998032  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-718e072f9ceef6f26de7db8fe927d6f1f51c08b1af56460e8c31bce0f647bdcd::3ccad039743f88816c169bce21059925::ACKNOWLEDGED 3ccad039743f88816c169bce21059925
+
+
+
+irrelevant doc  |  time: 2016-04-15 09:22:21 095846  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-8c3a38903df94277965fb3e8a36496ff59c3038d53ae57ff6a1839d06f5b6ee6::04f41c1c9b3e3a202a9bb083ee8b0c49::ACKNOWLEDGED 04f41c1c9b3e3a202a9bb083ee8b0c49
+
+
+
+passage/create  |  time: 2016-04-15 09:23:56 225705  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1116  |  passage_name:  JOHN HOLDREN: Well, in fact, we are having a workshop, my office, the Office of Science and Technology Policy, and a number of other partners on November 7 on potential uses of robots in the Ebola challenge.  Perhaps the best example of how a robot can be useful is cleaning up and decontaminating a room that has had Ebola patients in it, and has a lot of contaminated stuff in it. Obviously, if you could have a robot do that, and do it effectively, it would be safer than having a human being dealing with all of that contaminated waste and mess.  ::dc6981abfc1b930309475a0996d54d52::ACKNOWLEDGED dc6981abfc1b930309475a0996d54d52  
+
+passage/grade  |  time: 2016-04-15 09:24:12 565913  |  # of fields: 2  |  passage_id: 1116  |  score: 2::e1f3cce5d08b2fdd12b50026314d0a4e::ACKNOWLEDGED e1f3cce5d08b2fdd12b50026314d0a4e
+
+
+
+duplicate doc  |  time: 2016-04-15 09:24:47 459904  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-838dfd540f23dd85ff431074a8ce4c8aa209690551820df729a468d36719a3ac::90eab0ab3303280de63d2bbd391c6874::ACKNOWLEDGED 90eab0ab3303280de63d2bbd391c6874
+
+
+
+passage/create  |  time: 2016-04-15 09:26:03 094738  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1117  |  passage_name:  Robotics scientists nationwide are pondering an intriguing possibility: Might robotic technologies deployed in rescue and disaster situations be quickly repurposed to help contain the Ebola epidemic?  A robot that could perform even some of the tasks of a human, such as waste removal or the burial of bodies, would have significant lifesaving potential. So, with the assistance of the White House Office of Science and Technology Policy, scientists are planning a series of brainstorming meetings. The first round will be held Nov. 7 at four locations: Worcester Polytechnic Institute, in Massachusetts; Texas A&M; the University of California, Berkeley; and in Washington.  The problem, scientists say, is that the technology is still limited when it comes to medicine. While mobile robots now can disarm roadside bombs and drive cars, they are taking only the first tentative steps toward the human levels of dexterity required in health care.  ::0bb03f4cc290c2cdef8cf654f32cb134::ACKNOWLEDGED 46633476b29b130ba9686ce4eb10af99  
+
+passage/grade  |  time: 2016-04-15 09:26:13 559211  |  # of fields: 2  |  passage_id: 1117  |  score: 2::70a9abf7b28631bde4592efd8a613f35::ACKNOWLEDGED 70a9abf7b28631bde4592efd8a613f35
+
+
+
+duplicate doc  |  time: 2016-04-15 09:26:26 527006  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-87effbe08503ea2965c7121dbb2efbce32aba28bb222af0ee344dd68a2230eaa::41dc530ebb4cc87d6ba18ddaed2029ac::ACKNOWLEDGED 41dc530ebb4cc87d6ba18ddaed2029ac
+
+
+
+duplicate doc  |  time: 2016-04-15 09:26:42 453191  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-a08ff7d44ec39a554d0346b6417f17e6d8a00786916671555f02b322384ae174::e2ccd839f8f7e9216db01cdf066a741c::ACKNOWLEDGED e2ccd839f8f7e9216db01cdf066a741c
+
+
+
+duplicate doc  |  time: 2016-04-15 09:27:08 937289  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-c23a038ec461d86dfc0aa6529db7ea36979e9c22b1647157500283ce14cde007::990e532d786ed14a4608b7608893e1c0::ACKNOWLEDGED 990e532d786ed14a4608b7608893e1c0
+
+
+
+duplicate doc  |  time: 2016-04-15 09:30:15 900445  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-061aa9bc486ed62a517282dcc1f1d187449747cb12d5f6b995ef2fceb382537a::93e716bf9b1b129c90c2c84cbce47dd4::ACKNOWLEDGED 93e716bf9b1b129c90c2c84cbce47dd4
+
+
+
+passage/create  |  time: 2016-04-15 09:31:44 882105  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1121  |  passage_name:  As you might imagine, scientists have to walk a fine line between moving quickly and handling outbreaks with sensitivity. Rather than build robots from scratch, the teams want to modify existing machines; they'd also like to keep humans involved wherever possible, and respect local customs for burial and grief. There's no telling how much these sessions will help, but the focus is on rolling out practical health care tools rather than high-minded concepts::debf6228a037d54f4c49be3de3242238::ACKNOWLEDGED debf6228a037d54f4c49be3de3242238  
+
+passage/grade  |  time: 2016-04-15 09:31:51 993972  |  # of fields: 2  |  passage_id: 1121  |  score: 2::44e8f297483565e170df4d5709c6344c::ACKNOWLEDGED 44e8f297483565e170df4d5709c6344c
+
+
+
+duplicate doc  |  time: 2016-04-15 09:32:12 119576  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-5d564b1f119da7f2bc7e1e6c9e4785de42c483acd6219971779910138874d95b::a0c4728189ea97e6d8fe6db646bacca8::ACKNOWLEDGED a0c4728189ea97e6d8fe6db646bacca8
+
+
+
+irrelevant doc  |  time: 2016-04-15 09:32:16 615578  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-f372e75abe463c639d5d66c8b2b444b59f97e6c1f9a0f80b5ffe685b6c82d283::69942f5daf2503c5dc8f5952fecffb3a::ACKNOWLEDGED 69942f5daf2503c5dc8f5952fecffb3a
+
+
+
+duplicate doc  |  time: 2016-04-15 09:32:30 596368  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-19feb14f95667684cbab38baed8618fdaeebdd0d62d6bd4b61f56d5acc1ed8e2::48293f03c0b3646d6fe2cd5b46555701::ACKNOWLEDGED 48293f03c0b3646d6fe2cd5b46555701
+
+
+
+duplicate doc  |  time: 2016-04-15 09:33:06 087953  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-a9bfc9f651d8e136d10ebc69f8e3989d5359f6cc9e3333b1e52ecc41ca5e7edf::ae43c35ce4ad904301b31ca2cc9398a6::ACKNOWLEDGED ae43c35ce4ad904301b31ca2cc9398a6
+
+
+
+irrelevant doc  |  time: 2016-04-15 09:33:17 131556  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-a9cbf21f3031afc468da36853972dd21e2bf9555157fae6acc31e6fed4c6088f::c41e4850bf6210b1f8a4d85a80628435::ACKNOWLEDGED c41e4850bf6210b1f8a4d85a80628435
+
+
+
+passage/create  |  time: 2016-04-15 09:34:47 910444  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 101  |  subtopic_name: telepresence  |  passage_id: 1122  |  passage_name:  There are telepresence machines that can beam in experts in from afar::b101e67dc29698bd64553972362fc87e::ACKNOWLEDGED b101e67dc29698bd64553972362fc87e  
+
+passage/grade  |  time: 2016-04-15 09:34:52 645114  |  # of fields: 2  |  passage_id: 1122  |  score: 2::01f38dfd8134777a6b0e21c78f8e8249::ACKNOWLEDGED 01f38dfd8134777a6b0e21c78f8e8249
+
+
+
+duplicate doc  |  time: 2016-04-15 09:36:20 340164  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-2183ccc11d33d51807f631da0561cb2d6fe2602f0751ffe7a751252bdcfa2a4c::4aa12a8111bcb3a5fab99331839197cf::ACKNOWLEDGED 4aa12a8111bcb3a5fab99331839197cf
+
+
+
+duplicate doc  |  time: 2016-04-15 09:36:39 178823  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-63b8d52f3b0e94f5cf3cb7b38e2cc7d7adfb63934cee6ac91598060a1aa57358::fa7a55c585fc81e16bf564125a95e6d6::ACKNOWLEDGED fa7a55c585fc81e16bf564125a95e6d6
+
+
+
+duplicate doc  |  time: 2016-04-15 09:36:47 429955  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-00fde4358a55b43133a67a16106ccaa1ae3cfacafe54a5057c065d5a981a0f87::16f2e60e85678d44992196cc2e04b777::ACKNOWLEDGED 16f2e60e85678d44992196cc2e04b777
+
+
+
+irrelevant doc  |  time: 2016-04-15 09:36:55 313923  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-995767efe21b7792e562614885f4f61ad84c7671faabb5793a9a002b3c8eff16::4a89757e896b055abf85a21f4cb631c4::ACKNOWLEDGED 4a89757e896b055abf85a21f4cb631c4
+
+
+
+irrelevant doc  |  time: 2016-04-15 09:36:58 404740  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-4afc92dbfea2913d2943109a455637b01d9b9ade61a55f30a64eb08afd6319f4::aaf5aaabcc7a328720ad2bb2b6a74eb1::ACKNOWLEDGED aaf5aaabcc7a328720ad2bb2b6a74eb1
+
+
+
+duplicate doc  |  time: 2016-04-15 09:37:09 266537  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-17c7863253c29d9ac607fb21e6477ebffcdec75b3f1e065e91f55fd66ed02919::0fa5deb0ca412ae165e30b46a86d91fa::ACKNOWLEDGED 0fa5deb0ca412ae165e30b46a86d91fa
+
+
+
+duplicate doc  |  time: 2016-04-15 09:37:30 984148  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-a982877807a20ce649b3d759c3ca857d30d09439e09ac5bb007149d040450a8e::dd8f7f4d8240e9a513dce163526dade8::ACKNOWLEDGED dd8f7f4d8240e9a513dce163526dade8
+
+
+
+duplicate doc  |  time: 2016-04-15 09:37:40 826510  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-7635b506d075f3f4a233b98ff67f55a8dfd8597907e926491cdc76b7610e2493::c756afd1c23a858249c178d5f65385f4::ACKNOWLEDGED c756afd1c23a858249c178d5f65385f4
+
+
+
+passage/create  |  time: 2016-04-15 09:38:20 814958  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1127  |  passage_name:  The U.S. government is looking into ways to use robots to save lives from the Ebola virus. Robots may not have feelings, but they have amazing immune systems, and experts have already pinpointed nine possible ways to put them to use. »	::9f8698606e6990f36b4ce430b26f5e84::ACKNOWLEDGED 9f8698606e6990f36b4ce430b26f5e84  
+
+passage/grade  |  time: 2016-04-15 09:38:22 977233  |  # of fields: 2  |  passage_id: 1127  |  score: 2::6aea451fa1bcf8531785de45df330e09::ACKNOWLEDGED 6aea451fa1bcf8531785de45df330e09
+
+
+
+passage/create  |  time: 2016-04-15 09:39:43 531771  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1131  |  passage_name:  Xenex is currently in discussions with the U.S. Department of Defense and several relief organizations about deploying the robots to Africa. The company is also talking with several major airlines about disinfecting cabins.  ::16395f59859693149ec8ee625d1005e0::ACKNOWLEDGED 16395f59859693149ec8ee625d1005e0  
+
+passage/grade  |  time: 2016-04-15 09:39:45 891893  |  # of fields: 2  |  passage_id: 1131  |  score: 2::7565cb1b09e3b3be848e75f98f13a0e2::ACKNOWLEDGED 7565cb1b09e3b3be848e75f98f13a0e2
+
+
+
+duplicate doc  |  time: 2016-04-15 09:40:08 694339  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-a7da145e1282e28dd6ff0d39529eae1c977be331ef5b916645c46437837a0c28::9de4c9ab7b0564874acebb0c1610c247::ACKNOWLEDGED 9de4c9ab7b0564874acebb0c1610c247
+
+
+
+duplicate doc  |  time: 2016-04-15 09:40:33 687217  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-b298422a2758f8ba08d14772a38ceff71a13b9849a2c65e1d764acdfe7468f35::7996fe40d2d386515f0f394f1e1af7f9::ACKNOWLEDGED 7996fe40d2d386515f0f394f1e1af7f9
+
+
+
+duplicate doc  |  time: 2016-04-15 09:40:54 358799  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-cd95c5a07a8e50ac41b6f06798a9a3b10afee21f2a07a54039e680004b7d1161::25cd115073146b8e363e48bd7a6d594c::ACKNOWLEDGED 25cd115073146b8e363e48bd7a6d594c
+
+
+
+duplicate doc  |  time: 2016-04-15 09:41:14 362550  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-7cc3380c36ce9fe426657f29a15d390c1b37d11e25d07787e5af1e650e14602f::55450a79ea009b22c144a0036b9c1ffc::ACKNOWLEDGED 55450a79ea009b22c144a0036b9c1ffc
+
+
+
+duplicate doc  |  time: 2016-04-15 09:41:28 104662  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-935984e59bd4eea373b8290fc695198f0b8ef07f06d1b1b7cb69d26bbe9a268d::e4a0aa23241dcb9e76ad4cc9aca1f28b::ACKNOWLEDGED e4a0aa23241dcb9e76ad4cc9aca1f28b
+
+
+
+duplicate doc  |  time: 2016-04-15 09:41:37 402409  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-4a697f21bcc60dea4f342f7f296a7c9f58ad2d1c9d5fa564281a09b7a1ac5e2e::3220da6ce0fd8e8be3b973824b895a5e::ACKNOWLEDGED 3220da6ce0fd8e8be3b973824b895a5e
+
+
+
+duplicate doc  |  time: 2016-04-15 09:41:45 832620  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-4f53e4820f6e6bc81a04a04582f15564104f8cf10267c064ba07e6ab373346b5::fb87c76af68143fc58a95e3ebbb532a0::ACKNOWLEDGED fb87c76af68143fc58a95e3ebbb532a0
+
+
+
+duplicate doc  |  time: 2016-04-15 09:42:02 519583  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-21c69afb935794273c10f80a3afc172b142362b00069a62b57ff3859b2cbe699::93d2c2cbd1a7fec06960188f93908be5::ACKNOWLEDGED 93d2c2cbd1a7fec06960188f93908be5
+
+
+
+irrelevant doc  |  time: 2016-04-15 09:42:19 431287  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-9109dac645a31219eaca59f583e8c9e8661f2e0c3e058f3174b37802a960b937::323da1a431711bea97df921f8d687ced::ACKNOWLEDGED 323da1a431711bea97df921f8d687ced
+
+
+
+irrelevant doc  |  time: 2016-04-15 09:42:22 556316  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-583407920eeea0ef77e2cc74db865261dd1e2524b7ab9cfe71773f69e8667033::b9f6a74fb2075986841423738974a5f8::ACKNOWLEDGED b9f6a74fb2075986841423738974a5f8
+
+
+
+passage/create  |  time: 2016-04-15 09:43:56 573676  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1138  |  passage_name:  After a 10-day mission in Monrovia, Republic of Liberia, with inventor Dr. Jeffrey L. Deal, two TRU-D SmartUVC devices continue to aid in the battle against the Ebola virus outbreak at JFK and ELWA hospitals.  Deal, a Fellow in the Royal Society of Tropical Medicine and Hygiene, traveled to the Republic of Liberia on Aug. 18 to lead the installment of the robots and the training of hospital staff to operate the devices. History was made on Aug. 20, as the first automated decontamination system to be used in Africa was activated at 2:30 p.m. Greenwich Mean Time. TRU-D worked around the clock to disinfect a number of hospital environments, making them safer for health care workers, volunteers, patients and family members.  "::f40d08af0c88b766b9d6ec4cdae58b2d::ACKNOWLEDGED f40d08af0c88b766b9d6ec4cdae58b2d  
+
+passage/grade  |  time: 2016-04-15 09:44:04 672117  |  # of fields: 2  |  passage_id: 1138  |  score: 3::aeec77fe56ff04be6d4a9deb9724c4e6::ACKNOWLEDGED aeec77fe56ff04be6d4a9deb9724c4e6
+
+
+
+duplicate doc  |  time: 2016-04-15 09:49:26 395760  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-5222ec465d9a41b6d8083cdf245ddb90047030bb8234d1e12949d55e4e2d7d16::b3c9d67f908c92f5a35215669560d57a::ACKNOWLEDGED b3c9d67f908c92f5a35215669560d57a
+
+
+
+duplicate doc  |  time: 2016-04-15 09:49:39 266020  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-ae49634fc9ca854ac1e53cd0f8cd53717b644b2fbc0a421d78e5db18c429dc46::66fc437369a4834cdb65b191d67e3811::ACKNOWLEDGED 66fc437369a4834cdb65b191d67e3811
+
+
+
+duplicate doc  |  time: 2016-04-15 09:50:08 364955  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-b0bd1a7854331153582f92d4d2a8dcee474f6f198e36063c9edf46a936dada5b::9e0860d283cee7a0c8d444641eabc2d4::ACKNOWLEDGED 9e0860d283cee7a0c8d444641eabc2d4
+
+
+
+duplicate doc  |  time: 2016-04-15 09:51:53 031398  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-5ff0e9a6a7132d738b200414bbb5cd9789fa09aacc6033bf1cb889edc3c89b62::9f8a8f5469496e217751636e47d2a903::ACKNOWLEDGED 9f8a8f5469496e217751636e47d2a903
+
+
+
+duplicate doc  |  time: 2016-04-15 09:52:43 547961  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-dfc9a63623ffa1daef8f41fa6e3fbde3a324e5e87bfc11d4b14b3ade177f6a07::e87d59518220d6fb7493b06347f92ca5::ACKNOWLEDGED e87d59518220d6fb7493b06347f92ca5
+
+
+
+duplicate doc  |  time: 2016-04-15 09:52:53 061357  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-1e2881e03315c394780e4b916793d1546247015efaeee93cf9b109ec20da7f54::3ee573ace62b578f9090ff8d3971722c::ACKNOWLEDGED 3ee573ace62b578f9090ff8d3971722c
+
+
+
+duplicate doc  |  time: 2016-04-15 09:52:59 749216  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-385189bf596328fbab294a9f5684e0757d16f8e5cdabc6a2a65c8503eb4bbcd7::aef279acbf48de71fcae3ed7c224a20c::ACKNOWLEDGED aef279acbf48de71fcae3ed7c224a20c
+
+
+
+duplicate doc  |  time: 2016-04-15 09:53:12 863780  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-bef284c3a3ea49921b112c4d2d53d1092fa0c8f739795e004684db45c8bb9b4f::3abedae1e895704f7590ba1b1f37d902::ACKNOWLEDGED 3abedae1e895704f7590ba1b1f37d902
+
+
+
+duplicate doc  |  time: 2016-04-15 09:53:32 864275  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-42e84e24731a57513edf8a2de112866ad312dcf88265b2093866e7a9c824d930::daaa6b0c3869084a98a55d64488754c7::ACKNOWLEDGED daaa6b0c3869084a98a55d64488754c7
+
+
+
+passage/create  |  time: 2016-04-15 09:54:54 917043  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1143  |  passage_name:  In 2010, Xenex Disinfection Services launched its new UV light room disinfection system utilizing environmentally friendly xenon, which is an inert gas whose vastly superior functional efficiency enables Xenex’s germ-zapping robots to disinfect healthcare facilities in a fraction of the time it takes for mercury bulb devices to disinfect rooms::da3e270055aa0072c8c69e42ebcf01b7::ACKNOWLEDGED da3e270055aa0072c8c69e42ebcf01b7  
+
+passage/grade  |  time: 2016-04-15 09:54:58 278850  |  # of fields: 2  |  passage_id: 1143  |  score: 2::84934ef62c1fc5555c5ea4ed98ef455f::ACKNOWLEDGED 84934ef62c1fc5555c5ea4ed98ef455f
+
+
+
+duplicate doc  |  time: 2016-04-15 09:55:17 298373  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-b2255610353ae1f1784e13d04cac80d7429f46988f7d188fa6cec321d920e60f::106f1edc5cf698b1b7dd62ba04463870::ACKNOWLEDGED 106f1edc5cf698b1b7dd62ba04463870
+
+
+
+duplicate doc  |  time: 2016-04-15 09:56:00 433789  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-b801fdcd1dc1e9f3dbcc6f8799981317a37db5665a7e5825139709dc62dc7f82::3bc91ec8ebf5318af7fc78b104ecbd10::ACKNOWLEDGED 3bc91ec8ebf5318af7fc78b104ecbd10
+
+
+
+passage/create  |  time: 2016-04-15 09:56:39 584633  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1147  |  passage_name:  Two robots designed to deliver lethal doses of ultraviolet light that modify the DNA structure of superbugs so they can no longer reproduce and harm patients are to be deployed in Liberian hospitals caring for patients with Ebola virus disease. The Republic of Liberia is one of four countries in West Africa affected by the Ebola outbreak which, according to the World Health Organization (WHO), started in Guinea in December 2013 before spreading to neighboring Liberia and Sierra Leone, and then to Nigeria. WHO says over 1,200 people in the four countries have died in the outbreak.  ::5155f61aa1422aa8d26bfe086b5dd07e::ACKNOWLEDGED 5155f61aa1422aa8d26bfe086b5dd07e  
+
+passage/grade  |  time: 2016-04-15 09:56:44 272939  |  # of fields: 2  |  passage_id: 1147  |  score: 2::469f5765b83fffe04590e5aa33ef4147::ACKNOWLEDGED 469f5765b83fffe04590e5aa33ef4147
+
+
+
+duplicate doc  |  time: 2016-04-15 09:56:51 316953  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-8e1f7d538ca54dd0dec8fa6e8b5fa18f193a1cfcc29300859b2baaadafde7934::0c898d5e060412d615c3f4748b2e99f0::ACKNOWLEDGED 0c898d5e060412d615c3f4748b2e99f0
+
+
+
+duplicate doc  |  time: 2016-04-15 09:56:57 022428  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-6aaad28d757b7ff64787422c02742dd5e6a0edc255377fde6750c56c8e9ce96b::88bf2deb743df8baaff3cd7f3b9d8ed3::ACKNOWLEDGED 88bf2deb743df8baaff3cd7f3b9d8ed3
+
+
+
+duplicate doc  |  time: 2016-04-15 09:58:06 828515  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-ae8d7472532658705e20d57e8ddc8cf56689ce20c6dd28ffb7dff4432ae8f5a4::3fa0583c9d92cd91d1d12fdeb0393ade::ACKNOWLEDGED 3fa0583c9d92cd91d1d12fdeb0393ade
+
+
+
+passage/create  |  time: 2016-04-15 09:59:30 498693  |  # of fields: 6  |  topic_id: 369  |  topic_name: robots  |  subtopic_id: 100  |  subtopic_name: medical robots  |  passage_id: 1148  |  passage_name:  On the surface, of course, handing over the dirty work of cleaning up after an Ebola outbreak to the robots sounds like a no-brainer. Instead of putting humans into harm’s way, why not just send in a robot? Robots can’t develop symptoms from Ebola, they are relatively easy to disinfect (except for their wheels), they dutifully carry out tasks without talking back and they can dispose of hazardous waste efficiently.  Scratch the surface, though, and you can start to see the moral and philosophical questions that arise once robots start doing more than just grunt-level decontamination work. In short, everything changes once robots also become human-like caregivers of Ebola patients rather than just repurposed industrial robots. Even assuming that wise and highly moral technologists have created robots according to something approximating Isaac Asimov’s Three Laws of Robotics, there still exists all kinds of potential for things to go wrong as robots go about trying to observe these laws. Just read any of Asimov’s “Robot” stories  (or, better yet, watch the Will Smith movie) to understand how things might go awry.  ::209b2f03589835a37fc8594767344f65::ACKNOWLEDGED 209b2f03589835a37fc8594767344f65  
+
+passage/grade  |  time: 2016-04-15 09:59:48 678918  |  # of fields: 2  |  passage_id: 1148  |  score: 2::89808915032b8b5c83180b7812598c58::ACKNOWLEDGED 89808915032b8b5c83180b7812598c58
+
+
+
+duplicate doc  |  time: 2016-04-15 10:00:03 762041  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-6b0129acc6d78330542f0545e28aa371b2fdadf5db54f68ff10ee7cdb3a51b8f::56509cf3a53d043acac7e835b961cabf::ACKNOWLEDGED 56509cf3a53d043acac7e835b961cabf
+
+
+
+irrelevant doc  |  time: 2016-04-15 10:00:06 467653  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-7220c029475bd08572c3c86d0111c11b9ea0fc3ac81ed9987a5045389f61dd6d::831c75f5a897595dde46394680b4d8f7::ACKNOWLEDGED 831c75f5a897595dde46394680b4d8f7
+
+
+
+duplicate doc  |  time: 2016-04-15 10:00:14 682946  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-a4786b774bdc1b75b8476de7a1a4bbcf81ce2fdd29d2a913324225daa0df6637::81e40b49e9c2b585c1484cf91e74a049::ACKNOWLEDGED 81e40b49e9c2b585c1484cf91e74a049
+
+
+
+duplicate doc  |  time: 2016-04-15 10:00:27 769792  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-af159fe365c6eb3fcc560a0a69b1fe27ac38c7db28aa300ca4c6e6f55583ee2a::f898d8c976fe1d11b21ca82e72456cbf::ACKNOWLEDGED f898d8c976fe1d11b21ca82e72456cbf
+
+
+
+duplicate doc  |  time: 2016-04-15 10:00:47 237245  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-9f63a4780da0dffc9cad27130ddf10ed9ff2fcbf53d2671f356d028925acf6e6::ee4e545dbc50f4562d63f79fe640bc59::ACKNOWLEDGED ee4e545dbc50f4562d63f79fe640bc59
+
+
+
+irrelevant doc  |  time: 2016-04-15 10:01:10 182963  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-a4c379925a7ce60c50be323d74d09fa9208943408bd36c114ebc8ce075c2ac2a::578055e9fc5f9788a8b4bcf6713503ba::ACKNOWLEDGED 578055e9fc5f9788a8b4bcf6713503ba
+
+
+
+irrelevant doc  |  time: 2016-04-15 10:01:41 533846  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-c00988851691ef490740cbbb8a06421c7579c3678a492a03a31c093f775204b6::306b30a66ebd676af72305c891c38a0d::ACKNOWLEDGED 306b30a66ebd676af72305c891c38a0d
+
+
+
+duplicate doc  |  time: 2016-04-15 10:02:10 634274  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-31e822dd34f2b16e4ffc378e27dc534750a557510d25bf06952c27fd9bf2cbbd::ffb7f9a58cabadbc668e2f17ce429900::ACKNOWLEDGED ffb7f9a58cabadbc668e2f17ce429900
+
+
+
+duplicate doc  |  time: 2016-04-15 10:02:16 966863  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-b422df15605e8a05197b7cd6ec3d571caf7224c7edec64305884d41bfed8116f::0c177ee42ad51366bfd054a197d77e6a::ACKNOWLEDGED 0c177ee42ad51366bfd054a197d77e6a
+
+
+
+duplicate doc  |  time: 2016-04-15 10:02:26 085471  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-de0f06266e15e0fd7157356be4b34f3cd0149d03841556f68a3c75264f7a2575::48a85159540b8ad061a7918bae9a2beb::ACKNOWLEDGED 48a85159540b8ad061a7918bae9a2beb
+
+
+
+duplicate doc  |  time: 2016-04-15 10:02:37 752320  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-e0ce1a71fe7648831e1f21f855bcb5bacd97dfaff219c22a105865d8d147b52e::0ea2aa40b660fbd64ebaa047c06aa33c::ACKNOWLEDGED 0ea2aa40b660fbd64ebaa047c06aa33c
+
+
+
+duplicate doc  |  time: 2016-04-15 10:03:51 284250  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-c9aae3579aa646c457a6bbc763bbe540f2f92da0affb81525a432a9d4e4ff994::eda9c38643286814df7a1aff7f16cb31::ACKNOWLEDGED eda9c38643286814df7a1aff7f16cb31
+
+
+
+irrelevant doc  |  time: 2016-04-15 10:04:03 343401  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-39298ce91ff8413e58be74ee3bf219f5fd65f52941af9c45133aec699b0c2622::4365cd9226d9dff712eee88f87b936dc::ACKNOWLEDGED 4365cd9226d9dff712eee88f87b936dc
+
+
+
+duplicate doc  |  time: 2016-04-15 10:05:30 946900  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-6d9437c7573a218346f8525b23e9087a37ff4f92aa795288cc4057b1aa20102c::03a2ffeacc2eb2be89321a9c0c7e40dc::ACKNOWLEDGED 03a2ffeacc2eb2be89321a9c0c7e40dc
+
+
+
+duplicate doc  |  time: 2016-04-15 10:05:41 588302  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-88f676b81fd9b703a3568b1a92502251d14a2c45b348f930ad3ae1fd5035deac::22611f3980f8bb15bd37a45480010f93::ACKNOWLEDGED 22611f3980f8bb15bd37a45480010f93
+
+
+
+duplicate doc  |  time: 2016-04-15 10:06:01 246951  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-52516a26e1a798ee08e83b2380c64dd235fb49026107d2fd9460639d7c8e72b6::ce6fbf222ea0c3a08bd5060160396aac::ACKNOWLEDGED ce6fbf222ea0c3a08bd5060160396aac
+
+
+
+duplicate doc  |  time: 2016-04-15 10:06:10 568782  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-e6e7bb3612ffcf54c3d010851d2e19c3197b1929367152650708ddadb029e2a9::d898e5364bb9c44e6ade1576b94a9b13::ACKNOWLEDGED d898e5364bb9c44e6ade1576b94a9b13
+
+
+
+duplicate doc  |  time: 2016-04-15 10:06:15 617021  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-fc064672ead6d1cbd8870ac4f9807be05bcc53d82fff4fead43b15fcf4631fd6::b54aa61e64e71894a6d87a9316b8cf54::ACKNOWLEDGED b54aa61e64e71894a6d87a9316b8cf54
+
+
+
+duplicate doc  |  time: 2016-04-15 10:06:19 395175  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-4ce5401acb738bb5641a0a728a1314afa56bd1fc805a6fede9ff3abc5a984b12::ed7108ca9179cf5768fcab7b170a7694::ACKNOWLEDGED ed7108ca9179cf5768fcab7b170a7694
+
+
+
+duplicate doc  |  time: 2016-04-15 10:06:21 763833  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-e7bb87d303f93d5c1e3cd5e59d3c0f29a87fb8c3afbb6f7326ec720c1fb3be3c::0c2e117f0d06a7d5133beaa06aff4b9d::ACKNOWLEDGED 0c2e117f0d06a7d5133beaa06aff4b9d
+
+
+
+irrelevant doc  |  time: 2016-04-15 10:07:01 272155  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-9b7ed99ec111c9b0d5ec90531219e5ddc05dfad3470e56293ac41ce80ba25af7::f34b48b0d0ba44aa611adf0fae25c131::ACKNOWLEDGED f34b48b0d0ba44aa611adf0fae25c131
+
+
+
+irrelevant doc  |  time: 2016-04-15 10:07:34 597674  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-fdb0c15705f65a196648ccfe57b824a280541125fee7ab9f6ec83354e1248b53::55490b63f28bdac62576d2e7a0406a2a::ACKNOWLEDGED 55490b63f28bdac62576d2e7a0406a2a
+
+
+
+duplicate doc  |  time: 2016-04-15 10:07:45 371784  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-753c006dec56f9669173eeed7cd3a2e873c496cfce884eb58f12a46031ad3247::970d2a4f76f3aca8ef45542f462702e6::ACKNOWLEDGED 970d2a4f76f3aca8ef45542f462702e6
+
+
+
+irrelevant doc  |  time: 2016-04-15 10:08:07 029630  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-cc94e047ec86617d504bab1d212599831e21f7825eab2b7af18cd32f6c4cf21d::b14ef9638fdc5eecf72b429792ab3cd1::ACKNOWLEDGED b14ef9638fdc5eecf72b429792ab3cd1
+
+
+
+duplicate doc  |  time: 2016-04-15 10:08:16 393479  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-117371692f85c1750a57f5416f16de41fa4325cdde509d5e153bc53443322d53::b34655b5614a70c4f7150978081a4013::ACKNOWLEDGED b34655b5614a70c4f7150978081a4013
+
+
+
+duplicate doc  |  time: 2016-04-15 10:08:27 189159  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-ff646e9e91a0315ea00f8d97f5ad50380697e46d537a9640c3e2af0d677274dc::f21c8d33c0eb8dee0c8977fbf7987e51::ACKNOWLEDGED f21c8d33c0eb8dee0c8977fbf7987e51
+
+
+
+duplicate doc  |  time: 2016-04-15 10:08:36 247288  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-bbe4c58ca91171f6de237b71373e2631421764d7a74439553c81f52c27db51ca::e27d741f4ed060eebc064e67bd61407a::ACKNOWLEDGED e27d741f4ed060eebc064e67bd61407a
+
+
+
+duplicate doc  |  time: 2016-04-15 10:09:11 354713  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-2c99c28c2b33deed62e33efa1dc500cbff2f5dcd839037f74b228d2693c9b8b3::3a630ea01d99a0ae4fc4f833e0e93186::ACKNOWLEDGED 3a630ea01d99a0ae4fc4f833e0e93186
+
+
+
+duplicate doc  |  time: 2016-04-15 10:09:29 685335  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-ae4dcd2dc9adb2ff04ff7d64bd12665235d1ffe41b0a61b89c1db55a5da0d43a::5d367dcfb8d574433ba5f3a1a0096db5::ACKNOWLEDGED 5d367dcfb8d574433ba5f3a1a0096db5
+
+
+
+duplicate doc  |  time: 2016-04-15 10:09:42 159641  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-8272d71b7c26e1c0d99920661baa6eb31147a40807b97fd92adf843ed089a310::9bc3e874572cbd7cede65bcbfeeb9eb9::ACKNOWLEDGED 9bc3e874572cbd7cede65bcbfeeb9eb9
+
+
+
+duplicate doc  |  time: 2016-04-15 10:09:50 647584  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-eb5d3e9f042984625a4e247b3d450e5fd5eb02ea2e8227e0a0e61566158b6349::04a3464307e88800136e20c2b3aaa925::ACKNOWLEDGED 04a3464307e88800136e20c2b3aaa925
+
+
+
+duplicate doc  |  time: 2016-04-15 10:10:57 097971  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-f6cd06b1093be521079029d95a139f96710fd9d3e3789c0cb90a93aa3725c1e1::13c4e46ceb088995041bf8aef963d14b::ACKNOWLEDGED 13c4e46ceb088995041bf8aef963d14b
+
+
+
+duplicate doc  |  time: 2016-04-15 10:11:09 696653  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-1a8a4261a0b32cf92ac621514e638cfc96c2f4d5b11c2dacc4a2a5e59614b272::c4790254cf37e63c93680b99386c8c59::ACKNOWLEDGED c4790254cf37e63c93680b99386c8c59
+
+
+
+duplicate doc  |  time: 2016-04-15 10:11:11 769802  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-daaaadf85a58bc3e4bb381df9619219d9d2f543d455aa2b8cb825fd1ac59c6b6::70681635c4cc6054df25d98023a533e0::ACKNOWLEDGED 70681635c4cc6054df25d98023a533e0
+
+
+
+duplicate doc  |  time: 2016-04-15 10:11:38 202979  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-dc7cb787883e1f087dbd728e9cdc61c0dacce3547cb8a9af59b8efd158fe6150::0c4f5f4a2239b6e2c9b39720fa9a9a3b::ACKNOWLEDGED 0c4f5f4a2239b6e2c9b39720fa9a9a3b
+
+
+
+duplicate doc  |  time: 2016-04-15 10:11:44 829847  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-7d313d26c80a81bdeb8563b89dc09414f7957ae363d8e063e3daf6078bce88d9::91b221421293c9720edff38923e0a352::ACKNOWLEDGED 91b221421293c9720edff38923e0a352
+
+
+
+duplicate doc  |  time: 2016-04-15 10:11:48 372487  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-5c8d626cc3a8089f7ecd60fe0a88f4fbbb7fff437b43a7caf1dd976d9bc58b6f::5beb0b45d8bb36973c8d50be0039fe52::ACKNOWLEDGED 5beb0b45d8bb36973c8d50be0039fe52
+
+
+
+duplicate doc  |  time: 2016-04-15 10:12:01 333523  |  # of fields: 2  |  topic_id: 369  |  topic_name: robots  |  docno: ebola-8f612ee25f4596965c0c20b452d5800f3d9717af44c4d12d0e099c9805d63a7a::52d482cba7ae7e220a34f0af7d94b250::ACKNOWLEDGED 52d482cba7ae7e220a34f0af7d94b250
+
+
+

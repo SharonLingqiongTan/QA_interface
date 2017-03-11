@@ -1,0 +1,60 @@
+#brtitle{
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#search{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #3394C4;
+    font-size: 20px;
+    float: left;
+}
+#doclist{
+    list-style: none;
+    position: relative;
+    right: 40px;
+    font-family: arial;
+    letter-spacing: -1px;
+}
+#doclist li{
+    margin-top:10px;
+    font-size: 18px;
+}
+.score{
+    float: right;
+    position:relative;
+    right: 10px;
+}
+.docno0{
+    margin-right:20px;
+    cursor: pointer;
+    color: blue;
+    overflow: hidden;
+}
+.docno1{
+    margin-right:20px;
+    cursor: pointer;
+    color: purple;
+    overflow: hidden;
+}
+#update{
+    float:left;
+    position: relative;
+    height: 24px;
+    margin-left: 60px;
+    color: #3394C4;
+    font-size: 22px;
+    cursor: pointer;
+}
+#line{
+    height: 2px;
+    border-bottom:2px dotted red;
+}
+#above, #below{
+    text-align: center;
+    color: #AAA;
+    font-size:16px;
+    letter-spacing: 0px;
+}

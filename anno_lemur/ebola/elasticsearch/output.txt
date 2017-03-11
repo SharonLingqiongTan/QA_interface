@@ -1,0 +1,627 @@
+<DOC>
+<DOCNO>4F6C8EABF97BF51B160DE6AEEE3C4EB391977B4C5A5AB8BD382C9EBC4758A861</DOCNO>
+<HTML>
+<BODY>
+<name>name: klover,white,black,black hair</name>
+<age>age: 25,27,28,21,23</age>
+<location>location: houston,shanghai,boston,minneapolis,united states,london,portland,seattle,roanoke,chicago,san diego,philadelphia,denver,kuala lumpur,richmond,vancouver,sacramento,orange county,pattaya,phoenix,singapore,new york city,virginia,honolulu,sf bay area,atlanta,toronto,saint louis,dubai,miami,dallas,detroit,las vegas,los angeles,austin,baltimore</location>
+<phone>phone: 1477430646</phone>
+<email>email: NULL</email>
+<ethnicity>ethnicity: Singapore</ethnicity>
+<height>height: NULL</height>
+<weight>weight: NULL</weight>
+<hair_color>hair_color: dark,brown,blonde,black</hair_color>
+<eye_color>eye_color: NULL</eye_color>
+<url>http://adultsearch.com/virginia/richmond/female-escorts/1055369%20</url>
+<raw_content><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Richmond Escorts and Call Girls in Virginia</title>
+<link rel="icon" type="image/png" href="/favicon.ico">
+<meta name="description" content="Richmond Escorts. Here you can find female escorts in Richmond with new listings posted daily, including pics, prices, reviews and extra search filters." />
+<meta name="keywords" content="Richmond Escorts, Female Escorts, Incall, Outcall, Prices, Escort Search" /><link rel="canonical" href="http://adultsearch.com/virginia/richmond/female-escorts/"/><link href="//adultsearch.com/css/as16.css?25" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery.js?183"></script>
+<script type="text/javascript" src="/js/tools/fancybox134/jquery.fancybox-1.3.4.pack.js"></script>
+<link href="/css/wrapper.css?20160726" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="//adultsearch.com/js/ui/jquery-ui-1.9.1.custom.min.js"></script>
+<link href="//img.adultsearch.com/js/ui/start/jquery-ui-1.9.1.custom.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="//adultsearch.com/js/main.js?2"></script>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5124307-2']);
+  _gaq.push(['_setDomainName', '.adultsearch.com']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+<body class="thrColAbsHdr">
+
+<div id="logoModule">
+	<div id="header">
+		<div id="topnav">
+			<ul class="left">
+				<a href="/homepage" class="leftborder" title="Adult Search Engine">Adult Search</a>
+				
+				<a href="http://www.theeroticreview.com" target="_blank" title="The Erotic Review">TER</a>
+				
+				<a href="http://www.myproviderguide.com" target="_blank" title="My Provider Guide">MyProviderGuide</a>
+				<a href="http://www.escorts.biz" target="_blank" title="Free Escort Website Designs">Free Escort Website</a>
+				<a href="http://rabbits.webcam/?id=121" target="_blank" title="Free Sex Cams">Free Sex Cams</a>
+			</ul>
+							<ul class="navlogin">
+					<a href="http://adultsearch.com/account/signup" class="leftborder" rel="nofollow">Sign Up</a>
+					<a href="http://adultsearch.com/account/signin?origin=%2Fvirginia%2Frichmond%2Ffemale-escorts%2F1055369%2520" rel="nofollow">Member Login</a>
+					<a href="http://adultsearch.com/adbuild/" title="Advertise on AdultSearch.com">Escort Advertising</a>
+				</ul>
+					</div>
+
+		<div id="logoHome"> <a href="/virginia/richmond/" title="Adult Search Engine"></a> </div>
+
+		<!-- headCat -->
+		<div id="headCat">
+		<span class="stretch">Richmond</span>
+		  <form method="post" action="/search" name="hdrsrch">
+			<input type="hidden" name="url" value="/virginia/richmond/"/>
+		   <input name="btnG" src="http://img.adultsearch.net/images/selectGoSilver.png" type="image" id="headGo" />
+	<select name="section" onchange="if(this.options[this.selectedIndex].value=='webcam') document.hdrsrch.target='_target'; else document.hdrsrch.target='_top';">
+						   					<option value="cl1">Female Escorts (16)</option>
+			   					<option value="cl2">TS/TV Shemale Escorts (4)</option>
+			   					<option value="emp1">Erotic Massage Parlors (1)</option>
+			   					<option value="sc1">Strip Clubs (7)</option>
+			   					<option value="as1">Sex Shops (3)</option>
+			   					<option value="cl6">Body Rubs (4)</option>
+			   						<option value="webcam">Girls on Webcam</option>
+			</select>
+		  </form>
+		 
+		</div>
+
+		<!-- /headCat -->
+		
+			<div class="changeBlock">
+				<div id="change">
+					<form action="/search_location" method="get">
+					<input name="btnG" src="http://img.adultsearch.com/images/selectGoSilver2.png" type="image" id="headGo2" />
+					<input name="city" id="city" class="locationHead" value="" placeholder="Type City Name" autocomplete="off" style="border: 2px solid #eee;"/>
+					<div class="clear">
+						<a href="/homepage" title="Adult Search Engine">All Cities &amp; Countries &raquo;</a> 
+					</div>
+					</form>
+				</div>
+			</div>
+
+			<a id="current" title="Adult Search Engine">
+				Richmond<br />
+			</a>
+		
+	</div>
+</div>
+
+<div id="content">
+	<div class="breadcrumbs">
+				
+					<a href="http://adultsearch.com/homepage" title="Adult Search Engine">All Locations</a> &raquo; United States &raquo; <a href="/virginia" title="Virginia">Virginia</a> &raquo; <a href="/virginia/richmond" title="Richmond">Richmond</a> &raquo; <a href="/virginia/richmond/female-escorts" title="Female Escorts">Female Escorts</a>
+									</div>
+
+	
+	<link href="/css/listings.css?6" rel="stylesheet" type="text/css">
+
+<div id="container" class="clear">
+
+
+  <div id="ListLeft"> 	
+	
+	<form method="get" action="" name="search" id="search">
+	  
+	  Search for...<br />
+	  <input type="text" size="35" class="text" value="" name="query" />
+	   <br />
+	  <br />
+	  <label for="free_text">Incall Rate:</label>
+	  <br />
+	  <select name='incall_min' class='text short' id='incall_min' onChange="javascript:ls_oc('incall_min','incall_max',incall,false);"><option 
+value=''>No Min</option><option value="200">$200.00 (1)</option></select> - <select name='incall_max' class='text short' id='incall_max'><option value="200">$200.00 (1)</option><option value='' 
+selected='selected'>No Max</option></select> <br />
+	  <br />
+	  	  	  <label for="free_text2">Outcall Rate:</label>
+	  <br />
+	  <select name='outcall_min' class='text short' id='outcall_min' 
+onChange="javascript:ls_oc('outcall_min','outcall_max',outcall,false);"><option value=''>No Min</option><option value="200">$200.00 (1)</option></select> - <select name='outcall_max' class='text short' id='outcall_max'><option value="200">$200.00 (1)</option><option value='' selected='selected'>No Max</option></select>
+	   <span class="action">
+	  <input type="submit" value="search" />
+	  </span>
+	  <div class="clear"></div>
+	</form>
+
+		<div id="refine">
+			  <h4 id="r1" rel="1">Ethnicity</h4>
+	  <ul>
+											
+							<li><a href="?ethnicity=4" rel="nofollow">White</a> (3)</li>
+						
+			
+															
+							<li><a href="?ethnicity=7" rel="nofollow">Mixed</a> (2)</li>
+						
+			
+															
+							<li><a href="?ethnicity=2" rel="nofollow">Black</a> (2)</li>
+						
+			
+												</ul>
+			  <h4 id="r1" rel="1">Language</h4>
+	  <ul>
+											
+							<li><a href="?language=13" rel="nofollow">English</a> (5)</li>
+						
+			
+												</ul>
+			  <h4 id="r1" rel="1">Incall/Outcall</h4>
+	  <ul>
+											
+							<li><a href="?available=2" rel="nofollow">Outcall</a> (2)</li>
+						
+			
+												</ul>
+			  <h4 id="r1" rel="1">Hair Color</h4>
+	  <ul>
+											
+							<li><a href="?haircolor=3" rel="nofollow">Dark Brown</a> (3)</li>
+						
+			
+															
+							<li><a href="?haircolor=4" rel="nofollow">Black</a> (2)</li>
+						
+			
+															
+							<li><a href="?haircolor=1" rel="nofollow">Light Brown</a> (1)</li>
+						
+			
+															
+							<li><a href="?haircolor=2" rel="nofollow">Blonde</a> (1)</li>
+						
+			
+												</ul>
+			  <h4 id="r1" rel="1">Eye Color</h4>
+	  <ul>
+											
+							<li><a href="?eyecolor=2" rel="nofollow">Brown</a> (4)</li>
+						
+			
+															
+							<li><a href="?eyecolor=5" rel="nofollow">Black</a> (2)</li>
+						
+			
+															
+							<li><a href="?eyecolor=1" rel="nofollow">Blue</a> (1)</li>
+						
+			
+												</ul>
+			  <h4 id="r1" rel="1">Services</h4>
+	  <ul>
+											
+							<li><a href="?ter=1" rel="nofollow">TER Reviewed</a> (3)</li>
+						
+			
+															
+							<li><a href="?featured=1" rel="nofollow">Featured</a> (5)</li>
+						
+			
+												</ul>
+			  <h4 id="r1" rel="1">Payment Options</h4>
+	  <ul>
+											
+							<li><a href="?payment_visa=1" rel="nofollow">Visa - Mastercard</a> (1)</li>
+						
+			
+															
+							<li><a href="?payment_amex=1" rel="nofollow">AMEX</a> (1)</li>
+						
+			
+															
+							<li><a href="?payment_dis=1" rel="nofollow">Discover Card</a> (1)</li>
+						
+			
+												</ul>
+	 <br />
+	Only advertisers who voluntarily selected specific options will display in your results. 
+	</div>
+
+		<div id="forum">
+	  <h4>Recent Forum Topics</h4>
+	  <ul>
+				<li><a href="/virginia/richmond/sex-forum/viewtopic?topic_id=15063" title="big tits n wet clit">big tits n wet clit</a> (2 replies)</li>
+				<li><a href="/virginia/richmond/sex-forum/viewtopic?topic_id=14730" title="Underground society">Underground society</a> (2 replies)</li>
+				<li><a href="/virginia/richmond/sex-forum/viewtopic?topic_id=15101" title="sweet candy">sweet candy</a> (1 reply)</li>
+				<li><a href="/virginia/richmond/sex-forum/viewtopic?topic_id=15598" title="anybody looking. for some good D hmu">anybody looking. for...</a> (1 reply)</li>
+				<li><a href="/virginia/richmond/sex-forum/viewtopic?topic_id=14546" title="help">help</a> (1 reply)</li>
+				<li><a href="/virginia/richmond/sex-forum/viewtopic?topic_id=15100" title="sweet candy">sweet candy</a></li>
+				<li><a href="/virginia/richmond/sex-forum/viewtopic?topic_id=15045" title="raining days">raining days</a></li>
+				<li><a href="/virginia/richmond/sex-forum/viewtopic?topic_id=14950" title="Look in for sum time 25 and Older">Look in for sum time...</a> (1 reply)</li>
+				<li><a href="/virginia/richmond/sex-forum/viewtopic?topic_id=14772" title="visiting Roanoke">visiting Roanoke</a></li>
+				<li><a href="/virginia/richmond/sex-forum/viewtopic?topic_id=14031" title="slick dog">slick dog</a> (4 replies)</li>
+		 <span class="action"><a href="/virginia/richmond/sex-forum/forum-new-topic?forum_id=7">Start a new topic</a></span>
+	  </ul>
+	  <div class="clear"></div>
+	</div>
+		 </div>
+
+  <div id="ListMid">
+	<div id="results">
+		<h1 class="ResultsTitle">
+			<span class="action postTitle"><a href="https://adultsearch.com/adbuild/" rel="nofollow">Escorts: Post</a></span>
+			
+			10 Richmond Escorts
+		</h1>
+		 <div id="sorting" class="viewRow">
+			<select id="ipp" name="ipp">
+				<option value="30">30 per page</option>
+				<option value="60">60 per page</option>
+				<option value="90">90 per page</option>
+			</select>
+			<div id="views">
+				<div id="view-list"><a href="#"></a></div>
+				<div id="view-photo"><a href="#"></a></div>
+			</div>
+		</div>
+
+			  	  	  	  <!-- INDIVIDUAL LISTING -->
+	  <li class="Listing"> <a href="http://adultsearch.com/virginia/richmond/female-escorts/1027678" title="Discreet Cougar Here!">  <span class="sponsor">Sponsor</span> <img src="http://img.adultsearch.com/classifieds/1027678.jpg" alt="Discreet Cougar Here!" border="0" width="75" height="75" />
+		<div class="ListingTitle">Discreet Cougar Here!</div>
+		 
+	   </a> 	  </li>
+	  <!-- /INDIVIDUAL LISTING -->
+	  	  	  	  <!-- INDIVIDUAL LISTING -->
+	  <li class="Listing"> <a href="http://adultsearch.com/ad?go=3&source=list" title="Meet hot girls & sexchat live on cam!" target="_blank">  <span class="sponsor">Sponsor</span> <img src="http://img.adultsearch.com/classifieds/491151_5.jpg" alt="Meet hot girls & sexchat live on cam!" border="0" width="75" height="75" />
+		<div class="ListingTitle">Meet hot girls & sexchat live on cam!</div>
+		 
+	   </a> 	  </li>
+	  <!-- /INDIVIDUAL LISTING -->
+	  	  	  	  <!-- INDIVIDUAL LISTING -->
+	  <li class="Listing"> <a href="http://adultsearch.com/virginia/richmond/female-escorts/678431" title="$$ SINGLE MOM IN SERIOUS NEED $$">  <span class="sponsor">Sponsor</span> <img src="http://img.adultsearch.com/classifieds/678431.jpg" alt="$$ SINGLE MOM IN SERIOUS NEED $$" border="0" width="75" height="75" />
+		<div class="ListingTitle">$$ SINGLE MOM IN SERIOUS NEED $$</div>
+		 
+	   </a> 	  </li>
+	  <!-- /INDIVIDUAL LISTING -->
+	  	  	  	  <!-- INDIVIDUAL LISTING -->
+	  <li class="Listing"> <a href="http://adultsearch.com/virginia/richmond/female-escorts/1006953" title="What dreams Are Made Of."> 		<!-- <span class="sponsor">Featured</span> -->
+		 <img src="http://img.adultsearch.com/classifieds/1006953.jpg" alt="What dreams Are Made Of." border="0" width="75" height="75" /> 		<h2 class="ListingTitle"> Yoki Safari</h2>
+		<div class="ListingRight"> Incall - $ 200<br />		  Outcall - $ 200</div>
+		<h3 class="ListingTagline">What dreams Are Made Of.</h3>
+		23 years old, 				Dark Brown Hair, 		Black Eyes, 						<!--  -->
+		 <br />
+				 
+	   </a> 	  </li>
+	  <!-- /INDIVIDUAL LISTING -->
+	  	  	  	  <!-- INDIVIDUAL LISTING -->
+	  <li class="Listing"> <a href="http://adultsearch.com/virginia/richmond/female-escorts/1007029" title="Greetings Gentlemen."> 		<!-- <span class="sponsor">Featured</span> -->
+		 <img src="http://img.adultsearch.com/classifieds/1007029.jpg" alt="Greetings Gentlemen." border="0" width="75" height="75" /> 		<h2 class="ListingTitle"> Diamond</h2>
+		<div class="ListingRight"> 		  </div>
+		<h3 class="ListingTagline">Greetings Gentlemen.</h3>
+		27 years old, 		Black, 		Dark Brown Hair, 		Black Eyes, 						<!--  -->
+		 <br />
+				 
+	   </a> 	  </li>
+	  <!-- /INDIVIDUAL LISTING -->
+	  	  	  	  <!-- INDIVIDUAL LISTING -->
+	  <li class="Listing"> <a href="http://adultsearch.com/virginia/richmond/female-escorts/1007026" title="Greetings Gentlemen."> 		<!-- <span class="sponsor">Featured</span> -->
+		 <img src="http://img.adultsearch.com/classifieds/1007026.jpg" alt="Greetings Gentlemen." border="0" width="75" height="75" /> 		<h2 class="ListingTitle"> Hottie</h2>
+		<div class="ListingRight"> 		  </div>
+		<h3 class="ListingTagline">Greetings Gentlemen.</h3>
+		28 years old, 				Black Hair, 		Brown Eyes, 						<!--  -->
+		 <br />
+				 
+	   </a> 	  </li>
+	  <!-- /INDIVIDUAL LISTING -->
+	  	  	  	  <!-- INDIVIDUAL LISTING -->
+	  <li class="Listing"> <a href="http://adultsearch.com/virginia/richmond/female-escorts/1003804" title="I promise you I'm worth your time"> 		<!-- <span class="sponsor">Featured</span> -->
+		 <img src="http://img.adultsearch.com/classifieds/1003804.jpg" alt="I promise you I'm worth your time" border="0" width="75" height="75" /> 		<h2 class="ListingTitle"> Klover</h2>
+		<div class="ListingRight"> 		  </div>
+		<h3 class="ListingTagline">I promise you I'm worth your time</h3>
+		25 years old, 		White, 		Blonde Hair, 		Blue Eyes, 						<!--  -->
+		 <br />
+				 
+	   </a> 	  </li>
+	  <!-- /INDIVIDUAL LISTING -->
+	  	  	  	  <!-- INDIVIDUAL LISTING -->
+	  <li class="Listing"> <a href="http://adultsearch.com/virginia/richmond/female-escorts/1003800" title="Beautiful upscale satisfaction garunteed"> 		<!-- <span class="sponsor">Featured</span> -->
+		 <img src="http://img.adultsearch.com/classifieds/1003800.jpg" alt="Beautiful upscale satisfaction garunteed" border="0" width="75" height="75" /> 		<h2 class="ListingTitle"> Sophie</h2>
+		<div class="ListingRight"> 		  </div>
+		<h3 class="ListingTagline">Beautiful upscale satisfaction garunteed</h3>
+		21 years old, 		Black, 		Black Hair, 		Brown Eyes, 						<!--  -->
+		 <br />
+				 
+	   </a> 	  </li>
+	  <!-- /INDIVIDUAL LISTING -->
+	  	  	  	  <!-- INDIVIDUAL LISTING -->
+	  <li class="Listing"> <a href="http://adultsearch.com/virginia/richmond/female-escorts/126422" title="Take a Walk on the Wild side with Mistress Ginger![*_*]"> 		<!--  -->
+		 <img src="http://img.adultsearch.com/classifieds/126422.jpg" alt="Take a Walk on the Wild side with Mistress Ginger![*_*]" border="0" width="75" height="75" /> 		<h2 class="ListingTitle"> Ginger</h2>
+		<div class="ListingRight"> 		  </div>
+		<h3 class="ListingTagline">Take a Walk on the Wild side with Mistress Ginger![*_*]</h3>
+														<!-- Outcall ONLY,  -->
+		 <br />
+				 
+	   </a> 	  </li>
+	  <!-- /INDIVIDUAL LISTING -->
+	  	  	  	  <!-- INDIVIDUAL LISTING -->
+	  <li class="Listing"> <a href="http://adultsearch.com/virginia/richmond/female-escorts/555336" title="--------&gt;&gt; Foot Fetish. Humiliation & Domination! &lt;&lt;--------"> 		<!--  -->
+		 <img src="http://img.adultsearch.com/classifieds/555336.jpg" alt="--------&gt;&gt; Foot Fetish. Humiliation & Domination! &lt;&lt;--------" border="0" width="75" height="75" /> 		<h2 class="ListingTitle"> </h2>
+		<div class="ListingRight"> 		  </div>
+		<h3 class="ListingTagline">--------&gt;&gt; Foot Fetish. Humiliation & Domination! &lt;&lt;--------</h3>
+														<!-- Outcall ONLY,  -->
+		 <br />
+				 
+	   </a> 	  </li>
+	  <!-- /INDIVIDUAL LISTING -->
+	  	  	  	<!-- pagination -->
+	<div class="pagelist">
+	  <div id="sort"> <a href="http://adultsearch.com/virginia/richmond/female-escorts/rss?type=1&loc_id=15048" title="Richmond escorts rss field" id="rssico"></a>
+		<select id="ipp2" name="ipp">
+		  <option value="30">30 per page</option>
+		  <option value="60">60 per page</option>
+		  <option value="90">90 per page</option>
+		</select>
+		</div>
+		<ul class="paging"><li><a class="sel">1</a></li></ul>
+	  <!-- /pagination -->
+	</div>
+  </div>
+  </div>
+
+	<div id="ListRight">
+		<div class="forumCrumb"><a href="/virginia/richmond/sex-forum/viewforum?forum_id=7">Escorts Sex Forums</a></div>
+
+		<!-- type = 1 category= -->
+
+<script src="//adultsearch.com/js/publisher/p.js?20160614" type="text/javascript"></script>
+
+<center>
+			<script type="text/javascript">as_show_banner(10077, 200, 200);</script>
+	</center>
+<br />
+
+<center>
+			<script type="text/javascript">as_show_banner(10090, 160, 600);</script>
+	</center>
+
+
+		
+		
+		<script src="//adultsearch.com/js/publisher/p.js?20160614" type="text/javascript"></script>
+
+<center>
+	<div id="page_ads_2"></div>
+</center>
+
+<script type="text/javascript">
+			var as_sid = '16';
+				var ad_loc='Richmond';
+		var aspublisher_width = "200";
+	var aspublisher_height = "700";
+	var aspublis_color_bg = "ffffff";
+	var aspublis_color_border = "ffffff";
+	var aspublis_color_link = "006621";
+	var aspublis_color_text = "000000";
+	var aspublis_color_url = "1a0dab";
+	as_show_ad('page_ads_2', as_sid);
+</script>
+<br />
+
+
+	</div>
+
+
+</div>
+
+<script type='text/javascript'>
+
+var view_current = 'list';
+$("#ipp, #ipp2").change(function() {
+	var qp = {}, qs = location.search.substring(1), re = /([^&=]+)=([^&]*)/g, m;
+	while (m = re.exec(qs)) {
+		if (decodeURIComponent(m[1]) == 'view')
+			continue;
+		if (decodeURIComponent(m[1]) == 'page')
+			continue;
+		qp[decodeURIComponent(m[1])] = decodeURIComponent(m[2]);
+	}
+	if (view_current == 'photo')
+		qp['view'] = 'photo';
+	qp['ipp'] = $(this).val();
+	location.search = $.param(qp);
+});
+function add_photo_view(link) {
+	var url = link.attr('href');
+	if (typeof url === "undefined")
+		return;
+	if (url.indexOf('&view=photo') == -1)
+		url = url+'&view=photo';
+	link.attr('href', url);
+}
+function remove_photo_view(link) {
+	var url = link.attr('href');
+	if (typeof url === "undefined")
+		return;
+	url = url.replace('&view=photo', '');
+	link.attr('href', url);
+}
+function view_photo() {
+	if (view_current == 'photo')
+		return;
+	$('#results').addClass('gallery');
+	$('ul.paging a').each(function() {add_photo_view($(this));});
+	$('#refine a').each(function() {add_photo_view($(this));});
+	$('#refineResults a').each(function() {add_photo_view($(this));});
+	if (!document.getElementById('search_view')) {
+		$('#search').append('<input id="search_view" type="hidden" name="view" value="photo" />');
+	}
+	view_current = 'photo';
+}
+function view_list() {
+	if (view_current == 'list')
+		return;
+	$('#results').removeClass('gallery');
+	$('ul.paging a').each(function() {remove_photo_view($(this));});
+	$('#refine a').each(function() {remove_photo_view($(this));});
+	$('#refineResults a').each(function() {remove_photo_view($(this));});
+	if (document.getElementById('search_view')) {
+		$('#search_view').remove();
+		$('#search input[name=view]').remove();
+	}
+	view_current = 'list';
+}
+$('#view-photo a').click(view_photo);
+$('#view-list a').click(view_list);
+$(document).ready(function() {
+	if (getParameterByName('view') == 'photo') {
+		view_photo();
+	}
+});
+
+</script>
+
+
+</div>
+
+<br style="clear: both;" />
+  
+<div id="footerx">
+			<br />
+		<center>
+			<script src="//adultsearch.com/js/publisher/p.js?20160427" type="text/javascript"></script>
+			<!-- 1 -->
+							<script type="text/javascript">as_show_banner(10074, 728, 90);</script>
+					</center>
+	
+	<div id="footer_city_links">
+		<a href="http://philippines.adultsearch.com/angeles-city/" title="angeles City, PH">Angeles City</a>, 
+		<a href="http://adultsearch.com/georgia/atlanta/" title="Atlanta, GA">Atlanta</a>, 
+		<a href="http://adultsearch.com/texas/austin/" title="Austin, TX">Austin</a>, 
+		<a href="http://adultsearch.com/maryland/baltimore/" title="Baltimore, MD">Baltimore</a>, 
+		<a href="http://adultsearch.com/massachusetts/boston/" title="Boston, MA">Boston</a>, 
+		<a href="http://adultsearch.com/illinois/chicago/" title="Chicago, IL">Chicago</a>, 
+		<a href="http://adultsearch.com/texas/dallas/" title="Dallas, TX">Dallas</a>, 
+		<a href="http://adultsearch.com/colorado/denver/" title="Denver, CO">Denver</a>, 
+		<a href="http://adultsearch.com/michigan/detroit/" title="Detroit, MI">Detroit</a>, 
+		<a href="http://uae.adultsearch.com/dubai" title="Dubai, UAE">Dubai</a>, 
+		<a href="http://adultsearch.com/hawaii/honolulu/" title="Honolulu, HI">Honolulu</a>, 
+		<a href="http://adultsearch.com/texas/houston/" title="Houston, TX">Houston</a>, 
+		<a href="http://malaysia.adultsearch.com/kuala-lumpur" title="Kuala Lumpur, MY">Kuala Lumpur</a>, 
+		<a href="http://adultsearch.com/nevada/las-vegas/" title="Las Vegas, NV">Las Vegas</a>, 
+		<a href="http://uk.adultsearch.com/england/london/" title="London, UK">London</a>, 
+		<a href="http://adultsearch.com/california/los-angeles/" title="Los Angeles, CA">Los Angeles</a>, 
+		<a href="http://adultsearch.com/florida/miami/" title="Miami, FL">Miami</a>, 
+		<a href="http://adultsearch.com/minnesota/minneapolis/" title="Minneapolis, MN">Minneapolis</a>, 
+		<a href="http://adultsearch.com/new-york/new-york-city/" title="New York City, NY">New York City</a>, 
+		<a href="http://adultsearch.com/california/orange-county/" title="Orange County, CA">Orange County</a>, 
+		<a href="http://thailand.adultsearch.com/pattaya/" title="Pattaya, TH">Pattaya</a>, 
+		<a href="http://adultsearch.com/pennsylvania/philadelphia/" title="Philadelphia, PA">Philadelphia</a>, 
+		<a href="http://adultsearch.com/arizona/phoenix/" title="Phoenix, AZ">Phoenix</a>, 
+		<a href="http://adultsearch.com/oregon/portland/" title="Portland, OR">Portland</a>, 
+		<a href="http://adultsearch.com/missouri/saint-louis/" title="Saint Louis, MO">Saint Louis</a>, 
+		<a href="http://adultsearch.com/california/sacramento/" title="Sacramento, CA">Sacramento</a>, 
+		<a href="http://adultsearch.com/california/san-diego/" title="San Diego, CA">San Diego</a>, 
+		<a href="http://adultsearch.com/washington/seattle/" title="Seattle, WA">Seattle</a>, 
+		<a href="http://adultsearch.com/california/san-francisco/" title="San Francisco Bay Area, CA">SF Bay Area</a>, 
+		<a href="http://china.adultsearch.com/shanghai" title="Shanghai, CN">Shanghai</a>, 
+		<a href="http://singapore.adultsearch.com/singapore/" title="Singapore, SG">Singapore</a>, 
+		<a href="http://ca.adultsearch.com/ontario/toronto/" title="Toronto, ON">Toronto</a>, 
+		<a href="http://ca.adultsearch.com/british-columbia/vancouver/" title="Vancouver, BC">Vancouver</a>, 
+		<a href="http://adultsearch.com/washington-dc/washington-dc/" title="Washington, DC">Wash DC</a>
+		<br />
+	</div>
+	
+	<div id="footer_content">
+		<a href="http://adultsearch.com/advertise/" class="o" title="Advertising">Advertising</a> |
+		<a title="Privacy Policy" href="/privacy-policy">Privacy Policy</a> |
+		<a href="/contact?where=%2Fvirginia%2Frichmond%2Ffemale-escorts%2F1055369%2520">Contact Us</a> |
+		<a title="adult search - business owners" href="/businessowner/">Business Owners</a> |
+		<a title="Our Banners" href="/our-banners">Grab Our Banner</a> |
+		<a rel="nofollow" target="_blank" title="Protect Children Online" href="http://www.asacp.org/">RCA</a><br />
+	</div>
+</div>
+
+
+<div id="login" style="display:none";>
+	<form method="post" action="https://adultsearch.com/virginia/richmond/female-escorts/1055369%20">
+				<input type="hidden" name="login" value="1" />
+		<input type="hidden" name="origin" value="http://adultsearch.com/virginia/richmond/female-escorts/1055369%20" />
+		<div class="createAccountTitles3">E-Mail:</div>
+		<input name="email" class="formInput0" id="email" maxlength="200" value="" />
+		<div class="createAccountTitles3">Password:</div>
+		<input name="password" type="password" class="formInput0" maxlength="200" />
+		<div class="clear centered">
+			<p><input type="checkbox" name="saveme" value="1" /> Auto-Login from this computer</p>
+			<input name="submit" type="submit" class="button" id="button" value="Submit" />
+		</div>
+		<div class="accountLine">&nbsp;</div>
+		<ul>
+			<li><a class="register" href="http://adultsearch.com/account/signup" rel="nofollow">I want to register</a></li>
+			<li><a class="createAccountForgotPass" href="http://adultsearch.com/account/reset" rel="nofollow">I forgot my password</a></li>
+		</ul>
+	</form>
+</div>
+
+
+<!-- current timestamp = 1477430646 -->
+<!-- no as popup -->
+
+<script type="text/javascript">
+<!--
+jQuery(function() {
+	jQuery("#city").autocomplete({
+		source: function(request, response) {
+			jQuery.ajax({
+				url: "/_ajax/city",
+				dataType: "json",
+				data: {
+					search_string: request.term
+				},
+				success: function(data) {
+					response(jQuery.map(data, function(item) {
+						return {
+							url: item.url,
+							value: item.name
+						}
+					}))
+				}
+			})
+		},
+		create: function() {
+			$(this).attr("autocomplete", "off");
+		},
+		focus: function() {
+			$(this).attr("autocomplete", "off");
+		},
+		search: function() {
+			$(this).attr("autocomplete", "off");
+		},
+		select: function( event, ui ) {
+			window.location.href = ui.item.url;
+		},
+		minLength: 2
+	});
+});
+-->
+</script>
+
+
+
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55db2317ae21c8aa" async="async"></script>
+
+</body>
+</html>
+
+</raw_content>
+</BODY>
+</HTML>
+</DOC>

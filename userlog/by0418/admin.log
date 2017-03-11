@@ -1,0 +1,50 @@
+login  |  time: 2016-04-13 11:43:00 957508
+
+domain/select  |  time: 2016-04-13 11:59:33 435610  |  # of fields: 2  |  domain_id: 3  |  domain_name: Weapon
+
+domain/select  |  time: 2016-04-13 12:01:14 277809  |  # of fields: 2  |  domain_id: 2  |  domain_name: Polar
+
+domain/select  |  time: 2016-04-13 12:01:33 008095  |  # of fields: 2  |  domain_id: 3  |  domain_name: Weapon
+
+domain/select  |  time: 2016-04-13 12:09:08 681522  |  # of fields: 2  |  domain_id: 1  |  domain_name: Ebola
+
+topic/create  |  time: 2016-04-13 12:09:36 818314  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 342  |  topic_name:  unicef test
+
+topic/select  |  time: 2016-04-13 12:09:37 127251  |  # of fields: 2  |  topic_id: 342  |  topic_name: unicef test
+
+topic/create  |  time: 2016-04-13 12:09:49 273641  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 343  |  topic_name:  unicef another
+
+topic/select  |  time: 2016-04-13 12:09:49 543357  |  # of fields: 2  |  topic_id: 343  |  topic_name: unicef another
+
+login  |  time: 2016-04-13 12:13:50 658907
+
+login  |  time: 2016-04-14 10:44:30 219502
+
+login  |  time: 2016-04-14 13:14:25 585731
+
+subtopic/create  |  time: 2016-04-14 13:14:56 127044  |  # of fields: 4  |  topic_id: 343  |  topic_name: unicef another  |  subtopic_id: 80  |  subtopic_name: test 123
+
+passage/create  |  time: 2016-04-14 13:15:06 834270  |  # of fields: 6  |  topic_id: 343  |  topic_name: unicef another  |  subtopic_id: 80  |  subtopic_name: test 123  |  passage_id: 870  |  passage_name:  2nd Texas Healthcare Worker Tests Positive For Ebola. Texas Healthcare Worker Tests Positive For Ebola::caadfcd7f947db7b42d333752c832006::ACKNOWLEDGED caadfcd7f947db7b42d333752c832006  
+
+login  |  time: 2016-04-14 13:15:24 662569
+
+subtopic/nist_findmore  |  time: 2016-04-14 13:15:39 052636  |  # of fields: 4  |  topic_id: 343  |  topic_name: unicef another  |  subtopic_id: 80  |  subtopic_name: test 123::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=25%20TID=343%20STID=343.80%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+login  |  time: 2016-04-14 13:15:55 593097
+
+login  |  time: 2016-04-14 13:32:27 235552
+
+topic/create  |  time: 2016-04-14 14:00:01 675854  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 368  |  topic_name:  fake id
+
+topic/select  |  time: 2016-04-14 14:00:01 897962  |  # of fields: 2  |  topic_id: 368  |  topic_name: fake id
+
+login  |  time: 2016-04-14 21:51:01 458678
+
+tagged/select  |  time: 2016-04-14 21:51:04 679815  |  # of  fields: 1  |  topic_id: 368
+
+irrelevant/select  |  time: 2016-04-14 21:51:09 424091  |  # of  fields: 1  |  topic_id: 368
+
+duplicate/select  |  time: 2016-04-14 21:51:13 522738  |  # of  fields: 1  |  topic_id: 368
+
+login  |  time: 2016-04-14 22:51:56 908411
+

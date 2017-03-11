@@ -1,0 +1,467 @@
+.clear{
+    clear: both;
+}
+/*.collapse {
+    display: none
+}*/
+body{
+    min-width: 1420px;
+    font-family: Arial;
+   // overflow-y: hidden;
+   height:1000px;
+}
+/* feature */
+#featurewrap{
+   float:left;
+   width:25%;
+   text-align:right;
+}
+#feature {
+   width: 250px;
+   display: inline-block;
+   text-align: left;
+   border-right: 1px solid #5CB8E6;
+   border-left: 1px solid #5CB8E6;
+}
+
+.highlight { background-color: yellow }
+
+article {
+	display: block;
+}
+
+.side-bar__content {
+    padding: 15px 20px
+}
+
+.side-bar__block {
+    border: none;
+    border-bottom: 1px solid #5CB8E6;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .075);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, .075);
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, .075)
+}
+
+.filter__section {
+    font-size: 12px;
+    margin-bottom: 25px
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold
+}
+
+.select-wrapper {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    height: 24px;
+    line-height: 12px;
+    margin-bottom: 5px
+}
+
+input, select {
+   /*background-color: transparent;*/
+    background-image: none
+}
+
+select.input-sm {
+    height: 22px;
+    line-height: 12px;
+    padding: 3px 5px 3px 10px
+}
+
+h1 {
+	color:#587497;
+	line-height: 1.2em
+}
+
+.side-bar__title.is--expandable {
+    position: relative;
+    width: 100%;
+    left: 5px;
+    top: 20px;
+    padding: 15px
+}
+.side-bar__title.collapsed {
+    box-shadow: 0 14px 0 #fff, 1px 14px 0 #fff, -1px 14px 0 #fff;
+    -moz-box-shadow: 0 14px 0 #fff, 1px 14px 0 #fff, -1px 14px 0 #fff;
+    -webkit-box-shadow: 0 14px 0 #fff, 1px 14px 0 #fff, -1px 14px 0 #fff;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0
+}
+
+/* content */
+
+#contentwrap{
+    float:left;
+    width: 50%;
+    padding-top: 20px;
+}
+#content{
+    margin-left: 15px;
+}
+#banner{
+    margin-bottom: 20px;
+}
+#title {
+    float: left;
+    color: #3394C4;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+#title span{
+    font-size: 24px;
+    font-weight: normal;
+    font-family: Consolas;
+}
+
+#user{
+    margin-top:19px;
+    float: right;
+    font-size: 18px;
+    font-weight: normal;
+}
+#summary{
+    cursor: pointer;
+    color: blue;
+    position:relative;
+    right:7px;
+    text-decoration: underline;
+}
+#admin_cgi{
+    cursor: pointer;
+    color: blue;
+    position:relative;
+    right:13px;
+}
+#logout{
+    margin-left: 15px;
+}
+#domain{
+    float: left;
+}
+#domain form, #topic form{
+    height: 24px;
+    font-size: 18px;
+}
+#domain_panel_description{
+    float:left;
+}
+#Sdomain{
+    float: left;
+    display: block;
+    width: 150px;
+    height: 24px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+#topic{
+    float: right;
+    margin-left: 20px;
+}
+#topic_panel_description{
+    float:left;
+}
+
+#Ctopic, #Atopic, #Etopic{
+    float: left;
+    margin-left: 5px;
+}
+#Stopic{
+    float: left;
+    display: block;
+    position: relative;
+    top: 2px;
+    width: 450px;
+    height: 24px;
+    font-size: 18px;
+}
+#add_topic, .confirm_topic{
+    float: left;
+    cursor: pointer;
+}
+#edit_topic, .cancel_topic{
+    float: left;
+    margin-left: 8px;
+    cursor: pointer;
+}
+#add_topic, .confirm_topic {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}
+#edit_topic, .cancel_topic{
+    text-decoration: underline;
+}
+
+#Atopic input, #Etopic input{
+    float: left;
+    padding: 1px;
+    border : 2px inset;
+    width: 445px;
+    height: 18px;
+    font-size: 16px;
+}
+#Atopic input{
+    border: 1px solid #000;
+}
+#Atopic .cancel_topic{
+    color: blue;
+}
+
+#Atopic, #Etopic{
+    display: none;
+}
+#delete_topic{
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    top:2px;
+    width:20px;
+    cursor: pointer;
+    height:20px;
+}
+
+
+#lemurbox{width:100%; padding-top:3px; border-top:1px dotted #5CB8E6;}
+
+/* sidebar */
+#sidebarwrap{
+    float: right;
+    width: 25%;
+}
+#sidebar{
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #5CB8E6;
+    overflow-y: scroll;
+}
+#topicname2{
+    padding:5px 0;
+    border-bottom: 1px dotted #CCC;
+}
+#add_subtopic{
+    float: left;
+    position: relative;
+    right: 2px;
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#add_subtopic_hint{
+    float: left;
+    font-size: 24px;
+}
+#Asubtopic{
+    display: none;
+}
+#input_subtopic {
+    float: left;
+    height: 30px;
+    font-size: 24px;
+    width: 50%;
+}
+#confirm_sub, #cancel_add_sub{
+    float:left;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#cancel_add_sub{
+    font-size: 18px;
+    text-decoration: underline;
+}
+#scountpanel{
+    margin-top:5px;
+    color: #999;
+}
+#dropbox_list{
+    margin-top: 10px;
+    width: 100%;
+}
+.dropbox{
+    width: 95%;
+    height: 270px;
+    border: 1px solid #5CB8E6;
+    margin-bottom: 10px;
+}
+.boxheader{
+    height:40px;
+    border-bottom: 1px dotted #CCCCCC;
+}
+.Cboxheader h1{
+    float: left;
+    margin-left: 5px;
+    line-height: 40px;
+    height: 40px;
+    max-width: 280px;
+    overflow: hidden;
+    padding-right: 5px;
+    border-right: 1px dotted #DDD;
+    color: #3394C4;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+.Cboxheader .pstat{
+    float:left;
+    margin-left:5px;
+    line-height: 40px;
+    color: #999;
+    height: 40px;
+}
+.Cboxheader .pcount{
+    display: inline;
+}
+.Cboxheader .findmore_mag{
+    margin-left:5px;
+    height:26px;
+    width: 26px;
+    display: inline;
+    position: relative;
+    top:7px;
+    cursor: pointer;
+} 
+.Cboxheader span{
+    float: right;
+    margin-right: 10px;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.Eboxheader{
+    display: none
+}
+.Eboxheader input{
+    float: left;
+    width: 336px;
+    padding: 1px;
+    border : 2px inset;
+    height: 34px;
+    font-size:20px;
+}
+.Eboxheader img{
+    float: right;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.Eboxheader span{
+    float: right;
+    margin-right: 10px;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.droppable{
+    padding-left:5px;
+    height:225px;
+    overflow-y: scroll;
+}
+.passage{
+    margin-top: 10px;
+    padding-bottom:3px;
+    border-bottom: 1px dotted #BBB;
+}
+.passage form{
+    font-family: verdana;
+    letter-spacing: -1px;
+    color: #222;
+}
+.passage form input{
+    margin-left: 10px;
+    position: relative;
+    left: 5px;
+    bottom: 1px;
+}
+.droppable p{
+    line-height: 18px;
+    font-size: 16px;
+}
+.droppable .origin{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #C94B4B;
+}
+.droppable .origin span{
+    float: left;
+    color: #C94B4B; 
+}
+.droppable form{
+    margin-top: 5px;
+}
+.grey{
+    opacity : 0.5;
+}
+.docno{
+    margin-left: 5px;
+    width: 300px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.deletePassage{
+    float: right;
+    margin-right:5px;
+    position: relative;
+    bottom:3px;
+    width:20px;
+    cursor: pointer;
+    height:20px;
+}
+.dupPassage{
+    float: right;
+    margin-right:5px;
+    position: relative;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.deleteSubtopic{
+    float: right;
+    margin-right:5px;
+    position: relative;
+    top:10px;
+    width:20px;
+    cursor: pointer;
+    height:20px;
+}
+#SVannotations{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right:40px;
+    border-left: 1px solid #5CB8E6;
+}
+#SVannotations button{
+    height: 30px;
+    font-size: 14px;
+    float: right;
+    margin-right: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#viewdoc{
+    border-top: 1px dotted #5CB8E6;
+    padding-top: 5px;
+}
+#viewdoc .list_button{
+    float: right;
+    height: 20px;
+    border: 1px solid #5CB8E6;
+    margin-left: 40px;
+    padding: 4px;
+    border-radius: 4px;
+    font-family: verdana;
+    color: #444;
+    cursor: pointer;
+}
+#viewdoc .list_button:hover{
+    background-color:#5CB8E6;
+    color: white;
+}
+.dialogs{display:none;}
+.ui-dialog{ z-index: 10001 !important;}

@@ -1,0 +1,34 @@
+login  |  time: 2016-04-12 23:20:48 259368
+
+topic/create  |  time: 2016-04-12 23:21:15 199266  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 334  |  topic_name:  admin test topic2
+
+topic/select  |  time: 2016-04-12 23:21:15 299964  |  # of fields: 2  |  topic_id: 334  |  topic_name: admin test topic2
+
+subtopic/create  |  time: 2016-04-12 23:21:22 701154  |  # of fields: 4  |  topic_id: 334  |  topic_name: admin test topic2  |  subtopic_id: 14  |  subtopic_name: admin test subtopic11
+
+passage/create  |  time: 2016-04-12 23:21:29 876169  |  # of fields: 6  |  topic_id: 334  |  topic_name: admin test topic2  |  subtopic_id: 14  |  subtopic_name: admin test subtopic11  |  passage_id: 44  |  passage_name:  best sketches seen in the first two series::20fc8bad9a5bedf906a4002c2593b4a1::ACKNOWLEDGED 20fc8bad9a5bedf906a4002c2593b4a1  
+
+passage/grade  |  time: 2016-04-12 23:21:32 873880  |  # of fields: 2  |  passage_id: 44  |  score: 3::0053f5078ae82f52c2ab47ee24feb26d::ACKNOWLEDGED 0053f5078ae82f52c2ab47ee24feb26d
+
+
+
+topic/select  |  time: 2016-04-12 23:21:34 673690  |  # of fields: 2  |  topic_id: 334  |  topic_name: admin test topic2
+
+passage/irrelevant  |  time: 2016-04-12 23:21:38 368211  |  # of fields: 2  |  passage_id: 44::18b45f2448e193b748c05e1f4a4cdd9e::ACKNOWLEDGED 18b45f2448e193b748c05e1f4a4cdd9e
+
+
+
+topic/select  |  time: 2016-04-12 23:21:40 016902  |  # of fields: 2  |  topic_id: 334  |  topic_name: admin test topic2
+
+irrelevant doc  |  time: 2016-04-12 23:21:41 754075  |  # of fields: 2  |  topic_id: 334  |  topic_name: admin test topic2  |  docno: ebola-59b43ae48ab3a58ae892752567fef054731a76e8b35b96cf43dd8bb908c8948e::8ff2162840843968a4009656103bd8bf::ACKNOWLEDGED 8ff2162840843968a4009656103bd8bf
+
+
+
+login  |  time: 2016-04-13 12:22:08 884717
+
+login  |  time: 2016-04-13 12:22:33 585178
+
+login  |  time: 2016-04-13 21:44:27 161273
+
+login  |  time: 2016-04-14 00:40:50 390797
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
+
+    <title>TREC-DD Annotation</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="./css/theme.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/dripicon.css">
+    <link rel="stylesheet" href="./css/typicons.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./js/tip/tooltipster.css">
+    <link rel="stylesheet" type="text/css" href="./tree_files/jquery.vegas.css">
+
+    <link rel="stylesheet" href="./js/tree/jquery.treeview.css">
+
+
+    <link rel="stylesheet" href="./js/tree/treetable/stylesheets/jquery.treetable.css">
+    <link rel="stylesheet" href="./js/tree/treetable/stylesheets/jquery.treetable.theme.default.css">
+
+    <link href="./tree_files/tabelizer.min.css" media="all" rel="stylesheet" type="text/css">
+    <!-- pace loader -->
+    <script src="./tree_files/pace.js"></script>
+    <link href="./js/pace/themes/orange/pace-theme-flash.css" rel="stylesheet">
+    <style>
+        .docno{
+            color: red;
+            cursor: pointer;
+        }
+        .score{
+            color: blue;
+        }
+	.deleted{
+	    color: red;
+	}
+    </style>
+</head>
+
+<body class=" pace-done" style="overflow: visible;"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="box">
+				<div class="box-header">
+					<!-- tools box -->
+					<div class="pull-right box-tools">
+
+						<span class="box-btn" data-widget="collapse"><i class="fa fa-minus"></i> </span> <span class="box-btn" data-widget="remove"><i class="fa fa-times"></i> </span>
+					</div>
+					<h3 class="box-title">
+						<i class="fontello-doc"></i> <span>Hierarchy View</span>
+					</h3>
+				</div>
+				<!-- /.box-header -->
+				<div class="box-body">
+					<div class="row">
+						<div class="col-sm-12">
+							<ul style="display:none" id="browser" class="treeview">
+								%s
+							</ul>
+
+						</div>
+					</div>
+				</div>
+				<!-- /.box-body -->
+			</div>
+			<!-- /.box -->
+		</div>
+
+	</div>
+
+
+	<!-- 
+    ================================================== -->
+    <!-- Main jQuery Plugins -->
+    <script type="text/javascript" src="./tree_files/jquery.js"></script>
+
+    <script type="text/javascript" src="./tree_files/bootstrap.js"></script>
+    <script type="text/javascript" src="./tree_files/date.js"></script>
+    <script type="text/javascript" src="./tree_files/jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="./tree_files/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="./tree_files/sliding-menu.js"></script>
+    <script type="text/javascript" src="./tree_files/scriptbreaker-multiple-accordion-1.js"></script>
+    <script type="text/javascript" src="./tree_files/jquery.tooltipster.min.js"></script>
+    <script type="text/javascript" src="./tree_files/jquery.drawDoughnutChart.js"></script>
+    <script type="text/javascript" src="./tree_files/jquery.newsTicker.js"></script>
+    <script type="text/javascript" src="./tree_files/app.ticker.js"></script>
+    <script type="text/javascript" src="./tree_files/app.js"></script>
+
+    <script type="text/javascript" src="./tree_files/jquery.vegas.js"></script>
+    <script type="text/javascript" src="./tree_files/image-background.js"></script>
+    <script type="text/javascript" src="./tree_files/jquery.tabSlideOut.v1.3.js"></script>
+    <script type="text/javascript" src="./tree_files/bg-changer.js"></script>
+    <!-- /MAIN EFFECT -->
+    <script type="text/javascript" src="./tree_files/jquery.cookie.js"></script>
+    <script type="text/javascript" src="./tree_files/jquery.treeview.js"></script>
+
+
+    <script type="text/javascript" src="./tree_files/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="text/javascript" src="./tree_files/jquery.tabelizer.js"></script>
+
+    <script type="text/javascript" src="./tree_files/jquery-ui.js"></script>
+    <script type="text/javascript" src="./tree_files/jquery.treetable.js"></script>
+
+
+    <script>home_prefix = "http://infosense.cs.georgetown.edu/atest/"</script>
+    <script type="text/javascript">
+					(function($) {
+						"use strict";
+						$("#browser")
+								.show()
+								.treeview(
+										{
+											animated : "fast",
+											collapsed : true,
+											unique : true,
+											persist : "cookie",
+											toggle : function() {
+												//window.console
+												//		&& console
+												//				.log(
+	//																	"%o was toggled",
+	//																	this);
+											}
+										});
+			$(".subtopic-load").click(function(){
+			    var $r = $(this);
+			    $.ajax({
+				method: "post",
+				url: home_prefix + "admin/getPassage.cgi",
+				data: {
+				    subtopic_id: $(this).data('subid')
+				},
+				success: function(passages){
+				    $r.siblings('ul').html(passages); 
+				    $(".docno").on("click",function(){
+                            window.open(home_prefix+$(this).closest(".domain").data('url').replace('search','check') + '?e=' + $(this).text(), 'backToDoc', "height=600,width=900,left=" + (screen.width-900)/2 + ",top=" + (screen.height-700)/2)
+                        });
+				}
+			    });
+			});
+					})(jQuery);
+
+					
+				</script>
+
+
+
+
+<div class="doughnutTip" style="display: none;"></div></body></html>

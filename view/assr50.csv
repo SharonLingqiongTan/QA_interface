@@ -1,0 +1,3 @@
+domain_id,domain_name,userid,username,topic_id,topic_name,subtopic_id,subtopic_name,passage_id,passage_name,docno,offset_start,offset_end,grade,timestamp
+1,Ebola,58,assr50,326,Patients,2,US Patients,2,Second Dallas Ebola patient is a TCU alumna  ,ebola-9e2e784385642f1aa1ef78a516015622a0af4ccb4e8b98cd9e4bf9f3e55f1cc2,0,45,2,2016-04-12 14:24:34.324537, 
+1,Ebola,58,assr50,326,Patients,2,US Patients,3,A health care worker at Texas Health Presbyterian Hospital who provided care for the Ebola patient hospitalized there has tested positive for Ebola in a preliminary test at the state public health laboratory in Austin. +,ebola-57ec8135b7c5c657fd52d2130161f1385897f3a3b2592aa081f76f1b24d1c7b8,0,220,2,2016-04-12 14:27:06.000991, 

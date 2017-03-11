@@ -1,0 +1,38 @@
+login  |  time: 2016-04-12 16:37:52 854196
+
+topic/create  |  time: 2016-04-12 16:42:24 865891  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 330  |  topic_name:  Boko Haram
+
+topic/select  |  time: 2016-04-12 16:42:25 194766  |  # of fields: 2  |  topic_id: 330  |  topic_name: Boko Haram
+
+subtopic/create  |  time: 2016-04-12 16:43:40 798134  |  # of fields: 4  |  topic_id: 330  |  topic_name: Boko Haram  |  subtopic_id: 7  |  subtopic_name: Conditions in Nigeria
+
+passage/create  |  time: 2016-04-12 16:43:54 849596  |  # of fields: 6  |  topic_id: 330  |  topic_name: Boko Haram  |  subtopic_id: 7  |  subtopic_name: Conditions in Nigeria  |  passage_id: 24  |  passage_name:  This is essentially a no-go zone. There are very few journalists who can go there. ::ac5f76e6ee5e08e5f4a1a80fd71f4838::ACKNOWLEDGED ac5f76e6ee5e08e5f4a1a80fd71f4838  
+
+passage/grade  |  time: 2016-04-12 16:44:00 495055  |  # of fields: 2  |  passage_id: 24  |  score: 2::f7611898c31b0a2b6358a5b1f3206f99::ACKNOWLEDGED f7611898c31b0a2b6358a5b1f3206f99
+
+
+
+passage/create  |  time: 2016-04-12 16:45:15 411292  |  # of fields: 6  |  topic_id: 330  |  topic_name: Boko Haram  |  subtopic_id: 7  |  subtopic_name: Conditions in Nigeria  |  passage_id: 25  |  passage_name:  With the worldâs gaze focused on Paris last week, militants from Boko Haram destroyed the town of Baga and several neighboring villages in northern Nigeria, killing up to 2,000 people and displacing thousands more. On Saturday, at least another 16 people::50431c8a3f38fa91d4ddfeafe235ed4e::ACKNOWLEDGED 50431c8a3f38fa91d4ddfeafe235ed4e  
+
+login  |  time: 2016-04-12 16:48:01 428639
+
+irrelevant doc  |  time: 2016-04-12 16:49:08 976207  |  # of fields: 2  |  topic_id: 330  |  topic_name: Boko Haram  |  docno: ebola-6c40993e8a563e09f0081e596c9b76e1e26441d72049fd662b34aa13177db181::5ad3df3471b8c062d8e547b60cd95db1::ACKNOWLEDGED 5ad3df3471b8c062d8e547b60cd95db1
+
+
+
+irrelevant doc  |  time: 2016-04-12 16:49:28 773414  |  # of fields: 2  |  topic_id: 330  |  topic_name: Boko Haram  |  docno: ebola-bdaed1d3c7c22058af7ecce2394c32636e332cd4806ed9911e0573dc26c8bfcb::ae366536048e324c3dc89cdebb4d6d28::ACKNOWLEDGED ae366536048e324c3dc89cdebb4d6d28
+
+
+
+login  |  time: 2016-04-12 17:07:00 513672
+
+login  |  time: 2016-04-12 21:55:04 577284
+
+login  |  time: 2016-04-13 09:33:43 227280
+
+login  |  time: 2016-04-13 10:42:58 668264
+
+login  |  time: 2016-04-13 12:41:29 026851
+
+topic/select  |  time: 2016-04-13 12:41:35 137970  |  # of fields: 2  |  topic_id: 76  |  topic_name: 
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>TREC-DD Annotation by Georgetown</title>
+    <link rel="stylesheet" type="text/css" href="./css/displayList.css?v=3"/>
+    <script src="./js/jquery-1.11.2.min.js"></script>
+    <script>
+	domain_url = %s;
+    tid = %s;
+    </script>
+    <script src="./js/displayList.js"></script>
+</head>
+<body>
+    <div id="title">%s documents for the current topic : %s</div>
+    <div id="number">total number of %s documents: <span id="number_value">%s<span></div>
+    <div style="clear:both"></div>
+    <ul id="displayList">
+        %s
+    </ul>
+    <script>
+        $(".trash").click(function(){
+            r = $(this);
+            docno = r.attr('data');
+            $.ajax({
+                method: "post",
+                url: "./putbackHandler.cgi",
+                data:{
+                    docid: docno,
+                    topic_id: tid
+                },
+                success: function(){
+                    r.closest("div").hide();
+                    $("#number_value").html(parseInt($("#number_value").html())-1);
+                }
+            })
+
+        });
+    </script>
+</body>
+</html>

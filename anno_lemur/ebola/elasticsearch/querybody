@@ -1,0 +1,1 @@
+{"query": {"bool": {"should": [{"match": {"raw_content": ""}}], "must": {"match": {"raw_content": "night"}}}}, "size": 500}

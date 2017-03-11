@@ -1,0 +1,54 @@
+{%LemurSearchSetTitle("Lemur Search")%}
+
+<html>
+	<head>
+		<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+		<link rel="stylesheet" type="text/css" href="../../css/doc.css"/>
+		<script src="../../js/stopwords.js"></script>
+		<script src="../../js/rangy-core.js"></script>
+		<script src="../../js/rangy-textrange.js"></script>
+		<script src="../../../js/jquery-1.11.2.min.js"></script>
+		<script src="../../js/doc.js?v=23"></script>
+		<script>
+		$(document).ready(function(){
+			var imgs = Array.prototype.slice.apply(document.getElementsByTagName('img'));
+			for (var i = 0; i < imgs.length; i++) {
+				imgs[i].addEventListener("dragstart", function(ev) {
+				ev.dataTransfer.setData("text", ev.target.src);}, false);
+			}
+		});
+			function allowDrop(ev) {
+			ev.preventDefault();
+		}
+
+		function drag(ev) {
+			ev.dataTransfer.setData("text", ev.target.src);
+		}
+
+		function drop(ev) {
+			ev.preventDefault();
+			var data = ev.dataTransfer.getData("text");
+			var imgs = Array.prototype.slice.apply(document.getElementsByTagName('img'));
+			//var targetImg;
+			for (var i = 0; i < imgs.length; i++) {
+			 if (imgs[i].src == data) {
+				break
+			  }
+			}
+			ev.target.appendChild(imgs[i]);
+		}
+</script>
+	</head>
+	<body style="margin:0">
+
+		<!-- header (logo and title) -->
+
+		<!-- end header -->
+
+		{%LemurCGIItems%}
+
+		<!-- footer -->
+
+		<!-- end footer -->
+	</body>
+</html>

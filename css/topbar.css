@@ -1,0 +1,138 @@
+#control_panel{
+    margin-top: 10px;
+}
+#control_panel input{
+    border: 1px solid #5CB8E6;
+    width: 400px;
+    font-size: 18px;
+    margin-right: 3px;
+}
+#qlanguage, #tmanual{
+    float: left;
+    margin-left: 30px;
+    position: relative;
+    top: 4px;
+}
+#assess_emoji{
+    float:left;
+    margin-left: 50px;
+}
+#assess_emoji img{
+    width:26px;
+    height:26px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    top: 10px;
+}
+#loption{float:right; position: relative; top:2px;}
+#loption button{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #5CB8E6;
+    border-radius: 3px;
+}
+#loption button:hover{
+    background-color: #5CB8E6;
+    color: white;
+}
+
+#total_count{
+    float:right;
+    font-size: 22px;
+    color:blue;
+    font-family: monospace;
+    margin-right: 77px;
+    position: relative;
+    top:1px;
+}
+
+#assess_emoji #assesssad{
+    margin-left: 20px;
+}
+
+#control_panel .search_button:hover {
+    background-color: rgb(92, 184, 230);
+}
+
+#control_panel_2_wrap{
+    height: 32px;
+    margin-top:8px;
+    padding-top:3px;
+    border-top:1px dotted #5CB8E6;
+}
+
+#control_panel .search_button{
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3394C4;
+    color: white;
+    border: none;
+    position: relative;
+    bottom: 1px;
+    margin-right: 3px;
+    width: 120px;
+    height: 25px;
+}
+
+#docback{
+    float: left;
+    position: relative;
+    cursor: pointer;
+    color: #3394C4;
+    top: 4px;
+    font-size: 18px;
+    font-family: verdana;
+}
+#highlight{
+    float: left;
+    position: relative;
+    left: 25px;
+}
+#highlight input{
+    width: 100px;
+    height: 24px;
+    font-size:14px;
+}
+#highlight button{
+    margin-left: 3px;
+    height: 24px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #5CB8E6;
+    background: white;
+}
+#highlight button:hover{
+    background-color: #5CB8E6;
+    color: white;
+}
+
+#tagflag{
+    float: left;
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+    color: red;
+    top: 4px;
+    font-size: 18px;
+    font-family: verdana;
+}
+#docprev, #docnext, #docdup{
+    margin-right: 20px;   
+}
+#docprev, #docnext, #docdiscard, #docdup{
+    float: right;
+    height: 22px;
+    width: 70px;
+    text-align:center;
+    border: 1px solid #5CB8E6;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 2px;
+    font-family: verdana;
+}
+#docprev:hover, #docnext:hover, #docdiscard:hover, #docdup:hover{
+    background-color: #5CB8E6;
+    color: white;
+}

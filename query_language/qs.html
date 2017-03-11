@@ -1,0 +1,646 @@
+<!doctype html>
+<!-- Created by Yunyun Chen on 04/07/2016 -->
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>TREC DD 2016 Query Language Suggestion</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+	<div>
+		<header style="margin-left:-60px;font-size:150%">
+			<br> TREC Dynamic Domain Track
+
+		</header>
+
+		<div class="line"></div>
+	</div>
+	<div style="width: 80%;overflow: hidden">
+		
+		<div style="margin-left:50px">
+			<div>
+				<h4>TREC DD Query Language Suggestion</h4>
+				<br></br>
+	                <p>
+	                	Aside from the normal query search, these three search engine we provide also support structured query language, which can help enhancing the search results. In the following sections you will find descriptions about structured query language supported by the three search engines: <a href=#Lemur>Lemur</a>, <a href=#Solr>Solr</a> and <a href=#Terrier>Terrier</a>, that you can use during the searching.
+	                </p>
+	                <br>
+	                <div id="Lemur">
+	                	<h4>1. Lemur </h4>
+	                	<p>
+	                		The Indri query language, based on the InQuery query language, was designed to be robust. It can handle both simple keyword queries and extremely complex queries. Such a query language sets Indri apart from many other available search engines. It allows complex phrase matching, synonyms, weighted expressions, Boolean filtering, numeric (and dated) fields, and the extensive use of document structure (fields), among others. Although Indri handles unstructured documents, many of the query language features make use of structured (tagged) documents.
+	                		<h5>1.1 Indri Query Language Grammer</h5>
+	                	</p>
+	                	<br>
+	                	<p>
+							<pre>
+	query		:=	( beliefOp )+
+
+	beliefOp	:=	"#weight" ( extentRestrict )? weightedList
+			|	"#combine" ( extentRestrict )? unweightedList
+			|	"#or" ( extentRestrict )? unweightedList
+			|	"#not" ( extentRestrict )? '(' beliefOp ')'
+			|	"#wand" ( extentRestrict )? weightedList
+			|	"#wsum" ( extentRestrict )? weightedList
+			|	"#max" ( extentRestrict )? unweightedList
+			|	"#prior" '(' FIELD ')'
+			|	"#filrej" '(' unscoredTerm beliefOp ')'
+			|	"#filreq" '(' unscoredTerm beliefOp ')'
+			|	termOp ( '.' fieldList )? ( '.' '(' fieldList ')' )?
+
+	termOp		:=	( "#od" POS_INTEGER | "#od" | '#' POS_INTEGER  ) '(' ( unscoredTerm )+ ')'
+			|	( "#uw" POS_INTEGER | "#uw" ) '(' ( unscoredTerm )+ ')'
+			|	"#band" '(' ( unscoredTerm )+ ')'
+			|	"#date:before" '(' date ')'
+			|	"#date:after" '(' date ')'
+			|	"#date:between" '(' date ',' date ')'
+			|	"<" ( unscoredTerm )+ ">"
+			|	"{" ( unscoredTerm )+ "}"
+			|	"#syn" '(' ( unscoredTerm )+ ')'
+			|	"#wsyn" '(' ( weight unscoredTerm )+ ')'
+			|	"#any" ':' TERM
+			|	"#less" '(' TERM integer ')'
+			|	"#greater" '(' TERM integer ')'
+			|	"#between" '(' TERM integer integer ')'
+			|	"#equals" '(' TERM integer ')'
+			|	"#base64" '(' ( "\t" | " " )* ( BASE64_CHAR )+ ( "\t" | " " )* ')'
+			|	"#base64quote" '(' ( '\t' | ' ' )* ( BASE64_CHAR )+ ( '\t' | ' ' )* ')'
+			|	'"' text '"'
+			|	POS_INTEGER
+			|	POS_FLOAT
+			|	TERM
+
+	extentRestrict	:=	'[' "passage" POS_INTEGER ':' POS_INTEGER ']'
+			|	'[' FIELD ']'
+
+	weightedList	:=	'(' ( weight beliefOp )+ ')'
+
+	unweightedList	:=	'(' ( beliefOp )+ ')'
+
+	unscoredTerm	:=	termOp ( '.' fieldList )?
+
+	fieldList	:=	FIELD ( ',' FIELD )*
+
+	date		:=	POS_INTEGER '/' TERM '/' POS_INTEGER
+			|	POS_INTEGER TERM POS_INTEGER
+			|	TERM
+
+	integer		:=	POS_INTEGER
+			|	NEG_INTEGER
+
+	weight		:=	POS_FLOAT
+				|	POS_INTEGER
+
+	TERM		:=	( '0'..'9' )+ ('a'..'z' | 'A'..'Z' | '-' | '_')
+			|	TEXT_TERM
+
+	FIELD		:=	TEXT_TERM
+
+	TEXT_TERM	:=	( '\u0080'..'\u00ff' | ('a'..'z' | 'A'..'Z' | '0'..'9' | '-' | '_') )+
+
+	POS_INTEGER	:=	( '0'..'9' )+
+	NEG_INTEGER		:=	'-' ( '0'..'9' )+
+	POS_FLOAT		:=	( '0'..'9' )+ '.' ( '0'..'9' )*
+	BASE64_CHAR	:=	('a'..'z' | 'A'..'Z' | '0'..'9' | '+' | '/')
+	</pre>
+						</p>
+						<h5>1.2 Terms/Proximity</h5>
+						<p>
+							<br>
+						Terms are the basic building blocks of Indri queries. Terms come in the form of single term, ordered and
+						unordered phrases, synonyms, among others. In addition, there are a number of options that allow you to
+						specify if a term should appear within a certain field, or if it should be scored within a given context.
+						</p>
+
+						<h6>Terms:</h6>
+						<p>
+						<div class="intro">
+							<li>term -- stemmed / normalized term</li>
+							<li>&quot;term&quot; -- unstemmed / unnormalized term</li>
+							<li>#base64( ... ) -- converts from base64 -> ascii and then stems and normalizes. useful for including non-parsable terms in a query</li>
+							<li>#base64quote( ... ) -- same as #base64 except the the ascii term is unstemmed and unnormalized</li>
+						</div>
+						</p>
+						<p>
+
+	<h7>Examples:</h7>
+	<div class="intro">
+		<li>dogs</li>
+		<li>&quot;NASA&quot;</li>
+		<li>#base64(Wyh2Lm4ucC5hLnIucy5hLmIubC5lLild) -- equivalent to query term [(u.n.p.a.r.s.a.b.l.e.)]</li>
+	</div>
+	</p>
+
+	<h6>Proximity terms:</h6>
+	<p>
+		<br>
+	<div class="intro">
+		<li>#odN( ... ) -- ordered window -- terms must appear ordered, with at most N-1 terms between each</li>
+		<li>#N( ... ) -- same as #odN</li>
+		<li>#od( ... ) -- unlimited unordered window -- all terms must appear ordered anywhere within current context</li>
+
+		<li>#uwN( ... ) unordered window -- all terms must appear within window of length N in any order</li>
+		<li>#uw( ... ) -- unlimited unordered window -- all terms must appear within current context in any order</li>
+	</div>
+	</p>
+	<p>
+	<h7>Examples:</h7>
+	<div class="intro">
+
+		<li>#1(white house) -- matches &quot;white house&quot; as an exact phrase</li>
+		<li>#2(white house) -- matches &quot;white * house&quot; (where * is any word or null)</li>
+		<li>#uw2(white house) -- matches &quot;white house&quot; and &quot;house white&quot;</li>
+
+	</div>
+	</p>
+
+	<h6>Synonyms:</h6>
+	<p>
+	<div class="intro">
+		<li>#syn( ... )</li>
+		<li>{ ... }</li>
+
+		<li>&lt; ... &gt;</li>
+		<li>#wsyn( ... )</li>
+	</div>
+	</p>
+
+	<p>
+	The first three expressions are equivalent. They each treat all of the expressions listed as synonyms. The #wsyn
+	operator treats the terms as synonyms, but allows weights to be assigned to each term.
+	</p>
+
+	<p>
+		<br>
+	<h7>Examples:</h7>
+	<div class="intro">
+		<li>#syn( #1(united states) #1(united states of america) )</li>
+		<li>{dog canine}</li>
+		<li>&lt;#1(light bulb) lightbulb&gt;</li>
+
+		<li>#wsyn( 1.0 donald 0.8 don 0.5 donnie 0.2 donny )</li>
+	</div>
+	NOTE: The arguments given to this operator can only be term/proximity expressions.
+	</p>
+
+	<h6>&quot;Any&quot; operator:</h6>
+	<p>
+	<div class="intro">
+
+		<li>#any -- used to match extent types</li>
+	</div>
+	</p>
+	<p>
+	<h7>Examples:</h7>
+	<div class="intro">
+		<li>#any:PERSON -- matches any occurence of a PERSON extent</li>
+
+		<li>#1(napolean died in #any:DATE) -- matches exact phrases of the form: &quot;napolean died in &lt;date&gt;...&lt;/date&gt;&quot;</li>
+	</div>
+	</p>
+
+	<h6>Field restriction / evaluation:</h6>
+	<p>
+
+	<div class="intro">
+	<li>expression.f1,,...,fN(c1,...,cN) -- matches when the expression appears
+	in field f1 AND f2 AND ... AND fN and evaluates the expression using the
+	language model defined by the concatenation of contexts c1...cN within the
+	document.</li>
+	</div>
+	</p>
+	<p>
+	<h7>Examples:</h7>
+	<div class="intro">
+	<li>dog.title -- matches the term dog appearing in a title extent (uses
+	document language model)</li>
+
+	<li>#1(trevor strohman).person -- matches the phrase &quot;trevor strohman&quot; when it
+	appears in a person extent (uses document language model)</li>
+	<li>dog.(title) -- evaluates the term based on the title language model for
+	the document</li>
+	<li>#1(trevor strohman).person(header) -- builds a language model from all of
+	the &quot;header&quot; text in the document and evaluates #1(trevor strohman).person
+	in that context (matches only the exact phrase appearing within a person
+	extent within the header context)</li>
+	</div>
+
+	</p>
+	<h5>1.3 Combining Beliefs</h5>
+	<br>
+		<p>
+		Belief operators allow you to combine beliefs (scores) about terms, phrases, etc. There are both unweighted
+		and weighted belief operators. With the weighted operators, you can assign varying weights to certain
+		expressions. This allows you to control how much of an impact each expression within your query has on the
+		final score.
+		</p>
+
+	<h6>Belief operators:</h6>
+	<p>
+
+	<div class="intro">
+		<li>#combine</li>
+		<li>#weight</li>
+		<li>#not</li>
+		<li>#max</li>
+		<li>#or</li>
+
+		<li>#band (boolean and)</li>
+		<li>#wsum</li>
+		<li>#wand (weighted and)</li>
+	</div>
+	</p>
+	<p>
+	<h7>Examples:</h7>
+
+	<div class="intro">
+		<li>#combine( &lt;dog canine&gt; training )</li>
+		<li>#combine( #1(white house) &lt;#1(president bush) #1(george bush)&gt; )</li>
+		<li>#weight( 1.0 #1(white house) 2.0 #1(easter egg hunt) )</li>
+
+	</div>
+	</p>
+	<p>
+	NOTE: If you are unsure which belief operator to use, it always &quot;safest&quot; to default to
+	using the #combine or #weight operator. These operators are often the best choice for
+	combining evidence. NEVER use #wsum or #wand unless you really know what you're doing!
+	</p>
+
+	<h6>Extent / Passage retrieval:</h6>
+	<p>
+
+	<div class="intro">
+		<li>
+			#beliefop[field]( query ) -- evaluates #beliefop( query ) for all extents
+			of type &quot;field&quot; in the document and returns a score for each. The language
+			model used to evaluate the query is formed from the text of the extent.
+		</li>
+		<li>
+			#beliefop[passageWIDTH:INC]( query ) -- evaluates #beliefop( query ) for every
+			fixed length passage of length WIDTH terms. The passage window is slid over the text
+			in increments of INC terms. The language model used to evaluate the query is formed
+			from the text within the current passage.
+		</li>
+	</div>
+
+	</p>
+	<p>
+	<h7>Example:</h7>
+	<div class="intro">
+		<li>
+			#combine[sentence]( #1(napolean died in #any:DATE ) ) -- returns a scored
+			list of sentence extents that match the given query
+		</li>
+		<li>
+			#combine[passage100:50]( #1(napolean died in #any:DATE ) ) -- returns a scored
+			list of passages (of length 100) that match the given query.
+		</li>
+
+	</div>
+	</p>
+
+	<h5>1.4 Filter Operators</h5>
+	<br>
+	<p>
+	Filter operators allow you to score only a subset of an entire collection by filtering out those documents
+	that actually get scored.
+	</p>
+
+	<h6>Filter operators:</h6>
+
+	<p>
+	<div class="intro">
+		<li>#filreq -- filter require</li>
+		<li>#filrej -- filter reject</li>
+	</div>
+	</p>
+	<p>
+	<h7>Examples:</h7>
+
+	<div class="intro">
+		<li>
+			#filreq( sheep #combine(dolly cloning) ) -- only consider those documents matching the query "sheep" and rank
+			them according to the query #combine(dolly cloning)
+		</li>
+		<li>
+			#filrej( parton #combine(dolly cloning) ) -- only consider those documents NOT matching the query "parton" and rank them according to the query #combine(dolly cloning)
+		</li>
+	</div><br />
+	NOTE: first argument must always be a term/proximity expression
+	</p>
+
+	<h5>1.5 Numeric / Date Field Operators</h5>
+	<br>
+	<p>
+	Numeric and date field operators provide a number of facilities for matching different criteria. These operators
+	are very useful when used in combination with the filter operators.
+	</p>
+
+	<h6>General numeric operators:</h6>
+	<p>
+	<div class="intro">
+
+		<li>#less( F N ) -- matches numeric field extents of type F if value &lt; N</li>
+		<li>#greater( F N ) -- matches numeric field extents of type F if value &gt; N</li>
+		<li>#between( F N_low N_high ) -- matches numeric field extents of type F if N_low &le; value &le; N_high</li>
+
+		<li>#equals( F N ) -- matches numeric field extents of type F if value == N</li>
+	</div>
+	</p>
+
+	<h6>Date operators:</h6>
+	<p>
+	<div class="intro">
+		<li>#date:after( D ) -- matches numeric &quot;date&quot; extents if date is after D</li>
+
+		<li>#date:before( D ) -- matches numeric &quot;date&quot; extents if date is before D</li>
+		<li>#date:between( D_low, D_high ) -- matches numeric &quot;date&quot; extents if D_low &le; date &le; D_high</li>
+	</div>
+
+	</p>
+
+	<p>
+	<h7>Acceptable date formats:</h7>
+	<div class="intro">
+		<li>11 january 2004</li>
+		<li>11-JAN-04</li>
+		<li>11-JAN-2004</li>
+
+		<li>January 11 2004</li>
+		<li>01/11/04 (MM/DD/YY)</li>
+		<li>01/11/2004 (MM/DD/YYYY)</li>
+	</div>
+	</p>
+	<p>
+	<h7>Examples:</h7>
+
+	<div class="intro">
+	<li>
+		#filreq(#less(READINGLEVEL 10) george washington) -- if each document in a collection contained a
+		numeric tag that specified the reading level of the document, then this query will only retrieve
+		documents that have a reading level below grade 10 and documents will be ranked according to the
+		query &quot;george washington&quot;.
+	</li>
+	<li>
+		#combine( european history #date:between( 01/01/1800, 01/01/1900 ) ) -- such a query may be
+		constructed to find information about 19th century european history, as this query will find
+		pages that discuss &quot;european history&quot; and contain 19th century dates.
+	</li>
+
+	</div>
+	</p>
+	<p>
+	NOTE: The general numeric operators only work on indexed numeric fields, whereas the date
+	operators are only applicable to a specially indexed numeric field named "date". See the
+	indexing documentation for more on numeric fields.
+	</p>
+
+	<h5> 1.6 Document Priors</h5>
+	<br>
+	<p>
+	Document priors allow you impose a &quot;prior probability&quot; over the documents in a collection.
+	</p>
+
+	<h6>Prior</h6>
+	<p>
+	<div class="intro">
+		<li>#prior( NAME ) -- creates the document prior specified by the name given</li>
+	</div>
+	</p>
+
+	<p>
+
+	<h7>Example:</h7>
+	<div class="intro">
+		<li>
+			#combine(#prior(RECENT) global warming) -- we might create a prior named RECENT to be used to
+			give greater weight to documents that were published more recently.
+		</li>
+	</div>
+	</p>
+
+	<h5 id="applications">1.7 Applications</h5>
+	<br>
+	<p>
+	Here we list suggested uses of the language for several common information retrieval tasks.
+	</p>
+
+	<h6>Ad Hoc Retrieval (Query Likelihood)</h6>
+	<p>
+		<br>
+	Ad hoc retrieval is the standard information retrieval task of finding documents that are topically
+	relevant to a given information need (query). One common probabilistic approach to ad hoc retrieval
+	is the query likelihood retrieval paradigm from language modeling. It is very simple to construct an
+	Indri query that ranks documents the same as query likelihood. For the query, &quot;literacy rates africa&quot;,
+	we construct the following Indri query:
+	<br>
+	</p>
+
+	<p>
+	<pre>
+		<br>
+	#combine( literacy rates africa )
+	</pre>
+	<br />
+	This returns a ranked list that is exactly equivalent to the query likelihood ranking (under the given
+	smoothing conditions).
+	</p>
+
+	<h6>Pseudo-Relevance Feedback / Query Expansion</h6>
+<br>
+	<p>
+	Both pseudo-relevance feedback and query expansion methods typically begin with some intial query, do some
+	processing, and then return a list of expansion terms. The original query is then augmented with the
+	expansion terms and rerun. Given the original query &quot;hubble telescope repairs&quot; and the expansion terms
+	&quot;universe&quot;, &quot;system&quot;, &quot;mission&quot;, &quot;search&quot;, &quot;galaxies&quot; we can then
+	construct the following Indri query:
+	</p>
+	<p>
+	<pre>
+		<br>
+	#weight( 0.75 #combine ( hubble telescope achievements )
+		 0.25 #combine ( universe system mission search galaxies ) )
+	</pre>
+	<br />
+	This is how Indri's built-in query expansion method formulates expanded queries. We see that the query is
+	made up of two parts: the original query and the expanded query. The two parts are then combined via a
+	#weight to appropriately weight the original and expanded parts of the query.
+	</p>
+
+	<h6>Named Page Finding / Homepage Finding</h6>
+	<p>
+<br>
+	Named page finding and homepage finding are examples of known-item search. That is, the user knows some
+	page exists, and is attempting to find it. One popular approach to known-item search is to use a mixture
+	of context language models. This can easily be expressed in the Indri query language. For example, for the
+	query &quot;bbc news&quot;, the following query would be constructed:
+	<p>
+		<br>
+	<pre>
+	#combine( #wsum( 5.0 bbc.(title) 3.0 bbc.(anchor) 1.0 bbc )
+		  #wsum( 5.0 news.(title) 3.0 news.(anchor) 1.0 news ) )
+	</pre>
+	<br />
+	For each term in the query, the #wsum operator constructs a mixture model from the
+	<tt>title</tt>, <tt>anchor</tt>, and whole document context language models and weights each model appropriately.
+	The scores for the two terms are then #combined together.
+	</p>
+
+					</div>
+
+					<div id="Solr">
+						<h4>2. Solr</h4>
+						<br>
+						<p>
+						Lucene has a custom query syntax for querying its indexes. Unless you explicitly specify an alternative query parser such as DisMax or eDisMax, you're using the standard Lucene query parser by default. Here are some query examples demonstrating the query syntax.
+					</p>
+					<h5>2.1 Keyword Matching</h5>
+					<br>
+					<p>
+						Search for word "foo" in the title field.
+						<br>
+						<br>
+						<pre>	title:foo
+						</pre>
+						Search for phrase "foo bar" in the title field.
+						<br>
+						<br>
+						<pre>	title:"foo bar"</pre>
+						<br>
+						Search for phrase "foo bar" in the title field AND the phrase "quick fox" in the body field.
+						<br>
+						<br>
+						<pre>	title:"foo bar" AND body:"quick fox"</pre>
+						<br>
+						Search for either the phrase "foo bar" in the title field AND the phrase "quick fox" in the body field, or the word "fox" in the title field.
+						<br>
+						<br>
+						<pre>	(title:"foo bar" AND body:"quick fox") OR title:fox</pre>
+						<br>
+						Search for word "foo" and not "bar" in the title field.
+						<br>
+						<br>
+						<pre>	title:foo -title:bar</pre>
+						<br>
+					</p>
+					<h5>2.2 Wildcard Matching</h5>
+					<br>
+					<p>
+						Search for any word that starts with "foo" in the title field.
+						<br>
+						<br>
+						<pre>	title:foo*
+						</pre>
+						Search for any word that starts with "foo" and ends with bar in the title field.
+						<br>
+						<br>
+						<pre>	title:foo*bar</pre>
+						<br>
+						Note that Lucene doesn't support using a * symbol as the first character of a search.
+						<br>
+					</p>
+					<h5>2.3 Proximity Matching</h5>
+					<br>
+					
+						Lucene supports finding words are a within a specific distance away.
+							<br><br>
+						Search for "foo bar" within 4 words from each other.
+						<br>
+						<br>
+						<pre>	"foo bar"~4
+						</pre>
+						Note that for proximity searches, exact matches are proximity zero, and word transpositions (bar foo) are proximity 1.
+						<br><br>
+						A query such as <strong>"foo bar"~10000000</strong> is an interesting alternative to <strong> foo AND bar</strong> .
+						<br><br>
+						Whilst both queries are effectively equivalent with respect to the documents that are returned, the proximity query assigns a higher score to documents for which the terms <strong> oo</strong> and <strong>bar</strong> are closer together.
+						<br><br>	
+						The trade-off, is that the proximity query is slower to perform and requires more CPU.
+						<br><br>
+						Solr DisMax and eDisMax query parsers can add phrase proximity matches to a user query.
+						<br>
+					<h5>2.4 Range Searches</h5>
+					<br>
+					<p>
+						Range Queries allow one to match documents whose field(s) values are between the lower and upper bound specified by the Range Query. Range Queries can be inclusive or exclusive of the upper and lower bounds. Sorting is done lexicographically.
+						<br>
+						<br>
+						<pre>	mod_date:[20020101 TO 20030101]
+						</pre>
+						Solr's built-in field types are very convenient for performing range queries on numbers without requiring padding.
+						<br>
+					</p>
+					<h5>2.5 Boosts</h5>
+					<br>
+					<p>
+						Query-time boosts allow one to specify which terms/clauses are "more important". The higher the boost factor, the more relevant the term will be, and therefore the higher the corresponding document scores.
+						<br><br>
+						A typical boosting technique is assigning higher boosts to title matches than to body content matches:<br>
+						<br>
+						<pre>	(title:foo OR title:bar)^2 (body:foo OR body:bar)
+						</pre>
+						You should carefully examine explain output to determine the appropriate boost weights.
+						<br><br>
+						The official docs for the query parser syntax are here:
+						<br>
+						<a href="http://lucene.apache.org/java/3_5_0/queryparsersyntax.html">	http://lucene.apache.org/java/3_5_0/queryparsersyntax.html</a>
+						<br>
+						<br>
+						The query syntax has not changed significantly since Lucene 1.3 (it is now 3.5.0).
+						<br>
+					</p>
+					<h5>2.6 Solr-specific query syntax</h5>
+					<br>
+					<p>Here is a list of differences between the Solr Query Parser and the standard Lucene query syntax (from the <a href="http://wiki.apache.org/solr/SolrQuerySyntax">Solr wiki</a>):
+<style>tt {font-family:monospace}</style>
+<span id="line-33" class="anchor"></span></p>
+<br>
+<div class="intro">
+	<li>
+		<p class="line862">Range queries <tt>[a TO z]</tt>, prefix queries <tt>a*</tt>, and wildcard queries <tt>a*b</tt> are constant-scoring (all matching documents get an equal score).  The scoring factors tf, idf, index boost, and coord are not used.  There is no limitation on the number of terms that match (as there was in past versions of Lucene). <span id="line-34" class="anchor"></span></p><ul><li><p class="line862">Lucene 2.1 has also switched to use ConstantScoreRangeQuery for its range queries. <span id="line-35" class="anchor"></span></p></li></ul></li><li><p class="line862">A <tt>*</tt> may be used for either or both endpoints to specify an open-ended range query. <span id="line-36" class="anchor"></span></p><ul><li><p class="line891"><tt>field:[* TO 100]</tt> finds all field values less than or equal to 100 <span id="line-37" class="anchor"></span></p></li><li><p class="line891"><tt>field:[100 TO *]</tt> finds all field values greater than or equal to 100 <span id="line-38" class="anchor"></span></p></li><li><p class="line891"><tt>field:[* TO *]</tt> matches all documents with the field <span id="line-39" class="anchor"></span></p></li></ul></li><li>Pure negative queries (all clauses prohibited) are allowed. <span id="line-40" class="anchor"><ul><li><p class="line891"><tt>-inStock:false</tt> finds all field values where inStock is not false <span id="line-41" class="anchor"></span></p></li><li><p class="line891"><tt>-field:[* TO *]</tt> finds all documents without a value for field <span id="line-42" class="anchor"></span></p></li></ul></span></li><li><p class="line862">A hook into FunctionQuery syntax.  Quotes will be necessary to encapsulate the function when it includes parentheses. <span id="line-43" class="anchor"></span></p><ul><li><p class="line862">Example: <tt>_val_:myfield</tt> <span id="line-44" class="anchor"></span></p></li><li><p class="line862">Example: <tt>_val_:"recip(rord(myfield),1,2,3)"</tt> <span id="line-45" class="anchor"></span></p></li></ul></li><li>Nested query support for any type of query parser (via QParserPlugin).  Quotes will often be necessary to encapsulate the nested query if it contains reserved characters. <span id="line-46" class="anchor"><ul><li><p class="line862">Example: <tt>_query_:"{!dismax qf=myfield}how now brown cow"</tt>
+
+  </p></li></ul></span></li></div>
+
+					</div>
+	                <div id="Terrier">
+	                <h4> 3. Terrier </h4>
+	                <br>
+	                <p>
+	                	Terrier offers a flexible and powerful query language for searching with phrases, fields, or specifying that terms are required to appear in the retrieved documents. Some examples of queries are the following:
+	                	<br>
+	                	<br>
+	                	<table border="1">
+							<tbody>
+								<tr><td>term1 term2 </td> <td>retrieves documents that contain term1 or term2 (they do not need to contain both of them).</td></tr>
+								<tr><td>{term1 term2} </td><td>retrieves documents that contain term1 or term2, where they are treated as synonyms of each other (they do not need to contain both of them).</td></tr>
+								<tr><td>term1^2</td><td>the weight of term1 is multiplied by 2.</td></tr>
+								<tr><td>+term1 +term2</td><td>retrieves documents that contain both term1 and term2.</td></tr>
+								<tr><td>+term1 -term2</td><td>retrieves documents that contain term1 and do not contain term2.</td></tr>
+								<tr><td>title:term1 </td><td>retrieves documents that contain term1 in the title field (<a href="http://terrier.org/docs/v4.1/configure_indexing.html#fields">Field indexing</a> must be configured to record the title field).</td></tr>                         
+								<tr><td>title:(term1 term2) </td><td>retrieves documents that contain term1 or term2 in the title field (<a href="http://terrier.org/docs/v4.1/configure_indexing.html#fields">Field indexing</a> must be configured to record the title field).</td></tr>   
+								<tr><td>term1 -title:term2 </td><td>retrieves documents that contain term1, but must not contain term2 in the title field.</td></tr>                         
+								<tr><td>"term1 term2"</td><td>retrieves documents where the terms term1
+								                             and term2 appear in a phrase.</td></tr>
+								<tr><td>"term1 term2"~n</td><td>retrieves documents where the terms term1 and term2 appear within a distance of n blocks. The order of the terms is not considered.</td></tr>
+                            
+							</tbody>
+						</table>  
+						<br>
+							Combinations of the different constructs are possible as well. For example, the query term1 term2 -"term1 term2" would retrieve all the documents that contain at least one of the terms term1 and term2, but not the documents where the phrase "term1 term2" appears.
+	                </p>
+	            </div>
+
+			</div>
+
+		</div>
+	</div>
+			 <footer>
+            	<div class="line"></div>
+				This page is owned by TREC Dynamic Domain Track Group.
+			</footer>
+</body>
+
+</html>

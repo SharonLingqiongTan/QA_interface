@@ -1,0 +1,12 @@
+login  |  time: 2016-04-13 12:16:23 056873
+
+topic/create  |  time: 2016-04-13 12:16:27 320789  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 344  |  topic_name:  new test topic
+
+topic/select  |  time: 2016-04-13 12:16:27 570606  |  # of fields: 2  |  topic_id: 344  |  topic_name: new test topic
+
+login  |  time: 2016-04-13 12:16:33 001387
+
+login  |  time: 2016-04-13 12:25:15 276643
+
+login  |  time: 2016-04-13 22:04:50 090222
+

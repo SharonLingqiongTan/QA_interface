@@ -1,0 +1,12 @@
+login  |  time: 2016-04-13 12:22:39 407246
+
+login  |  time: 2016-04-13 12:22:42 786135
+
+topic/create  |  time: 2016-04-13 12:22:56 674461  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 346  |  topic_name:  test topic jiyun
+
+topic/select  |  time: 2016-04-13 12:22:56 786415  |  # of fields: 2  |  topic_id: 346  |  topic_name: test topic jiyun
+
+topic/create  |  time: 2016-04-13 12:23:29 651605  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 347  |  topic_name:  lemur jiyun
+
+topic/select  |  time: 2016-04-13 12:23:29 784905  |  # of fields: 2  |  topic_id: 347  |  topic_name: lemur jiyun
+

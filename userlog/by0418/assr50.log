@@ -1,0 +1,152 @@
+login  |  time: 2016-04-12 14:21:00 858195
+
+topic/edit  |  time: 2016-04-12 14:23:30 356369  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 326  |  newtopic_name:  Patients
+
+topic/select  |  time: 2016-04-12 14:23:30 467391  |  # of fields: 2  |  topic_id: 326  |  topic_name: Patients
+
+subtopic/create  |  time: 2016-04-12 14:24:08 556048  |  # of fields: 4  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients
+
+passage/create  |  time: 2016-04-12 14:24:35 018526  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 2  |  passage_name:  Second Dallas Ebola patient is a TCU alumna  ::91854ef95472ccf1ad5f08b8248e7f42::ACKNOWLEDGED 91854ef95472ccf1ad5f08b8248e7f42  
+
+passage/grade  |  time: 2016-04-12 14:24:41 756555  |  # of fields: 2  |  passage_id: 2  |  score: 2::e2e14fcb2d47a279a52330769360014e::ACKNOWLEDGED e2e14fcb2d47a279a52330769360014e
+
+
+
+passage/create  |  time: 2016-04-12 14:27:06 246758  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 3  |  passage_name:  A health care worker at Texas Health Presbyterian Hospital who provided care for the Ebola patient hospitalized there has tested positive for Ebola in a preliminary test at the state public health laboratory in Austin. +::c18694625b274c37f4a03bb2b1b1eb67::ACKNOWLEDGED 83375ebcc422d6e2add2fe64ab68e392  
+
+passage/grade  |  time: 2016-04-12 14:27:12 372500  |  # of fields: 2  |  passage_id: 3  |  score: 2::909f89271ecd1b717179abdd79b5d59f::ACKNOWLEDGED 909f89271ecd1b717179abdd79b5d59f
+
+
+
+tagged/select  |  time: 2016-04-12 14:32:21 893349  |  # of  fields: 1  |  topic_id: 326
+
+discarded/select  |  time: 2016-04-12 14:56:18 903254  |  # of  fields: 1  |  topic_id: 326
+
+passage/create  |  time: 2016-04-12 14:57:28 428973  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 4  |  passage_name:  Dallas Hospital Worker Tests Positive For Ebola, CDC Confirms  ::d75b59693dbd84c83de3397c2cfdeb11::ACKNOWLEDGED d75b59693dbd84c83de3397c2cfdeb11  
+
+passage/grade  |  time: 2016-04-12 14:57:33 618626  |  # of fields: 2  |  passage_id: 4  |  score: 2::61efc56f81693cfbe123ffa2f5e4065e::ACKNOWLEDGED 61efc56f81693cfbe123ffa2f5e4065e
+
+
+
+passage/create  |  time: 2016-04-12 15:05:43 007402  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 5  |  passage_name:  Dallas Hospital Worker Tests Positive For Ebola::e0dacb9044c955676c27d93e3367c30f::ACKNOWLEDGED e0dacb9044c955676c27d93e3367c30f  
+
+passage/grade  |  time: 2016-04-12 15:05:48 368306  |  # of fields: 2  |  passage_id: 5  |  score: 2::2575ac9ef1d03a44fae1514f2b94a396::ACKNOWLEDGED 2575ac9ef1d03a44fae1514f2b94a396
+
+
+
+passage/create  |  time: 2016-04-12 15:08:24 391865  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 6  |  passage_name:  Dallas Hospital Worker Tests Positive For::5e706810b8c53a9791e737a786020bf5::
+
+passage/grade  |  time: 2016-04-12 15:08:28 927892  |  # of fields: 2  |  passage_id: 6  |  score: 2::1e62947f9df3e6e23dc9e3efca4c685c::
+
+passage/create  |  time: 2016-04-12 15:10:55 124349  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 7  |  passage_name:  Dallas Hospital Worker Tests Positive::dad98907fd916978f276637a1e064ec4::
+
+passage/grade  |  time: 2016-04-12 15:10:57 177983  |  # of fields: 2  |  passage_id: 7  |  score: 2::f9f6aaa37081c144aec51f4aca59cf6a::
+
+passage/create  |  time: 2016-04-12 15:15:07 394009  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 8  |  passage_name:  CDC sending team of 16 Ebola experts to Dallas::4fbaadb497ce892943078b2915eaf124::
+
+passage/grade  |  time: 2016-04-12 15:15:11 855399  |  # of fields: 2  |  passage_id: 8  |  score: 2::3213a557766117dbea5b38acbc54e68b::
+
+passage/create  |  time: 2016-04-12 15:18:14 267360  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 9  |  passage_name:  A female hospital worker in Dallas tested positive for the Ebola virus, the U.S. Centers for Disease Control reported early Wednesday.  ::51271fed86b9e1e5e8a1424d98544c53::ACKNOWLEDGED 51271fed86b9e1e5e8a1424d98544c53  
+
+passage/grade  |  time: 2016-04-12 15:18:16 998749  |  # of fields: 2  |  passage_id: 9  |  score: 2::776e87ecb0a23459f8ccdb49bfb1c80d::ACKNOWLEDGED 776e87ecb0a23459f8ccdb49bfb1c80d
+
+
+
+passage/create  |  time: 2016-04-12 15:23:16 208433  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 10  |  passage_name:  A female hospital worker in Dallas tested positive for the Ebola virus, the U.S. Centers for Disease Control reported early::94e5b5847322f94ea4e00db90d4b5229::ACKNOWLEDGED 94e5b5847322f94ea4e00db90d4b5229  
+
+passage/grade  |  time: 2016-04-12 15:23:24 287476  |  # of fields: 2  |  passage_id: 10  |  score: 2::0b31ec7274abeade250d4227c74cfe1d::ACKNOWLEDGED 0b31ec7274abeade250d4227c74cfe1d
+
+
+
+passage/create  |  time: 2016-04-12 15:24:25 247092  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 11  |  passage_name:  CDC says the preliminary test was performed overnight at the Texas public health laboratory in Austin on a specimen from another worker who cared for Thomas Eric Duncan, the Liberian man who died at Texas Health Presbyterian Hospital in Dallas a week ago.  ::4337509f9b3eea5c91f0564934dcce5b::ACKNOWLEDGED 4337509f9b3eea5c91f0564934dcce5b  
+
+passage/grade  |  time: 2016-04-12 15:24:28 386157  |  # of fields: 2  |  passage_id: 11  |  score: 2::bd764fe4a7aa76289243a679b1ee91fb::ACKNOWLEDGED bd764fe4a7aa76289243a679b1ee91fb
+
+
+
+passage/create  |  time: 2016-04-12 15:42:42 802495  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 14  |  passage_name:  The second worker, who was being monitored, was isolated at Presbyterian after first reporting a fever, according to a separate statement from the Texas Department of Health Services. That statement also says confirmation testing is being done at the CDC lab in Atlanta.::fc272a1450cc1d292a788acc0828e8d4::ACKNOWLEDGED fc272a1450cc1d292a788acc0828e8d4  
+
+passage/grade  |  time: 2016-04-12 15:42:46 947119  |  # of fields: 2  |  passage_id: 14  |  score: 2::b685eb78513308b08ba5050f3e5475a2::ACKNOWLEDGED b685eb78513308b08ba5050f3e5475a2
+
+
+
+passage/create  |  time: 2016-04-12 16:21:18 591445  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 16  |  passage_name:  The CDC has interviewed the worker to identify contacts or potential exposures, but the CDC statement released at about 4:30 a.m. does not say whether any were identified.  ::6077c0e7aee68d19af53c20edabc37c3::
+
+passage/grade  |  time: 2016-04-12 16:21:21 483067  |  # of fields: 2  |  passage_id: 16  |  score: 2::a398e1c6225037adbe07bda4ba75d4f7::
+
+passage/create  |  time: 2016-04-12 16:26:18 566494  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 17  |  passage_name:  Dallas County Judge Clay Jenkins said at a 7 a.m. press conference that the second worker was isolated and being tested within 90 minutes of finding she had a fever.::9eb689be43799c90cb86e1f893294097::
+
+passage/grade  |  time: 2016-04-12 16:26:21 687001  |  # of fields: 2  |  passage_id: 17  |  score: 2::f12a52bec836f47602861dda36633852::
+
+passage/create  |  time: 2016-04-12 16:27:06 382611  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 18  |  passage_name:  Dallas officials said, lives alone and has no pets. As Dallas fire and rescue workers started decontamination at the apartment, workers were going door-to-door at her apartment complex at Skillman and Village Bend, informing residents::b4aba7d61fb4d363ca474f2b6b111176::
+
+passage/grade  |  time: 2016-04-12 16:27:09 981559  |  # of fields: 2  |  passage_id: 18  |  score: 2::5285ef5a16ff05baac54a39a18f43618::
+
+passage/create  |  time: 2016-04-12 16:30:04 407841  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 19  |  passage_name:   and has no pets. As Dallas fire and rescue workers started decontamination at the apartment, workers were going door-to-door at her apartment complex at Skillman and Village::0aea160e9f80cc18d4c2216fdab79dd9::
+
+passage/grade  |  time: 2016-04-12 16:30:11 247075  |  # of fields: 2  |  passage_id: 19  |  score: 2::c847a630b9a3539218947779696ebe6c::
+
+passage/create  |  time: 2016-04-12 16:32:56 054523  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 20  |  passage_name:  The CDC has interviewed the worker to identify contacts or potential exposures, but the CDC statement released at about 4:30 a.m. does not say whether any were identified.  ::9a45cd6192e2cd8501c1e58c2fb49997::
+
+passage/grade  |  time: 2016-04-12 16:32:58 879311  |  # of fields: 2  |  passage_id: 20  |  score: 2::5c56ed83247a656f8360e9890f42e7c2::
+
+passage/create  |  time: 2016-04-12 16:35:28 567428  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 21  |  passage_name:  CDC Director Tom Frieden acknowledged Tuesday that his agency was slow to respond to Duncanâs case. He admitted that may have meant workers at Presbyterian did not use the latest techniques to prepare themselves for work around Ebola in its most highly contagious state.::41d1d3b83bb2b54e446258a4b5e82c45::ACKNOWLEDGED 41d1d3b83bb2b54e446258a4b5e82c45  
+
+passage/grade  |  time: 2016-04-12 16:35:30 995976  |  # of fields: 2  |  passage_id: 21  |  score: 2::46c379557ef1f0e915be048114be9c3d::ACKNOWLEDGED 46c379557ef1f0e915be048114be9c3d
+
+
+
+passage/create  |  time: 2016-04-12 16:57:42 886751  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 27  |  passage_name:  Dallas County Judge Clay Jenkins said at a 7 a.m. press conference that the second worker was isolated and being tested within 90 minutes of finding she had a fever.::080bd6a1396f82729b52484ead1995aa::ACKNOWLEDGED 080bd6a1396f82729b52484ead1995aa  
+
+passage/grade  |  time: 2016-04-12 16:57:47 680255  |  # of fields: 2  |  passage_id: 27  |  score: 2::7b6b47af6f35e1abda9614bf29b63ac6::ACKNOWLEDGED 7b6b47af6f35e1abda9614bf29b63ac6
+
+
+
+passage/create  |  time: 2016-04-12 16:58:46 068701  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 28  |  passage_name:  Dallas Mayor Rawlings reiterated that another positive result was not unexpected, but the CDC appeared to be scrambling to seal up holes in the Ebola treatment procedures, sending a team of 16 people to monitor and help at Presbyterian.::ce385a65cddfa7e2621b5ac961ad46f8::ACKNOWLEDGED ce385a65cddfa7e2621b5ac961ad46f8  
+
+passage/grade  |  time: 2016-04-12 16:58:49 754240  |  # of fields: 2  |  passage_id: 28  |  score: 2::099dd963fa7d880c38415627937eab87::ACKNOWLEDGED 099dd963fa7d880c38415627937eab87
+
+
+
+login  |  time: 2016-04-12 18:41:43 682718
+
+passage/create  |  time: 2016-04-12 18:42:33 791667  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 31  |  passage_name:  A female hospital worker in Dallas tested positive for the Ebola virus,::8e56ec5355a639f39e13927f87b00a04::ACKNOWLEDGED 8e56ec5355a639f39e13927f87b00a04  
+
+passage/grade  |  time: 2016-04-12 18:42:36 227465  |  # of fields: 2  |  passage_id: 31  |  score: 2::c324378da3bf007c222b2677d1ac624e::ACKNOWLEDGED c324378da3bf007c222b2677d1ac624e
+
+
+
+passage/create  |  time: 2016-04-12 18:46:05 984231  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 32  |  passage_name:  Vinson, 29, was identified by a family member as the nurse diagnosed with the virus.::8cfb7957010800a5739616ed74dff574::ACKNOWLEDGED 8cfb7957010800a5739616ed74dff574  
+
+passage/grade  |  time: 2016-04-12 18:46:11 295219  |  # of fields: 2  |  passage_id: 32  |  score: 2::8fa4a3617c0fbed93fbbeb7c5d33fb4e::ACKNOWLEDGED 8fa4a3617c0fbed93fbbeb7c5d33fb4e
+
+
+
+passage/create  |  time: 2016-04-12 18:46:35 721499  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 33  |  passage_name:  Dallas nurse Nina Pham was diagnosed with Ebola::e442553294b361eb3e9416b0d99fad1a::ACKNOWLEDGED e442553294b361eb3e9416b0d99fad1a  
+
+passage/grade  |  time: 2016-04-12 18:46:38 450767  |  # of fields: 2  |  passage_id: 33  |  score: 2::e318a0c035889240fcf055034cf9457a::ACKNOWLEDGED e318a0c035889240fcf055034cf9457a
+
+
+
+passage/create  |  time: 2016-04-12 18:47:27 382878  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 34  |  passage_name:  2nd Dallas Nurse With Ebola Arrives In Atlanta For Treatment::54efa0fd3088551b9caa34c5cb4c8acb::ACKNOWLEDGED 54efa0fd3088551b9caa34c5cb4c8acb  
+
+passage/grade  |  time: 2016-04-12 18:47:29 141660  |  # of fields: 2  |  passage_id: 34  |  score: 2::a1bb26c4cdacec0aff6248aa15c5a9a3::ACKNOWLEDGED a1bb26c4cdacec0aff6248aa15c5a9a3
+
+
+
+passage/create  |  time: 2016-04-12 18:53:54 499775  |  # of fields: 6  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients  |  passage_id: 35  |  passage_name:  4,293 cases of Ebola have now been recorded and 2,296 people have died from the disease::6e0d7c1ad81f2973d742bd868d1bfbf2::ACKNOWLEDGED 6e0d7c1ad81f2973d742bd868d1bfbf2  
+
+passage/grade  |  time: 2016-04-12 18:53:58 420423  |  # of fields: 2  |  passage_id: 35  |  score: 2::3e15543e96e6d231852ea49a791cc920::ACKNOWLEDGED 3e15543e96e6d231852ea49a791cc920
+
+
+
+subtopic/nist_findmore  |  time: 2016-04-12 19:14:39 080502  |  # of fields: 4  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=58%20TID=326%20STID=326.2%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+subtopic/nist_findmore  |  time: 2016-04-12 19:14:48 456807  |  # of fields: 4  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=58%20TID=326%20STID=326.2%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+subtopic/nist_findmore  |  time: 2016-04-12 19:15:18 330921  |  # of fields: 4  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=58%20TID=326%20STID=326.2%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+subtopic/nist_findmore  |  time: 2016-04-12 19:15:20 206764  |  # of fields: 4  |  topic_id: 326  |  topic_name: Patients  |  subtopic_id: 2  |  subtopic_name: US Patients::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=58%20TID=326%20STID=326.2%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+irrelevant/select  |  time: 2016-04-13 09:26:46 803517  |  # of  fields: 1  |  topic_id: 326
+

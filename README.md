@@ -1,2 +1,1 @@
-# QA_interface
-Interface for human trafficking question answering
+# Memex_Search_Interface

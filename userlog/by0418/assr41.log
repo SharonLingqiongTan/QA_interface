@@ -1,0 +1,112 @@
+login  |  time: 2016-04-18 00:52:11 347039
+
+list/click  |  time: 2016-04-18 00:52:45 009337  |  # of fields: 4  |  topic_id: 145  |  docno: ebola-af5a7047b265183bae7406023cfc525754a715483f8dfd2be2edf8f2ae534bd8  |  listsource: lemur  |  rank: 0
+
+doc/next  |  time: 2016-04-18 00:52:53 844820  |  # of fields: 2  |  topic_id: 145  |  docno: ebola-af5a7047b265183bae7406023cfc525754a715483f8dfd2be2edf8f2ae534bd8
+
+doc/next  |  time: 2016-04-18 00:52:56 878374  |  # of fields: 2  |  topic_id: 145  |  docno: ebola-cf9337ed4df974c83e7cb84e5e5ec28a5554585903a1a2d9ad61452ea9ef0ff1
+
+doc/next  |  time: 2016-04-18 00:52:59 057612  |  # of fields: 2  |  topic_id: 145  |  docno: ebola-f5d07851af54a0d2b415b9f2dd4dcc4124f3efaf8942ae2664553fe745d29c59
+
+doc/next  |  time: 2016-04-18 00:53:08 908980  |  # of fields: 2  |  topic_id: 145  |  docno: ebola-ca835b0f253447ddb2a9293a827f5351d19885f1638d4462be5fedb03d0e63a4
+
+topic/create  |  time: 2016-04-18 00:53:44 229115  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 390  |  topic_name:  celebrates in the fight of beat Ebola - jiyun
+
+topic/select  |  time: 2016-04-18 00:53:44 306240  |  # of fields: 2  |  topic_id: 390  |  topic_name: celebrates in the fight of beat Ebola - jiyun
+
+subtopic/create  |  time: 2016-04-18 00:53:57 026199  |  # of fields: 4  |  topic_id: 390  |  topic_name: celebrates in the fight of beat Ebola - jiyun  |  subtopic_id: 144  |  subtopic_name: beckham - jiyun
+
+passage/create  |  time: 2016-04-18 00:54:13 473902  |  # of fields: 6  |  topic_id: 390  |  topic_name: celebrates in the fight of beat Ebola - jiyun  |  subtopic_id: 144  |  subtopic_name: beckham - jiyun  |  passage_id: 1760  |  passage_name:  Unicef Goodwill Ambassador David Beckham is lending his support to our fight against Ebola through a video message to be broadcast across Sierra Leone – one of the worst-affected countries.
+
+passage/grade  |  time: 2016-04-18 00:54:15 689341  |  # of fields: 2  |  passage_id: 1760  |  score: 2
+
+doc/next  |  time: 2016-04-18 00:54:19 496168  |  # of fields: 2  |  topic_id: 390  |  docno: ebola-c9f6c438cf97bcc3be54122b92f365f09fe30bab44d94f7d10757b580e9f52e3
+
+list/go back  |  time: 2016-04-18 00:54:19 628126  |  # of fields: 3  |  topic_id: 390  |  docno: ebola-c9f6c438cf97bcc3be54122b92f365f09fe30bab44d94f7d10757b580e9f52e3  |  listsource:unknown
+
+list/click  |  time: 2016-04-18 00:55:07 841114  |  # of fields: 4  |  topic_id: 390  |  docno: ebola-af5a7047b265183bae7406023cfc525754a715483f8dfd2be2edf8f2ae534bd8  |  listsource: lemur  |  rank: 0
+
+doc/irrelevant  |  time: 2016-04-18 00:55:21 753915  |  # of fields: 2  |  topic_id: 390  |  docno: ebola-af5a7047b265183bae7406023cfc525754a715483f8dfd2be2edf8f2ae534bd8
+
+doc/irrelevant  |  time: 2016-04-18 00:55:29 238135  |  # of fields: 2  |  topic_id: 390  |  docno: ebola-cf9337ed4df974c83e7cb84e5e5ec28a5554585903a1a2d9ad61452ea9ef0ff1
+
+doc/irrelevant  |  time: 2016-04-18 00:55:30 966530  |  # of fields: 2  |  topic_id: 390  |  docno: ebola-f5d07851af54a0d2b415b9f2dd4dcc4124f3efaf8942ae2664553fe745d29c59
+
+irrelevant/view  |  time: 2016-04-18 00:55:33 317547  |  # of  fields: 1  |  topic_id: 390
+
+duplicate/view  |  time: 2016-04-18 00:55:37 865099  |  # of  fields: 1  |  topic_id: 390
+
+tagged/view  |  time: 2016-04-18 00:55:40 788788  |  # of  fields: 1  |  topic_id: 390
+
+doc/irrelevant  |  time: 2016-04-18 00:55:52 049984  |  # of fields: 2  |  topic_id: 390  |  docno: ebola-ca835b0f253447ddb2a9293a827f5351d19885f1638d4462be5fedb03d0e63a4
+
+doc/next  |  time: 2016-04-18 00:56:07 909246  |  # of fields: 2  |  topic_id: 390  |  docno: ebola-c9f6c438cf97bcc3be54122b92f365f09fe30bab44d94f7d10757b580e9f52e3
+
+doc/irrelevant  |  time: 2016-04-18 00:56:10 078621  |  # of fields: 2  |  topic_id: 390  |  docno: ebola-f37ef48c2d20bf7708997ea92b2d8bde5a3d4342bf473bae14b1b4c32c76eb45
+
+subtopic/create  |  time: 2016-04-18 00:56:42 991646  |  # of fields: 4  |  topic_id: 390  |  topic_name: celebrates in the fight of beat Ebola - jiyun  |  subtopic_id: 145  |  subtopic_name: Commissioner Stylianides
+
+subtopic/edit  |  time: 2016-04-18 00:56:49 636157  |  # of fields: 4  |  topic_id: 390  |  topic_name: celebrates in the fight of beat Ebola - jiyun  |  subtopic_id: 145  |  newsubtopic_name: Commissioner Stylianides - jiyun
+
+passage/create  |  time: 2016-04-18 00:57:11 547392  |  # of fields: 6  |  topic_id: 390  |  topic_name: celebrates in the fight of beat Ebola - jiyun  |  subtopic_id: 145  |  subtopic_name: Commissioner Stylianides - jiyun  |  passage_id: 1761  |  passage_name:  At the epicentre of Ebola: Commissioner Stylianides visits Sierra Leone, Liberia and Guinea EU Humanitarian Aid and Civil Protection
+
+passage/grade  |  time: 2016-04-18 00:57:31 375866  |  # of fields: 2  |  passage_id: 1761  |  score: 1
+
+list/click  |  time: 2016-04-18 00:57:50 243682  |  # of fields: 4  |  topic_id: 390  |  docno: ebola-0774bed7fc9df42b7d80b8467ad5056bba39e1162d10a26a9841c7c858d28e07  |  listsource: pink_findmore  |  rank: -1
+
+passage/create  |  time: 2016-04-18 00:58:19 319077  |  # of fields: 6  |  topic_id: 390  |  topic_name: celebrates in the fight of beat Ebola - jiyun  |  subtopic_id: 145  |  subtopic_name: Commissioner Stylianides - jiyun  |  passage_id: 1762  |  passage_name:  From 12-16 November 2014, Commissioner Christos Stylianides travelled toGuinea, Sierra Leone and Liberia together with Commissioner for Health,Vytenis Andriukaitis, to take stock of the situation and identify theneeds, challenges and gaps in the ongoing response on the ground. During the trip, Commissioner Stylianides met with national authorities,representatives of EU Member States and humanitarian organisations, andspoke with Ebola survivors and European aid workers. 
+
+passage/grade  |  time: 2016-04-18 00:58:21 266614  |  # of fields: 2  |  passage_id: 1762  |  score: 3
+
+list/click  |  time: 2016-04-18 00:58:37 464491  |  # of fields: 4  |  topic_id: 390  |  docno: ebola-e32a2a9127a6f9d638c0a915cf2144eb851138abbe3e7f76d2acbc5c30ca8a49  |  listsource: pink_findmore  |  rank: -1
+
+doc/duplicate  |  time: 2016-04-18 00:58:46 375429  |  # of fields: 2  |  topic_id: 390  |  docno: ebola-e32a2a9127a6f9d638c0a915cf2144eb851138abbe3e7f76d2acbc5c30ca8a49
+
+doc/duplicate  |  time: 2016-04-18 00:58:59 400467  |  # of fields: 2  |  topic_id: 390  |  docno: ebola-b3fc52cbe7299730f5f5ad59625c2d4b8d4cab3e69722e73684f710a1b35f52a
+
+highlight  |  time: 2016-04-18 00:59  |  # of fields: 3  |  topic_id: 390  |  docno: ebola-11e917d96acf346584359189cf61f27bd4be52544d407acf94538f22e313df31  |  highlight_string: Stylianides
+
+doc/irrelevant  |  time: 2016-04-18 00:59:55 652422  |  # of fields: 2  |  topic_id: 390  |  docno: ebola-11e917d96acf346584359189cf61f27bd4be52544d407acf94538f22e313df31
+
+list/click  |  time: 2016-04-18 01:00:10 753402  |  # of fields: 4  |  topic_id: 390  |  docno: ebola-77941177217e3b59c5b4eed65fbef3a22646013e8dbd4cefaa0ad1bfb8cbe114  |  listsource: pink_findmore  |  rank: -1
+
+highlight  |  time: 2016-04-18 01:00  |  # of fields: 3  |  topic_id: 390  |  docno: ebola-77941177217e3b59c5b4eed65fbef3a22646013e8dbd4cefaa0ad1bfb8cbe114  |  highlight_string: David
+
+passage/create  |  time: 2016-04-18 01:00:31 380140  |  # of fields: 6  |  topic_id: 390  |  topic_name: celebrates in the fight of beat Ebola - jiyun  |  subtopic_id: 144  |  subtopic_name: beckham - jiyun  |  passage_id: 1763  |  passage_name:  Unicef Goodwill Ambassador David Beckham is supporting our fight to beat Ebola through a video message to be broadcast across Sierra Leone – one of the worst-affected countries.  
+
+list/click  |  time: 2016-04-18 01:00:39 847711  |  # of fields: 4  |  topic_id: 390  |  docno: ebola-a29b690a6571d55f36b318d155c1f9fd6976094c60d21a268112a407ab3a2a35  |  listsource: pink_findmore  |  rank: -1
+
+highlight  |  time: 2016-04-18 01:00  |  # of fields: 3  |  topic_id: 390  |  docno: ebola-a29b690a6571d55f36b318d155c1f9fd6976094c60d21a268112a407ab3a2a35  |  highlight_string: David
+
+passage/create  |  time: 2016-04-18 01:01:08 884538  |  # of fields: 6  |  topic_id: 390  |  topic_name: celebrates in the fight of beat Ebola - jiyun  |  subtopic_id: 144  |  subtopic_name: beckham - jiyun  |  passage_id: 1764  |  passage_name:  Unicef Goodwill Ambassador David Beckham is supporting our fight to beat Ebola through a video message to be broadcast across Sierra Leone – one of the worst-affected countries.  
+
+passage/grade  |  time: 2016-04-18 01:01:12 779892  |  # of fields: 2  |  passage_id: 1764  |  score: 3
+
+passage/grade  |  time: 2016-04-18 01:01:16 869813  |  # of fields: 2  |  passage_id: 1763  |  score: 3
+
+list/click  |  time: 2016-04-18 01:01:31 136341  |  # of fields: 4  |  topic_id: 390  |  docno: ebola-c097e0db49caef35d51c60ea4fd955e3ffe6c86109963e03fc3e6565a064d794  |  listsource: blue_findmore  |  rank: 0
+
+doc/irrelevant  |  time: 2016-04-18 01:01:35 728772  |  # of fields: 2  |  topic_id: 390  |  docno: ebola-c097e0db49caef35d51c60ea4fd955e3ffe6c86109963e03fc3e6565a064d794
+
+list/go back  |  time: 2016-04-18 01:01:35 809630  |  # of fields: 3  |  topic_id: 390  |  docno: ebola-c097e0db49caef35d51c60ea4fd955e3ffe6c86109963e03fc3e6565a064d794  |  listsource:unknown
+
+list/click  |  time: 2016-04-18 01:01:39 422163  |  # of fields: 4  |  topic_id: 390  |  docno: ebola-abf6794820d4d39889c422b7bf198965e690489b30cc39a7291ef75ee1a3f7eb  |  listsource: blue_findmore  |  rank: 0
+
+highlight  |  time: 2016-04-18 01:01  |  # of fields: 3  |  topic_id: 390  |  docno: ebola-abf6794820d4d39889c422b7bf198965e690489b30cc39a7291ef75ee1a3f7eb  |  highlight_string: Stylianides
+
+passage/create  |  time: 2016-04-18 01:02:04 264937  |  # of fields: 6  |  topic_id: 390  |  topic_name: celebrates in the fight of beat Ebola - jiyun  |  subtopic_id: 145  |  subtopic_name: Commissioner Stylianides - jiyun  |  passage_id: 1765  |  passage_name:  At the epicentre of Ebola: Commissioner Stylianides visits Sierra Leone, Liberia and Guinea
+
+tagged/view  |  time: 2016-04-18 01:02:26 361776  |  # of  fields: 1  |  topic_id: 390
+
+irrelevant/view  |  time: 2016-04-18 01:02:30 178108  |  # of  fields: 1  |  topic_id: 390
+
+duplicate/view  |  time: 2016-04-18 01:02:53 701369  |  # of  fields: 1  |  topic_id: 390
+
+duplicate/put back  |  time: 2016-04-18 01:03:01 222437  |  # of  fields: 2  |  topic_id: 390  |  docno: ebola-e32a2a9127a6f9d638c0a915cf2144eb851138abbe3e7f76d2acbc5c30ca8a49
+
+duplicate/put back  |  time: 2016-04-18 01:03:02 729070  |  # of  fields: 2  |  topic_id: 390  |  docno: ebola-b3fc52cbe7299730f5f5ad59625c2d4b8d4cab3e69722e73684f710a1b35f52a
+
+list/click  |  time: 2016-04-18 01:03:42 509775  |  # of fields: 4  |  topic_id: 390  |  docno: ebola-bfabfa6d898d87cede3b030e6547c51279acd47cc9e72c5d7c7d3e43e2445b89  |  listsource: solr  |  rank: 0
+
+logout  |  time: 2016-04-18 01:04:10 777659
+

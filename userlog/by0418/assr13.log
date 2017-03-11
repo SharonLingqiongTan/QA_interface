@@ -1,0 +1,76 @@
+login  |  time: 2016-04-13 10:43:15 964849
+
+topic/create  |  time: 2016-04-13 10:50:45 835758  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 336  |  topic_name:  Boko Haram 2
+
+topic/select  |  time: 2016-04-13 10:50:46 008218  |  # of fields: 2  |  topic_id: 336  |  topic_name: Boko Haram 2
+
+topic/edit  |  time: 2016-04-13 10:53:34 293817  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 336  |  newtopic_name:  Boko Haram Sierra Leone
+
+irrelevant doc  |  time: 2016-04-13 10:56:14 646925  |  # of fields: 2  |  topic_id: 336  |  topic_name: Boko Haram Sierra Leone  |  docno: ebola-562df26f42ec8fd8d74b8a2ca62621f735e028e8f61a862dfcf94aa867f60f84::7236f705b8db09731b3e600b3bab2589::ACKNOWLEDGED 7236f705b8db09731b3e600b3bab2589
+
+
+
+irrelevant doc  |  time: 2016-04-13 10:57:30 711742  |  # of fields: 2  |  topic_id: 336  |  topic_name: Boko Haram Sierra Leone  |  docno: ebola-f3bf98e546d040f4cc1df3f71f8a4322be9c917ce77b1c39a4780fdc05518503::da79ef19c6b16e1f723713244283a812::ACKNOWLEDGED da79ef19c6b16e1f723713244283a812
+
+
+
+irrelevant doc  |  time: 2016-04-13 10:58:10 947792  |  # of fields: 2  |  topic_id: 336  |  topic_name: Boko Haram Sierra Leone  |  docno: ebola-70a1fc97fa127a933c90539dcb09fabdd53bae776fb5603ddcafe8eb91677ddf::023662c995806a087645352ea8e06e4f::ACKNOWLEDGED 023662c995806a087645352ea8e06e4f
+
+
+
+irrelevant doc  |  time: 2016-04-13 10:58:50 131880  |  # of fields: 2  |  topic_id: 336  |  topic_name: Boko Haram Sierra Leone  |  docno: ebola-08630239566ded21fee3750716f1d4d6b3e846acba9a3e2d249cb5c722811fd8::671638b0c3c6e7177fa4ab424928bb56::ACKNOWLEDGED 671638b0c3c6e7177fa4ab424928bb56
+
+
+
+irrelevant doc  |  time: 2016-04-13 11:00:04 104646  |  # of fields: 2  |  topic_id: 336  |  topic_name: Boko Haram Sierra Leone  |  docno: ebola-70b74c6ea1eea15d1596d36e36bca434df02ba4d7629ed8eb8162aca098e34d8::f2a3cbda48076ecce45146e720f158b2::ACKNOWLEDGED f2a3cbda48076ecce45146e720f158b2
+
+
+
+irrelevant doc  |  time: 2016-04-13 11:00:17 499187  |  # of fields: 2  |  topic_id: 336  |  topic_name: Boko Haram Sierra Leone  |  docno: ebola-d684102b3976be58d9b2ff711c80ffacd1fb165b4f78e5f78d1cf26655424d39::56e64080a27d66f6e4df48585206796d::ACKNOWLEDGED 56e64080a27d66f6e4df48585206796d
+
+
+
+subtopic/create  |  time: 2016-04-13 11:04:09 899583  |  # of fields: 4  |  topic_id: 336  |  topic_name: Boko Haram Sierra Leone  |  subtopic_id: 17  |  subtopic_name: Ebola vs Boko Haram
+
+passage/create  |  time: 2016-04-13 11:04:31 821078  |  # of fields: 6  |  topic_id: 336  |  topic_name: Boko Haram Sierra Leone  |  subtopic_id: 17  |  subtopic_name: Ebola vs Boko Haram  |  passage_id: 46  |  passage_name:  According to the CDC the West African Ebola epidemic has killed approximately 8,468 people since the outbreak. This is largest Ebola epidemic ever recorded, yet theÂ violence perpetrated by Islamist radicals, Boko Haram, and government troops in Nigeria has claimed more than 10,340 lives in just 12 months, according to new figures by the Council on Foreign Relations.Â In that period around the same number of civilians, 10,733, were violently killed in Iraq by ISIS, according to the United Nations.Â The conflict has displaced at least 1.5 million people, while more than 2,000 were killed last year and Boko Haram’sÂ territory now nearly equals the Islamic Stateâs in Iraq and Syria.::1b5d1a6f98c71bdf211c607c2e19523e::ACKNOWLEDGED 1b5d1a6f98c71bdf211c607c2e19523e  
+
+passage/grade  |  time: 2016-04-13 11:04:43 160500  |  # of fields: 2  |  passage_id: 46  |  score: 2::05e8a7b6aee8f8a113233859346d43d0::ACKNOWLEDGED 05e8a7b6aee8f8a113233859346d43d0
+
+
+
+irrelevant doc  |  time: 2016-04-13 11:10:28 253799  |  # of fields: 2  |  topic_id: 336  |  topic_name: Boko Haram Sierra Leone  |  docno: ebola-bdaed1d3c7c22058af7ecce2394c32636e332cd4806ed9911e0573dc26c8bfcb::0bb7bf6a0d36cdf78eb40b84476e2ab6::ACKNOWLEDGED 0bb7bf6a0d36cdf78eb40b84476e2ab6
+
+
+
+passage/create  |  time: 2016-04-13 11:12:54 940450  |  # of fields: 6  |  topic_id: 336  |  topic_name: Boko Haram Sierra Leone  |  subtopic_id: 17  |  subtopic_name: Ebola vs Boko Haram  |  passage_id: 47  |  passage_name:  President Goodluck Jonathan has declared that his administration will crush Boko Haram just like it conquered the Ebola outbreak.  ::cb8a91bd1613dc082af25b61d89fbd2f::ACKNOWLEDGED cb8a91bd1613dc082af25b61d89fbd2f  
+
+passage/grade  |  time: 2016-04-13 11:13:15 500183  |  # of fields: 2  |  passage_id: 47  |  score: 2::99ba3983bd919a7b2bbb5925dde72877::ACKNOWLEDGED 99ba3983bd919a7b2bbb5925dde72877
+
+
+
+topic/edit  |  time: 2016-04-13 11:13:40 376243  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 336  |  newtopic_name:  Boko Haram and Ebola
+
+irrelevant doc  |  time: 2016-04-13 11:15:32 828526  |  # of fields: 2  |  topic_id: 336  |  topic_name: Boko Haram and Ebola  |  docno: ebola-49dd24b56e49eb89065db2aad009a58f36da3a293a9b7cff3dcf61b1d91bf74f::92c49199a4006422c10d9f5ff145282b::ACKNOWLEDGED 92c49199a4006422c10d9f5ff145282b
+
+
+
+subtopic/create  |  time: 2016-04-13 11:16:18 378055  |  # of fields: 4  |  topic_id: 336  |  topic_name: Boko Haram and Ebola  |  subtopic_id: 18  |  subtopic_name: New subtopic
+
+passage/create  |  time: 2016-04-13 11:16:51 519030  |  # of fields: 6  |  topic_id: 336  |  topic_name: Boko Haram and Ebola  |  subtopic_id: 18  |  subtopic_name: New subtopic  |  passage_id: 48  |  passage_name:   revenue. Everyone knows what is going on in the oil industry. In the next few years, we might not generate half of what we are generating today. So, we should look at other industries and to make::ab9f5b3901bd0d1645eb353c0ca9baf1::ACKNOWLEDGED ab9f5b3901bd0d1645eb353c0ca9baf1  
+
+passage/irrelevant  |  time: 2016-04-13 11:16:56 913459  |  # of fields: 2  |  passage_id: 48::ca53cf951b9dabfb0195d007ce7c82ac::ACKNOWLEDGED ca53cf951b9dabfb0195d007ce7c82ac
+
+
+
+passage/create  |  time: 2016-04-13 11:17:00 801101  |  # of fields: 6  |  topic_id: 336  |  topic_name: Boko Haram and Ebola  |  subtopic_id: 18  |  subtopic_name: New subtopic  |  passage_id: 49  |  passage_name:   revenue. Everyone knows what is going on in the oil industry. In the next few years, we might not generate half of what we are generating today. So, we should look at other industries and to make::ca6bfa1b57f58b253492c7fee220ab2c::ACKNOWLEDGED ca6bfa1b57f58b253492c7fee220ab2c  
+
+passage/grade  |  time: 2016-04-13 11:17:05 723547  |  # of fields: 2  |  passage_id: 49  |  score: 2::38ed5a7181afebc7e7983943bafdd95e::ACKNOWLEDGED 38ed5a7181afebc7e7983943bafdd95e
+
+
+
+duplicate doc  |  time: 2016-04-13 11:20:13 847258  |  # of fields: 2  |  topic_id: 336  |  topic_name: Boko Haram and Ebola  |  docno: ebola-f9288866c6fddef192a33245bf8b8499adcf986c9c04d9d3bded584cdeb54904::3a0014136f382ed699d62eb5683ae12c::ACKNOWLEDGED 3a0014136f382ed699d62eb5683ae12c
+
+
+
+passage/create  |  time: 2016-04-13 11:27:20 983663  |  # of fields: 6  |  topic_id: 336  |  topic_name: Boko Haram and Ebola  |  subtopic_id: 18  |  subtopic_name: New subtopic  |  passage_id: 50  |  passage_name:  In a press conference a few days prior to launch, SpaceX engineers talked about the primary mission of resupply and played down the attempt at recovering the first stage booster. But you could tell that the company very much wanted to demonstrate they could return a rocket intact to soft land. For this purpose they built an offshore barge and parked it off the Florida coast.  Considered at best a 50/50 prospect by Chairman and CEO of SpaceX, Elon Musk::0f07c0662ce6b59867e63bbef333741e::ACKNOWLEDGED 0f07c0662ce6b59867e63bbef333741e  
+

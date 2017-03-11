@@ -1,0 +1,153 @@
+/* Reset CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: Cambria, Georgia, serif;
+	font: inherit;
+	vertical-align: baseline;
+}
+strong{
+	font-weight:bold;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: Cambria, Georgia, serif;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* --Reset CSS*/
+
+/* Customized CSS*/
+html{overflow-y:scroll;}
+.date{
+	display:inline-block;
+}
+a:link{
+	color:#1975FF;
+}
+tbody {
+	text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.wrapper{position:relative; width:1000px; margin:auto; font-family:verdana; padding:20px 20px 0 20px; background:#FEFEFE; box-shadow:0 0 15px 2px #CCC}
+header{position:relative;margin-left: 15px; top:4px; font-family:Minion Pro; font-size:36px; font-weight:bold;}
+.logo{width:90px; height:90px; position:absolute; top:6px; left:6px; opacity:0.4;}
+
+nav{margin-top:15px; /*padding-bottom: 5px; border-bottom:1px solid #DDD;*/}
+
+header{position:relative; left:80px;}
+nav a{margin-left:10px; margin-right:10px; text-decoration:none;display:block;}
+/*nav a:first-child{margin-left:5px;}*/
+nav a:hover{cursor:pointer; color:orange;	}
+.line{display:block; height:2px; margin-top:20px; background:#AAA; }
+section{margin-top:20px;}
+.welcome{font-size:20px;font-weight: }
+.intro li{line-height:22px; margin-bottom:15px; list-style-type:circle;margin-left: 30px;}
+.intro .introsubli{ list-style-type: disc; margin-left:65px;}
+.overview{padding-right:20px;}
+.overview li{  margin-left:30px; text-align:justify;}
+.overview strong{ margin-right:5px; font-size:18px;}
+.bold{ font-weight:bold;}
+.gllink2{ text-decoration:underline; cursor:pointer; color:#1975FF;}
+.date{ min-width:110px; font-weight:bold; }
+.organizers img{width:25px; height:25px; position:relative; top:3px; vertical-align:text-bottom;}
+.organizers li{line-height:25px; margin-bottom:5px;}
+.links li{line-height:25px;}
+.footerline{margin-top:30px; display:block; height:2px; background:#AAA; }
+footer{padding:10px 0; color:#AAA; font-size:14px;}
+pre{word-break:break-all; white-space:pre-wrap;font-family: monospace;}
+/* ----*/
+h2{ font-size:24px; font-weight:bold; margin-bottom:10px;}
+h4{ font-size:16px; font-weight:bold; margin-top:20px;}
+h5{ font-size:15px; font-weight:bold; margin-top:20px;}
+h6{ font-size:15px; font-weight:bold; margin-top:20px;}
+h7{ font-size:15px; font-style: italic; margin-top:20px;}
+#gdcontent{margin-left:30px; margin-top:10px;}
+#gdcontent li{margin-bottom:10px; }
+#gdcontent li a{color:#039;}
+.gdnum li{list-style-type: decimal}
+.gd_details{line-height:22px; margin-top:15px; padding-left:18px; padding-right:35px;text-align:justify;}
+.gd_details li{margin-bottom:8px;}
+.gdlinebox{padding-left:30px; line-height:22px;}
+#gd_download{margin-top:20px; margin-left:5px;}
+.timedetail li{ margin-left:40px; margin-top:20px; list-style-type:square;}
+td { padding: 3px;}
+
+/* --Customized CSS*/
+.left {
+    width: 14%;
+	margin-left:0;
+    float: left;
+	position: fixed;
+	top: 100px;
+	left: 0;
+		/*display: inline;*/
+    font-size: 120%;
+    line-height: 125%;
+}
+.right {
+    width: 85%;
+    float: right;
+		/*display: inline;*/
+		margin: auto;;
+		/*margin: auto;
+    margin-left: 10px;
+    margin-bottom: 140px;
+    margin-top: 5px;*/
+}
+#top {
+    width: 100%;
+
+}
+
+.sub-ul li {
+	/*TODO 修改缩进的像素*/
+	text-indent: 20px;
+	list-style-position: inside;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    vertical-align: top;
+    margin-bottom: 15px;
+    border: 0px solid #000000;
+}

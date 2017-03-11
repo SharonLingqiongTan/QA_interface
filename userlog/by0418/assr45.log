@@ -1,0 +1,18 @@
+login  |  time: 2016-04-13 12:22:45 367721
+
+topic/create  |  time: 2016-04-13 12:22:52 057731  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 345  |  topic_name:  create new topic
+
+topic/select  |  time: 2016-04-13 12:22:52 288774  |  # of fields: 2  |  topic_id: 345  |  topic_name: create new topic
+
+topic/select  |  time: 2016-04-13 12:23:55 716003  |  # of fields: 2  |  topic_id: 157  |  topic_name: 
+
+topic/create  |  time: 2016-04-13 12:23:58 387652  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 348  |  topic_name:  test new topic
+
+topic/select  |  time: 2016-04-13 12:23:58 694581  |  # of fields: 2  |  topic_id: 348  |  topic_name: test new topic
+
+topic/select  |  time: 2016-04-13 12:24:04 348867  |  # of fields: 2  |  topic_id: 157  |  topic_name: 
+
+topic/create  |  time: 2016-04-13 12:24:15 405872  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 349  |  topic_name:  assr45 new topic
+
+topic/select  |  time: 2016-04-13 12:24:15 622499  |  # of fields: 2  |  topic_id: 349  |  topic_name: assr45 new topic
+

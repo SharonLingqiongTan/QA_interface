@@ -1,0 +1,1484 @@
+login  |  time: 2016-04-13 11:39:07 107358
+
+topic/create  |  time: 2016-04-13 12:03:55 066743  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 340  |  topic_name:  Is there a natural immunity to ebola?
+
+login  |  time: 2016-04-13 12:15:04 510307
+
+login  |  time: 2016-04-13 12:17:24 620571
+
+topic/select  |  time: 2016-04-13 12:21:20 623386  |  # of fields: 2  |  topic_id: 340  |  topic_name: Is there a natural immunity to ebola?
+
+login  |  time: 2016-04-13 12:22:19 243966
+
+login  |  time: 2016-04-13 12:29:14 478619
+
+topic/create  |  time: 2016-04-13 12:33:35 513721  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 351  |  topic_name:  is there a natural immunity to ebola
+
+topic/create  |  time: 2016-04-13 12:34:22 144560  |  # of fields: 4  |  domain_id: 1  |  domain_name: Ebola  |  topic_id: 353  |  topic_name:  is there a natural immunity to ebola virus
+
+login  |  time: 2016-04-13 12:35:42 534086
+
+login  |  time: 2016-04-13 12:37:24 722986
+
+login  |  time: 2016-04-13 12:38:11 278331
+
+login  |  time: 2016-04-13 12:38:47 644097
+
+tagged/select  |  time: 2016-04-13 12:40:58 321835  |  # of  fields: 1  |  topic_id: 351
+
+login  |  time: 2016-04-13 12:43:01 366987
+
+login  |  time: 2016-04-13 12:46:02 734677
+
+subtopic/create  |  time: 2016-04-13 12:50:37 201301  |  # of fields: 4  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 25  |  subtopic_name: who has a natural immunity to ebola
+
+passage/create  |  time: 2016-04-13 12:51:51 361386  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 25  |  subtopic_name: who has a natural immunity to ebola  |  passage_id: 73  |  passage_name:  But even less understood than the survivors are the people who were infected with Ebola but never developed any symptoms. After outbreaks in Uganda in the late 1990âs, scientists tested the blood of several people who were in close contact with Ebola patients, and found a number of them had markers in their blood indicating they carried the disease, but they were totally asymptomaticâthey managed to completely avoid the horrifying symptoms of the disease.  ::7a2c9deb19b97ade31ceab77c567c85d::ACKNOWLEDGED 7a2c9deb19b97ade31ceab77c567c85d  
+
+passage/grade  |  time: 2016-04-13 12:51:57 958990  |  # of fields: 2  |  passage_id: 73  |  score: 1::4bbfebf2f268b782c996773a5b451b57::ACKNOWLEDGED 4bbfebf2f268b782c996773a5b451b57
+
+
+
+subtopic/create  |  time: 2016-04-13 12:57:53 602980  |  # of fields: 4  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 32  |  subtopic_name: after having Ebola are you immune.
+
+passage/create  |  time: 2016-04-13 12:58:21 713682  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 32  |  subtopic_name: after having Ebola are you immune.  |  passage_id: 80  |  passage_name:  The two American Ebola patients who recovered and left the hospital this week are now thought to be immune to the strain of the virus that infected them, experts say. Ebola survivors are generally believed to be immune to future infection with the virus strain that made them sick.  "::e86a1bd66484f300552b35c2075d0495::ACKNOWLEDGED e86a1bd66484f300552b35c2075d0495  
+
+passage/grade  |  time: 2016-04-13 12:58:25 013329  |  # of fields: 2  |  passage_id: 80  |  score: 1::435b1d2db8434f201270ddaa6964294b::ACKNOWLEDGED 435b1d2db8434f201270ddaa6964294b
+
+
+
+passage/create  |  time: 2016-04-13 12:59:04 497514  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 32  |  subtopic_name: after having Ebola are you immune.  |  passage_id: 82  |  passage_name:  The two American Ebola patients who recovered and left the hospital this week are now thought to be immune to the strain of the virus that infected them, experts say. Ebola survivors are generally believed to be immune to future infection with the virus strain that made them sick.  "::7fbc33f018f92f060b2f0bc0437dbca2::ACKNOWLEDGED 7fbc33f018f92f060b2f0bc0437dbca2  
+
+passage/grade  |  time: 2016-04-13 12:59:07 851357  |  # of fields: 2  |  passage_id: 82  |  score: 2::f6093c5845dcf6b3cb63c9a510bb4870::ACKNOWLEDGED f6093c5845dcf6b3cb63c9a510bb4870
+
+
+
+passage/create  |  time: 2016-04-13 13:00:39 170347  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 25  |  subtopic_name: who has a natural immunity to ebola  |  passage_id: 84  |  passage_name:  But according to a letter in The Lancet medical journal, there may large numbers of people in West Africa - as yet unidentified - who are coming into contact with Ebola but never fall ill or infect others, and who may also be protected from future infection.  And if the effect such immunity can be confirmed, say the authors, it could have a significant impact on projections of how widely Ebola will spread. It could also help contain the outbreak.  They urge public health authorities to carry out a prompt investigation to establish how commonplace such immunity to Ebola might be. How many people have been infected without developing symptoms or spreading the disease? And are they likely to be protected from future outbreaks?  ::19410838578f026d83ece3172464d7fd::ACKNOWLEDGED 19410838578f026d83ece3172464d7fd  
+
+passage/grade  |  time: 2016-04-13 13:00:42 052308  |  # of fields: 2  |  passage_id: 84  |  score: 2::d4e8d4a9194cccc7ac08ba2f37d96da7::ACKNOWLEDGED d4e8d4a9194cccc7ac08ba2f37d96da7
+
+
+
+tagged/select  |  time: 2016-04-13 13:02:08 736072  |  # of  fields: 1  |  topic_id: 351
+
+duplicate doc  |  time: 2016-04-13 13:03:10 373838  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-9409423c663bc391decd01856f3764a9889a04c2cf91301da8e57c55c4d07394::f74561bb4ebbbfb9f08388c17dda5683::ACKNOWLEDGED f74561bb4ebbbfb9f08388c17dda5683
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:03:55 668645  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-efa805268b6829482efdbae09fd9cbee76b6f93afb8e63faa0b8ad2c6223e760::33ac136c687696ce9266ea772649f9d9::ACKNOWLEDGED 33ac136c687696ce9266ea772649f9d9
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:04:08 033597  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-41c46af8d0cf0bb1e6d9056b5cff770bf03b4313d4a4993e2857a7fa1bb24160::23e10d77bc9952b7a1427fce78e028e7::ACKNOWLEDGED 23e10d77bc9952b7a1427fce78e028e7
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:04:40 195337  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-d395e2b36b667b96176125adb1f225b64b7cf482417c0da5d0710d2eefc3bcce::e9bdfaeff834ac74161f469bf6c13c69::ACKNOWLEDGED e9bdfaeff834ac74161f469bf6c13c69
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:05:13 249085  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-93cce44be6249eacac1961d21e80dbf66460ea59d87d87d34cfdf2a685b90d64::2c83095cea0561eaf9c1ebd5f18b6d36::ACKNOWLEDGED 2c83095cea0561eaf9c1ebd5f18b6d36
+
+
+
+subtopic/create  |  time: 2016-04-13 13:06:46 614727  |  # of fields: 4  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola
+
+passage/create  |  time: 2016-04-13 13:06:57 831853  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 104  |  passage_name:  A strong immune system won’t prevent you from getting Ebola. But, along with early detection and the treatments mentioned above, it can increase your chances of recovery in the event of catching the virus.  ::e8ccdabca6b96da12308ac4884f62c77::ACKNOWLEDGED e8ccdabca6b96da12308ac4884f62c77  
+
+passage/grade  |  time: 2016-04-13 13:07:00 742936  |  # of fields: 2  |  passage_id: 104  |  score: 2::0147f2f88cd32012a164468a4339ad2b::ACKNOWLEDGED 0147f2f88cd32012a164468a4339ad2b
+
+
+
+passage/create  |  time: 2016-04-13 13:07:46 553887  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 32  |  subtopic_name: after having Ebola are you immune.  |  passage_id: 106  |  passage_name:  There is strong epidemiological evidence that once an individual has resolved an Ebola virus infection, they are immune to that strain," Dr. Bruce Ribner, director of the infectious disease unit at Emory University Hospital in Atlanta, told reporters Thursday (Aug. 21). [Ebola Virus: 5 Things You Should Know]  ::d440078f772cd1f2c288472f642f2973::ACKNOWLEDGED d440078f772cd1f2c288472f642f2973  
+
+passage/grade  |  time: 2016-04-13 13:07:49 308362  |  # of fields: 2  |  passage_id: 106  |  score: 2::147964f7f22672e257ecfbe6e9616fd4::ACKNOWLEDGED 147964f7f22672e257ecfbe6e9616fd4
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:09:12 346809  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-840056a97caa8ca9ba91b3685dcf38d2001f6feaa7705344730c5916fe7c722b::345ea53d017c752a65475ea75c4156c2::ACKNOWLEDGED 345ea53d017c752a65475ea75c4156c2
+
+
+
+passage/create  |  time: 2016-04-13 13:10:17 330146  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 112  |  passage_name:  In tests performed on the four Ebola patients treated at Atlanta's Emory University Hospital, doctors discovered that each of the patients' immune systems had mounted a surprisingly strong counterattack.  "We found a striking activation of both B and T cells in all four patients," wrote lead study author Dr. Anita McElroy, an infectious disease researcher at Emory.  McElroy and her colleagues found that immature B cells, or plasmablasts, that were actively secreting antibody accounted for 50% of all B cells in infected individuals, compared with less than 1% in healthy individuals.  Likewise, the frequency of activated CD4 T cells -- white blood cells that help direct immune cell response -- ranged from 5% to 30% in the patients, compared with 1% to 2% in healthy individuals.  ::3f38305b0a4cc2611b0b68970d69595f::ACKNOWLEDGED 3f38305b0a4cc2611b0b68970d69595f  
+
+passage/grade  |  time: 2016-04-13 13:10:20 235246  |  # of fields: 2  |  passage_id: 112  |  score: 2::523c4d9b430ae04d8b0a7e875740b5a9::ACKNOWLEDGED 523c4d9b430ae04d8b0a7e875740b5a9
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:11:05 484408  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b7058ddd12dcc759eed3909de9e9c1420edb9b1278f630c8872541e4903caef5::35042c5a98250b4bb5387d079cef8105::ACKNOWLEDGED 35042c5a98250b4bb5387d079cef8105
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:11:18 710309  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-d51ef6144f4c1abf90a16d92479a8cf487f72295d31ea3d0687f0b04bc0d1765::e3d73dfad04de930cdd2e937d739f2d6::ACKNOWLEDGED e3d73dfad04de930cdd2e937d739f2d6
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:12:14 902527  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-118d97d210a7396150bd276a3fbd30064daebe7dde723f649aedcd2669959a1b::b283e766f8252d72017a6dd7dc0296b7::ACKNOWLEDGED b283e766f8252d72017a6dd7dc0296b7
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:12:27 860266  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f2968da50c0540da335197c3cb12c07f5575b1f9e3093e0306f1c78d97ce2a5a::900933529e6c496e1210325ccd96194d::ACKNOWLEDGED 900933529e6c496e1210325ccd96194d
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:12:41 242854  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b39d411ca43a5480b4c029ce299089e460654ad24a728c20ad59fa95b5a5add6::a998afbbe456f94793fa1777ea18898a::ACKNOWLEDGED a998afbbe456f94793fa1777ea18898a
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:12:48 555498  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-afefadd6f517e94dcbfbbfd9d88fe8f74003a76610163d10014a2e510ed525eb::bf3f51efe9350af8ead8ca8cdfe7f455::ACKNOWLEDGED bf3f51efe9350af8ead8ca8cdfe7f455
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:13:23 690129  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-1dd0ee699cf9766fb681d5a94042929ce473c606bf8ecafc8be37f6e1379670b::6a89f200ed826f4f1f58f347b687566b::ACKNOWLEDGED 6a89f200ed826f4f1f58f347b687566b
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:13:57 677643  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-1d8f0b5705f7c3f736318257ec7af673ceacca2cac3a933d561a3b9ca9e64610::899e5d43a35f6d578af103cc3f7863c6::ACKNOWLEDGED 899e5d43a35f6d578af103cc3f7863c6
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:14:16 128748  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-a094d2f838759510d22c61b0195c8010171ffcc67a6a651664b7f9d6152eacac::76f5fba084b9b0c6ab01bd0a9ab59001::ACKNOWLEDGED 76f5fba084b9b0c6ab01bd0a9ab59001
+
+
+
+duplicate doc  |  time: 2016-04-13 13:14:37 907485  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-76796635a9892835ae52af1686a7328dd614d32eedbde2cd5ce113964088e367::69e56b49df52bbb48288b78deb24c970::ACKNOWLEDGED 69e56b49df52bbb48288b78deb24c970
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:14:44 209444  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-0d7541ed7fd5f8b9aef78c147ea650415e703396c7e0c4b4c432c7525b05e5e1::c01fbc2691744103f4538b9cb8d362c4::ACKNOWLEDGED c01fbc2691744103f4538b9cb8d362c4
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:15:53 894287  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-018af058a4c69a7431b70a3c659e7b994d638811324f13d31bcf9c5f6035e9c4::98bfbe9481ffeabcaaf76a63eaf55101::ACKNOWLEDGED 98bfbe9481ffeabcaaf76a63eaf55101
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:16:19 035173  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-362f6f311c5a361ad89fb5ad2670e91a56789bdfe70dd2d1d0341134b8e71fd5::0ff8fc575a1f0fd77bd2b08b0b7b7496::ACKNOWLEDGED 0ff8fc575a1f0fd77bd2b08b0b7b7496
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:16:48 551777  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-fc52852125f98853f942916513aea88167b59210132055227ce235ff632a15c0::94318b87b8378d79de6200f898a6bfcc::ACKNOWLEDGED 94318b87b8378d79de6200f898a6bfcc
+
+
+
+passage/create  |  time: 2016-04-13 13:17:05 629806  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 144  |  passage_name:  Researchers at the University of Pennsylvania School of Medicine have likely found one reason why the Ebola virus is such a powerful, deadly, and effective virus. Using a cell culture model for Ebola virus infection, they have discovered that the virus disables a cellular protein called tetherin that normally can block the spread of virus from cell to cell...  ::47202290789e8b9f5fdbe1d84a876678::ACKNOWLEDGED 47202290789e8b9f5fdbe1d84a876678  
+
+passage/grade  |  time: 2016-04-13 13:17:09 404941  |  # of fields: 2  |  passage_id: 144  |  score: 2::7cad92d089859f16a23bc12a2939c1ab::ACKNOWLEDGED 7cad92d089859f16a23bc12a2939c1ab
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:22:15 093588  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-66ab9f72efc779c43d136387e56d3e4921aa02d15cf0fe0730b9c06683ecc4c0::ce66ad1f3de6ffc24b74f995a10e1afd::ACKNOWLEDGED ce66ad1f3de6ffc24b74f995a10e1afd
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:22:39 137054  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f420947f68fe4f43ec48c321db12dcde098aca30969289e6f30161dcec13bdb3::00cd39be2d424dcecb7ce7a9a23f002f::ACKNOWLEDGED 00cd39be2d424dcecb7ce7a9a23f002f
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:22:52 843052  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-0fa131085a890cf4feb0924b8d5ecf213c3e8aba02813630543bdea79bed9989::7265d05c5d1bcd6d9dd26036be10bbbd::ACKNOWLEDGED 7265d05c5d1bcd6d9dd26036be10bbbd
+
+
+
+duplicate doc  |  time: 2016-04-13 13:23:06 616320  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-96e426a81ec7f1f4de93a70c67daf87bb384e6548648606fa0edba1685b92237::6a58fde716b2838ce9416e84b2d2014d::ACKNOWLEDGED 6a58fde716b2838ce9416e84b2d2014d
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:23:20 328618  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-4580e0558325a845a177be418f0e71a2473e32ed6c1f2e44f69c1b0bab76201f::dc900863ae5da7b29b1e54d12c5f34d8::ACKNOWLEDGED dc900863ae5da7b29b1e54d12c5f34d8
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:23:45 187290  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-139390260ab768880c3739cd09980254a7bf55cbe1c3ac6b15063fef24b8f219::9eac71deb38df16ebb27abf0fb637c56::ACKNOWLEDGED 9eac71deb38df16ebb27abf0fb637c56
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:24:01 360963  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-597b0494f27814a12e4f3af4821d4ae546be8996fc3e14c4ebcf371bf82d8087::655f6d0878c6b29031380dca71fbea14::ACKNOWLEDGED 655f6d0878c6b29031380dca71fbea14
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:24:22 690277  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-2bc643f95fb67ad950c4b4b949ccd39ada706f35fb841777499cadff2e82d50a::e0d8c7752c1586a04153cb2296c4c5df::ACKNOWLEDGED e0d8c7752c1586a04153cb2296c4c5df
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:25:51 977377  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-3c0c0bc1e85a584df1e8bb399b34eefe4256f7bb9e324e85d2d1b7b3719be625::ecd1e5465bb225ea1779e0afa23efebd::ACKNOWLEDGED ecd1e5465bb225ea1779e0afa23efebd
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:26:06 099786  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-156ae6b2e76d888855eb9b4cdb0112212592003f25c21f8743e8556a9dd8169c::8f909c7f503e01ef084b7f588ee4bb9d::ACKNOWLEDGED 8f909c7f503e01ef084b7f588ee4bb9d
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:26:27 255465  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b3c91c9c0ab9ffc044e664fe4829dbca66a3e851d58c18df7319ca6f92fa8aaf::7328d1afdc3a5cd3371987989f74aba9::ACKNOWLEDGED 7328d1afdc3a5cd3371987989f74aba9
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:29:27 162984  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b344d7387f12a86f15534c44a77fcc38b378cc692a38de28ef6eb54b9969f356::d00f565c96cece2c8698085a83a1ffdc::ACKNOWLEDGED d00f565c96cece2c8698085a83a1ffdc
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:30:40 087449  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-455db9d046e585850a732316daf25195d37530895067ad5e21cbf321a6c6db12::03f6e39fe5a4195c667b46413ee631fc::ACKNOWLEDGED 03f6e39fe5a4195c667b46413ee631fc
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:31:31 627185  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-0af0bd9849617ad42353cb0f47c20ee497803076d2a20775a314a38917c6e0d5::20cddce5bf4239775f4ee58ec160c440::ACKNOWLEDGED 20cddce5bf4239775f4ee58ec160c440
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:31:59 195052  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-168e90968fd4197acb96f71b2f610121c1871f56a394c7a5543f2ddfb1f876a8::99d405858762ee1a5931c8d974cde9bc::ACKNOWLEDGED 99d405858762ee1a5931c8d974cde9bc
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:32:09 789307  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-5f005e09385433f2dff0a919e4fe3cb4ed1a926e4c81b237a0e636021886bf05::6462699af21f956881654e71739067f2::ACKNOWLEDGED 6462699af21f956881654e71739067f2
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:32:27 451077  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-80c6db6b6af2a9f004eec08e288810de51082d637edaeb1b91bf9445570675e5::a67795c87ea5a276974f344245a2724b::ACKNOWLEDGED a67795c87ea5a276974f344245a2724b
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:32:41 522116  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-27591fead623841ef44882d1567394b93e35d734496df91edfdb1a74b4eb519f::f180eb30cda32ff196132e2757d1e543::ACKNOWLEDGED f180eb30cda32ff196132e2757d1e543
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:34:04 027093  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-212b0a704a01e52de1bd2770e4d984f6585948cba38ce69d12bd96958da0e469::9ef7b3f0b9644bf79365ce7a6a376839::ACKNOWLEDGED 9ef7b3f0b9644bf79365ce7a6a376839
+
+
+
+duplicate doc  |  time: 2016-04-13 13:34:10 866272  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-459ad845858fb18f5bcaf581df0642ec7ece0b58a2a0d67961bbe8f11ac9e042::404c17ae6ecfdf17a7399bd829609b96::ACKNOWLEDGED 404c17ae6ecfdf17a7399bd829609b96
+
+
+
+passage/create  |  time: 2016-04-13 13:34:47 761613  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 25  |  subtopic_name: who has a natural immunity to ebola  |  passage_id: 180  |  passage_name:  A surprisingly high proportion of the Gabonese population could have immunity against Ebola. Antibodies to the virus were found in 15.3% of rural communities, whereas these people had never had haemorrhagic fever or other specific symptoms of the disease (such as severe diarrhoea or vomiting). IRD researchers and their partners1 recently discovered this large number of healthy carriers among Gabonese people, even in areas where there has never been an Ebola outbreak. The scientists consider that these people have somehow come into contact with the virus, probably present in fruit contaminated by saliva from Chiroptera (fruit bats)2.  ::25e698ed665870673f128685d4f6e262::ACKNOWLEDGED 25e698ed665870673f128685d4f6e262  
+
+passage/grade  |  time: 2016-04-13 13:34:49 987325  |  # of fields: 2  |  passage_id: 180  |  score: 2::fb68d1d35baef2aab330bb00b5d475f6::ACKNOWLEDGED fb68d1d35baef2aab330bb00b5d475f6
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:35:25 091747  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-92322ed90e2619fef99d4ada683dd9d814f14d6b1e273bd19370ae4e8d1e002b::1688de65803b1ab2649c990ed8c31cdf::ACKNOWLEDGED 1688de65803b1ab2649c990ed8c31cdf
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:36:06 276734  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-c5e3aa4746c73e1ed9fe3b17c8b3e15d177b6bad2f27fc001bfc8be41b2fe2d7::83a9e25df6843af1f818ebb5fbdc536c::ACKNOWLEDGED 83a9e25df6843af1f818ebb5fbdc536c
+
+
+
+passage/create  |  time: 2016-04-13 13:36:55 386762  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 190  |  passage_name:  Ebola Defeats Immune Defenses Early in Infection The study spotlights the part of the body's defense system that fights infection called innate immunity, the mix of proteins and cells that most quickly recognizes an invasion by a virus. This part of immunity keeps a virus from quickly reproducing inside cells.  To trigger an effective, early response to viral infection, interferons must pass on their signal to other cells. This occurs through other messengers inside cells as part of interferon signaling pathways, with the last of these messengers turning on genes inside the nuclei of cells to drive the immune response.    ::8b9cde51e5665bb1622c631ae2794ce9::ACKNOWLEDGED 8b9cde51e5665bb1622c631ae2794ce9  
+
+passage/grade  |  time: 2016-04-13 13:36:58 418617  |  # of fields: 2  |  passage_id: 190  |  score: 2::3ed9fd5e8e7e07189fa0465059554445::ACKNOWLEDGED 3ed9fd5e8e7e07189fa0465059554445
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:37:23 107738  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b5a4307a99c1140b369ba37d3109c790c3bcab6c202de5279126d36d438c480b::1a79c1bebb1698bb10c170de9839bf16::ACKNOWLEDGED 1a79c1bebb1698bb10c170de9839bf16
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:37:34 657846  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-0343a2cc0177ff676e8c7a3d92c259b6dacc397fbe40e49aa36e02f084b9a333::4d9b72a57aec470e7c2e373d46ccf11d::ACKNOWLEDGED 4d9b72a57aec470e7c2e373d46ccf11d
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:39:05 228550  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-5c7accb2a7ebb95848fa97754c7aef8dbb7f21800f7f9063409385828f4a1fcf::d2dc3e0436baeda38ace3d331d6796c0::ACKNOWLEDGED d2dc3e0436baeda38ace3d331d6796c0
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:39:36 213707  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-1df877def86ceee92c6d446e202626aefda86f80b74c5b5228c02a294f8cb228::47665946d16b63bda0302cb2653f264c::ACKNOWLEDGED 47665946d16b63bda0302cb2653f264c
+
+
+
+passage/create  |  time: 2016-04-13 13:40:20 836249  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 196  |  passage_name:  One of the human body’s first responses to a viral infection is to make and release signaling proteins called interferons, which amplify the immune system response to viruses. Over time, many viruses have evolved to undermine interferon’s immune-boosting signal, and a paper published today in the journal Cell Host & Microbe describes a mechanism unique to the Ebola virus that defeats attempts by interferon to block viral reproduction in infected cells.  ::d7504e7c09b4ed0d10760b80b56e0225::ACKNOWLEDGED 0163bee7319b6b45e470e88a986cfe8a  
+
+passage/grade  |  time: 2016-04-13 13:40:22 927827  |  # of fields: 2  |  passage_id: 196  |  score: 2::8200d292c7f1a22dbd95406e08a4c5f0::ACKNOWLEDGED 8200d292c7f1a22dbd95406e08a4c5f0
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:40:37 529141  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-385dc1066b8a14d521d5016c1b32c35beda2c0eb135202a7411b2e7fd58d8726::3dbe22e66126372924c46cf890cc5042::ACKNOWLEDGED 3dbe22e66126372924c46cf890cc5042
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:40:56 100155  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-eabd40bb7116afd0d6afbe270af908130cead0022b3e7788bcd6d22713eeeb70::ed094c7605516237e6a7273a98a17bdf::ACKNOWLEDGED ed094c7605516237e6a7273a98a17bdf
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:41:24 517217  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b933a3069d74c0ce2e6a97535621b8e74c6f80435d9eff4dbb67c8af2ce77da7::f826e573c3b18dd718112f859ceba5bf::ACKNOWLEDGED f826e573c3b18dd718112f859ceba5bf
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:41:34 258931  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-790968a685b6671501aab069ca9ad8931d3af93087871c6961d689c4cac852dd::21825fef3c69ec83caed5c40b7c85d59::ACKNOWLEDGED 21825fef3c69ec83caed5c40b7c85d59
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:41:47 370913  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-2995bdb52afd1af9038184f588ab7b9f2c7c77a193ade29fe2cb4c156291aa85::742e1a8b83c989e44e345fc2f1a0ff58::ACKNOWLEDGED 742e1a8b83c989e44e345fc2f1a0ff58
+
+
+
+passage/create  |  time: 2016-04-13 13:43:28 893294  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 25  |  subtopic_name: who has a natural immunity to ebola  |  passage_id: 207  |  passage_name:  Ebola Immunity	Posted by Sue Bee on 17 Oct 2014 at 10:02 am	The immune factor is the CCR5 delta 32 mutation that Europeans have at a rate of about 10% average. These individuals can either be hetero or homozygous for the mutation, conferring greater protection with two copies. It's the same mutation that protects against Smallpox and HIV, though not 100%. Contrary to some articles, this is not a particularly good mutation as the normal (external) receptor has immunity jobs that aren't carried out with the receptor inside the cell. There has been some talk of Black Plague being the cause of the selection pressure, but some newer analysis has shown numerically that it was probably the 1000+ years of Smallpox that conferred the mutation. This is perhaps why the alleged cures in Africa too place, from using the HIV drugs. Those drugs were likely CCR5 antagonists and virus was unable to enter the T-cell and replicate. The idea with the Africans is that there is probably some European genetics in those with ancestors who came from America after the Civil War. Thoughts? Post a reply	—	Alert a moderator ::c4524d19d019acb95a6b43a180e47faa::ACKNOWLEDGED b1839d77321422f1b0c2094ab8402ca4  
+
+passage/grade  |  time: 2016-04-13 13:43:31 747149  |  # of fields: 2  |  passage_id: 207  |  score: 2::1163f4523cca4ffd549b7ad3b7206466::ACKNOWLEDGED 1163f4523cca4ffd549b7ad3b7206466
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:44:15 693318  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-61415a055759e4be2820d713e22495d19b55c7c35232b82efd0013750c259f02::d1ca87ca1abe5953aa3e561e8e2bf301::ACKNOWLEDGED d1ca87ca1abe5953aa3e561e8e2bf301
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:44:29 549715  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-946b6349740722d77fc9bef827599888df7485561375ad6f1a4a8aeb62249eef::8ad78fbbe38258470b826e37ae7248a0::ACKNOWLEDGED 8ad78fbbe38258470b826e37ae7248a0
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:45:03 918500  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-a1c3be1d4878b58e58566b9210d4d93a73f79028f2d5ac7e63108f6e53239f0b::67544e1a9aaf60ac26ecd13aca5c9e99::ACKNOWLEDGED 67544e1a9aaf60ac26ecd13aca5c9e99
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:45:10 055474  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-5b18a7d8a5166eb735679c9aa51b6d8dc6a4204aa199750b2d6bbf5e5501b3aa::63a57b1cac3f111d8e60d01dcac427d6::ACKNOWLEDGED 63a57b1cac3f111d8e60d01dcac427d6
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:45:13 437216  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-7fa7dbcf77a2f33782a9810a016e46cdf61c0039a45af15c77e3125087b36591::8bdbc0a0bd0491f8ace73bbd0617e1c9::ACKNOWLEDGED 8bdbc0a0bd0491f8ace73bbd0617e1c9
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:45:20 765026  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-9430e86845036675cfbba58596dc6d551eb94f37701f0e6708c44514c80b2128::3cbdb3c4013f5b8ca5b5945d8f86d978::ACKNOWLEDGED 3cbdb3c4013f5b8ca5b5945d8f86d978
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:45:24 960189  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-8409d967725cd01a02d73a18712fe3f3d57f9d7bfb5e853b82ccc07f747b91b1::805687bad30379e313403d60c3331924::ACKNOWLEDGED 805687bad30379e313403d60c3331924
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:45:44 277398  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b05b74d9e87541a4fef0f813afaf7973b08d655a33505c25c4c5707fd58d5227::f75c6e1b488fcef533f40cdf24785a6a::ACKNOWLEDGED f75c6e1b488fcef533f40cdf24785a6a
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:45:52 620289  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-c1a714b5142b9502e6c5f0cd73e7696434a2a5f5e9cdec83fbb3bd21fc1b405e::f999b797eb565bcf7ca338cd59a1b1be::ACKNOWLEDGED f999b797eb565bcf7ca338cd59a1b1be
+
+
+
+passage/create  |  time: 2016-04-13 13:46:29 852307  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 25  |  subtopic_name: who has a natural immunity to ebola  |  passage_id: 216  |  passage_name:  Small studies of household contacts of Ebola victims in West Africa show that some people are infected with the virus without ever falling ill. This is perhaps because of some unknown genetic advantage, reports The New York Times.  "It's fair to say that some people are immune," said Robert F. Garry Jr., a Tulane University expert in hemorrhagic fevers who works in Sierra Leone.  In 2000, Dr. Leroy's team studied 24 Gabonese who had tended victims without ever falling ill. Eleven had not just antibodies but remnants of virus and markers of inflammation in their blood. They had clearly been infected and defeated the virus on their own.  "But we don't know if it's one percent, two percent or twenty percent."  There are about 1,800 survivors of the current West African outbreak, all of whom are now immune. But there may be many thousands more.  Determining the overall level of immunity in West Africa would require testing thousands of blood samples, an impossible task in the current conditions.  This knowledge could be a great help in fighting the current outbreak. Immune individuals could safely tend the sick and bury the dead just as smallpox survivors did in the centuries before smallpox vaccine. Also, scientist could harvest antibodies from their blood to treat new Ebola victims.  But many factors remain unclear, including which Africans have antibodies and how much antibody is needed to be protective.  The biggest mystery is how the immunity arose. It is possible that some get low doses of virus and become "vaccinated" by eating infected monkeys, bats that are undercooked, or fruit contaminated with bat saliva.  ::5b7af7a0fbc03cb50bd4f93f61567bb5::ACKNOWLEDGED 5b7af7a0fbc03cb50bd4f93f61567bb5  
+
+passage/grade  |  time: 2016-04-13 13:46:32 428045  |  # of fields: 2  |  passage_id: 216  |  score: 2::f885b476a858b471da41746c6a2e6ec9::ACKNOWLEDGED f885b476a858b471da41746c6a2e6ec9
+
+
+
+passage/create  |  time: 2016-04-13 13:47:18 985909  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 32  |  subtopic_name: after having Ebola are you immune.  |  passage_id: 219  |  passage_name:  To the best of my knowledge, there has not been a case of a person who has been infected who has recovered and has been infected again,” Kieny said yesterday at a briefing in Geneva. Still, she added, “there is really no scientific evidence.”  The survival rate during this outbreak is about 30 percent, according to the WHO. Immunity may stem from antibodies produced by the immune system to help people survive the disease in the first place. The antibodies are then primed to aggressively fight off any future threat from the same virus.  ::d44eeb627d1fbd8b7ba8c12c23c2e6db::ACKNOWLEDGED d44eeb627d1fbd8b7ba8c12c23c2e6db  
+
+passage/grade  |  time: 2016-04-13 13:47:22 956415  |  # of fields: 2  |  passage_id: 219  |  score: 3::1c71d40330b668499db9d121e318213b::ACKNOWLEDGED 1c71d40330b668499db9d121e318213b
+
+
+
+duplicate doc  |  time: 2016-04-13 13:47:59 911418  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-0134205365218446950359aa1337acd3ea2ac27dbe8276851a8707696ae23d78::b26fff4b605104543f92acb4465b254b::ACKNOWLEDGED b26fff4b605104543f92acb4465b254b
+
+
+
+passage/create  |  time: 2016-04-13 13:48:50 695054  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 25  |  subtopic_name: who has a natural immunity to ebola  |  passage_id: 224  |  passage_name:  But according to a letter in The Lancet medical journal, there may large numbers of people in West Africa - as yet unidentified - who are coming into contact with Ebola but never fall ill or infect others, and who may also be protected from future infection.  And if the effect such immunity can be confirmed, say the authors, it could have a significant impact on projections of how widely Ebola will spread. It could also help contain the outbreak.  ::68e77d746c7e367aac80313eba261bbd::ACKNOWLEDGED 68e77d746c7e367aac80313eba261bbd  
+
+passage/grade  |  time: 2016-04-13 13:48:52 560219  |  # of fields: 2  |  passage_id: 224  |  score: 2::a6d9cb8b10018bd0f82d54806921d757::ACKNOWLEDGED a6d9cb8b10018bd0f82d54806921d757
+
+
+
+passage/create  |  time: 2016-04-13 13:50:12 811703  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 32  |  subtopic_name: after having Ebola are you immune.  |  passage_id: 226  |  passage_name:  Survivors, Portnoy says, are playing an increasing role in caring for the sick and the effort outside the wards to halt the epidemic. Ebola survivors are immune to the virus for as long as three months. This means they can risk getting close to those with symptoms, and even touch themâsomething thatâs especially helpful with children, a number of whom are separated from their families. âItâs kind of like a superpower,â Portnoy says of the survivorâs immunity.Â âEven those who are not fully recovered, but that you can tell are going to clear the virus, theyâll help other patients before theyâve finished convalescing,â he adds.     ::db7a82ce9f23626910699a238a55806e::ACKNOWLEDGED db7a82ce9f23626910699a238a55806e  
+
+passage/grade  |  time: 2016-04-13 13:50:14 913429  |  # of fields: 2  |  passage_id: 226  |  score: 2::0c08c1370082af6ec1f21f91987cda60::ACKNOWLEDGED 0c08c1370082af6ec1f21f91987cda60
+
+
+
+passage/create  |  time: 2016-04-13 13:51:03 032944  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 32  |  subtopic_name: after having Ebola are you immune.  |  passage_id: 228  |  passage_name:  But we don't know if it's one percent, two percent or twenty percent."  There are about 1,800 survivors of the current West African outbreak, all of whom are now immune. But there may be many thousands more.  Determining the overall level of immunity in West Africa would require testing thousands of blood samples, an impossible task in the current conditions.  This knowledge could be a great help in fighting the current outbreak. Immune individuals could safely tend the sick and bury the dead just as smallpox survivors did in the centuries before smallpox vaccine. Also, scientist could harvest antibodies from their blood to treat new Ebola victims.  ::e389e78463aa5b41176fbbbacd274e1d::ACKNOWLEDGED e389e78463aa5b41176fbbbacd274e1d  
+
+passage/grade  |  time: 2016-04-13 13:51:04 585542  |  # of fields: 2  |  passage_id: 228  |  score: 2::f1d74eab4c5cffba345984fa635c8101::ACKNOWLEDGED f1d74eab4c5cffba345984fa635c8101
+
+
+
+duplicate doc  |  time: 2016-04-13 13:51:19 079767  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-d884157327aa81b7595c8a203db9e061feb3dd97ddc33ae63ec86812853261dd::ad7fa9b71759a91f453c5018bfd9f489::ACKNOWLEDGED ad7fa9b71759a91f453c5018bfd9f489
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:51:53 788751  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b18c76c15803a866adb2cd95b075b47afcbbb42e7bd2ef2e8ea2f615cd4a7f97::44d6962ebc695677dc46e756eb2e4fe0::ACKNOWLEDGED 44d6962ebc695677dc46e756eb2e4fe0
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:52:36 447629  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-43776a783186b241edbe47450080922819aef647431fbc5af40ff47fb609920f::380311a96b05b95bc8f53b2f024c9128::ACKNOWLEDGED 380311a96b05b95bc8f53b2f024c9128
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:53:00 946075  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-4ec04d748c7a81f2d13ac30520e6b18240f485900fff7c503ebcb99214e33671::eb3b65313de0db67b5b5997153af89a3::ACKNOWLEDGED eb3b65313de0db67b5b5997153af89a3
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:53:10 561797  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-ee1660af94f9404675394d409e01987b72e3a6998a7f8c6f3408bf4663ae1c8f::077bea8d619c38f45525c2d85dfe5069::ACKNOWLEDGED 077bea8d619c38f45525c2d85dfe5069
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:53:27 414038  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-282f09aacb2156fe07fb8cd827a24baef21b05720cd86ccb7db9699b6a7186b3::9a55f4b5331fa37a8031ce2d92c2e66b::ACKNOWLEDGED 9a55f4b5331fa37a8031ce2d92c2e66b
+
+
+
+duplicate doc  |  time: 2016-04-13 13:53:49 409194  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-ce10a2c92c97ac2397e04d2db0f2c7a2ce00df33859c2a7e2d43b85d0da0d0fe::9dbfcd1663e8f6146e2a5b2e3c52c86f::ACKNOWLEDGED 9dbfcd1663e8f6146e2a5b2e3c52c86f
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:54:05 694273  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-cc8fe8e491d9099cfc6e8b0623b4555bbd8a727ff3cac63d4abf1ef0a7f27b80::fae0854782d982b7a96e5c5b2f370f54::ACKNOWLEDGED fae0854782d982b7a96e5c5b2f370f54
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:54:13 615651  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-44d1d7d3649646f830360f2a6c840e334abf98633a90cd90fa637c602829bed0::f9736c42916493f7a5bb19f008e3cf25::ACKNOWLEDGED f9736c42916493f7a5bb19f008e3cf25
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:54:21 893950  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-8d537cec67ec2c53d417a337bae6aacffc2cdf6a7aff829e4d9439752ed6cacf::4a619bead7cbdc8d2f87d29a7e1ffb8e::ACKNOWLEDGED 4a619bead7cbdc8d2f87d29a7e1ffb8e
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:54:24 962990  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-8f7c3839e3a2d42bd297024402938b76953ffa5f9a157d91ada67e55763f74d8::5e68aa9d3087592f682c10aa3cc4ab34::ACKNOWLEDGED 5e68aa9d3087592f682c10aa3cc4ab34
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:54:28 248921  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f3d46bdc84c46679432673d5c5c9d82c94bc56b766831a777d02256cc29664a1::eec37da250d9e1210e93f25124cd68fb::ACKNOWLEDGED eec37da250d9e1210e93f25124cd68fb
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:54:38 217203  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-a6e2d820c40f3dcf654a22e6a5df11102f482751f03251b83d57dabace4cbf97::e21637effff79f5c4fcd099c510297d1::ACKNOWLEDGED e21637effff79f5c4fcd099c510297d1
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:54:44 723908  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-94cafe470d3152b5a25870353eabd1cf2b6e27a2064272f5674c5b4817b20793::b7f4d6d8af36ae9119f438ba140c9432::ACKNOWLEDGED b7f4d6d8af36ae9119f438ba140c9432
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:54:53 758947  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-405d3ebd1e6e907886d263821ec8484703f60deec7c56e864c8f4102b0e24cf9::aedb3c000cf16039cc9a5a4e1c95543e::ACKNOWLEDGED aedb3c000cf16039cc9a5a4e1c95543e
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:55:02 038229  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-43d40a37a7347652192b1e9e5d9cc31aec2d3abf61b5d03a5d440a0ad5f852b4::b10ecda8c3066511d4c2fb09795763f0::ACKNOWLEDGED b10ecda8c3066511d4c2fb09795763f0
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:55:10 942080  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-ef75f13f8e5c387a7f888a8b00f9fe9b0c26d0c9766c7cfbf6cdc2087072858c::17ff57fa34867cbf86450727042cb1bd::ACKNOWLEDGED 17ff57fa34867cbf86450727042cb1bd
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:55:18 952127  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-215c2d21e5b245472e595e7afff6fb214d48b11e18ac8838bb6196cb2020d845::d1b2b8a57764630502a7eb2a87ae18d1::ACKNOWLEDGED d1b2b8a57764630502a7eb2a87ae18d1
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:55:24 985041  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-0ddd075d8dd1b753bbbf8f283f27667c5b7cd849ecf14ab3210c60c23f3ab86a::7767ed955da6dca0ba8aca28451f01d0::ACKNOWLEDGED 7767ed955da6dca0ba8aca28451f01d0
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:55:29 699516  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-19f22347df2e8c8dca736bd1fe532bad02ff08886f31bd17840d42a980e89e3c::8e32bab303ad87624762ee160da4d315::ACKNOWLEDGED 8e32bab303ad87624762ee160da4d315
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:55:43 255213  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-0d15cfe7686b9f57804122aac525bf2f1682761e726a9c00bc2e9529b25308b3::831711916f2793c0034f7a5ec8e7a6e8::ACKNOWLEDGED 831711916f2793c0034f7a5ec8e7a6e8
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:55:49 017611  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-99aa584b73ae0fdc2e05a3e468c65101985916e88f0da26a48e4b7eea2813a48::3dd0ecc479fa1ed817e686b639e5dfb8::ACKNOWLEDGED 3dd0ecc479fa1ed817e686b639e5dfb8
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:55:55 680398  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-3f25eed38ee2a3e0c1f4fcc5b9c8dca329d5aa519de5a116a005b089a574aaf7::8eaff567fef4f02dab5a0fb1c78128e4::ACKNOWLEDGED 8eaff567fef4f02dab5a0fb1c78128e4
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:56:05 580078  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f778c99105575af185718de23bc92add45b9b24cafaf7596c32f363c38438f55::10c42d51ea525add073320d2120d3801::ACKNOWLEDGED 10c42d51ea525add073320d2120d3801
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:56:28 551757  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-704f11f64606fbb05b764a600223e28da1c4ad6cd6abd1eb411797c6c25aeeff::e7a5e662c6c327bdf7ffeb57c5095405::ACKNOWLEDGED e7a5e662c6c327bdf7ffeb57c5095405
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:56:37 943082  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-86b8b5184aea6f290401d794186ce21f4c62e87e90e733d09440e0ae78cd9da4::bc4111b663318e7bd1096199af292348::ACKNOWLEDGED bc4111b663318e7bd1096199af292348
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:56:46 739342  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-be701024d77454adfecf3ee5a9b273b06b48151d9359bf4873c7401b137aad58::5a288e1f76fc0707b05320f56cadb30c::ACKNOWLEDGED 5a288e1f76fc0707b05320f56cadb30c
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:56:49 491262  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b9ec4e2e013bef8066310075a3e6e4ce9bd40dacb1dd9dfc38b2e00feb11d3c1::00e0b1e68cebffdce273eb493593ccb2::ACKNOWLEDGED 00e0b1e68cebffdce273eb493593ccb2
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:56:52 400270  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-90bd2c27bf59054146bb2607ae9ecb346c37f234a9109828df64c46d6a5183d2::c9ceedd43b70a712706e407f9186add4::ACKNOWLEDGED c9ceedd43b70a712706e407f9186add4
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:56:54 599676  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-8f9eb366258e0544a785dca4d86e10009209827720e05b4501c6f97aad95cb70::00ad8faa84230914ecdd6f8eab0fdf8a::ACKNOWLEDGED 00ad8faa84230914ecdd6f8eab0fdf8a
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:57:34 648421  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-4a7722c9e0dd2220e5874ff1c070a334ee11287226e797a166648b3dcdb87397::ab719a3aead7adb0235ec2d9b96694d8::ACKNOWLEDGED ab719a3aead7adb0235ec2d9b96694d8
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:57:46 789000  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-5e2ea05aae6d325ef8701535fcab8051a158fa53bcdf60dcaf5fbe15bf7cf52c::b9da776e164fda84b775a12f38b62eb7::ACKNOWLEDGED b9da776e164fda84b775a12f38b62eb7
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:58:10 105985  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-99b785b1cae4ae995464b5b98877d344f609a0bc9c11919668c9a872a7561d81::430de4c5cf0a077730b16d5fd47409d1::ACKNOWLEDGED 430de4c5cf0a077730b16d5fd47409d1
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:58:36 717882  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-c6a16a00d85de10c20a25584f6ffe94b67d71e75774bbb71ebb7b7085da1118a::6ab28e7999c1069c55ffc5052b783bdc::ACKNOWLEDGED 6ab28e7999c1069c55ffc5052b783bdc
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:58:44 990950  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-fb8ef71a8e1b35735855038da669786b93ff8259d87b4945882369c6c88577fd::34dc4a8589bc57c066fc0c2d08d6b2e8::ACKNOWLEDGED 34dc4a8589bc57c066fc0c2d08d6b2e8
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:59:19 821923  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-bdc922c4c92ec575cbf90f0f818e6aa12f011aa55d259c32fd65a7469cd9256f::ae06f39b2fac6bc56281fc4fb3c633a3::ACKNOWLEDGED ae06f39b2fac6bc56281fc4fb3c633a3
+
+
+
+irrelevant doc  |  time: 2016-04-13 13:59:30 595319  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-7634f82d9d9a5053ef77512fda1f0158aa44992ed7103fa0088f6e0ec28752cc::86ab816f31b18b77b074bbb886087adc::ACKNOWLEDGED 86ab816f31b18b77b074bbb886087adc
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:00:03 111550  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-4caa789bb292369f1a51eacc2b4c4792830f1970e0542195e16c030eaf696c5d::75d44c674b7549ab3424ff899d1fb033::ACKNOWLEDGED 75d44c674b7549ab3424ff899d1fb033
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:00:29 486278  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-af93e5028e5f57c0ddacce7241d00a78fed2260a2d57e70a90c73748cf9a89b3::5a6ddb8586046f40cdde6a018adc5c52::ACKNOWLEDGED 5a6ddb8586046f40cdde6a018adc5c52
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:00:35 875766  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f983ffb11fd45fc2ef35869c51486d9f75898047724389f990229ab397782caf::1cf94a92432dc39cdde249e01e0d36eb::ACKNOWLEDGED 1cf94a92432dc39cdde249e01e0d36eb
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:00:48 924682  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-d518837165349046b4b3aa990587bcab1d3687fa9983a0d5e29e810bc521a002::81b58d14412d7140678bcb25e84f3fb1::ACKNOWLEDGED 81b58d14412d7140678bcb25e84f3fb1
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:01:03 384795  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-57e049c009c3ae9ce673ee31e44e2bfecb7d26a50c1faaedd3c7065d703487a2::29c49f311caf0a9460d12e45e73b70a0::ACKNOWLEDGED 29c49f311caf0a9460d12e45e73b70a0
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:01:07 074885  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-af93ffce495c9da837efaee7e038c1ff40672b83aed3979708d8c3f95e7892d7::95068668aa9db7a39331b391e4a1cc2b::ACKNOWLEDGED 95068668aa9db7a39331b391e4a1cc2b
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:01:20 963584  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-a75c3164996738820fb941921f9cfa51c538753f2af1969267e4abeb42262cea::9dcdb43dc708726fb43731897940ccab::ACKNOWLEDGED 9dcdb43dc708726fb43731897940ccab
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:01:35 577467  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-4734d4c5a4fd0109fb749c2e9babf745500f26158feba227f578423f8f1656f3::52258e5e54518e9a625e8bb8ebc40618::ACKNOWLEDGED 52258e5e54518e9a625e8bb8ebc40618
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:01:42 348653  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-5c9500afaa15b1ed7744ec89fa1d5600b7901782911b1da26d110e17f282207c::8408ac07b3385e31750979c440e94929::ACKNOWLEDGED 8408ac07b3385e31750979c440e94929
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:02:20 693518  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-72d7a9fffd7071710186ff642068b6b3a5cb8b50c65864fc68681669f852831f::17d01602fe119cd2d8c9829713fa1d15::ACKNOWLEDGED 17d01602fe119cd2d8c9829713fa1d15
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:02:45 231780  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-82c9f5253e7fbd58322de8aeec1d2acebd562ee45891e424dd3ee3ee4abd28aa::1903bf6bba416affeeea0ef593b9ac33::ACKNOWLEDGED 1903bf6bba416affeeea0ef593b9ac33
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:02:58 167213  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-4e595b453fb4b92d50597b57e48e11dc0dba1eaa77dfb10ad34b4c4144810bb3::6dc6fcad3de6349dc082a201ee7a2e7d::ACKNOWLEDGED 6dc6fcad3de6349dc082a201ee7a2e7d
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:03:34 253672  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-485eeea29e0fbb3510f6dfcc166a1afdfd5290ad5c1b1d1442e9a1c35cc8c6d2::80064a0fdc01ca30b5310c160e56dd86::ACKNOWLEDGED 80064a0fdc01ca30b5310c160e56dd86
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:03:53 157263  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-ac828b6b664696f9617a0c516ce0b334af668f7515c485009fc6ec211562d477::cd901ed0cced6db72325bf9c29eaa56a::ACKNOWLEDGED cd901ed0cced6db72325bf9c29eaa56a
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:04:32 334996  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-7ba2db7ed74113aadd44623e09fa06e640c5c5dcae5f764cef96d7cf201f5e0a::6004865f3056044a8bad6c99b5738929::ACKNOWLEDGED 6004865f3056044a8bad6c99b5738929
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:04:47 363998  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-e1e605c120e4b5371f0ddf9b1d0d42376665d775c6eb05570c94a274beb42f31::2eaaeb8f07026276527605612c76f7c1::ACKNOWLEDGED 2eaaeb8f07026276527605612c76f7c1
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:04:53 393446  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-6bc521e3871afb77883bdea40fa72218be69e6c1b4113511d1e02506fd3021d4::30617ed1e7c01ca00b09f37b25b2b589::ACKNOWLEDGED 30617ed1e7c01ca00b09f37b25b2b589
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:05:13 820045  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-c7e411e3087452d37843229a07e9c927b0e676233fc5a63a56e5a80560740935::1fa90e2a5da5828878f30e06db519bbc::ACKNOWLEDGED 1fa90e2a5da5828878f30e06db519bbc
+
+
+
+login  |  time: 2016-04-13 14:42:28 649788
+
+irrelevant doc  |  time: 2016-04-13 14:42:43 656647  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-e5a8ed7d335741fac6e6892dee299e40c7a157f57f7a3789c3baa14079dd669b::010f32a6817df2142418ff25284f8fb6::ACKNOWLEDGED 010f32a6817df2142418ff25284f8fb6
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:43:55 326203  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-915c1db9448d0ef0030af658d50db2f853a03eee648c56ad3287b7fae2b08a9f::26bf660a0868c0d1042701b912b6f376::ACKNOWLEDGED 26bf660a0868c0d1042701b912b6f376
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:44:09 094729  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-c2b5061be3265199e4fb960611f58ff4f0b6b12d3c1b59d87d136afc01b35930::68c5a1f02511efd62cfaeb2fe0ab6f18::ACKNOWLEDGED 68c5a1f02511efd62cfaeb2fe0ab6f18
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:44:25 738939  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-873ffc718d8d44691f9df56e6a70625c5a041bd1106f019f8a9fdaf10c56b427::3ee09ab6fe1dcf205691a9dc98221721::ACKNOWLEDGED 3ee09ab6fe1dcf205691a9dc98221721
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:44:43 767259  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-7a20febe8941e22ea5606d59cbbb4f6a573f4d75ded940773fc6664b42ecef17::f418f0f236bc31ccfd453ef17d45a0ec::ACKNOWLEDGED f418f0f236bc31ccfd453ef17d45a0ec
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:45:00 000621  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-322b211438ff4818e449e991055c5ee7697bacc18bfb243dfda01d548396bc7f::6332a1b4e54a06a9a698167c403f7f11::ACKNOWLEDGED 6332a1b4e54a06a9a698167c403f7f11
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:45:11 581998  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-8f12e6b728e7e1e486d617799e077f874378314910efd3a7ba8de97d19894670::8125cc1d9fdc709496c7235dd248b1d1::ACKNOWLEDGED 8125cc1d9fdc709496c7235dd248b1d1
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:45:17 761706  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-9a129203e5a820ba5e67eaa946272e5189a3324ab44dd57a9a9be7b4a9799928::621106deceb8b9a2a3df63ce03ef5c29::ACKNOWLEDGED 621106deceb8b9a2a3df63ce03ef5c29
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:45:31 075920  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-5fd62bc74789348f4e12832ca66f425daf1451e18c16616cfc57be7bd9ff0d85::3ba8f6852580b413de5056e19a56cf13::ACKNOWLEDGED 3ba8f6852580b413de5056e19a56cf13
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:45:40 592042  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-05176e54d0b927813392077e325dbbf05f046b3d9765b33d88c72b2a0abbc982::4e3c8d27cfa220397387efcb68a7cb65::ACKNOWLEDGED 4e3c8d27cfa220397387efcb68a7cb65
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:45:50 855839  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-330f59e5227fd7803a6037616915c214c60cafb4a6d58696ca1482594e86a499::8adad7f43f8cdfa8df1d08161e03c1f9::ACKNOWLEDGED 8adad7f43f8cdfa8df1d08161e03c1f9
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:46:04 564789  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f513ad03bef85c5301ecea553687b5df38796633cc6a7fce10519d18dec55409::b8bafb8bd8c625cdd32bc4ce62dc2cbf::ACKNOWLEDGED b8bafb8bd8c625cdd32bc4ce62dc2cbf
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:46:13 556789  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-224cfedb722d7c9c2ac2e8ee33219fc0c457c658eb23faa308ee0a8e5182c1d3::58ef47850907d754678d6e1f675277b7::ACKNOWLEDGED 58ef47850907d754678d6e1f675277b7
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:46:38 879910  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-649effe166ac249646a8fc207e27e5c816f25a7a7c8fbe4f0533a9482d6c4374::0b9686491fed5dc72fb53c00fba74f96::ACKNOWLEDGED 0b9686491fed5dc72fb53c00fba74f96
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:46:49 495570  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-51d7f962fbf695bb2f98ae4b16ac8d234d2dc2b46529c11db59d556b6888b40a::b338250ec2d6c22efe08c74a47b03589::ACKNOWLEDGED b338250ec2d6c22efe08c74a47b03589
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:47:40 110720  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-e263fe32ddefd9ddedf7f4f2aad5128430ec6c1bc03a38f8352105223d198284::9a0ce59ead3203888f48c01cff9e4056::ACKNOWLEDGED 9a0ce59ead3203888f48c01cff9e4056
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:48:04 024012  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-c847c39826db96d9329502f8f9c4760c7faa11f9cda7bbdd947ccfaf3448cd7a::fc48856b2865645b4ece370783387c40::ACKNOWLEDGED fc48856b2865645b4ece370783387c40
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:48:16 074731  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-a8fa32417654f7d3a4da2aea2fd630388384edf71c8403350fc393f3be37f2dc::6d9f6781e2146385db233abc436cdef6::ACKNOWLEDGED 6d9f6781e2146385db233abc436cdef6
+
+
+
+irrelevant/select  |  time: 2016-04-13 14:48:32 917453  |  # of  fields: 1  |  topic_id: 351
+
+irrelevant doc  |  time: 2016-04-13 14:50:18 262747  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-830bef3c71e38d353136214e8c11caa9d98c37c94aa795f67ec4117849b0695d::2fc16280733a4d2f12d706d1ee6a6858::ACKNOWLEDGED 2fc16280733a4d2f12d706d1ee6a6858
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:50:27 091168  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-1df0fed8e82815f5b826dbde93bf004321e0699d9718d7f31ba4f0f4a942b156::c2a1ebd1c95fd7a4902b2d46203fbce9::ACKNOWLEDGED c2a1ebd1c95fd7a4902b2d46203fbce9
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:50:40 288327  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-5743ef79d272f9cf13363d96e5121bc8893afb47ca87b1e8a17515710e8d8c85::7cf2492b4ed9640b1f863ef56fe989f0::ACKNOWLEDGED 7cf2492b4ed9640b1f863ef56fe989f0
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:51:02 303712  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-10cdcce357bbe558a672a500d0cc96538f79c5ca2de224189f6e7a85ec9eadf9::8a62dc2e9bcd6ab5504775929d37e2d3::ACKNOWLEDGED 8a62dc2e9bcd6ab5504775929d37e2d3
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:51:14 727389  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-d9509927ae3466cbdf6075d372ce89355a960e086d2ac01382f9daaaaf880197::b5d39c60e884ab3fd8a1c5ea4583a687::ACKNOWLEDGED b5d39c60e884ab3fd8a1c5ea4583a687
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:51:31 166600  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-281f5283df05bdda06d74a39b56a068ffff19782e8bbf025da3e5067f61a0249::fdc4f241eb2f99d10282f77fec3ce051::ACKNOWLEDGED fdc4f241eb2f99d10282f77fec3ce051
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:53:23 129945  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-1bfe8cca6a2d2ddbfb6fdfc0e787f41b0ae0fa720d1f258b9837164ebcd4c74d::66834212f78e32fb9a9aa32c0ff79fbf::ACKNOWLEDGED 66834212f78e32fb9a9aa32c0ff79fbf
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:53:55 222799  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f74ed50667558936a35bd76809767317dd74ce00163667ec6ba92853a5079b09::fe34df879258f70a148a4a1c6206f4d8::ACKNOWLEDGED fe34df879258f70a148a4a1c6206f4d8
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:54:11 905262  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-bdc8e5e8a72aead87dda1bb370bd5f919bd74d9c9f4308cf89608f2d9e2a4941::eb3b4c491b45527ca724f597d50f11a2::ACKNOWLEDGED eb3b4c491b45527ca724f597d50f11a2
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:54:20 369584  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-38ffe3d9bd513de4d578843bd04bae3fba38f00b4f3f63573406b75e2113a937::808941c65f8a26b40fa5b0b81c439aa9::ACKNOWLEDGED 808941c65f8a26b40fa5b0b81c439aa9
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:54:23 828186  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-3347ae1f6a541d06a1255176059a99ab5d27d1f776fb15f2bc389b68dc8f9bd5::605ee7259689a83b3c00c6ec269d8362::ACKNOWLEDGED 605ee7259689a83b3c00c6ec269d8362
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:55:19 701324  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-9a95f574ab2618329a2c42d32ff14e6f070bb71b8da51bc6eba7e5c8f558d381::5b7241d0f96e131358976c9453f8bf41::ACKNOWLEDGED 5b7241d0f96e131358976c9453f8bf41
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:55:32 703407  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-06392bcb81b78b43a2c2ce6e96f01371c5302e4f30ebaed247980847ac0ec0dd::aec41949d3947c6685997211e48650d3::ACKNOWLEDGED aec41949d3947c6685997211e48650d3
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:55:46 971209  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-fc34657d3fba931d21b1d36feaf8577b16673b8d907ef0f88aaa6ad9040dbec9::9a664ffcda4ce02176c57e920df7059d::ACKNOWLEDGED 9a664ffcda4ce02176c57e920df7059d
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:56:05 003210  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-37035bb5d6d3b47bc538bc97690896d989904e0a28e9490c9b4750877634de14::a23656221cb918896a2eb43864990f44::ACKNOWLEDGED a23656221cb918896a2eb43864990f44
+
+
+
+duplicate/select  |  time: 2016-04-13 14:58:01 552136  |  # of  fields: 1  |  topic_id: 351
+
+irrelevant doc  |  time: 2016-04-13 14:58:11 298573  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-1ad8346fb8ffb6dea1ab53da7cd92009cd353a935d3c2e5e592208ee9d0e64a1::0d786fc5b340f7bccf42560be5c12fc2::ACKNOWLEDGED 0d786fc5b340f7bccf42560be5c12fc2
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:58:21 469994  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-1d9a5a7ce9d01e072e4ce5dc1654b39ffe9a124bf2082824dc0e4836c2fd03f3::24125cc93f37bc208cd56c52c1a5aa33::ACKNOWLEDGED 24125cc93f37bc208cd56c52c1a5aa33
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:58:48 568889  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-ed79ea2d77deea0b413a260c6815bc5b3980016440551d71daf348d2e5ea8dbb::003f688e6ec97c4108b4ea270a1b4aba::ACKNOWLEDGED 003f688e6ec97c4108b4ea270a1b4aba
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:59:00 175714  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-920621b1d513e04d83f6393358695fe6ecfe75b8a42052272135afa3ab5591e5::093976384122cdd58cfa3267d24e31e0::ACKNOWLEDGED 093976384122cdd58cfa3267d24e31e0
+
+
+
+irrelevant doc  |  time: 2016-04-13 14:59:38 346397  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-18b22d45ef1893aaa1c0441c2efa7d320d11e234719425166215ba89fe37333c::6d2441de02d540f3729afc02e028f50f::ACKNOWLEDGED 6d2441de02d540f3729afc02e028f50f
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:00:49 227163  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-bdcc09541050ce58bd8a5a23dadeb15c458f1177985a7b446970c42b6ebfe336::0bc4aa9fc920af614b492c186aa85c5f::ACKNOWLEDGED 0bc4aa9fc920af614b492c186aa85c5f
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:00:58 698377  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-af11ee18aa262dc0ceb2824a3192fd049d7abd1d4c5653be9badd5d17d75e2d8::e8baa259c5d440b60cda208bec3a4ebd::ACKNOWLEDGED e8baa259c5d440b60cda208bec3a4ebd
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:01:18 595402  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-d67966195453f45296e8004f4fda0b8ae0ee35a8d4eb9c99d0530245969d9095::1422aabda901c4070bf8889e08b72da7::ACKNOWLEDGED 1422aabda901c4070bf8889e08b72da7
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:10:27 196201  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-9b3f1e9b39d71d24152ffe895ca91a4be1525a2f764ae10da0007bfe49a311b1::4bf5e4fe5522b3f81d7a0e8778b8f35f::ACKNOWLEDGED 4bf5e4fe5522b3f81d7a0e8778b8f35f
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:10:41 504886  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f03162e47a1368c11e4107b9d621df50b4b1959ba5311e680739777bb88f7274::9bcfb7085f545041935a6c47f3f72ec7::ACKNOWLEDGED 9bcfb7085f545041935a6c47f3f72ec7
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:10:53 181667  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-3b4bafee54dfb413115b8c54c0b2571f4ac7d7f5c4a2bf7e369b37f9326563b8::a0d8fadcd382c38c6adee9c38cbee0e2::ACKNOWLEDGED a0d8fadcd382c38c6adee9c38cbee0e2
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:10:58 730298  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-2ae01e5b7b804016d138fac881f7552c67a6b4293bf4a2f6697022ffb589b53e::782ac03a4df6cc8dac8201c68e81cc23::ACKNOWLEDGED 782ac03a4df6cc8dac8201c68e81cc23
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:11:07 192109  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-241fd8e014d6aaa0b25a02955dd24f96d9c2c2293e352957bbd654e53003142c::fb857cc9c3f7141f27ce07b57e648b2d::ACKNOWLEDGED fb857cc9c3f7141f27ce07b57e648b2d
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:11:16 093722  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-d07ce7dbafa17565decb454c195d723887fd578af8043160e910959b08ad18b7::a2920b4713fda11693d8d9baa0a32be8::ACKNOWLEDGED a2920b4713fda11693d8d9baa0a32be8
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:11:25 005191  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-9abaffe0fb848ed4187ad9eb24280e5d52f94100e152bdbc7f8a331d614ae8da::9f3bda4f92371067ea19277f70e2d5f6::ACKNOWLEDGED 9f3bda4f92371067ea19277f70e2d5f6
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:11:40 016393  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b276d304c4f5d9090c5c993a50a202392e2770d51c54cd7aaaf8268761f7f109::6f6446536f693cc7d33b94996aaa6a2c::ACKNOWLEDGED 6f6446536f693cc7d33b94996aaa6a2c
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:11:47 599062  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-d9c917a7608a16a9f8f702391a9ec6e9bc8b108cc2e6ebf08cbd2eb2256927a9::1acac480f114667a652cfeaf223f7987::ACKNOWLEDGED 1acac480f114667a652cfeaf223f7987
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:11:50 896299  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-ff9d4051c1c8764ee7932db459b3e60690c6d8dedc7567740dc5affe68d50e2f::6141f6ceb40fc2ded215cef83239831a::ACKNOWLEDGED 6141f6ceb40fc2ded215cef83239831a
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:11:54 496114  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-543b85340431349f81106753e903b21ea0aec397819057decaaf60ea4ebb43fc::5df7e12fce23ec473265bf100c26a8c0::ACKNOWLEDGED 5df7e12fce23ec473265bf100c26a8c0
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:11:57 283123  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-52058b37b090cd651e3505dedfdb960749d7086a5172d5b3a74987039534862c::a9fdceee43a7eb24196eee96a3c7591b::ACKNOWLEDGED a9fdceee43a7eb24196eee96a3c7591b
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:11:59 952553  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-63aa113bfcd57ee648ce27940645eb1422d16e7caca21ab278fb6b18d7251b81::aa9643bb48d16b683558a434177cc665::ACKNOWLEDGED aa9643bb48d16b683558a434177cc665
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:12:01 748749  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-041c90e3a98ae967c3a2d4bb169de90e5725481e94f145434ad4ef3c54b43e25::2b69938a0fe0418375c2403848e65dab::ACKNOWLEDGED 2b69938a0fe0418375c2403848e65dab
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:12:20 623509  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-57b9da45bd36849d7f04d59edab684f57dc2b604a513a28a57250e85680785c6::bbba0e9be9b109de05bc65c54f345733::ACKNOWLEDGED bbba0e9be9b109de05bc65c54f345733
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:12:56 501563  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-cc3d4dff193418ee67f37cd64606d7e62c9b76e82ab8aeb9558bd12298170bf4::3b8c6cd4f7e771b8d28c0eed4fc74289::ACKNOWLEDGED 3b8c6cd4f7e771b8d28c0eed4fc74289
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:12:59 116714  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-58967bfbe43ec2044421ab983dce8c6abd1ab6e06448db8d1cbc6bba78d6ea2c::5e0dcf135be744d605498ab64f2e25b5::ACKNOWLEDGED 5e0dcf135be744d605498ab64f2e25b5
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:13:01 580213  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f991ad13d70683b7336dd30301c30c41f8d240d0b5e6f212e4bdbfecf0c6e4fb::17a3434ef0d6b43b79a61d92e8d32699::ACKNOWLEDGED 17a3434ef0d6b43b79a61d92e8d32699
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:13:19 878932  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-0184a48264924263acf0130e9aa71ac83cfd40366a8dbe647b44ddea723f2da2::1d21b8096012394812cd34c9604b69f4::ACKNOWLEDGED 1d21b8096012394812cd34c9604b69f4
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:13:23 263909  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-76e9738c9ae7e84b89eec0e2a759ea3212f5b7e4ecb20d081b1452dae0694ef1::9b089102f755c22b8c9df69b8c950a66::ACKNOWLEDGED 9b089102f755c22b8c9df69b8c950a66
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:13:26 751665  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-477cc321ea023aef558c276730c0bf5cbb9b47967e5012067f623fc11c8570f4::0a335bca05a19fa62ab0e563b34e42d9::ACKNOWLEDGED 0a335bca05a19fa62ab0e563b34e42d9
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:13:28 906905  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-4b3f302f6723b331e0dbd3cd19d052f773eee9532a28b2599e8c7b75e083e8e0::6cf2c1f37de84e089ed2b1e65efc30f7::ACKNOWLEDGED 6cf2c1f37de84e089ed2b1e65efc30f7
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:14:07 248235  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-27135681e070340769cd61ac824c5eb626bdece5519db884e0e6c5011acb7c23::30b2fb17ca4599c7a7868eb9de83aa24::ACKNOWLEDGED 30b2fb17ca4599c7a7868eb9de83aa24
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:14:09 674980  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-71c6a22fba495e5536b094b55342d948607bae4be94f0d35e611b57c69eef803::c5d1011f7ef56ced03f8a1a9387bcaa6::ACKNOWLEDGED c5d1011f7ef56ced03f8a1a9387bcaa6
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:14:11 598057  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-3bf8f57682d7e89f8a94a3f2a3874f62273c5730d8d38db039490b5d512f88fd::4aa8a2eb8587af0cf3ee6047f33e9758::ACKNOWLEDGED 4aa8a2eb8587af0cf3ee6047f33e9758
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:14:13 302801  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-d21c44a03c8cb0c01be977bf5247ef0ee2892f64d5b8c50ed92da6360f0dd30c::81283e88f6c01736943db9acb98789d7::ACKNOWLEDGED 81283e88f6c01736943db9acb98789d7
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:14:14 863650  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-66ad1bfe864a6c40e8ff7371fcf6b0edafbc55ceb5816ee288fcd708a550df9a::7550bd70c3751653a500183ce87a985b::ACKNOWLEDGED 7550bd70c3751653a500183ce87a985b
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:14:16 456601  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-1270ec95c1b6cf513c3c750e48757c1399b6efe6a2f8e5e4650de2b8337739a2::1837351635a4fb7a3d26176b1bc67f60::ACKNOWLEDGED 1837351635a4fb7a3d26176b1bc67f60
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:14:46 215503  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-51a7a5ee011826cf1f397f7289f771f318f3d70da7120bc96d1f0d0c65e10942::eb8c54c4d2aacdc86329e359a7f2e8cd::ACKNOWLEDGED eb8c54c4d2aacdc86329e359a7f2e8cd
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:14:55 001176  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-1468e20e31e83a29579b109f81aa53bbd6194cca3c12ba2835f1d56cae9ae6d5::396bb0cd84823b22e05df01c09e25953::ACKNOWLEDGED 396bb0cd84823b22e05df01c09e25953
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:15:02 502306  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-0e791f846b45be512f143239f264e8a97605a5428809f8a6f38d470edb8b3c33::0648c86ced3098766d9c5d427157dcdf::ACKNOWLEDGED 0648c86ced3098766d9c5d427157dcdf
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:15:04 909226  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b5e2f68c124fc22ccb35082ce218718e095319e445585d4288fa13ae8f846835::90c14b9e91be284e6d04d6392be82b23::ACKNOWLEDGED 90c14b9e91be284e6d04d6392be82b23
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:15:06 882406  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-9c15b88a3d12693bb9d9c4f5f7f560b00b0b8c0885a19dca1c8f8068c7046333::f90babdfc06ff7c5ab483f270cb7f10c::ACKNOWLEDGED f90babdfc06ff7c5ab483f270cb7f10c
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:15:10 211805  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-9c1a0e7063bbe15ff98a821d0f5261b684dd4271a356c6c7a01ce4c38a3f8105::671e0058d1d9d4ed8560ba03aed1910c::ACKNOWLEDGED 671e0058d1d9d4ed8560ba03aed1910c
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:15:12 227498  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b768976c8ab9a4a28ddd6c170fc0e227c6335981823ee42dce87f3ad0221e6e2::936f61066d608a4af2b79f15d1a4092d::ACKNOWLEDGED 936f61066d608a4af2b79f15d1a4092d
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:15:14 265014  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-bb0a514b92810bc27e11eedb7fdc7aa8ce0fffd5c1da682343cf4795e4b2aa33::e7d0fc77d991f6ced85fd0372de538f5::ACKNOWLEDGED e7d0fc77d991f6ced85fd0372de538f5
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:15:16 276569  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-122a72500e33fca655d6f6eb2b814723e2d20fb634789c5d65387522e1ff0121::b89a1444a65ab6ba3145fbfb0f37b061::ACKNOWLEDGED b89a1444a65ab6ba3145fbfb0f37b061
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:15:18 552490  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-8692ceb9d15f151fcb78d66ff249cbb1e8dc8f4a8f09d078d533727bc5d46848::2ce31fa22eec81d50f3526d26db9ada0::ACKNOWLEDGED 2ce31fa22eec81d50f3526d26db9ada0
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:15:20 410487  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-6898c3b9c6feefe2d0dd5e9f7ea57a2dc1c61aff8035f479002201c3acad0f66::560ead82bd553d41ee1bccdd7740f32c::ACKNOWLEDGED 560ead82bd553d41ee1bccdd7740f32c
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:15:48 251836  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-980920bd57d564d93289612a4379df1ca3dbef050179a87d54c6ee41d40ae6ee::46ee03883738aab7f8bf2df60d04eeec::ACKNOWLEDGED 46ee03883738aab7f8bf2df60d04eeec
+
+
+
+passage/create  |  time: 2016-04-13 15:17:14 447402  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 335  |  passage_name:  Researchers surprised to find how hard the immune system actually fights when challenged with Ebola virus Emory University Hospital patients provide new insight into the body's response to Ebola virus  Scientists have long assumed that Ebola's infamously high mortality rate was due to an ability to knock out the body's immune system and cause certain white blood cells to self-destruct, among other effects.::2c30cbbe0eee861cb66bece048e3b2fd::ACKNOWLEDGED 2c30cbbe0eee861cb66bece048e3b2fd  
+
+passage/grade  |  time: 2016-04-13 15:17:17 050844  |  # of fields: 2  |  passage_id: 335  |  score: 2::dab6daabb8eeda2eaa9eaad6d0301f99::ACKNOWLEDGED dab6daabb8eeda2eaa9eaad6d0301f99
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:17:57 310621  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b6ae56379076df664cf267733cbbdfb0dfd666cd7416328f4cef2156e0746ace::1757dac936eadd3235444fe5c2642e94::ACKNOWLEDGED 1757dac936eadd3235444fe5c2642e94
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:18:09 644576  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-8381a98a82f2107da36cc44d924f5e366a70882e5ef06a9413a15b939e4f548f::ebf4c55ae2a92bd40f6b0195ee5d6897::ACKNOWLEDGED ebf4c55ae2a92bd40f6b0195ee5d6897
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:18:33 970739  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-ea0bb13b02ed3c679ae14e35817ed323d4d80125cd24cb61c3f152e16ec6e56f::710dd54636c968295621fcb72341ffba::ACKNOWLEDGED 710dd54636c968295621fcb72341ffba
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:18:47 290862  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-358beb6163ff0998bb8a911d0079c36c726213c2f8a99902efb135548da81b2c::08d9ca7a14dc5ac833b483029005e604::ACKNOWLEDGED 08d9ca7a14dc5ac833b483029005e604
+
+
+
+passage/create  |  time: 2016-04-13 15:19:23 952929  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 340  |  passage_name:  Scientists have long assumed that Ebola's infamously high mortality rate was due to an ability to knock out the body's immune system and cause certain white blood cells to self-destruct, among other effects.  However, new research published Monday in the journal PNAS suggests that the human immune system doesn't give up that easily when confronted with Ebola virus disease.  In tests performed on the four Ebola patients treated at Atlanta's Emory University Hospital, doctors discovered that each of the patients' immune systems had mounted a surprisingly strong counterattack.  "::714e6aa8f4ce864b94d0470e35d1c135::ACKNOWLEDGED 714e6aa8f4ce864b94d0470e35d1c135  
+
+passage/grade  |  time: 2016-04-13 15:19:26 858511  |  # of fields: 2  |  passage_id: 340  |  score: 2::837bb970b68b97ed057f0eb08a426773::ACKNOWLEDGED 837bb970b68b97ed057f0eb08a426773
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:19:58 512566  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-aec2d83fdf6833f060fca9cacb05d15238c754a0a7ffca5088674a930541a7fb::3d45c842b140d2af3abbfc365fcff567::ACKNOWLEDGED 3d45c842b140d2af3abbfc365fcff567
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:21:43 667424  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-ad6c8f90e3c5e25b2db5dd5cf046eeddf20d13c52fff5165bf66672937b1dba1::cff846cc0c077cadde1c6a6cb1dce551::ACKNOWLEDGED cff846cc0c077cadde1c6a6cb1dce551
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:22:08 228492  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-c74e8317783c86b75e78d59cc23ad9c595f1c576732155368fd054d0c0a5b8d3::d43532dd7ed0fd2e2977eebf92e0b1f9::ACKNOWLEDGED d43532dd7ed0fd2e2977eebf92e0b1f9
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:22:44 317712  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-0498b4595cdf56e2a2a9ddbe2bbeccb090bb0e18572391cff49963eddce521c8::05687c5c3863778093ce7915a802f583::ACKNOWLEDGED 05687c5c3863778093ce7915a802f583
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:23:31 723683  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-aec475c17ed2b18218cdd34de608d301d2465260505946afde13ec66453673a8::ec9d1119246216560313e28402fedd9a::ACKNOWLEDGED ec9d1119246216560313e28402fedd9a
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:23:47 948597  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-223e9db9e7ed0c4dd3a748e928ea80fcc2747303914eeae6808f7ced4e3eee6e::b0b53d8ec94c1154b134a5f96dbb44c0::ACKNOWLEDGED b0b53d8ec94c1154b134a5f96dbb44c0
+
+
+
+passage/create  |  time: 2016-04-13 15:24:18 097532  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 352  |  passage_name:  Tetherin is one of the immune system's responses to a viral infection. If working properly, tetherin stops the infected cell from releasing the newly made virus, thus shutting down spread to other cells. However, this study shows that the Ebola virus has developed a way to disable tetherin, thus blocking the body's response and allowing the virus to spread.  "::cefe2bd7d88ff262e27e5b32fa8e7134::ACKNOWLEDGED cefe2bd7d88ff262e27e5b32fa8e7134  
+
+passage/grade  |  time: 2016-04-13 15:24:20 801140  |  # of fields: 2  |  passage_id: 352  |  score: 1::ad4d0fc736d5760710dce7a1d938213a::ACKNOWLEDGED ad4d0fc736d5760710dce7a1d938213a
+
+
+
+duplicate doc  |  time: 2016-04-13 15:24:36 036192  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-8dcd002694d3efd2f67be968514e9f236531ca48fddc0faa3d8cd490ba93363b::e02cdb46e04cce1ffd62402c1587ea9b::ACKNOWLEDGED e02cdb46e04cce1ffd62402c1587ea9b
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:24:48 605559  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-08c69b4dc1a4144ca93d41505a51d154139cedb1b2da88eba9ac5a93ba9182e2::e461ea3fe5ba9559dcb15b369dc70743::ACKNOWLEDGED e461ea3fe5ba9559dcb15b369dc70743
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:25:11 499169  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f8004c77f2e9efa7fb00a8f93817452ef18bc1b5e468ea227a772df38471ca82::5ed9fe061114ebb495ceee53a5b96624::ACKNOWLEDGED 5ed9fe061114ebb495ceee53a5b96624
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:25:23 292159  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-fa88b73599c2ba733a6111006a1625a844ae616ead30a579085e237d67011471::9232ab4774003b25d8af81c60f950d36::ACKNOWLEDGED 9232ab4774003b25d8af81c60f950d36
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:25:54 936825  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-96fde19db6abfc2fb1e5e221ed0d1edab2ba570e91ef34fa3b098ad2e9dc23d8::cdb44bd04211cf60646255f33bdb4af5::ACKNOWLEDGED cdb44bd04211cf60646255f33bdb4af5
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:26:07 121415  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-2e65f152f5cf161b116e6782873c9922235e4c49f9d8136fc7216ca8add9d8c6::88940eefa11b754fd803239c1f02ebfe::ACKNOWLEDGED 88940eefa11b754fd803239c1f02ebfe
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:26:14 952188  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-5ab0ab1e024bb120a88ad4f98e3f7bbe802bb2f4cba9f22c7d25f1df246f840c::4316990c6fbd4e26bf73e1c23bcf3cca::ACKNOWLEDGED 4316990c6fbd4e26bf73e1c23bcf3cca
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:27:12 041149  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-0138c1e2c0b5fbc52fd5f45f0eb39ed5e2375ea23377a13ce0cc2948b16f91db::099f0ecd323a68442da4a8e7095d96fa::ACKNOWLEDGED 099f0ecd323a68442da4a8e7095d96fa
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:27:55 088779  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-c3a5219bc51745728fb9d298a1947171a844698366c35695df1309829eefc053::38257f7ddc53518021fefc21516f6930::ACKNOWLEDGED 38257f7ddc53518021fefc21516f6930
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:28:03 125448  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-851c489a1e4ce3202a80132af769f29051b7a6ce20d870ad1f7c80058954d779::187bb48d231e9a105b671356ef94e9a8::ACKNOWLEDGED 187bb48d231e9a105b671356ef94e9a8
+
+
+
+irrelevant/select  |  time: 2016-04-13 15:28:10 338904  |  # of  fields: 1  |  topic_id: 351
+
+irrelevant doc  |  time: 2016-04-13 15:28:36 281947  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-97e0e6fc16a9658379ccbf75bdd8ada9bedf014efab1f4681585691e98267083::72b9bb6125a8e92f566983f438482bd7::ACKNOWLEDGED 72b9bb6125a8e92f566983f438482bd7
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:31:35 318093  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-d98a20c54a2db598a2fc149a12259a82987ceb995578857d6c9b6bec12c937ec::bed4c296c2d0767ced23c6a432a671fc::ACKNOWLEDGED bed4c296c2d0767ced23c6a432a671fc
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:31:50 611713  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-e56957017edf0f89bbdb11c23c905a80d3d155b5cace56f301b8e9674826a0bc::747bf818987049b8b475246f0d6eb8c4::ACKNOWLEDGED 747bf818987049b8b475246f0d6eb8c4
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:32:07 711173  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-5c1952320edeabb3c453475dff8796d40f3f38e611548c8f2f2240ae513623aa::1d1ab7b455ead443f8a31766b68a6788::ACKNOWLEDGED 1d1ab7b455ead443f8a31766b68a6788
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:32:24 128294  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-6737cf579733227d2b758b6d8d190c2cf74bfaa032fcb7fb4ec12e42f65c62fc::b5ed690133311323fb65f66903ef0e77::ACKNOWLEDGED b5ed690133311323fb65f66903ef0e77
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:32:50 109080  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-a596d45aa6554e40f558713d75a99cea526b49ca9e0f1e8d35cb3764579545fa::12ce292ea034d6175821140361cbe2e7::ACKNOWLEDGED 12ce292ea034d6175821140361cbe2e7
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:33:29 707533  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-7be5bed3da360dfffb02db85c7dd6b296081189e1d4e9ce21c61ecfa9e5fddde::c1b3a99d1dfaf12a0a55e758394dc9b8::ACKNOWLEDGED c1b3a99d1dfaf12a0a55e758394dc9b8
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:33:53 285320  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-360588f06a54c257fcb95bbf48077d4727af7f30aa00990a9ae0b64d34ee5776::e56164eb79dc11b635e512a3c63609c9::ACKNOWLEDGED e56164eb79dc11b635e512a3c63609c9
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:34:11 014710  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-49738a9e7d45458a00a5f6b2c89fed51ee230b7dfb9e257652de02a2fefa56f5::0588685cc101ba8cec90fee0693aee43::ACKNOWLEDGED 0588685cc101ba8cec90fee0693aee43
+
+
+
+passage/create  |  time: 2016-04-13 15:34:58 418590  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 368  |  passage_name:  Researchers at the University of Pennsylvania School of Medicine have likely found one reason why the Ebola virus is such a powerful, deadly, and effective virus. Using a cell culture model for Ebola virus infection, they have discovered that the virus disables a cellular protein called tetherin that normally can block the spread of virus from cell to cell. "Tetherin represents a new class of cellular factors that possess a very different means of inhibiting viral replication," says study author Paul Bates, PhD, Associate Professor of Microbiology at the University of Pennsylvania School of Medicine. "Tetherin is the first example of a protein that affects the virus replication cycle after the virus is fully made and prevents the virus from being able to go off and infect the next cell." These findings appear online this week in the Proceedings of the National Academy of Sciences.  When a cell is infected with a virus like Ebola, which is deadly to 90 percent of people infected, the cell is pirated by the virus and turned into a production factory that makes massive quantities on new virions. These virions are then released from that cell to infect other cells and promote the spreading infection.  Tetherin is one of the immune system's responses to a viral infection. If working properly, tetherin stops the infected cell from releasing the newly made virus, thus shutting down spread to other cells. However, this study shows that the Ebola virus has developed a way to disable tetherin, thus blocking the body's response and allowing the virus to spread.  "::e755a602ea576dcd14c894c5f4853dbd::ACKNOWLEDGED e755a602ea576dcd14c894c5f4853dbd  
+
+passage/grade  |  time: 2016-04-13 15:35:01 028617  |  # of fields: 2  |  passage_id: 368  |  score: 2::7572e0b0b0006be215f03733f22a6689::ACKNOWLEDGED 7572e0b0b0006be215f03733f22a6689
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:35:13 292388  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-1df7600ab3853d10862aa09fe4b5271922b15a85e7a7cf8d4a4a2315147c132b::5ff9dd733df5229d9a11e409ad9f0a7f::ACKNOWLEDGED 5ff9dd733df5229d9a11e409ad9f0a7f
+
+
+
+passage/create  |  time: 2016-04-13 15:35:46 413090  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 369  |  passage_name:  Thus, Ebola appears to work not by preventing an immune response altogether but by moving so swiftly that the T cells do not have time to multiply enough to mount an effective counterattack.  The team further showed that CD8 T cells are the major source of cytokines in response to acute Ebola infection. Moreover, in the absence of anti-Ebola antibodies, so-called memory CD8 T cells can apparently stave off infection. The researchers hope to understand the mechanism of this immune protection through further research.::c3c0e91a6d9d30448838a87f1f1696ac::ACKNOWLEDGED c3c0e91a6d9d30448838a87f1f1696ac  
+
+passage/grade  |  time: 2016-04-13 15:35:48 394856  |  # of fields: 2  |  passage_id: 369  |  score: 2::42788fb9dbe6d689b138cd68a1327c2e::ACKNOWLEDGED 42788fb9dbe6d689b138cd68a1327c2e
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:36:08 439888  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-92ede371a68085d9a1b93f6be38bf683206e9431c5fc9dd963301bd7bb43c40d::d17bc2be32089d5d3736930e0cf59414::ACKNOWLEDGED d17bc2be32089d5d3736930e0cf59414
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:36:16 528965  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-8c8a917dbe5f848a20c0f6abf77751cfaa47820cd7708df1f682d12e1c5a29ed::71f83db718e4182e6d948f6d427b0335::ACKNOWLEDGED 71f83db718e4182e6d948f6d427b0335
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:36:42 989215  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-71a648a95e4795b5cdc7108cb3382c21e0bb6b430df8e5b77afe566b04f4aac3::efcc634bcd58f1dbb9715b05fb4737c1::ACKNOWLEDGED efcc634bcd58f1dbb9715b05fb4737c1
+
+
+
+passage/create  |  time: 2016-04-13 15:37:07 779708  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 371  |  passage_name:  Dr. Gaya Amarasinghe and colleagues from Washington University School of Medicine along with collaborators from the Icahn School of Medicine at Mount Sinai and UT Southwestern Medical Center at Dallas show how the Ebola protein VP24 disrupts the cell's innate immune response, a crucial early step on the virus's path to causing deadly disease.  "We've known for a long time that infection with Ebola obstructs an important immune compound called interferon," said Amarasinghe. "Now we know how Ebola does this, and that can guide the development of new treatments."::4fef56d0d10bd316542207417c542ad0::ACKNOWLEDGED 4fef56d0d10bd316542207417c542ad0  
+
+passage/grade  |  time: 2016-04-13 15:37:09 813655  |  # of fields: 2  |  passage_id: 371  |  score: 2::f052082e94b3149e74c0d584673e3dfb::ACKNOWLEDGED f052082e94b3149e74c0d584673e3dfb
+
+
+
+passage/create  |  time: 2016-04-13 15:37:40 323000  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 372  |  passage_name:  .  "We've known for a long time that infection with Ebola obstructs an important immune compound called interferon," said Amarasinghe. "Now we know how Ebola does this, and that can guide the development of new treatments."  According to the researchers, VP24 works by preventing the transcription factor STAT1, which carries interferon's antiviral message, from entering the nucleus and initiating an immune response. As part of a rapid immune response, the cell allows STAT1 an "emergency access lane" to the nucleus. Rather than block all nuclear transfer, however, VP24 focuses on blocking STAT1's "emergency access lane."  "::f5904690eb773ca11e10aae53297bc20::ACKNOWLEDGED f5904690eb773ca11e10aae53297bc20  
+
+passage/grade  |  time: 2016-04-13 15:37:42 280218  |  # of fields: 2  |  passage_id: 372  |  score: 2::99c0b69df1b34ce72a151103133b72f9::ACKNOWLEDGED 99c0b69df1b34ce72a151103133b72f9
+
+
+
+passage/create  |  time: 2016-04-13 15:38:21 061817  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 373  |  passage_name:        Researchers at the University of Pennsylvania School of Medicine have likely found one reason why the Ebola virus is such a powerful, deadly, and effective virus. Using a cell culture model for Ebola virus infection, they have discovered that the virus disables a cellular protein called tetherin that normally can block the spread of virus from cell to cell.  “::9ed84045a8876750dfdb39cbc44135d8::ACKNOWLEDGED 9ed84045a8876750dfdb39cbc44135d8  
+
+passage/grade  |  time: 2016-04-13 15:38:22 738486  |  # of fields: 2  |  passage_id: 373  |  score: 2::b640c14998286ed63b30776e0cf7b4de::ACKNOWLEDGED b640c14998286ed63b30776e0cf7b4de
+
+
+
+passage/create  |  time: 2016-04-13 15:38:48 659008  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 375  |  passage_name:  	In patients with Ebola, the virus can cause life-threatening symptoms because it attacks immune cells, and can impair the ability of the immune system to regulate itself. This can cause the immune system to ramp up and release a dangerous "storm" of inflammatory molecules. Statins might help tame this storm, Fedson said.::3cd69b20dd09b74a4c79f6e87e9d272a::ACKNOWLEDGED 3cd69b20dd09b74a4c79f6e87e9d272a  
+
+passage/grade  |  time: 2016-04-13 15:38:50 222715  |  # of fields: 2  |  passage_id: 375  |  score: 2::566d8e73bba208528f846c08366ac427::ACKNOWLEDGED 566d8e73bba208528f846c08366ac427
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:39:20 014996  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-262c7e7532c8b8f1f76b22e5ac1df9bc2c0af17fc61e9de8d24ba06f1342215c::faedf6a9e7da727c497daa6c10389ba6::ACKNOWLEDGED faedf6a9e7da727c497daa6c10389ba6
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:39:27 417768  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-360713c33af1957b6f46f3f452bc7299233a7d5e3473f08317536a7f3e1bc3e4::a4d3715df50db93ff3896a4654e69985::ACKNOWLEDGED a4d3715df50db93ff3896a4654e69985
+
+
+
+passage/create  |  time: 2016-04-13 15:39:57 779943  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 378  |  passage_name:  Tetherin is one of the immune system's responses to a viral infection. If working properly, tetherin stops the infected cell from releasing the newly made virus, thus shutting down spread to other cells. However, this study shows that the Ebola virus has developed a way to disable tetherin, thus blocking the body's response and allowing the virus to spread.  “::ebbc8ce057ba9e823b5e333323ca1a6c::ACKNOWLEDGED ebbc8ce057ba9e823b5e333323ca1a6c  
+
+passage/grade  |  time: 2016-04-13 15:39:59 520055  |  # of fields: 2  |  passage_id: 378  |  score: 2::528d24002b4e341bd2c1df4f4deb3651::ACKNOWLEDGED 528d24002b4e341bd2c1df4f4deb3651
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:40:10 890081  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-7749c50bcb5d34441a396fa2f906a6245a1eb684c0296821cacdd58d6be0c1a0::97614c6dde3bd11fc1dfae0083c78faa::ACKNOWLEDGED 97614c6dde3bd11fc1dfae0083c78faa
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:40:18 480004  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-4b7124817f667309600c1c264ea6059bccca38fb715f2700a49f3f2fa42e3911::acdd9bbe11af16c311d702e2778afd2a::ACKNOWLEDGED acdd9bbe11af16c311d702e2778afd2a
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:40:33 179837  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-2bac604aab714c95ab0a0c65fd4c2f0f54058d79e942a76b2122968225b94ec7::2f2f6aa0078a71f1f35dd0b64f0f2cb8::ACKNOWLEDGED 2f2f6aa0078a71f1f35dd0b64f0f2cb8
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:40:42 784400  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-8ef501ca988361abe4e98fa5c6844ba4a00f427e71facbd6120856e009ddd440::ca7cd9f6ca2ccff2aa7987088ea2fc91::ACKNOWLEDGED ca7cd9f6ca2ccff2aa7987088ea2fc91
+
+
+
+passage/create  |  time: 2016-04-13 15:40:56 879692  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola  |  passage_id: 380  |  passage_name:  PHILADELPHIA, PA - Researchers at the University of Pennsylvania School of Medicine have likely found one reason why the Ebola virus is such a powerful, deadly, and effective virus. Using a cell culture model for Ebola virus infection, they have discovered that the virus disables a cellular protein called tetherin that normally can block the spread of virus from cell to cell.  "::364f7ab1709bbbaaed0b5d4b27e492ae::ACKNOWLEDGED 364f7ab1709bbbaaed0b5d4b27e492ae  
+
+passage/grade  |  time: 2016-04-13 15:40:58 501560  |  # of fields: 2  |  passage_id: 380  |  score: 2::d34bcbe509d55430933ae6e0929d69d1::ACKNOWLEDGED d34bcbe509d55430933ae6e0929d69d1
+
+
+
+duplicate doc  |  time: 2016-04-13 15:41:08 913314  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-76a1898e6070079086bf9f620f1bd7612b35f4782ecef65159c9cddb8d3067ad::e9b50218f456cef36fcb76975587fa45::ACKNOWLEDGED e9b50218f456cef36fcb76975587fa45
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:41:20 788719  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-436407f3697c1f9f8ac5fe8542185f48cbe831ea923e4dbb5045047987c3b0d9::e7dc2da33fbd71ce73e4a4fa1a170a98::ACKNOWLEDGED e7dc2da33fbd71ce73e4a4fa1a170a98
+
+
+
+irrelevant doc  |  time: 2016-04-13 15:41:28 949933  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-eb28ab91a9fe60ebddf51157d579369778587837e4ae7d52f1148c0c28ec2901::07acbffa61844b285755cb32f34a3f1d::ACKNOWLEDGED 07acbffa61844b285755cb32f34a3f1d
+
+
+
+subtopic/nist_findmore  |  time: 2016-04-13 15:41:41 456900  |  # of fields: 4  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 35  |  subtopic_name: can your immune system prevent ebola::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=3%20TID=351%20STID=351.35%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+irrelevant doc  |  time: 2016-04-13 15:42:13 353651  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-6c796956fe6776a074989e4b1b07f647a2f640ee2c284351672c35ae40cb4268::d71a8c22c6c3a1e0de883f2989513887::ACKNOWLEDGED d71a8c22c6c3a1e0de883f2989513887
+
+
+
+irrelevant/select  |  time: 2016-04-13 15:43:19 381464  |  # of  fields: 1  |  topic_id: 351
+
+duplicate/select  |  time: 2016-04-13 15:43:28 652876  |  # of  fields: 1  |  topic_id: 351
+
+login  |  time: 2016-04-14 00:19:17 729462
+
+login  |  time: 2016-04-14 12:28:30 830834
+
+irrelevant doc  |  time: 2016-04-14 12:33:13 364139  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-4bd40dc3224172b5b6f111de988edfe05a02b6a5f464071430ec81ddbb92bb4c::b93aa750bb40b2339ffa7c96557ec138::ACKNOWLEDGED b93aa750bb40b2339ffa7c96557ec138
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:39:04 034619  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-251a16657cb10ae9f0e4e27c9f1da835b510a3009a9f3f0372bc5bee07e2ec1d::5f5d08d286d3d3eb2f322b7fe6e1dfeb::ACKNOWLEDGED 5f5d08d286d3d3eb2f322b7fe6e1dfeb
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:39:43 901329  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-0dec135ab6ac52331b0b71b16f4beff959d4ccd1ec959831e51a11c6084579de::6023f7c712cc357574781aa0067a15ba::ACKNOWLEDGED 6023f7c712cc357574781aa0067a15ba
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:40:05 680808  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-2180c5efa24e74b89f15965ab517bec4af7ed8365a1d1447750f03938011388e::8557919b5b2fd7253f3f55d978015afc::ACKNOWLEDGED 8557919b5b2fd7253f3f55d978015afc
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:40:40 125962  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-1fbb2ee0213687d46179b5eaf395acd8314368a4b85ef79aa6eef0fca2b631aa::c649fbe7dbdac9674c94a0a382f47d32::ACKNOWLEDGED c649fbe7dbdac9674c94a0a382f47d32
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:41:33 282314  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-5bf1149286f63186514919e8b0b009ca7374022697010c7bf93e17648097b075::9a623c0bcc08ba333f3ccb3d13105b34::ACKNOWLEDGED 9a623c0bcc08ba333f3ccb3d13105b34
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:41:56 741384  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-74069b78b9a189125b3a54f134bc9ac874cea9251cbd68ad704ec312588ca58d::28d932aaaad8287434870555b7dedd65::ACKNOWLEDGED 28d932aaaad8287434870555b7dedd65
+
+
+
+passage/create  |  time: 2016-04-14 12:42:51 255172  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 32  |  subtopic_name: after having Ebola are you immune.  |  passage_id: 847  |  passage_name:  	The two American Ebola patients who recovered and left the hospital this week are now thought to be immune to the strain of the virus that infected them, experts say. Ebola survivors are generally believed to be immune to future infection with the virus strain that made them sick.  "There is strong epidemiological evidence that once an individual has resolved an Ebola virus infection, they are immune to that strain," Dr. Bruce Ribner, director of the infectious disease unit at Emory University Hospital in Atlanta, told reporters Thursday (Aug. 21). [Ebola Virus: ::e1994f930e05b407a3eefcfd6a13075d::ACKNOWLEDGED e1994f930e05b407a3eefcfd6a13075d  
+
+passage/grade  |  time: 2016-04-14 12:42:53 413136  |  # of fields: 2  |  passage_id: 847  |  score: 2::76e9e991dd49d5d3007ed0c441b4ed53::ACKNOWLEDGED 76e9e991dd49d5d3007ed0c441b4ed53
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:44:11 519304  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-2a5f816d0fb0476aa7c362758e5ad1742226aba0ef58457afa742387d77c08ac::f9170bc8bf2ac50f6cf4c5d736d8a00b::ACKNOWLEDGED f9170bc8bf2ac50f6cf4c5d736d8a00b
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:44:40 848620  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-75d3a2832e457550855bab7d3128f4ad55810ffd3c44caed8baf0b661266d231::0dd2a64aa827b6efbc5566df5e3be0a0::ACKNOWLEDGED 0dd2a64aa827b6efbc5566df5e3be0a0
+
+
+
+duplicate doc  |  time: 2016-04-14 12:45:34 875755  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-12fa781f3c8fba423c02958034d2790398ad47ae16a8395d370af1c164c4ba83::4e25b4271eba845e7f0faa13218ecbfb::ACKNOWLEDGED 4e25b4271eba845e7f0faa13218ecbfb
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:46:10 603904  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-fc64026afd99dd6ef3339258947e1592d0a7e76ea41088ee751ae16dd52c68a9::b7fb5ea8e8b7d05c4d494f06ec7b2a3c::ACKNOWLEDGED b7fb5ea8e8b7d05c4d494f06ec7b2a3c
+
+
+
+duplicate doc  |  time: 2016-04-14 12:46:39 325287  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-2b1cb3155d8323caf3ac6bb2247a0badb3aec1e9090d7632643d8d4fcaccc1f2::0614cf7fe8d2bc5ab48911d4478a2540::ACKNOWLEDGED 0614cf7fe8d2bc5ab48911d4478a2540
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:47:24 556979  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-32ff121220b8e7e02054e5e5871c5998efe21c2cd9518204bd8e566839cf7fa5::0e585db7af4678a5878c835c39c13a32::ACKNOWLEDGED 0e585db7af4678a5878c835c39c13a32
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:49:05 899506  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-4e52ae35c17be235c1eea1a2fc87217a9a6fc5db361a0f5aaaf9472a6a5e3208::f1ca9b6452c293bd3a2820b0662e8cb1::ACKNOWLEDGED f1ca9b6452c293bd3a2820b0662e8cb1
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:49:53 052334  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-11ff961a950f19cb8eea6bf9794eb8e8ad8508093396acf976e3fd6f08f8a4f6::e90b40fa46a9986f79c27c116bc85d0f::ACKNOWLEDGED e90b40fa46a9986f79c27c116bc85d0f
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:51:22 658396  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f5de6e878b7d8a23ad2412fd690c2bb6bef00b0c60e9759bc02123dc90970656::27a83896767fd102ddd0b46c9333b07f::ACKNOWLEDGED 27a83896767fd102ddd0b46c9333b07f
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:52:02 550936  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-0061394c260bdab9e8e1213e45f1f9ff2f677ee184ef7d0d453647f4a9d22569::8996a1763a66e95d6f4fbd188a494db3::ACKNOWLEDGED 8996a1763a66e95d6f4fbd188a494db3
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:53:11 188061  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-91de2708b3e7e60693781175a3ddfa9d11ca92277ff21becbacd5a38d0670297::e1aeec1d2b8ecfc7cc898480af5a4306::ACKNOWLEDGED e1aeec1d2b8ecfc7cc898480af5a4306
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:53:20 040112  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-4e278a468e29597c51d42d24f1cf73e20336cceddbdc31ecc5ad9744a1a8de95::f24870633ec82a79a23b1be5813ea167::ACKNOWLEDGED f24870633ec82a79a23b1be5813ea167
+
+
+
+irrelevant doc  |  time: 2016-04-14 12:54:21 925240  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-4e615b9a02ec4839f6415769e194144eec57e1ce8b956d33ad07d07f2a015cb0::3b610d97307a3ec64e1fd1b11d8526cf::ACKNOWLEDGED 3b610d97307a3ec64e1fd1b11d8526cf
+
+
+
+duplicate doc  |  time: 2016-04-14 12:55:05 460860  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f222e06d026667ed0f6206729e6dbc391ad4b324c939e880316cc39a164b7e25::808949c899cd620cb3c3194f5aca1d82::ACKNOWLEDGED 808949c899cd620cb3c3194f5aca1d82
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:03:01 447517  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-ea46ce0316b5dcd350ea9b28e04710f9652c1ec1a2bb7110e78319142f406bf1::fcb7ea888acdce7382e2b5c818c36191::ACKNOWLEDGED fcb7ea888acdce7382e2b5c818c36191
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:03:27 427287  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-47096e87a66571ed502f2dfab2edfb4f9313d350417ce0b41457084ee6535ef8::0f3a79139e029b07c99d053f1d428789::ACKNOWLEDGED 0f3a79139e029b07c99d053f1d428789
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:03:48 799439  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-1fdcb918d76c7982dea658c9f838ad5fea81d02af072282759113a8672c099ca::029bc1d53f54fad61b6ba225decf44eb::ACKNOWLEDGED 029bc1d53f54fad61b6ba225decf44eb
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:03:59 134221  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-e4f2d86be0747921f39689a0246a2ed9f0de5d067075fe00a4c0f13502b5e46b::14ddae04c98b868965f985d533787b0b::ACKNOWLEDGED 14ddae04c98b868965f985d533787b0b
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:04:24 304855  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-840163248ebb95109337cdac1b02bbae9420d0a0a537ad1a0106fbb9e994919d::ff90af8398ccd6c698e6efc32fc21c8f::ACKNOWLEDGED ff90af8398ccd6c698e6efc32fc21c8f
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:04:56 683743  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-6a8703676811e5376c0a232146035402a11fdd0e10b99d1b87758f673756db48::5044b2fb82d88b65a3b27e6e1af6f411::ACKNOWLEDGED 5044b2fb82d88b65a3b27e6e1af6f411
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:05:25 836976  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-2a46e5f573ff94e06a418181c01fbaabc57b91ca962ad3f2c76180e107a5c91f::f59f517e22c8155b737eec9ec14d6204::ACKNOWLEDGED f59f517e22c8155b737eec9ec14d6204
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:05:57 034133  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f3c53ac6c52b2a92d192919636a58e5583a3985e8fd91e7fe63d2add4f73d0db::fae8f51918341f144f8d28498931ba17::ACKNOWLEDGED fae8f51918341f144f8d28498931ba17
+
+
+
+passage/create  |  time: 2016-04-14 13:06:30 454623  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 32  |  subtopic_name: after having Ebola are you immune.  |  passage_id: 865  |  passage_name:  Are Brantly and Writebol now immune to the Zaire strain of Ebola? In general, patients who have recovered from Ebola virus infection do develop a very robust immunity to the virus. They develop antibodies against the virus and they also develop cell-mediated immunity—the lymphocytes important to form viral control of pathogens. In general, the finding is it’s basically like being immunized—it would be unusual to get infection with the same strain.   Will that immunity afford them protection against other strains of Ebola? We are still evaluating that in our two patients. Cross-protection is not quite as robust. There are five strains of Ebola viruses. Even though that data is not great, the feeling is there is potential for being infected if you go to a different part of Africa and get exposed to a different strain.   ::f79857b97875426f43a60fbb8a999b04::ACKNOWLEDGED f79857b97875426f43a60fbb8a999b04  
+
+passage/grade  |  time: 2016-04-14 13:06:35 137930  |  # of fields: 2  |  passage_id: 865  |  score: 2::231d055b974015f764ef177a426587f2::ACKNOWLEDGED 231d055b974015f764ef177a426587f2
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:07:19 430669  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-2d0f6c06019cede5fba0deb33aa7d5c66e5a7dc5277eab7d8b0a73a6b8dbb352::c3d08a1f2ef180148e42a4e2d89247a5::ACKNOWLEDGED c3d08a1f2ef180148e42a4e2d89247a5
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:07:33 140227  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-2931317b25ce625929b2d3d0a0585573211e4d3d21e4df6eae33e612e5cc15bc::5d5576b56373acb7eaed50cf71a7a526::ACKNOWLEDGED 5d5576b56373acb7eaed50cf71a7a526
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:07:40 412727  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-18e86c8c580f78bb182b0f00e273a8e30b76ad4d6b553a1478a45b42c9a36073::28aed4fbbaf842d1b2a0184e28199b02::ACKNOWLEDGED 28aed4fbbaf842d1b2a0184e28199b02
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:07:51 121363  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-bf5e7a3a9e7247f2442b1c21de7757e42542d5cfdc80e434ee7c6980586fbd61::bcc6c65757d0f33ec1fd20204fa4b9f4::ACKNOWLEDGED bcc6c65757d0f33ec1fd20204fa4b9f4
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:08:07 894915  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-896ea58d40623b5a87b64f241275a627505d1fbef31b09ae65cc58e784204130::edac1ad7fea6c0d4a54037aac2fd8d2d::ACKNOWLEDGED edac1ad7fea6c0d4a54037aac2fd8d2d
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:08:35 778209  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-837dc3103b681b41e01d1a2f1412f937df1ba87a6a9793d2af92fd318f8622ac::ae2e901eb36c50e2a21535d94c6059f7::ACKNOWLEDGED ae2e901eb36c50e2a21535d94c6059f7
+
+
+
+passage/create  |  time: 2016-04-14 13:09:22 407953  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 32  |  subtopic_name: after having Ebola are you immune.  |  passage_id: 868  |  passage_name:  Although few medical experts realize it, part of the population in West Africa is immune to the Ebola virus, according to virologists who specialize in the disease.  Assuming they are correct, and if those people can be identified, they could be a great help in fighting the outbreak. Immune persons could safely tend the sick and bury the dead just as smallpox survivors did in the centuries before smallpox vaccine.::2073feb8390769b83710d89776bed10b::ACKNOWLEDGED 2073feb8390769b83710d89776bed10b  
+
+passage/grade  |  time: 2016-04-14 13:09:26 643060  |  # of fields: 2  |  passage_id: 868  |  score: 2::9c665cc849eb87f01153dbe1b73daf8a::ACKNOWLEDGED 9c665cc849eb87f01153dbe1b73daf8a
+
+
+
+duplicate doc  |  time: 2016-04-14 13:09:45 965343  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-a0902a3ead9be4a7fc9a4b852bf14ac60aa3b878b0efc7deef4cbca3e158b177::8c57e6eeccc58ac38bae787754fa9fda::ACKNOWLEDGED 8c57e6eeccc58ac38bae787754fa9fda
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:09:58 019803  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-d55274f1a10cbd8bdb097ed923b3a2ca325e19aeb0e60daae289391d004e2354::8154753c4157985dbe566340e19c096e::ACKNOWLEDGED 8154753c4157985dbe566340e19c096e
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:10:16 835767  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f7b06a580d375d8eae2048202ab39f5014d2b254472ea841315652c071f93075::ec13d1219669e6c5b96314b36d790728::ACKNOWLEDGED ec13d1219669e6c5b96314b36d790728
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:10:37 796233  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-69b4b6698218c4698089b89223dcdabdcf5700b3188cf208c29f20a0cdb5a9fa::b8265607c372487164ebca239db373e4::ACKNOWLEDGED b8265607c372487164ebca239db373e4
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:10:48 182625  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-ff4102aac729ee5a7476f4853589c9e7a733a8ca0886b7a61dc28e32d7eba72e::f8b57b863184be6ec4c1c9662eeb3af2::ACKNOWLEDGED f8b57b863184be6ec4c1c9662eeb3af2
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:10:58 603014  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-fb9e58eac51d779ad6ca30772897215482946bb5ad9e810b8a8aee30382b6577::006181cfc9ed53a7af8abeebc39c10f4::ACKNOWLEDGED 006181cfc9ed53a7af8abeebc39c10f4
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:11:35 220007  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-122b8f66f6207a462302f3775f5875b288165c59d31bba25bec4dd2f4fd31fc2::6cff8e2f2b773161b92c6b3e8339d304::ACKNOWLEDGED 6cff8e2f2b773161b92c6b3e8339d304
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:11:47 278882  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-215d618d6250affa301f77babfdea6bee77829dec87d2f1d6847fe1c1829bb89::2042adec51ef99ff547ab655fec8e21d::ACKNOWLEDGED 2042adec51ef99ff547ab655fec8e21d
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:12:05 017441  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-f144113c4f9353d9bcac40bfbf3e0d99fc62896c532e7584580335a92e9dd638::c0d5caef5eb2dd7d71967dcc7d52e1f2::ACKNOWLEDGED c0d5caef5eb2dd7d71967dcc7d52e1f2
+
+
+
+subtopic/nist_findmore  |  time: 2016-04-14 13:12:11 962443  |  # of fields: 4  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 32  |  subtopic_name: after having Ebola are you immune.::https://ir.nist.gov/dynamicdomain/moreLikeThis.php?CMD=UID=3%20TID=351%20STID=351.32%20CO=EBOLA%20CMD=MORE_LIKE_THIS%20DATA=-::
+
+irrelevant doc  |  time: 2016-04-14 13:13:23 170634  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-43baacc407c86beff9370e8becb4e84ec1baae43f69ef597378eb6301accffed::f658dc0a4d8c288b641c655a0ee690c3::ACKNOWLEDGED f658dc0a4d8c288b641c655a0ee690c3
+
+
+
+duplicate doc  |  time: 2016-04-14 13:13:59 588000  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-829b5714685491893c9898831fcbe31ee7485d700b7dcaf8819cebe1adeb9436::3bbde7817a85800166e9d27280f869ce::ACKNOWLEDGED 3bbde7817a85800166e9d27280f869ce
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:14:14 137482  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-e4f78d8d519a7085d2ea91ef36d496f6adfba56d05981aba19903d9cee3e42ac::b4c3124982c7f38be01256342ee638c1::ACKNOWLEDGED b4c3124982c7f38be01256342ee638c1
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:14:25 165398  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-ce43fc8f30f585f3a0061deea0a5a9108f8ce474043056f33bdaa0cb960bad78::7c44b77c385021a6690489dd0c720ffd::ACKNOWLEDGED 7c44b77c385021a6690489dd0c720ffd
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:15:15 667937  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-a5c59626b66479ed9c81076cb1d097e94bf4e806802144df06142813db577fd7::aebbc078d5208e7b3de08df6c212658b::ACKNOWLEDGED aebbc078d5208e7b3de08df6c212658b
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:15:30 707307  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-801db7cebf6713dfba94c6bcee99218d7924277fe48193096ebf6da3062cc07b::9d78dbcab5e86e9899e76ad7708fc3d2::ACKNOWLEDGED 9d78dbcab5e86e9899e76ad7708fc3d2
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:15:40 111515  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-123261182871dd5ddb37ca3ef04c1a1c7cdce58bd358b6591dba055b7cf70304::1983538399ef422ebb7f20022150970a::ACKNOWLEDGED 1983538399ef422ebb7f20022150970a
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:15:50 421681  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-3324f2d763d9a0191803d268e9c127e8c200f1580702d0f6959007515e227972::11b728c758351d42648917c7bb9c4394::ACKNOWLEDGED 11b728c758351d42648917c7bb9c4394
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:16:01 968646  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-770165204682cbbffac8edf7d675844c33a2de1575515468cd6cfc497739f729::43e1532f5519d3d12f099a40c9061eab::ACKNOWLEDGED 43e1532f5519d3d12f099a40c9061eab
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:16:15 754492  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-9a947e5483073d1981be51ec545ece46ac3504b0941cf369acc11218cb122126::a0d48d4a354f8c8fad7d650a0175670c::ACKNOWLEDGED a0d48d4a354f8c8fad7d650a0175670c
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:16:26 635408  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-6f0cb67894ea9638b5371dfdf46e6d62defb3b862e4f688abd6b37994d66a808::9b65ed0fa817e7c105de3fa164535cd3::ACKNOWLEDGED 9b65ed0fa817e7c105de3fa164535cd3
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:16:37 654176  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-723477b62d766056086282187a996148a54ffb71290b8703a0a89528d3120343::d5e25e1d38df2e2c6a33f635432e804f::ACKNOWLEDGED d5e25e1d38df2e2c6a33f635432e804f
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:16:43 974597  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-6927460e8c72769d0a011fb58b156f69e2af3c5d15fb0c8bbb2b72b3c99ed3f6::973789cf7c5ab1968c8f5cbb024dac86::ACKNOWLEDGED 973789cf7c5ab1968c8f5cbb024dac86
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:17:00 951733  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-2d8bf972f1a1871e7234814e151af0efac13177d9a41a8d12292952b4e460526::11464283053c35e2d441041632f17b53::ACKNOWLEDGED 11464283053c35e2d441041632f17b53
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:17:06 748255  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-ee37cad84957ba9d6069130496dd3133022f0b86d90036afa664798c82cf4e93::e1a4a1e1794a44a6f9c44b1e02948570::ACKNOWLEDGED e1a4a1e1794a44a6f9c44b1e02948570
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:17:17 392063  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-9bc3318e1d6c747e722a6baf3ee76a0b663ddbb889402a4f6f6570da10c1c878::09da493bd828d871f0995371c4a81a89::ACKNOWLEDGED 09da493bd828d871f0995371c4a81a89
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:17:29 267852  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-370b1d7614143d3109184bdce07c367a534bb617fc68c77b075f5d4509863aac::695cb3cdee39afe7d9210db38a84c1e3::ACKNOWLEDGED 695cb3cdee39afe7d9210db38a84c1e3
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:17:38 254276  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-72d74aa15cdabac60c53c73bcc8662e77a454ec290f9a07d42a13e5e9d4caf7c::a45d57c696568094cb9cd4a81c341313::ACKNOWLEDGED a45d57c696568094cb9cd4a81c341313
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:18:04 587303  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-34d7850f9611612c349bf6feb8405a4fe3691f6f211924d20311355e16d2a638::adbbfa5212f013c2aa9236c6a9894825::ACKNOWLEDGED adbbfa5212f013c2aa9236c6a9894825
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:18:15 426520  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-864320999f4e1da003fb6e2b4444faedc21160c8f5bab79d8c2bca6ec90367b4::694ef3fa8551551b1de2063ba9c0b105::ACKNOWLEDGED 694ef3fa8551551b1de2063ba9c0b105
+
+
+
+passage/create  |  time: 2016-04-14 13:18:54 660976  |  # of fields: 6  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  subtopic_id: 25  |  subtopic_name: who has a natural immunity to ebola  |  passage_id: 875  |  passage_name:  In the present study, all the mice lost weight in the first few days after infection. Nineteen percent of the mice were unfazed. They not only survived, but also fully regained their lost weight within two weeks. They had no gross pathological evidence of disease. Their livers looked normal.  Eleven percent were partially resistant and less than half of these died. Seventy percent of the mice had a greater than 50 percent mortality. Nineteen percent of this last group had liver inflammation without classic symptoms of Ebola, and thirty-four percent had blood that took too long to clot, a hallmark of fatal Ebola hemorrhagic fever in humans. Those mice also had internal bleeding, swollen spleens and changes in liver color and texture.::931fdc97030ffcde9bd3768f6e90fd47::ACKNOWLEDGED 931fdc97030ffcde9bd3768f6e90fd47  
+
+passage/grade  |  time: 2016-04-14 13:18:57 860171  |  # of fields: 2  |  passage_id: 875  |  score: 2::425187cb82ce059ad9684f7931965087::ACKNOWLEDGED 425187cb82ce059ad9684f7931965087
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:19:35 898811  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b229a8054623d103a4fe66de2760d25fec887754ea50d564fddf28e145c02dbb::8409d5c75f0909e7a03688363f494795::ACKNOWLEDGED 8409d5c75f0909e7a03688363f494795
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:20:00 203938  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-fb0bc3f981b0436d42f3771713d021194d86b8cdd77fcc274d5ca13ec9fd5aba::bb37fd59768802912992c770c6e7374f::ACKNOWLEDGED bb37fd59768802912992c770c6e7374f
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:20:14 725693  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-68c315b4fe48c07d4ae4390fa26d9976971872b06dd31e2dc2c2d00745c47095::da66678c824a1a2fc19c0180f367a6aa::ACKNOWLEDGED da66678c824a1a2fc19c0180f367a6aa
+
+
+
+irrelevant doc  |  time: 2016-04-14 13:20:25 626943  |  # of fields: 2  |  topic_id: 351  |  topic_name: is there a natural immunity to ebola  |  docno: ebola-b4e905f991431ee451a58ad6e5652caf383723a46314a2817078c94aeaf39df8::f16fd1c189856a0898eaf0dc3dc5ff65::ACKNOWLEDGED f16fd1c189856a0898eaf0dc3dc5ff65
+
+
+
